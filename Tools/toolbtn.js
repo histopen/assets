@@ -22,10 +22,11 @@ import { saveJsonToFile } from './more/saveJsonToFile.js';
 async function toolbtn() {
   const webappUrl = "https://script.google.com/macros/s/AKfycbxabNE-m-M1cfO4K6FBsL4_UtKT67JqVsIVUFbwjnTKoF4gBA5fimkuYIlOScfWs5pu/exec";
 
+  const pathname = "../../../src/components/Shared/ButtonsDisplay/";
+  const filename = "buttonsConfig.json";
+
   try {
     const data = await getSheetData(webappUrl);
-    const pathname = "../../../src/components/Shared/ButtonsDisplay/"
-    const filename = "buttonsConfig.json";
 
     saveJsonToFile(pathname, filename, data);
     console.log(`...SAVED ${pathname}/${filename} !\n`);
