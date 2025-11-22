@@ -9,5 +9,8 @@
     "tv": "node Tools/tooltv.js",
     "dbtm": "node Tools/tooldbtm.js",
     "cosmos": "node Tools/toolcosmos.js"
+  },
+  "devDependencies": {
+    "svgo": "^4.0.0"
   }
 }
