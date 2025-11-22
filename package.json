@@ -1,0 +1,13 @@
+{
+  "name": "assets",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "loc": "node Tools/toolloc.js",
+    "btn": "node Tools/toolbtn.js",
+    "tv": "node Tools/tooltv.js",
+    "dbtm": "node Tools/tooldbtm.js",
+    "cosmos": "node Tools/toolcosmos.js"
+  }
+}

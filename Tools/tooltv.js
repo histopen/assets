@@ -24,7 +24,7 @@ async function tooltv() {
 
   try {
     const data = await getSheetData(webappUrl);
-    const pathname = "../../../src/config"
+    const pathname = "../../Jsons"
     const filename = "tvConfig.json";
 
     saveJsonToFile(pathname, filename, data);

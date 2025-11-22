@@ -176,7 +176,7 @@
       "imgFileName": "cosmos.svg",
       "txtstyle": 0,
       "imgstyle": 0,
-      "alignV": 2,
+      "alignV": 4,
       "alignH": 2,
       "functionName": "ToggleWsBackground",
       "parameter1": "",

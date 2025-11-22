@@ -24,7 +24,7 @@ async function tooldbtm() {
 
   try {
     const data = await getSheetData(webappUrl);
-    const pathname = "../../../public/database";
+    const pathname = "../../Jsons";
     const filename = "dbtm.json";
 
     saveJsonToFile(pathname, filename, data);

@@ -22,15 +22,16 @@ import { saveJsonToFile } from './more/saveJsonToFile.js';
 async function toolcosmos() {
   const webappUrl = "https://script.google.com/macros/s/AKfycbzGTyjZRgT8-EWwPODu0IHSSJ1x_Vw63AEQk-QASsbTiWRdNJgPJ7POJBOjlmkDl9-3iA/exec";
 
+  const pathname = "../../Jsons";
+  const filename = "cosmos.json";
+
   try {
     const data = await getSheetData(webappUrl);
-    const pathname = "../../../public/cosmos"
-    const filename = "cosmos.json";
 
     saveJsonToFile(pathname, filename, data);
     console.log(`...SAVED ${pathname}/${filename} !\n`);
   } catch (err) {
-    console.error(`Error ${pathname}/${filename}`, err.message);
+    console.error(`Error saving ${pathname}/${filename}:`, err.message);
   }
 }
 

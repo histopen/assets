@@ -31,7 +31,7 @@ async function toolloc() {
   for (const lang of languages) {
     try {
       const data = await getSheetData(`${webappUrl}?lang=${lang}`);
-      const pathname = "../../../public/locales"
+      const pathname = "../../Jsons/language"
       const filename = `${lang}.json`;
 
       saveJsonToFile(pathname, filename, data);
