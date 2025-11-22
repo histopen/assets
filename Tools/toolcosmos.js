@@ -39,5 +39,3 @@ toolcosmos().catch(err => {
   console.error('Error running toolcosmos:', err);
   process.exit(1);
 });
-
-//TODOsoon move tools in assets? means I have to install node etc?
