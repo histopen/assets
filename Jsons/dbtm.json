@@ -11,7 +11,7 @@
     },
     {
       "zoomscale": 0,
-      "iconId": 106,
+      "iconId": 70,
       "caption": "Big Bang",
       "tooltip": "The Big Bang is a physical theory that describes how the universe expanded from an initial state of high density and temperature.",
       "url": "Big_Bang",
@@ -38,7 +38,7 @@
       "startMonth": 7,
       "startYear": 1969,
       "categories": "p, s, b",
-      "countries": "USA"
+      "countries": "USA, World"
     },
     {
       "zoomscale": 0,
@@ -467,13 +467,15 @@
       "zoomscale": 21,
       "iconId": 43,
       "caption": "Rome Foundation",
-      "tooltip": "legendary",
+      "tooltip": "Rome founded by Romulus (according to legend). Beginning of the Roman 'Ab urbe condita' calendar.",
       "url": "Founding_of_Rome",
+      "startCirca": 1,
+      "startCircaUnit": "y",
       "startDay": 21,
       "startMonth": 4,
-      "startYear": 753,
+      "startYear": -753,
       "categories": "p, c, t",
-      "countries": "Europe"
+      "countries": "Italy"
     },
     {
       "zoomscale": 21,
