@@ -12,13 +12,12 @@
  * Usage: node transform.mjs
  */
 
-import { promises as fs } from 'fs';
-import { join, dirname, basename } from 'path';
-import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
+import { promises as fs } from 'fs';
+import { dirname, join } from 'path';
+import { getPathBBox } from 'svg-path-commander';
 import { optimize } from 'svgo';
-import * as readline from 'readline';
-import getBounds from 'svg-path-bounds';
+import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SOURCE_DIR = join(__dirname, 'source');
@@ -29,19 +28,15 @@ const TARGET_WIDTH = 400;
 const TARGET_HEIGHT = 200;
 
 /**
- * Prompt user to continue and wait for confirmation
+ * Parse a transform attribute and extract translate values
  */
-function prompt(question) {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
-  return new Promise(resolve => {
-    rl.question(question, answer => {
-      rl.close();
-      resolve(answer.toLowerCase());
-    });
-  });
+function parseTransform(transform) {
+  if (!transform) return { tx: 0, ty: 0 };
+  const match = transform.match(/translate\(([^,]+)[,\s]+([^)]+)\)/);
+  if (match) {
+    return { tx: parseFloat(match[1]) || 0, ty: parseFloat(match[2]) || 0 };
+  }
+  return { tx: 0, ty: 0 };
 }
 
 /**
@@ -69,17 +64,79 @@ function getEffectiveViewBox($, $svg) {
 }
 
 /**
+ * Check if an element is inside a <defs> element (handles namespaced elements)
+ */
+function isInsideDefs($, el) {
+  let node = el;
+  while (node) {
+    // Handle both 'defs' and namespaced variants like 'ns0:defs'
+    if (node.name === 'defs' || (node.name && node.name.endsWith(':defs'))) return true;
+    node = node.parent;
+  }
+  return false;
+}
+
+/**
+ * Normalize SVG content by removing namespace prefixes (ns0:svg -> svg, ns0:path -> path)
+ * and converting ns0 namespace to standard xmlns
+ */
+function normalizeNamespaces(content) {
+  // Replace ns0:svg with svg and xmlns:ns0 with xmlns
+  let normalized = content
+    .replace(/<ns0:svg/g, '<svg')
+    .replace(/<\/ns0:svg>/g, '</svg>')
+    .replace(/<ns0:path/g, '<path')
+    .replace(/<\/ns0:path>/g, '</path>')
+    .replace(/<ns0:g/g, '<g')
+    .replace(/<\/ns0:g>/g, '</g>')
+    .replace(/<ns0:defs/g, '<defs')
+    .replace(/<\/ns0:defs>/g, '</defs>')
+    .replace(/<ns0:clipPath/g, '<clipPath')
+    .replace(/<\/ns0:clipPath>/g, '</clipPath>')
+    .replace(/xmlns:ns0=/g, 'xmlns=');
+  return normalized;
+}
+
+/**
  * Compute bounding box of all path elements using svg-path-bounds
+ * Takes transforms on parent elements into account
+ * Skips paths inside <defs> (like clip-paths)
  */
 function getContentBounds($, $svg) {
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
   let foundPaths = false;
 
   $svg.find('path').each((i, el) => {
-    const d = $(el).attr('d');
+    // Skip paths inside <defs> (clip-paths, patterns, etc.)
+    if (isInsideDefs($, el)) {
+      return;
+    }
+    
+    const $el = $(el);
+    const d = $el.attr('d');
     if (d) {
       try {
-        const [left, top, right, bottom] = getBounds(d);
+        // Use svg-path-commander for accurate visual bounding box
+        const bbox = getPathBBox(d);
+        let left = bbox.x;
+        let top = bbox.y;
+        let right = bbox.x2;
+        let bottom = bbox.y2;
+        
+        // Check for transforms on this element and parent elements
+        let node = el;
+        while (node && node.name !== 'svg') {
+          const transform = $(node).attr('transform');
+          if (transform) {
+            const { tx, ty } = parseTransform(transform);
+            left += tx;
+            right += tx;
+            top += ty;
+            bottom += ty;
+          }
+          node = node.parent;
+        }
+        
         minX = Math.min(minX, left);
         minY = Math.min(minY, top);
         maxX = Math.max(maxX, right);
@@ -87,12 +144,14 @@ function getContentBounds($, $svg) {
         foundPaths = true;
       } catch (e) {
         // Skip invalid paths
+        console.log(`      ⚠ Could not parse path in element ${i}`);
       }
     }
   });
 
   if (!foundPaths) {
     // Fall back to viewBox if no paths found
+    console.log('      ⚠ No valid paths found, using viewBox');
     return getEffectiveViewBox($, $svg);
   }
 
@@ -243,10 +302,12 @@ async function main() {
     console.log(`  • ${f}`);
   }
 
-  // Copy files to target first
+  // Copy files to target first (normalize namespaces during copy)
   console.log('\n📁 Copying files to target/...\n');
   for (const file of files) {
-    const content = await fs.readFile(join(SOURCE_DIR, file), 'utf-8');
+    let content = await fs.readFile(join(SOURCE_DIR, file), 'utf-8');
+    // Normalize namespace prefixes (ns0:svg -> svg, etc.)
+    content = normalizeNamespaces(content);
     await fs.writeFile(join(TARGET_DIR, file), content);
   }
 
@@ -278,11 +339,6 @@ async function main() {
   }
 
   console.log('\n✅ Transform 1 complete. Files in target/ have been resized.');
-  const answer1 = await prompt('\nPress Enter to continue to Transform 2 (Center), or "q" to quit: ');
-  if (answer1 === 'q') {
-    console.log('Exiting after Transform 1.');
-    return;
-  }
 
   // ═══════════════════════════════════════════════════════════════════════════
   // TRANSFORM 2: Center within 400×200
@@ -311,11 +367,6 @@ async function main() {
   }
 
   console.log('\n✅ Transform 2 complete. Icons are now centered in 400×200.');
-  const answer2 = await prompt('\nPress Enter to continue to Transform 3 (Minify), or "q" to quit: ');
-  if (answer2 === 'q') {
-    console.log('Exiting after Transform 2.');
-    return;
-  }
 
   // ═══════════════════════════════════════════════════════════════════════════
   // TRANSFORM 3: Minify with SVGO
