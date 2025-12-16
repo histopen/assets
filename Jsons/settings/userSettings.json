@@ -11,6 +11,7 @@
   "tablePLShow": false,
   "wikiDatesShow": true,
   "wikiBtnsShow": false,
+  "isHorizontal": false,
   "splitH": 75,
   "splitV": 75,
   "infopanelScreen": "settings",
