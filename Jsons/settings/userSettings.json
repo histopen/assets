@@ -1,6 +1,6 @@
 {
   "defaultLanguage": "en",
-  "debugMode": true,
+  "debugMode": false,
   "tv1Show": true,
   "tv2Show": true,
   "tv3Show": true,
