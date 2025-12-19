@@ -1,26 +1,3 @@
 {
-  "defaultLanguage": "en",
-  "debugMode": false,
-  "tv1Show": true,
-  "tv2Show": true,
-  "tv3Show": true,
-  "wsBackgd": 3,
-  "timelineShow": true,
-  "timepanelShow": true,
-  "tableTOShow": false,
-  "tablePLShow": false,
-  "wikiDatesShow": true,
-  "wikiBtnsShow": false,
-  "isHorizontal": false,
-  "splitH": 75,
-  "splitV": 75,
-  "infopanelScreen": "settings",
-  "wikiName": "Eugène_Goupil",
-  "calendar": "gregorian",
-
-  "//TODOlater 1": "guest user: save in localStorage",
-  "//TODOlater 2": "userAccount: save also in user settings",
-  "//TODOlater 3": "sourceLayoutIndex",
-  "//TODOlater 4": "color theme",
-  "//TODOlater 5": "last focused dates"
+  "calendar": "gregorian"
 }

@@ -24,7 +24,7 @@ import { saveJsonToFile } from './more/saveJsonToFile.js';
 async function toolloc() {
   const webappUrl = "https://script.google.com/a/macros/wikitime.org/s/AKfycbxS9OTyrEAS_jpf41PiFJttzDbEuUvVgkm88nxwVkzZhDHzClEy-VXBrs-NNtYNRCOe/exec";
 
-  const allLanguages = ["en", "fr", "it", "de", "es", "nl", "pl", "uk", "ru", "sv", "hi", "ja"];
+  const allLanguages = ["en", "fr", "it", "de", "es", "nl", "pl", "uk", "ru", "sv", "hi", "ja", "zh"];
   const argLang = process.argv[2];
   const languages = argLang ? [argLang] : allLanguages;
 

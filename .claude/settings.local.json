@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"\\\\?\\\\C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul\")",
+      "Bash(cmd /c \"del \\\\?\\\\C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul\")",
+      "Bash(cmd /c \"if exist \"\"C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul\"\" \\(echo exists\\) else \\(echo deleted\\)\")",
+      "Bash(cmd /c \"dir /b C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul 2>&1\")"
+    ]
+  }
+}
