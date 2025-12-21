@@ -625,6 +625,19 @@
       "parameter2": "Japan flag"
     },
     {
+      "caption": "lg_zh",
+      "tooltip": "",
+      "imgPath": "UI_flags",
+      "imgFileName": "lg_zh.svg",
+      "txtstyle": 0,
+      "imgstyle": 1,
+      "alignV": "",
+      "alignH": "",
+      "functionName": "changeLanguage",
+      "parameter1": "zh",
+      "parameter2": "Chinese flag"
+    },
+    {
       "caption": "lg_hi",
       "tooltip": "",
       "imgPath": "UI_flags",
