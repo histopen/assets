@@ -1,0 +1,26 @@
+{
+  "name": "assets-tools",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+
+  "scripts": {
+    "loc": "node jsontools/toolloc.js",
+    "btn": "node jsontools/toolbtn.js",
+    "tv": "node jsontools/tooltv.js",
+    "dbtm": "node jsontools/tooldbtm.js",
+    "cosmos": "node jsontools/toolcosmos.js",
+    "svg": "node \"svg scripts/recenteresizeformat/transform.mjs\"",
+    "sprite": "node \"svg scripts/buildUiSprite.mjs\""
+  },
+  "devDependencies": {
+    "svg-path-commander": "^2.1.11",
+    "svgo": "^4.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "svg-path-bounds": "^1.0.2",
+    "svgpath": "^2.6.0",
+    "svgson": "^5.3.1"
+  }
+}
