@@ -1,4 +1,4 @@
-# SVG Recenter/Resize/Format Tool
+# SVG Recenter/Resize/Format Tool (using SVGO)
 
 This folder contains an automated tool to batch-transform SVG icons. The tool applies three transformations to all SVG files in `source/` and writes results to `target/`:
 

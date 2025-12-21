@@ -4,7 +4,17 @@
       "Bash(del \"\\\\?\\\\C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul\")",
       "Bash(cmd /c \"del \\\\?\\\\C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul\")",
       "Bash(cmd /c \"if exist \"\"C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul\"\" \\(echo exists\\) else \\(echo deleted\\)\")",
-      "Bash(cmd /c \"dir /b C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul 2>&1\")"
+      "Bash(cmd /c \"dir /b C:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\nul 2>&1\")",
+      "Bash(for dir in UI_Debug UI_flags UI_Social UI_SourceNavbar UI_Sources UI_Toolbar TM_Icons)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(dir:*)",
+      "Bash(powershell -Command \"\\(Get-Item ''c:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\Icons\\\\sprites-ui.svg''\\).Length\")",
+      "Bash(powershell -Command \"Select-String -Path ''c:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\Icons\\\\sprites-ui.svg'' -Pattern ''symbol id='' -AllMatches | ForEach-Object { $_Matches.Count }\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }
