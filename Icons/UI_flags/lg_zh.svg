@@ -1,10 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-zh" viewBox="0 0 640 480">
   <rect width="640" height="480" fill="#de2910"/>
-  <g>
-    <polygon points="120,96 133,144 184,144 142,172 155,220 120,192 85,220 98,172 56,144 107,144" fill="#ffde00"/>
-    <polygon points="200,40 208,60 230,60 212,72 220,92 200,80 180,92 188,72 170,60 192,60" fill="#ffde00" transform="rotate(-20 200 80) scale(0.3)"/>
-    <polygon points="200,120 208,140 230,140 212,152 220,172 200,160 180,172 188,152 170,140 192,140" fill="#ffde00" transform="rotate(10 200 160) scale(0.3)"/>
-    <polygon points="80,160 88,180 110,180 92,192 100,212 80,200 60,212 68,192 50,180 72,180" fill="#ffde00" transform="rotate(30 80 200) scale(0.3)"/>
-    <polygon points="80,80 88,100 110,100 92,112 100,132 80,120 60,132 68,112 50,100 72,100" fill="#ffde00" transform="rotate(-10 80 120) scale(0.3)"/>
-  </g>
+  <polygon points="120,96 133,144 184,144 142,172 155,220 120,192 85,220 98,172 56,144 107,144" fill="#ffde00"/>
 </svg>
