@@ -14,7 +14,9 @@
       "Bash(powershell -Command \"Select-String -Path ''c:\\\\code\\\\wikit\\\\ghp\\\\assets\\\\Icons\\\\sprites-ui.svg'' -Pattern ''symbol id='' -AllMatches | ForEach-Object { $_Matches.Count }\")",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(mv:*)",
+      "Bash(rm:*)"
     ]
   }
 }
