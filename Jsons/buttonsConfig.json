@@ -166,7 +166,7 @@
       "alignV": 4,
       "alignH": 2,
       "functionName": "setInfopanelScreen",
-      "parameter1": "wikipedia",
+      "parameter1": "sources",
       "parameter2": "UIwikipage"
     },
     {
