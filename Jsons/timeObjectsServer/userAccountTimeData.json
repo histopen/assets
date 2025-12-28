@@ -1,0 +1,34 @@
+[
+  [0, {
+    "timeDataCaption": "Eugène Dumas",
+    "timeDataUrl": "",
+    "timeDataDate": {
+      "sDay": 15, "sMonth": 5, "sYear": 1910, "sCirca": 0, "sCircaUnit": "Y",
+      "eDay": 20, "eMonth": 8, "eYear": 1985, "eCirca": 0, "eCircaUnit": "Y"
+    }
+  }],
+  [1, {
+    "timeDataCaption": "Mélanie Dumas",
+    "timeDataUrl": "",
+    "timeDataDate": {
+      "sDay": 2, "sMonth": 3, "sYear": 1915, "sCirca": 0, "sCircaUnit": "Y",
+      "eDay": 10, "eMonth": 12, "eYear": 1990, "eCirca": 0, "eCircaUnit": "Y"
+    }
+  }],
+  [2, {
+    "timeDataCaption": "Ella d'Athis",
+    "timeDataUrl": "",
+    "timeDataDate": {
+      "sDay": 8, "sMonth": 7, "sYear": 1912, "sCirca": 0, "sCircaUnit": "Y",
+      "eDay": 5, "eMonth": 4, "eYear": 1980, "eCirca": 0, "eCircaUnit": "Y"
+    }
+  }],
+  [3, {
+    "timeDataCaption": "Roland d'Athis",
+    "timeDataUrl": "",
+    "timeDataDate": {
+      "sDay": 30, "sMonth": 9, "sYear": 1908, "sCirca": 0, "sCircaUnit": "Y",
+      "eDay": 18, "eMonth": 2, "eYear": 1978, "eCirca": 0, "eCircaUnit": "Y"
+    }
+  }]
+]

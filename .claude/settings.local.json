@@ -16,7 +16,10 @@
       "Bash(git commit:*)",
       "Bash(git push)",
       "Bash(mv:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(head:*)",
+      "Bash(xargs ls:*)",
+      "Bash(find:*)"
     ]
   }
 }
