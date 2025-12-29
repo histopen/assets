@@ -11,14 +11,17 @@
     "dbtm": "node jsontools/tooldbtm.js",
     "cosmos": "node jsontools/toolcosmos.js",
     "svg": "node \"svg scripts/recenteresizeformat/transform.mjs\"",
-    "sprite": "node \"svg scripts/buildUiSprite.mjs\""
+    "sprite": "node \"svg scripts/buildUiSprite.mjs\"",
+    "build:atlas": "node \"TimelineAtlas scripts/buildTimelineAtlas.mjs\""
   },
   "devDependencies": {
     "svg-path-commander": "^2.1.11",
     "svgo": "^4.0.0"
   },
   "dependencies": {
+    "@resvg/resvg-js": "^2.6.0",
     "cheerio": "^1.0.0-rc.12",
+    "sharp": "^0.33.0",
     "svg-path-bounds": "^1.0.2",
     "svgpath": "^2.6.0",
     "svgson": "^5.3.1"
