@@ -25,9 +25,6 @@ const CONFIG = {
   // Atlas dimensions
   atlasWidth: 4096,
   atlasHeight: 4096,
-  // Debug: add colored border around each icon (set to 0 for production)
-  debugBorder: 0,  // Border width in pixels (e.g., 1 or 2 for debug, 0 for production)
-  debugBorderColor: { r: 255, g: 0, b: 255, alpha: 255 },  // Magenta border
   // Paths (relative to ghp/assets/)
   assetsDir: join(__dirname, '..', '..'),
   svgDir: 'Icons/TM_Icons',
@@ -61,40 +58,6 @@ function renderSvgToPng(svgPath, width, height) {
 
   const pngData = resvg.render();
   return pngData.asPng();
-}
-
-/**
- * Add a colored border around the icon for debugging
- */
-async function addDebugBorder(pngBuffer, width, height, borderWidth, borderColor) {
-  if (borderWidth <= 0) return pngBuffer;
-
-  const { data, info } = await sharp(pngBuffer)
-    .ensureAlpha()
-    .raw()
-    .toBuffer({ resolveWithObject: true });
-
-  const pixels = new Uint8Array(data);
-  const { r, g, b, alpha } = borderColor;
-
-  for (let y = 0; y < height; y++) {
-    for (let x = 0; x < width; x++) {
-      // Check if pixel is on the border
-      const isOnBorder = x < borderWidth || x >= width - borderWidth ||
-                         y < borderWidth || y >= height - borderWidth;
-      if (isOnBorder) {
-        const i = (y * width + x) * 4;
-        pixels[i] = r;
-        pixels[i + 1] = g;
-        pixels[i + 2] = b;
-        pixels[i + 3] = alpha;
-      }
-    }
-  }
-
-  return sharp(Buffer.from(pixels), {
-    raw: { width, height, channels: 4 },
-  }).png().toBuffer();
 }
 
 /**
@@ -162,12 +125,7 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
       const pngBuffer = renderSvgToPng(svgPath, iconWidth, iconHeight);
 
       // Convert to white (for tinting)
-      let whitePng = await convertToWhite(pngBuffer, iconWidth, iconHeight);
-
-      // Add debug border if enabled
-      if (CONFIG.debugBorder > 0) {
-        whitePng = await addDebugBorder(whitePng, iconWidth, iconHeight, CONFIG.debugBorder, CONFIG.debugBorderColor);
-      }
+      const whitePng = await convertToWhite(pngBuffer, iconWidth, iconHeight);
 
       // Calculate position in grid
       const col = i % iconsPerRow;
@@ -258,9 +216,6 @@ async function buildAtlas() {
 
   console.log(`Found ${iconIds.length} icons in map`);
   console.log(`Generating atlases for sizes: ${ATLAS_SIZES.join(', ')}`);
-  if (CONFIG.debugBorder > 0) {
-    console.log(`DEBUG MODE: Adding ${CONFIG.debugBorder}px magenta border around each icon`);
-  }
 
   // Build each atlas size
   for (const size of ATLAS_SIZES) {

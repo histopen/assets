@@ -19,7 +19,8 @@
       "Bash(rm:*)",
       "Bash(head:*)",
       "Bash(xargs ls:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(npm run dbtm-n:*)"
     ]
   }
 }
