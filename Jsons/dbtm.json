@@ -732,8 +732,8 @@
       "rank": 62,
       "zoomscale": 26,
       "iconId": 52,
-      "caption": "First Smartphone",
-      "tooltip": "iphone",
+      "caption": "💡Smartphone",
+      "tooltip": "The iPhone is the first smartphone with a world scale.",
       "url": "IPhone",
       "startDay": 9,
       "startMonth": 1,
@@ -756,7 +756,6 @@
     },
     {
       "rank": 64,
-      "tMZLend": true,
       "zoomscale": 27,
       "endZoomscale": 29,
       "iconId": 53,
@@ -774,7 +773,6 @@
     },
     {
       "rank": 65,
-      "tMZLend": true,
       "zoomscale": 27,
       "endZoomscale": 29,
       "iconId": 106,
@@ -807,7 +805,6 @@
     },
     {
       "rank": 67,
-      "tMZLend": true,
       "zoomscale": 30,
       "endZoomscale": 31,
       "iconId": 106,
@@ -1855,7 +1852,6 @@
     },
     {
       "rank": 136,
-      "tMZLend": true,
       "zoomscale": 32,
       "endZoomscale": 34,
       "iconId": 106,
