@@ -7,6 +7,7 @@
     "dbtm": "npm --prefix Tools run dbtm",
     "cosmos": "npm --prefix Tools run cosmos",
     "svg": "npm --prefix Tools run svg",
-    "sprite": "npm --prefix Tools run sprite"
+    "sprite": "npm --prefix Tools run sprite",
+    "atlas": "npm --prefix Tools run atlas"
   }
 }
