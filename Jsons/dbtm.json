@@ -2,7 +2,6 @@
   [
     {
       "rank": 1,
-      "zoomscale": 0,
       "iconId": 106,
       "caption": "Solar system",
       "url": "Solar_System",
@@ -12,7 +11,6 @@
     },
     {
       "rank": 2,
-      "zoomscale": 0,
       "iconId": 70,
       "caption": "Big Bang",
       "tooltip": "The Big Bang is a physical theory that describes how the universe expanded from an initial state of high density and temperature.",
@@ -23,7 +21,6 @@
     },
     {
       "rank": 3,
-      "zoomscale": 0,
       "iconId": 106,
       "caption": "Milky Way",
       "url": "Milky_Way",
@@ -33,7 +30,6 @@
     },
     {
       "rank": 4,
-      "zoomscale": 0,
       "iconId": 5,
       "caption": "Moon walking",
       "tooltip": "Commander Neil Armstrong is the first person to step onto the Moon's surface",
@@ -46,7 +42,6 @@
     },
     {
       "rank": 5,
-      "zoomscale": 0,
       "iconId": 3,
       "caption": "Death of Sun",
       "url": "Solar_System",
@@ -57,7 +52,6 @@
     },
     {
       "rank": 6,
-      "zoomscale": 1,
       "iconId": 106,
       "caption": "Andromeda Galaxy",
       "url": "Andromeda_Galaxy",
@@ -67,7 +61,6 @@
     },
     {
       "rank": 7,
-      "zoomscale": 1,
       "iconId": 6,
       "caption": "Alpha Centauri",
       "url": "Alpha_Centauri",
@@ -77,7 +70,6 @@
     },
     {
       "rank": 8,
-      "zoomscale": 2,
       "iconId": 106,
       "caption": "Multicellular",
       "url": "Multicellular_organism",
@@ -87,7 +79,6 @@
     },
     {
       "rank": 9,
-      "zoomscale": 3,
       "iconId": 10,
       "caption": "Oxygen appears",
       "url": "Great_Oxidation_Event",
@@ -97,7 +88,6 @@
     },
     {
       "rank": 10,
-      "zoomscale": 3,
       "iconId": 106,
       "caption": "Chicxulub impactor",
       "tooltip": "The asteroid that caused dinosaurs extinction.",
@@ -108,7 +98,6 @@
     },
     {
       "rank": 11,
-      "zoomscale": 4,
       "iconId": 106,
       "caption": "Eukaryote",
       "url": "Eukaryote",
@@ -118,7 +107,6 @@
     },
     {
       "rank": 12,
-      "zoomscale": 4,
       "iconId": 8,
       "caption": "Fishes",
       "url": "Fish",
@@ -128,7 +116,6 @@
     },
     {
       "rank": 13,
-      "zoomscale": 5,
       "iconId": 13,
       "caption": "Mammals",
       "url": "Mammal",
@@ -138,7 +125,6 @@
     },
     {
       "rank": 14,
-      "zoomscale": 6,
       "iconId": 12,
       "caption": "Flowers",
       "url": "Flower",
@@ -148,7 +134,6 @@
     },
     {
       "rank": 15,
-      "zoomscale": 8,
       "iconId": 106,
       "caption": "Pterodactylus",
       "url": "Pterodactylus",
@@ -158,7 +143,6 @@
     },
     {
       "rank": 16,
-      "zoomscale": 8,
       "iconId": 106,
       "caption": "Ceratops",
       "url": "Ceratops",
@@ -168,7 +152,6 @@
     },
     {
       "rank": 17,
-      "zoomscale": 9,
       "iconId": 106,
       "caption": "Afropithecus",
       "tooltip": "Afropithecus was excavated from a small site near Lake Turkana called Kalodirr in northern Kenya in 1986 and named by Meave and Richard Leakey.",
@@ -181,7 +164,6 @@
     },
     {
       "rank": 18,
-      "zoomscale": 9,
       "iconId": 19,
       "caption": "Australopithecus",
       "tooltip": "The first Australopithecus specimen, the type specimen, was discovered in 1924 in a lime quarry by workers at Taung, South Africa.",
@@ -192,7 +174,6 @@
     },
     {
       "rank": 19,
-      "zoomscale": 10,
       "iconId": 106,
       "caption": "Argentinosaurus",
       "url": "Argentinosaurus",
@@ -202,7 +183,6 @@
     },
     {
       "rank": 20,
-      "zoomscale": 10,
       "iconId": 106,
       "caption": "Kenyapithecus",
       "tooltip": "Kenyapithecus was discovered by Louis Leakey in 1961 at a site called Fort Ternan in Kenya.",
@@ -213,7 +193,6 @@
     },
     {
       "rank": 21,
-      "zoomscale": 10,
       "iconId": 22,
       "caption": "Gorilla",
       "tooltip": "The closest relatives of gorillas are the other two Homininae genera, chimpanzees and humans, all of them having diverged from a common ancestor about 7 million years ago.",
@@ -224,7 +203,6 @@
     },
     {
       "rank": 22,
-      "zoomscale": 11,
       "iconId": 106,
       "caption": "Mendozasaurus",
       "url": "Mendozasaurus",
@@ -234,7 +212,6 @@
     },
     {
       "rank": 23,
-      "zoomscale": 11,
       "iconId": 17,
       "caption": "Velociraptor",
       "url": "Velociraptor",
@@ -244,7 +221,6 @@
     },
     {
       "rank": 24,
-      "zoomscale": 11,
       "iconId": 106,
       "caption": "Tyrannosaurus",
       "url": "Tyrannosaurus",
@@ -254,7 +230,6 @@
     },
     {
       "rank": 25,
-      "zoomscale": 12,
       "iconId": 106,
       "caption": "Homo habilis",
       "url": "Homo_habilis",
@@ -266,7 +241,6 @@
     },
     {
       "rank": 26,
-      "zoomscale": 12,
       "iconId": 26,
       "caption": "Homo erectus",
       "url": "Homo_erectus",
@@ -276,7 +250,6 @@
     },
     {
       "rank": 27,
-      "zoomscale": 12,
       "iconId": 106,
       "caption": "Fire Making",
       "url": "Fire_making",
@@ -286,7 +259,6 @@
     },
     {
       "rank": 28,
-      "zoomscale": 12,
       "iconId": 25,
       "caption": "Homo antecessor",
       "url": "Homo_antecessor",
@@ -296,7 +268,6 @@
     },
     {
       "rank": 29,
-      "zoomscale": 12,
       "iconId": 28,
       "caption": "Homo sapiens",
       "url": "Human",
@@ -306,7 +277,6 @@
     },
     {
       "rank": 30,
-      "zoomscale": 13,
       "iconId": 29,
       "caption": "Homo ergaster",
       "url": "Homo_ergaster",
@@ -318,9 +288,8 @@
     },
     {
       "rank": 31,
-      "zoomscale": 15,
       "iconId": 106,
-      "caption": "💡 First Art",
+      "caption": "Art",
       "tooltip": "A shell engraved by Homo erectus was determined to be between 430,000 and 540,000 years old.",
       "url": "Art",
       "fragment": "History",
@@ -332,7 +301,6 @@
     },
     {
       "rank": 32,
-      "zoomscale": 15,
       "iconId": 32,
       "caption": "Neanderthal",
       "url": "Neanderthal",
@@ -342,7 +310,6 @@
     },
     {
       "rank": 33,
-      "zoomscale": 15,
       "iconId": 106,
       "caption": "Clothing",
       "tooltip": "Humans are wearing clothing by this date.",
@@ -352,7 +319,6 @@
     },
     {
       "rank": 34,
-      "zoomscale": 18,
       "iconId": 106,
       "caption": "Dolní Věstonice",
       "tooltip": "A hamlet consisting of huts built of rocks and of mammoth bones is founded in what is now Dolní Věstonice in Moravia in the Czech Republic, the oldest human permanent settlement found.\r\n",
@@ -365,9 +331,8 @@
     },
     {
       "rank": 35,
-      "zoomscale": 18,
       "iconId": 106,
-      "caption": "💡 Dog",
+      "caption": "Dog Pet",
       "tooltip": "Domestication of the dog in Siberia.",
       "url": "Timeline_of_historic_inventions",
       "fragment": ":~:text=7000%20BC%3A%20Sled%20dog%20and%20Dog%20sled%2C%20in%20Siberia.%5B117%5D",
@@ -377,9 +342,8 @@
     },
     {
       "rank": 36,
-      "zoomscale": 18,
       "iconId": 106,
-      "caption": "💡 Agriculture",
+      "caption": "Agriculture",
       "url": "Agriculture",
       "startYear": -10000,
       "categories": "t, c, p, b",
@@ -387,7 +351,6 @@
     },
     {
       "rank": 37,
-      "zoomscale": 18,
       "iconId": 106,
       "caption": "Common Era",
       "tooltip": "The dating system globally adopted for international commerce and communication. Afghanistan, Iran, Ethiopia, and Nepal have not adopted it. Some countries also use their own traditional calendars for religious or cultural purposes.",
@@ -398,7 +361,6 @@
     },
     {
       "rank": 38,
-      "zoomscale": 19,
       "iconId": 106,
       "caption": "5 million Humans",
       "tooltip": "It has been estimated that there were some five million people at the time of the Last Glacial Maximum. That is an average growth rate of 0.027% p.a. from the beginning of the Neolithic to the Middle Bronze Age.",
@@ -411,7 +373,6 @@
     },
     {
       "rank": 39,
-      "zoomscale": 20,
       "iconId": 106,
       "caption": "Laschamp event",
       "tooltip": "The Laschamp event is the first geomagnetic excursion (short reversal of Earth's magnetic field) studied (we only know a few reversals). Effects are not considered strong enough to significantly affect natural or human history.",
@@ -424,7 +385,6 @@
     },
     {
       "rank": 40,
-      "zoomscale": 20,
       "iconId": 106,
       "caption": "40 million Humans",
       "tooltip": "It has been estimated that there were some forty million people by 5000 BC. That is an average growth rate of 0.027% p.a. from the beginning of the Neolithic to the Middle Bronze Age.",
@@ -437,7 +397,6 @@
     },
     {
       "rank": 41,
-      "zoomscale": 20,
       "iconId": 33,
       "caption": "💡 Writing",
       "tooltip": "Sumerian cuneiform writing system and Egyptian hieroglyphs are first used.",
@@ -450,7 +409,6 @@
     },
     {
       "rank": 42,
-      "zoomscale": 21,
       "iconId": 106,
       "caption": "Kheops Great Pyramid",
       "tooltip": "Great Pyramid of Giza, Kheops",
@@ -461,7 +419,6 @@
     },
     {
       "rank": 43,
-      "zoomscale": 21,
       "iconId": 39,
       "caption": "Shang Dynasty",
       "url": "Shang_dynasty",
@@ -471,7 +428,6 @@
     },
     {
       "rank": 44,
-      "zoomscale": 21,
       "iconId": 106,
       "caption": "100 million Humans",
       "tooltip": "It has been estimated that there were around 100 million people by 1600 BC. That is an average growth rate of 0.027% p.a. from the beginning of the Neolithic to the Middle Bronze Age.",
@@ -486,7 +442,6 @@
     },
     {
       "rank": 45,
-      "zoomscale": 21,
       "iconId": 106,
       "caption": "Trojan War",
       "tooltip": "estimation",
@@ -498,7 +453,6 @@
     },
     {
       "rank": 46,
-      "zoomscale": 21,
       "iconId": 106,
       "caption": "Fall of Rome",
       "tooltip": "Fall of Rome (Western Empire)",
@@ -511,7 +465,6 @@
     },
     {
       "rank": 47,
-      "zoomscale": 21,
       "iconId": 43,
       "caption": "Rome Foundation",
       "tooltip": "Rome founded by Romulus (according to legend). Beginning of the Roman 'Ab urbe condita' calendar.",
@@ -526,7 +479,6 @@
     },
     {
       "rank": 48,
-      "zoomscale": 21,
       "iconId": 40,
       "caption": "First Crusade",
       "url": "First_Crusade",
@@ -541,9 +493,8 @@
     },
     {
       "rank": 49,
-      "zoomscale": 21,
       "iconId": 106,
-      "caption": "💡 Gutenberg",
+      "caption": "💡Print (Gutenberg)",
       "tooltip": "Gutenberg Printing Press Invention",
       "url": "Printing_press",
       "startDay": 1,
@@ -554,7 +505,6 @@
     },
     {
       "rank": 50,
-      "zoomscale": 22,
       "iconId": 106,
       "caption": "Pottery",
       "tooltip": "Earliest pottery use, in Xianren Cave",
@@ -567,7 +517,6 @@
     },
     {
       "rank": 51,
-      "zoomscale": 22,
       "iconId": 106,
       "caption": "Plato",
       "tooltip": "Central figure of Western philosophy. His most famous contribution is the theory of forms (or ideas). He was influenced by Pythagoras, Heraclitus, and Parmenides. His teacher was Socrates. Aristotle was one of his students.",
@@ -587,7 +536,6 @@
     },
     {
       "rank": 52,
-      "zoomscale": 23,
       "iconId": 106,
       "caption": "Holocene global warming",
       "tooltip": "An abrupt period of global warming begins. This is taken as the beginning of the Holocene geological epoch.",
@@ -598,7 +546,6 @@
     },
     {
       "rank": 53,
-      "zoomscale": 23,
       "iconId": 46,
       "caption": "Charlemagne Emperor",
       "url": "Charlemagne",
@@ -609,9 +556,8 @@
     },
     {
       "rank": 54,
-      "zoomscale": 24,
       "iconId": 106,
-      "caption": "Harvard",
+      "caption": "Harvard College",
       "tooltip": "Harvard College in Cambridge, Mass., held its first commencement.",
       "url": "Harvard_University",
       "fragment": "History",
@@ -625,7 +571,6 @@
     },
     {
       "rank": 55,
-      "zoomscale": 24,
       "iconId": 106,
       "caption": "American Revolution",
       "tooltip": "American Revolution",
@@ -645,7 +590,6 @@
     },
     {
       "rank": 56,
-      "zoomscale": 26,
       "iconId": 81,
       "caption": "Napoleonic Wars",
       "tooltip": "War breaks out between Britain and France; this is considered by some to be the beginning of the Napoleonic Wars.",
@@ -660,7 +604,6 @@
     },
     {
       "rank": 57,
-      "zoomscale": 26,
       "iconId": 106,
       "caption": "Beethoven's 9th",
       "tooltip": "Beethoven's 9th Symphony Premiere",
@@ -673,7 +616,6 @@
     },
     {
       "rank": 58,
-      "zoomscale": 26,
       "iconId": 106,
       "caption": "Darwin's theory",
       "tooltip": "Charles Darwin publishes On the Origin of Species.",
@@ -688,7 +630,6 @@
     },
     {
       "rank": 59,
-      "zoomscale": 26,
       "iconId": 106,
       "caption": "Athens 1896",
       "tooltip": "Olympic Games Athens 1896",
@@ -704,7 +645,6 @@
     },
     {
       "rank": 60,
-      "zoomscale": 26,
       "iconId": 106,
       "caption": "First Airplane Flight",
       "tooltip": "(Wright Brothers)",
@@ -717,7 +657,6 @@
     },
     {
       "rank": 61,
-      "zoomscale": 26,
       "iconId": 55,
       "caption": "Internet",
       "tooltip": "(ARPANET to TCP/IP)",
@@ -730,7 +669,6 @@
     },
     {
       "rank": 62,
-      "zoomscale": 26,
       "iconId": 52,
       "caption": "💡Smartphone",
       "tooltip": "The iPhone is the first smartphone with a world scale.",
@@ -743,7 +681,6 @@
     },
     {
       "rank": 63,
-      "zoomscale": 26,
       "iconId": 84,
       "caption": "ChatGPT",
       "tooltip": "Launch",
@@ -756,8 +693,6 @@
     },
     {
       "rank": 64,
-      "zoomscale": 27,
-      "endZoomscale": 29,
       "iconId": 53,
       "caption": "World War I",
       "tooltip": "World War I",
@@ -773,8 +708,6 @@
     },
     {
       "rank": 65,
-      "zoomscale": 27,
-      "endZoomscale": 29,
       "iconId": 106,
       "caption": "World War II",
       "tooltip": "Global conflict between two coalitions. Nearly all of the world's countries participated, with many nations mobilising all resources in pursuit of total war.",
@@ -790,23 +723,20 @@
     },
     {
       "rank": 66,
-      "zoomscale": 27,
       "iconId": 106,
       "caption": "Mayflower",
       "tooltip": "Forty-one Pilgrims aboard the Mayflower, anchored off Massachusetts, signed a compact calling for a \"body politick.\"",
       "url": "Mayflower",
       "startCirca": 1,
       "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
+      "startDay": 21,
+      "startMonth": 11,
       "startYear": 1620,
       "categories": "p",
       "countries": "USA"
     },
     {
       "rank": 67,
-      "zoomscale": 30,
-      "endZoomscale": 31,
       "iconId": 106,
       "caption": "⚔ Stalingrad",
       "tooltip": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II, beginning when Nazi Germany and its Axis allies attacked and became locked in a protracted struggle with the Soviet Union for control over Stalingrad (now Volgograd).",
@@ -822,7 +752,6 @@
     },
     {
       "rank": 68,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Aeschylus",
       "tooltip": "Athenian playwright Aeschylus wins a poetry prize.",
@@ -837,7 +766,6 @@
     },
     {
       "rank": 69,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Plato in Syracuse",
       "tooltip": "Plato, having left Athens on Socrates' death to visit Megara and possibly Egypt, travels to Syracuse at the invitation of Dionysius I's brother-in-law Dion.",
@@ -853,7 +781,6 @@
     },
     {
       "rank": 70,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Quebec foundation",
       "tooltip": "The city of Quebec was founded by Samuel de Champlain.",
@@ -869,7 +796,6 @@
     },
     {
       "rank": 71,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Pocahontas",
       "tooltip": "Pocahontas, daughter of the leader of the Powhatan tribe, married English colonist John Rolfe in Virginia.",
@@ -884,7 +810,6 @@
     },
     {
       "rank": 72,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Manhattan",
       "tooltip": "Dutch explorer Peter Minuit landed on what is now Manhattan.",
@@ -899,7 +824,6 @@
     },
     {
       "rank": 73,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Mississipi",
       "tooltip": "French explorer Robert La Salle reached the Mississippi River.",
@@ -914,7 +838,6 @@
     },
     {
       "rank": 74,
-      "zoomscale": 30,
       "iconId": 47,
       "caption": "French Revolution",
       "tooltip": "French Revolution.",
@@ -934,7 +857,6 @@
     },
     {
       "rank": 75,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "1 billion Humans",
       "tooltip": "World population reaches 1 billion",
@@ -949,7 +871,6 @@
     },
     {
       "rank": 76,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "💡 Antarctica",
       "tooltip": "Discovery of Antarctica.",
@@ -965,7 +886,6 @@
     },
     {
       "rank": 77,
-      "zoomscale": 30,
       "iconId": 81,
       "caption": "Napoleon",
       "tooltip": "Napoleon Bonaparte dies in exile on the island of Saint Helena.",
@@ -980,7 +900,6 @@
     },
     {
       "rank": 78,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Spanish Republic",
       "tooltip": "First Republic in Spain.",
@@ -1000,7 +919,6 @@
     },
     {
       "rank": 79,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Pasteur",
       "tooltip": "Louis Pasteur creates the first successful vaccine against rabies for a young boy who had been bitten 14 times by a rabid dog.",
@@ -1015,7 +933,6 @@
     },
     {
       "rank": 80,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Dr. Jekyll, Mr. Hyde",
       "tooltip": "\"The Strange Case of Dr. Jekyll and Mr. Hyde\" by Robert Louis Stevenson is published.",
@@ -1030,7 +947,6 @@
     },
     {
       "rank": 81,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Jack the Ripper",
       "tooltip": "Jack the Ripper murders occur in Whitechapel, London.",
@@ -1045,7 +961,6 @@
     },
     {
       "rank": 82,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Aspirin",
       "tooltip": "Aspirin patented.",
@@ -1061,7 +976,6 @@
     },
     {
       "rank": 83,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Van Gogh",
       "tooltip": "Death of Vincent van Gogh.",
@@ -1076,7 +990,6 @@
     },
     {
       "rank": 84,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Dreyfuss Affair",
       "tooltip": "Dreyfuss Affair.",
@@ -1096,7 +1009,6 @@
     },
     {
       "rank": 85,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Oscar Wilde",
       "tooltip": "Trial of Oscar Wilde and premiere of his play The Importance of Being Earnest.",
@@ -1111,7 +1023,6 @@
     },
     {
       "rank": 86,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "X-Rays",
       "tooltip": "Wilhelm Röntgen identifies x-rays.",
@@ -1126,7 +1037,6 @@
     },
     {
       "rank": 87,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Dracula",
       "tooltip": "Bram Stoker writes Dracula.",
@@ -1141,7 +1051,6 @@
     },
     {
       "rank": 88,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Zeppelin",
       "tooltip": "Zeppelin LZ 1 airship first produced.",
@@ -1156,7 +1065,6 @@
     },
     {
       "rank": 89,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Nobel",
       "tooltip": "First Nobel Prizes awarded.",
@@ -1171,7 +1079,6 @@
     },
     {
       "rank": 90,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Tour de France",
       "tooltip": "The first Tour de France is held.",
@@ -1186,7 +1093,6 @@
     },
     {
       "rank": 91,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Panama Canal",
       "tooltip": "Construction of the Panama Canal begins.",
@@ -1201,7 +1107,6 @@
     },
     {
       "rank": 92,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "💡 Special relativity",
       "tooltip": "Albert Einstein published the special relativity theory",
@@ -1214,7 +1119,6 @@
     },
     {
       "rank": 93,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Dreyfus Affair",
       "tooltip": "Dreyfus Affair ends.",
@@ -1229,7 +1133,6 @@
     },
     {
       "rank": 94,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Nazi invasion of Poland",
       "tooltip": "Nazi invasion of Poland triggers the beginning of World War II in Europe.",
@@ -1242,7 +1145,6 @@
     },
     {
       "rank": 95,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "Pearl Harbor",
       "tooltip": "Attack on Pearl Harbor, which leads to the USA joining World War II.",
@@ -1255,7 +1157,6 @@
     },
     {
       "rank": 96,
-      "zoomscale": 30,
       "iconId": 106,
       "caption": "World War II over in Asia",
       "tooltip": "End of World War II in Asia and beginning of the Occupation of Japan.",
@@ -1268,7 +1169,6 @@
     },
     {
       "rank": 97,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Gandhi movement",
       "tooltip": "Mahatma Gandhi launches Non-cooperation movement.",
@@ -1283,7 +1183,6 @@
     },
     {
       "rank": 98,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Nazi invasion of France",
       "tooltip": "Nazis invade France, the Netherlands, Denmark and Norway.",
@@ -1296,7 +1195,6 @@
     },
     {
       "rank": 99,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Paris liberation",
       "tooltip": "Liberation of Paris.",
@@ -1309,7 +1207,6 @@
     },
     {
       "rank": 100,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "World War II over in Europe",
       "tooltip": "End of World War II in Europe.",
@@ -1322,7 +1219,6 @@
     },
     {
       "rank": 101,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Nuremberg trials",
       "tooltip": "Nuremberg trials end.",
@@ -1337,7 +1233,6 @@
     },
     {
       "rank": 102,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Sound barrier",
       "tooltip": "Breaking of the sound barrier.",
@@ -1352,7 +1247,6 @@
     },
     {
       "rank": 103,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Gandhi",
       "tooltip": "Assassination of Mahatma Gandhi.",
@@ -1367,7 +1261,6 @@
     },
     {
       "rank": 104,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "NATO",
       "tooltip": "Creation of NATO.",
@@ -1382,7 +1275,6 @@
     },
     {
       "rank": 105,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Hydrogen bomb",
       "tooltip": "Detonation of the hydrogen bomb.",
@@ -1397,7 +1289,6 @@
     },
     {
       "rank": 106,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Everest",
       "tooltip": "First ascent of Mount Everest.",
@@ -1412,7 +1303,6 @@
     },
     {
       "rank": 107,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Vietnam War",
       "tooltip": "Beginning of the Vietnam War.",
@@ -1432,7 +1322,6 @@
     },
     {
       "rank": 108,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "3 billion Humans",
       "tooltip": "World population reaches 3 billion.",
@@ -1447,7 +1336,6 @@
     },
     {
       "rank": 109,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "The Beatles",
       "tooltip": "The Beatles form in Liverpool.",
@@ -1462,7 +1350,6 @@
     },
     {
       "rank": 110,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Gagarine",
       "tooltip": "First human spaceflight.",
@@ -1477,7 +1364,6 @@
     },
     {
       "rank": 111,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "I have a dream",
       "tooltip": "Martin Luther King Jr. delivers \"I Have a Dream\" speech at the March on Washington for Jobs and Freedom.",
@@ -1492,7 +1378,6 @@
     },
     {
       "rank": 112,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Leonid Brezhnev",
       "tooltip": "Leonid Brezhnev ousts Khrushchev and assumes power in the Soviet Union.",
@@ -1507,7 +1392,6 @@
     },
     {
       "rank": 113,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Cultural Revolution",
       "tooltip": "China's Cultural Revolution begins.",
@@ -1522,7 +1406,6 @@
     },
     {
       "rank": 114,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Manson crimes",
       "tooltip": "The Manson Family Murders.",
@@ -1538,7 +1421,6 @@
     },
     {
       "rank": 115,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Greenpeace",
       "tooltip": "Greenpeace founded.",
@@ -1553,7 +1435,6 @@
     },
     {
       "rank": 116,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "1973 oil crisis",
       "tooltip": "Oil crisis",
@@ -1568,7 +1449,6 @@
     },
     {
       "rank": 117,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Lucy",
       "tooltip": "Discovery of \"Lucy\" (Australopithecus afarensis) in Tanzania's Olduvai Gorge.",
@@ -1583,7 +1463,6 @@
     },
     {
       "rank": 118,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Apple Computer",
       "tooltip": "Steve Wozniak invented the Apple I and Steve Jobs then convinced Wozniak to sell the system, giving birth to Apple Computer.",
@@ -1598,7 +1477,6 @@
     },
     {
       "rank": 119,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Star Wars",
       "tooltip": "Star Wars quickly becomes the highest-grossing film of all-time.",
@@ -1613,7 +1491,6 @@
     },
     {
       "rank": 120,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Pope John Paul II",
       "tooltip": "John Paul I and then John Paul II become Pope.",
@@ -1628,7 +1505,6 @@
     },
     {
       "rank": 121,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Three Mile Island",
       "tooltip": "Three Mile Island nuclear accident.",
@@ -1643,7 +1519,6 @@
     },
     {
       "rank": 122,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "AIDS",
       "tooltip": "The AIDS epidemic officially begins in the United States, having originated in Africa; making this to be an ongoing pandemic.",
@@ -1659,7 +1534,6 @@
     },
     {
       "rank": 123,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Thriller",
       "tooltip": "Michael Jackson releases his landmark album Thriller, the best-selling album of all time.",
@@ -1672,7 +1546,6 @@
     },
     {
       "rank": 124,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Chernobyl",
       "tooltip": "Challenger and Chernobyl disasters.",
@@ -1687,7 +1560,6 @@
     },
     {
       "rank": 125,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "5 billion Humans",
       "tooltip": "World population reaches 5 billion.",
@@ -1702,7 +1574,6 @@
     },
     {
       "rank": 126,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Perestroika",
       "tooltip": "Perestroika begins.",
@@ -1717,7 +1588,6 @@
     },
     {
       "rank": 127,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Berlin Wall",
       "tooltip": "Fall of the Berlin Wall; Revolutions of 1989 and collapse of the Soviet Bloc in Europe, which lead to the end of the Cold War.",
@@ -1732,7 +1602,6 @@
     },
     {
       "rank": 128,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "💡 World Wide Web.",
       "tooltip": "Tim Berners-Lee invents the World Wide Web.",
@@ -1747,7 +1616,6 @@
     },
     {
       "rank": 129,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Los Angeles riots",
       "tooltip": "Los Angeles riots over the acquittal of those involved in the beating of Rodney King.",
@@ -1762,7 +1630,6 @@
     },
     {
       "rank": 130,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Waco siege",
       "tooltip": "The Waco siege ends after a 51-day standoff, leaving 86 people dead.",
@@ -1777,7 +1644,6 @@
     },
     {
       "rank": 131,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Rabin Assassination",
       "tooltip": "Assassination of Yitzhak Rabin.",
@@ -1792,7 +1658,6 @@
     },
     {
       "rank": 132,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Dolly",
       "tooltip": "Dolly the sheep becomes the first successful cloned mammal.",
@@ -1807,7 +1672,6 @@
     },
     {
       "rank": 133,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Death of Diana",
       "tooltip": "Diana, Princess of Wales is killed in a car accident in Paris.",
@@ -1822,7 +1686,6 @@
     },
     {
       "rank": 134,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Columbine massacre",
       "tooltip": "Columbine High School massacre in Colorado, United States.",
@@ -1837,7 +1700,6 @@
     },
     {
       "rank": 135,
-      "zoomscale": 31,
       "iconId": 106,
       "caption": "Putin President",
       "tooltip": "Vladimir Putin becomes President of Russia.",
@@ -1852,8 +1714,6 @@
     },
     {
       "rank": 136,
-      "zoomscale": 32,
-      "endZoomscale": 34,
       "iconId": 106,
       "caption": "⚔ Britain",
       "tooltip": "Battle of Britain, the first entirely aerial military campaign, becomes the first significant defeat for the Axis powers.",
@@ -1869,7 +1729,6 @@
     },
     {
       "rank": 137,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "Manhattan Project",
       "tooltip": "Manhattan Project officially begins.",
@@ -1882,7 +1741,6 @@
     },
     {
       "rank": 138,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "⚔ Stalingrad start",
       "tooltip": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II, beginning when Nazi Germany and its Axis allies attacked and became locked in a protracted struggle with the Soviet Union for control over Stalingrad (now Volgograd).",
@@ -1895,7 +1753,6 @@
     },
     {
       "rank": 139,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "⚔ Stalingrad end",
       "tooltip": "Battle of Stalingrad ends with over two million casualties and the retreat of the German Army.",
@@ -1908,7 +1765,6 @@
     },
     {
       "rank": 140,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "Warsaw Ghetto uprising",
       "tooltip": "Warsaw Ghetto uprising fails.",
@@ -1924,7 +1780,6 @@
     },
     {
       "rank": 141,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "💡 Colossus computer",
       "tooltip": "First electronic computer prototype, Colossus Mark 1, works in December 1943 and is in use at Bletchley Park by early 1944.",
@@ -1939,7 +1794,6 @@
     },
     {
       "rank": 142,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "Auschwitz liberated",
       "tooltip": "The Holocaust (in Hebrew Shoah) was the genocide of European Jews during World War II. Between 1941 and 1945, Nazis and collaborators systematically murdered some six million Jews.",
@@ -1954,7 +1808,6 @@
     },
     {
       "rank": 143,
-      "zoomscale": 32,
       "iconId": 106,
       "caption": "Atomic Bombings in Japan",
       "tooltip": "Atomic Bombings (Hiroshima & Nagasaki)",
@@ -1967,7 +1820,6 @@
     },
     {
       "rank": 144,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Eiffel Tower",
       "tooltip": "Eiffel Tower is inaugurated in Paris.",
@@ -1982,7 +1834,6 @@
     },
     {
       "rank": 145,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Trans-Siberian",
       "tooltip": "Trans-Siberian Railway opened.",
@@ -1997,7 +1848,6 @@
     },
     {
       "rank": 146,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Radio",
       "tooltip": "First commercial radio transmissions.",
@@ -2012,7 +1862,6 @@
     },
     {
       "rank": 147,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Ford",
       "tooltip": "The Ford Motor Company invents the Model T.",
@@ -2027,7 +1876,6 @@
     },
     {
       "rank": 148,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Tunguska",
       "tooltip": "The Tunguska impact devastates thousands of square kilometres of Siberia.",
@@ -2042,7 +1890,6 @@
     },
     {
       "rank": 149,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Mexican Revolution",
       "tooltip": "Beginning of the Mexican Revolution.",
@@ -2057,7 +1904,6 @@
     },
     {
       "rank": 150,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "America's boy scouts",
       "tooltip": "Boy Scouts of America is founded.",
@@ -2072,7 +1918,6 @@
     },
     {
       "rank": 151,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "South Pole",
       "tooltip": "Roald Amundsen first reaches the South Pole.",
@@ -2087,7 +1932,6 @@
     },
     {
       "rank": 152,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Xinhai Revolution",
       "tooltip": "Xinhai Revolution in China overthrows the Qing Dynasty.",
@@ -2102,7 +1946,6 @@
     },
     {
       "rank": 153,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Kuomintang",
       "tooltip": "The Kuomintang, the Chinese nationalist party, is founded.",
@@ -2117,7 +1960,6 @@
     },
     {
       "rank": 154,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Marne Battle",
       "tooltip": "First Battle of the Marne.",
@@ -2133,7 +1975,6 @@
     },
     {
       "rank": 155,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Ferdinand Assassination",
       "tooltip": "Gavrilo Princip assassinates Archduke Franz Ferdinand of Austria in Sarajevo, triggering the start of World War I.",
@@ -2146,7 +1987,6 @@
     },
     {
       "rank": 156,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Passenger pigeon",
       "tooltip": "Martha, last known passenger pigeon, dies.",
@@ -2159,7 +1999,6 @@
     },
     {
       "rank": 157,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "RMS Lusitania",
       "tooltip": "The RMS Lusitania is sunk.",
@@ -2172,7 +2011,6 @@
     },
     {
       "rank": 158,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Italy enters war",
       "tooltip": "The Treaty of London brings Italy into the war.",
@@ -2185,7 +2023,6 @@
     },
     {
       "rank": 159,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "💡 General relativity",
       "tooltip": "Albert Einstein published the general relativity theory",
@@ -2198,7 +2035,6 @@
     },
     {
       "rank": 160,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "First use of tanks",
       "tooltip": "First use of tanks at the Battle of Flers-Courcelette.",
@@ -2214,7 +2050,6 @@
     },
     {
       "rank": 161,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Verdun",
       "tooltip": "Battle of Verdun.",
@@ -2230,7 +2065,6 @@
     },
     {
       "rank": 162,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "October Revolution",
       "tooltip": "October Revolution in Russia.",
@@ -2243,7 +2077,6 @@
     },
     {
       "rank": 163,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Ukrainian-Soviet ⚔begins.",
       "tooltip": "War between the Ukrainian Republic and the Bolsheviks. It ensued soon after the October Revolution when Lenin dispatched Antonov's expeditionary group to Ukraine and Southern Russia.",
@@ -2256,7 +2089,6 @@
     },
     {
       "rank": 164,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "USA in WWI",
       "tooltip": "USA joins the Allies for the last 17 months of World War I.",
@@ -2269,7 +2101,6 @@
     },
     {
       "rank": 165,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "World War  I end",
       "tooltip": "Armistice of 11 November 1918 ends World War I. Casualties: 30 million military, 8 million civilian deaths.",
@@ -2282,7 +2113,6 @@
     },
     {
       "rank": 166,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Spanish flu considered over",
       "tooltip": "Spanish flu pandemic. Death estimates range from 17-50 million (possibly 100 million), making it the deadliest pandemic in history.",
@@ -2297,7 +2127,6 @@
     },
     {
       "rank": 167,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "League of Nations founded",
       "tooltip": "League of Nations founded in Paris.",
@@ -2310,7 +2139,6 @@
     },
     {
       "rank": 168,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Hitler becomes führer",
       "tooltip": "Adolf Hitler becomes Führer of the Nazi Party as hyperinflation in the Weimar Republic begins.",
@@ -2325,7 +2153,6 @@
     },
     {
       "rank": 169,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Tutankhamen's tomb",
       "tooltip": "Howard Carter discovers Tutankhamen's tomb.",
@@ -2340,7 +2167,6 @@
     },
     {
       "rank": 170,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Walt Disney Company",
       "tooltip": "The Walt Disney Company is founded.",
@@ -2355,7 +2181,6 @@
     },
     {
       "rank": 171,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Rhapsody In Blue",
       "tooltip": "George Gershwin composes Rhapsody In Blue.",
@@ -2370,7 +2195,6 @@
     },
     {
       "rank": 172,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Mein Kampf",
       "tooltip": "Mein Kampf is published.",
@@ -2385,7 +2209,6 @@
     },
     {
       "rank": 173,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Hirohito",
       "tooltip": "Hirohito becomes Emperor of Japan.",
@@ -2400,7 +2223,6 @@
     },
     {
       "rank": 174,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Lindbergh",
       "tooltip": "Charles Lindbergh performs the first nonstop flight from New York City to Paris.",
@@ -2415,7 +2237,6 @@
     },
     {
       "rank": 175,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Mount Rushmore",
       "tooltip": "Mount Rushmore construction begins.",
@@ -2430,7 +2251,6 @@
     },
     {
       "rank": 176,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Mickey Mouse",
       "tooltip": "Mickey Mouse is created at the Walt Disney Studio.",
@@ -2445,7 +2265,6 @@
     },
     {
       "rank": 177,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Vatican City",
       "tooltip": "Vatican City is recognised as a sovereign state.",
@@ -2460,7 +2279,6 @@
     },
     {
       "rank": 178,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "1929 crash",
       "tooltip": "Wall Street crash of 1929 and the beginning of the Great Depression.",
@@ -2475,7 +2293,6 @@
     },
     {
       "rank": 179,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "1st FIFA World Cup",
       "tooltip": "First FIFA World Cup hosted in Uruguay.",
@@ -2490,7 +2307,6 @@
     },
     {
       "rank": 180,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Mao Zedong",
       "tooltip": "The Chinese Soviet Republic is proclaimed by Mao Zedong.",
@@ -2505,7 +2321,6 @@
     },
     {
       "rank": 181,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Neutron",
       "tooltip": "The Neutron is discovered.",
@@ -2520,7 +2335,6 @@
     },
     {
       "rank": 182,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Long March",
       "tooltip": "Mao Zedong begins the Long March.",
@@ -2535,7 +2349,6 @@
     },
     {
       "rank": 183,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Spanish Civil War",
       "tooltip": "Spanish Civil War",
@@ -2550,7 +2363,6 @@
     },
     {
       "rank": 184,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Snow White movie",
       "tooltip": "Snow White movie",
@@ -2565,7 +2377,6 @@
     },
     {
       "rank": 185,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Molotov-Ribbentrop Pact",
       "tooltip": "Molotov-Ribbentrop Pact between Germany and the Soviet Union.",
@@ -2578,7 +2389,6 @@
     },
     {
       "rank": 186,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Soviets attack Finland",
       "tooltip": "Winter War between Soviet Union and Finland ends with a costly victory for the USSR.",
@@ -2591,7 +2401,6 @@
     },
     {
       "rank": 187,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Churchill Prime Minister",
       "tooltip": "Winston Churchill becomes Prime Minister of the United Kingdom.",
@@ -2604,7 +2413,6 @@
     },
     {
       "rank": 188,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "London Blitz ends.",
       "tooltip": "The Blitz is a bombing campaign against the UK that lasted eight months (7/9/1940-11/5/1941). The name is a shortened form of Blitzkrieg, a term used in the popular press to describe a German style of surprise attack.",
@@ -2617,7 +2425,6 @@
     },
     {
       "rank": 189,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Mount Rushmore",
       "tooltip": "Mount Rushmore construction ends.",
@@ -2628,7 +2435,6 @@
     },
     {
       "rank": 190,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Operation Barbarossa starts",
       "tooltip": "Hitler commences the Nazi invasion of the Soviet Union.",
@@ -2641,7 +2447,6 @@
     },
     {
       "rank": 191,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "⚔ Midway.",
       "tooltip": "Battle of Midway.",
@@ -2657,7 +2462,6 @@
     },
     {
       "rank": 192,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "D-Day",
       "tooltip": "D-Day landings in Normandy.",
@@ -2670,7 +2474,6 @@
     },
     {
       "rank": 193,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Leningrad liberated",
       "tooltip": "The Siege of Leningrad ends with Soviet victory after over a million deaths.",
@@ -2683,7 +2486,6 @@
     },
     {
       "rank": 194,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "⚔ Leyte starts",
       "tooltip": "American and Filipino troops begin the Battle of Leyte in the Philippines.",
@@ -2696,7 +2498,6 @@
     },
     {
       "rank": 195,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Yalta Conference",
       "tooltip": "Battle of Berlin. Yalta Conference.",
@@ -2712,7 +2513,6 @@
     },
     {
       "rank": 196,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Death of Adolf Hitler.",
       "tooltip": "Adolf Hitler, chancellor and dictator of Germany during the Nazi era from 1933 to 1945, committed suicide by gunshot to the head in the Führerbunker in Berlin after it became clear that Germany would be defeated during the Battle of Berlin.",
@@ -2725,7 +2525,6 @@
     },
     {
       "rank": 197,
-      "zoomscale": 33,
       "iconId": 106,
       "caption": "Potsdam Conference",
       "tooltip": "Potsdam Conference divides Europe into Western and Soviet blocs. United Nations founded.",
@@ -2741,7 +2540,6 @@
     },
     {
       "rank": 198,
-      "zoomscale": 34,
       "iconId": 106,
       "caption": "Kemal Atatürk",
       "tooltip": "Turkish War of Independence ends; Kemal Atatürk becomes the first President of the newly established Republic of Turkey; Ankara replaces Istanbul as its capital.",
@@ -2756,7 +2554,6 @@
     },
     {
       "rank": 199,
-      "zoomscale": 34,
       "iconId": 106,
       "caption": "Academy Awards",
       "tooltip": "The first Academy Awards are presented.",
@@ -2771,7 +2568,6 @@
     },
     {
       "rank": 200,
-      "zoomscale": 35,
       "iconId": 106,
       "caption": "Irish Civil War",
       "tooltip": "The Irish Civil War begins.",
@@ -2786,7 +2582,6 @@
     },
     {
       "rank": 201,
-      "zoomscale": 35,
       "iconId": 106,
       "caption": "2 billion Humans",
       "tooltip": "World population reaches 2 billion.",
@@ -2801,7 +2596,6 @@
     },
     {
       "rank": 202,
-      "zoomscale": 35,
       "iconId": 106,
       "caption": "Japan invades China",
       "tooltip": "Japan invades Manchuria, China and occupies it until the end of World War II.",
@@ -2814,7 +2608,6 @@
     },
     {
       "rank": 203,
-      "zoomscale": 35,
       "iconId": 106,
       "caption": "Bonnie and Clyde",
       "tooltip": "Bonnie and Clyde are shot to death in a police ambush.",
@@ -2829,7 +2622,6 @@
     },
     {
       "rank": 204,
-      "zoomscale": 35,
       "iconId": 106,
       "caption": "Trotsky assassinated.",
       "tooltip": "Trotsky and Lenin were considered the two most prominent figures in the Soviet state from 1917. Ideologically a Marxist and a Leninist, Trotsky's ideas inspired a school of Marxism known as Trotskyism.",
@@ -2842,7 +2634,6 @@
     },
     {
       "rank": 205,
-      "zoomscale": 36,
       "iconId": 75,
       "caption": "Homer",
       "tooltip": "Homer (estimated lifetime)",
@@ -2852,7 +2643,6 @@
     },
     {
       "rank": 206,
-      "zoomscale": 36,
       "iconId": 62,
       "caption": "Coins",
       "tooltip": "Coins Invention (Lydia)",
@@ -2861,7 +2651,6 @@
     },
     {
       "rank": 207,
-      "zoomscale": 36,
       "iconId": 88,
       "caption": "Parthenon",
       "tooltip": "Parthenon Construction",
@@ -2871,7 +2660,6 @@
     },
     {
       "rank": 208,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Plato",
       "tooltip": "Plato (lifetime)",
@@ -2881,7 +2669,6 @@
     },
     {
       "rank": 209,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Jesus",
       "tooltip": "Widely accepted date (Ussher) for birth of Jesus.",
@@ -2891,7 +2678,6 @@
     },
     {
       "rank": 210,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Crucifixion of Jesus",
       "tooltip": "Crucifixion of Jesus, exact date unknown.",
@@ -2904,7 +2690,6 @@
     },
     {
       "rank": 211,
-      "zoomscale": 36,
       "iconId": 87,
       "caption": "Paper Invention",
       "tooltip": "Paper Invention (China, Cai Lun)",
@@ -2915,7 +2700,6 @@
     },
     {
       "rank": 212,
-      "zoomscale": 36,
       "iconId": 95,
       "caption": "Seismometer",
       "tooltip": "Seismometer Invention (Zhang Heng)",
@@ -2926,7 +2710,6 @@
     },
     {
       "rank": 213,
-      "zoomscale": 36,
       "iconId": 64,
       "caption": "Constantinople",
       "tooltip": "Constantinople Foundation",
@@ -2937,7 +2720,6 @@
     },
     {
       "rank": 214,
-      "zoomscale": 36,
       "iconId": 73,
       "caption": "Gunpowder",
       "tooltip": "Gunpowder Invention (China, estimated)",
@@ -2948,7 +2730,6 @@
     },
     {
       "rank": 215,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Otto I",
       "tooltip": "Otto I (Otton) Crowned Holy Roman Emperor",
@@ -2959,7 +2740,6 @@
     },
     {
       "rank": 216,
-      "zoomscale": 36,
       "iconId": 86,
       "caption": "Palio di Siena",
       "tooltip": "Palio di Siena (first documented)",
@@ -2970,7 +2750,6 @@
     },
     {
       "rank": 217,
-      "zoomscale": 36,
       "iconId": 108,
       "caption": "Yuan Dynasty",
       "tooltip": "Yuan Dynasty Foundation",
@@ -2981,7 +2760,6 @@
     },
     {
       "rank": 218,
-      "zoomscale": 36,
       "iconId": 60,
       "caption": "Caravels",
       "tooltip": "Caravel Ship Development",
@@ -2992,7 +2770,6 @@
     },
     {
       "rank": 219,
-      "zoomscale": 36,
       "iconId": 92,
       "caption": "Roses",
       "tooltip": "Wars of the Roses",
@@ -3006,7 +2783,6 @@
     },
     {
       "rank": 220,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Columbus",
       "tooltip": "Columbus Discovers America",
@@ -3017,7 +2793,6 @@
     },
     {
       "rank": 221,
-      "zoomscale": 36,
       "iconId": 58,
       "caption": "Magellan",
       "tooltip": "World Tour",
@@ -3031,7 +2806,6 @@
     },
     {
       "rank": 222,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Willem of Orange",
       "tooltip": "Willem of Orange Birth",
@@ -3044,7 +2818,6 @@
     },
     {
       "rank": 223,
-      "zoomscale": 36,
       "iconId": 66,
       "caption": "Elizabeth I",
       "tooltip": "Elizabeth I Crowned Queen of England",
@@ -3055,7 +2828,6 @@
     },
     {
       "rank": 224,
-      "zoomscale": 36,
       "iconId": 93,
       "caption": "St. Bartholomew",
       "tooltip": "St. Bartholomew's Day Massacre",
@@ -3066,7 +2838,6 @@
     },
     {
       "rank": 225,
-      "zoomscale": 36,
       "iconId": 74,
       "caption": "Shakespeare's Hamlet",
       "tooltip": "Shakespeare's Hamlet (published)",
@@ -3077,7 +2848,6 @@
     },
     {
       "rank": 226,
-      "zoomscale": 36,
       "iconId": 99,
       "caption": "Telescope",
       "tooltip": "Telescope Invention (Hans Lippershey)",
@@ -3088,7 +2858,6 @@
     },
     {
       "rank": 227,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Spinoza",
       "tooltip": "Baruch Spinoza Birth",
@@ -3099,7 +2868,6 @@
     },
     {
       "rank": 228,
-      "zoomscale": 36,
       "iconId": 97,
       "caption": "St. Petersburg",
       "tooltip": "St. Petersburg Foundation",
@@ -3110,7 +2878,6 @@
     },
     {
       "rank": 229,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Crystal Sugar",
       "tooltip": "Crystal Sugar Production (Andreas Marggraf)",
@@ -3121,7 +2888,6 @@
     },
     {
       "rank": 230,
-      "zoomscale": 36,
       "iconId": 65,
       "caption": "Bill of Rights",
       "tooltip": "Bill of Rights (includes copyright)",
@@ -3132,7 +2898,6 @@
     },
     {
       "rank": 231,
-      "zoomscale": 36,
       "iconId": 81,
       "caption": "Napoleon",
       "tooltip": "Napoleon Crowned Emperor",
@@ -3143,7 +2908,6 @@
     },
     {
       "rank": 232,
-      "zoomscale": 36,
       "iconId": 105,
       "caption": "Victoria",
       "tooltip": "Victoria Crowned Queen",
@@ -3154,7 +2918,6 @@
     },
     {
       "rank": 233,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Little Big Horn",
       "tooltip": "Battle",
@@ -3168,7 +2931,6 @@
     },
     {
       "rank": 234,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Paris 1900",
       "tooltip": "Olympic Games Paris 1900",
@@ -3184,7 +2946,6 @@
     },
     {
       "rank": 235,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "St. Louis 1904",
       "tooltip": "Olympic Games St. Louis 1904",
@@ -3200,7 +2961,6 @@
     },
     {
       "rank": 236,
-      "zoomscale": 36,
       "iconId": 90,
       "caption": "Special Relativity",
       "tooltip": "Theory of Relativity (Special) Published",
@@ -3211,7 +2971,6 @@
     },
     {
       "rank": 237,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Athens 1906",
       "tooltip": "Intercalated Games Athens 1906 (not recognized)",
@@ -3227,7 +2986,6 @@
     },
     {
       "rank": 238,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "London 1908",
       "tooltip": "Olympic Games London 1908",
@@ -3243,7 +3001,6 @@
     },
     {
       "rank": 239,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Stockholm 1912",
       "tooltip": "Olympic Games Stockholm 1912",
@@ -3259,7 +3016,6 @@
     },
     {
       "rank": 240,
-      "zoomscale": 36,
       "iconId": 90,
       "caption": "General Relativity",
       "tooltip": "Theory of Relativity (General) Published",
@@ -3270,7 +3026,6 @@
     },
     {
       "rank": 241,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Antwerp 1920",
       "tooltip": "Olympic Games Antwerp 1920",
@@ -3286,7 +3041,6 @@
     },
     {
       "rank": 242,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Chamonix 1924",
       "tooltip": "Olympic Winter Games Chamonix 1924",
@@ -3302,7 +3056,6 @@
     },
     {
       "rank": 243,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Paris 1924",
       "tooltip": "Olympic Games Paris 1924",
@@ -3318,7 +3071,6 @@
     },
     {
       "rank": 244,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "St. Moritz 1928",
       "tooltip": "Olympic Winter Games St. Moritz 1928",
@@ -3334,7 +3086,6 @@
     },
     {
       "rank": 245,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Amsterdam 1928",
       "tooltip": "Olympic Games Amsterdam 1928",
@@ -3350,7 +3101,6 @@
     },
     {
       "rank": 246,
-      "zoomscale": 36,
       "iconId": 72,
       "caption": "Great Depression",
       "tooltip": "Great Depression Begins (Stock Market Crash)",
@@ -3361,7 +3111,6 @@
     },
     {
       "rank": 247,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Uruguay",
       "url": "1930_FIFA_World_Cup",
@@ -3376,7 +3125,6 @@
     },
     {
       "rank": 248,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Lake Placid 1932",
       "tooltip": "Olympic Winter Games Lake Placid 1932",
@@ -3392,7 +3140,6 @@
     },
     {
       "rank": 249,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Los Angeles 1932",
       "tooltip": "Olympic Games Los Angeles 1932",
@@ -3408,7 +3155,6 @@
     },
     {
       "rank": 250,
-      "zoomscale": 36,
       "iconId": 94,
       "caption": "Saudi Arabia",
       "tooltip": "Saudi Arabia Unification",
@@ -3419,7 +3165,6 @@
     },
     {
       "rank": 251,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Italy",
       "url": "1934_FIFA_World_Cup",
@@ -3434,7 +3179,6 @@
     },
     {
       "rank": 252,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Garmisch-Partenkirchen 1936",
       "tooltip": "Olympic Winter Games Garmisch-Partenkirchen 1936",
@@ -3450,7 +3194,6 @@
     },
     {
       "rank": 253,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Berlin 1936",
       "tooltip": "Olympic Games Berlin 1936",
@@ -3466,7 +3209,6 @@
     },
     {
       "rank": 254,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup France",
       "url": "1938_FIFA_World_Cup",
@@ -3481,7 +3223,6 @@
     },
     {
       "rank": 255,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Pacific Battles",
       "tooltip": "WWII Pacific Battles",
@@ -3492,7 +3233,6 @@
     },
     {
       "rank": 256,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "St. Moritz 1948",
       "tooltip": "Olympic Winter Games St. Moritz 1948",
@@ -3508,7 +3248,6 @@
     },
     {
       "rank": 257,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "London 1948",
       "tooltip": "Olympic Games London 1948",
@@ -3524,7 +3263,6 @@
     },
     {
       "rank": 258,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Brazil",
       "url": "1950_FIFA_World_Cup",
@@ -3539,7 +3277,6 @@
     },
     {
       "rank": 259,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Oslo 1952",
       "tooltip": "Olympic Winter Games Oslo 1952",
@@ -3555,7 +3292,6 @@
     },
     {
       "rank": 260,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Helsinki 1952",
       "tooltip": "Olympic Games Helsinki 1952",
@@ -3571,7 +3307,6 @@
     },
     {
       "rank": 261,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Switzerland",
       "url": "1954_FIFA_World_Cup",
@@ -3586,7 +3321,6 @@
     },
     {
       "rank": 262,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Cortina d'Ampezzo 1956",
       "tooltip": "Olympic Winter Games Cortina d'Ampezzo 1956",
@@ -3602,7 +3336,6 @@
     },
     {
       "rank": 263,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Melbourne 1956",
       "tooltip": "Olympic Games Melbourne 1956",
@@ -3618,7 +3351,6 @@
     },
     {
       "rank": 264,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Sweden",
       "url": "1958_FIFA_World_Cup",
@@ -3633,7 +3365,6 @@
     },
     {
       "rank": 265,
-      "zoomscale": 36,
       "iconId": 82,
       "caption": "NASA",
       "tooltip": "NASA Founded",
@@ -3644,7 +3375,6 @@
     },
     {
       "rank": 266,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Burkina Faso",
       "tooltip": "Independence",
@@ -3655,7 +3385,6 @@
     },
     {
       "rank": 267,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Squaw Valley 1960",
       "tooltip": "Olympic Winter Games Squaw Valley 1960",
@@ -3671,7 +3400,6 @@
     },
     {
       "rank": 268,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Rome 1960",
       "tooltip": "Olympic Games Rome 1960",
@@ -3687,7 +3415,6 @@
     },
     {
       "rank": 269,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "The Beatles",
       "tooltip": "The Beatles Formation",
@@ -3698,7 +3425,6 @@
     },
     {
       "rank": 270,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Chile",
       "url": "1962_FIFA_World_Cup",
@@ -3713,7 +3439,6 @@
     },
     {
       "rank": 271,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Innsbruck 1964",
       "tooltip": "Olympic Winter Games Innsbruck 1964",
@@ -3729,7 +3454,6 @@
     },
     {
       "rank": 272,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Tokyo 1964",
       "tooltip": "Olympic Games Tokyo 1964",
@@ -3745,7 +3469,6 @@
     },
     {
       "rank": 273,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup England",
       "url": "1966_FIFA_World_Cup",
@@ -3760,7 +3483,6 @@
     },
     {
       "rank": 274,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Grenoble 1968",
       "tooltip": "Olympic Winter Games Grenoble 1968",
@@ -3776,7 +3498,6 @@
     },
     {
       "rank": 275,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Mexico City 1968",
       "tooltip": "Olympic Games Mexico City 1968",
@@ -3792,7 +3513,6 @@
     },
     {
       "rank": 276,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Moon Landing",
       "tooltip": "Moon Landing (Apollo 11)",
@@ -3803,7 +3523,6 @@
     },
     {
       "rank": 277,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Mexico",
       "url": "1970_FIFA_World_Cup",
@@ -3818,7 +3537,6 @@
     },
     {
       "rank": 278,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Sapporo 1972",
       "tooltip": "Olympic Winter Games Sapporo 1972",
@@ -3834,7 +3552,6 @@
     },
     {
       "rank": 279,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Munich 1972",
       "tooltip": "Olympic Games Munich 1972",
@@ -3850,7 +3567,6 @@
     },
     {
       "rank": 280,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup West Germany",
       "url": "1974_FIFA_World_Cup",
@@ -3865,7 +3581,6 @@
     },
     {
       "rank": 281,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Innsbruck 1976",
       "tooltip": "Olympic Winter Games Innsbruck 1976",
@@ -3881,7 +3596,6 @@
     },
     {
       "rank": 282,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Montreal 1976",
       "tooltip": "Olympic Games Montreal 1976",
@@ -3897,7 +3611,6 @@
     },
     {
       "rank": 283,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Argentina",
       "url": "1978_FIFA_World_Cup",
@@ -3912,7 +3625,6 @@
     },
     {
       "rank": 284,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Lake Placid 1980",
       "tooltip": "Olympic Winter Games Lake Placid 1980",
@@ -3928,7 +3640,6 @@
     },
     {
       "rank": 285,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Moscow 1980",
       "tooltip": "Olympic Games Moscow 1980",
@@ -3944,7 +3655,6 @@
     },
     {
       "rank": 286,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Spain",
       "url": "1982_FIFA_World_Cup",
@@ -3959,7 +3669,6 @@
     },
     {
       "rank": 287,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Sarajevo 1984",
       "tooltip": "Olympic Winter Games Sarajevo 1984",
@@ -3975,7 +3684,6 @@
     },
     {
       "rank": 288,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Los Angeles 1984",
       "tooltip": "Olympic Games Los Angeles 1984",
@@ -3991,7 +3699,6 @@
     },
     {
       "rank": 289,
-      "zoomscale": 36,
       "iconId": 76,
       "caption": "ITER",
       "tooltip": "ITER Project Conception",
@@ -4002,7 +3709,6 @@
     },
     {
       "rank": 290,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Mexico",
       "url": "1986_FIFA_World_Cup",
@@ -4017,7 +3723,6 @@
     },
     {
       "rank": 291,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Calgary 1988",
       "tooltip": "Olympic Winter Games Calgary 1988",
@@ -4033,7 +3738,6 @@
     },
     {
       "rank": 292,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Seoul 1988",
       "tooltip": "Olympic Games Seoul 1988",
@@ -4049,7 +3753,6 @@
     },
     {
       "rank": 293,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Italy",
       "url": "1990_FIFA_World_Cup",
@@ -4064,7 +3767,6 @@
     },
     {
       "rank": 294,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Albertville 1992",
       "tooltip": "Olympic Winter Games Albertville 1992",
@@ -4080,7 +3782,6 @@
     },
     {
       "rank": 295,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Barcelona 1992",
       "tooltip": "Olympic Games Barcelona 1992",
@@ -4096,7 +3797,6 @@
     },
     {
       "rank": 296,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup United States",
       "url": "1994_FIFA_World_Cup",
@@ -4111,7 +3811,6 @@
     },
     {
       "rank": 297,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Lillehammer 1994",
       "tooltip": "Olympic Winter Games Lillehammer 1994",
@@ -4127,7 +3826,6 @@
     },
     {
       "rank": 298,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Atlanta 1996",
       "tooltip": "Olympic Games Atlanta 1996",
@@ -4143,7 +3841,6 @@
     },
     {
       "rank": 299,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup France",
       "url": "1998_FIFA_World_Cup",
@@ -4158,7 +3855,6 @@
     },
     {
       "rank": 300,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Nagano 1998",
       "tooltip": "Olympic Winter Games Nagano 1998",
@@ -4174,7 +3870,6 @@
     },
     {
       "rank": 301,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Sydney 2000",
       "tooltip": "Olympic Games Sydney 2000",
@@ -4190,7 +3885,6 @@
     },
     {
       "rank": 302,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Korea/Japan",
       "url": "2002_FIFA_World_Cup",
@@ -4205,7 +3899,6 @@
     },
     {
       "rank": 303,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Salt Lake City 2002",
       "tooltip": "Olympic Winter Games Salt Lake City 2002",
@@ -4221,7 +3914,6 @@
     },
     {
       "rank": 304,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Athens 2004",
       "tooltip": "Olympic Games Athens 2004",
@@ -4237,7 +3929,6 @@
     },
     {
       "rank": 305,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Germany",
       "url": "2006_FIFA_World_Cup",
@@ -4252,7 +3943,6 @@
     },
     {
       "rank": 306,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Turin 2006",
       "tooltip": "Olympic Winter Games Turin 2006",
@@ -4268,7 +3958,6 @@
     },
     {
       "rank": 307,
-      "zoomscale": 36,
       "iconId": 102,
       "caption": "Twitter",
       "tooltip": "Twitter Creation",
@@ -4279,7 +3968,6 @@
     },
     {
       "rank": 308,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Beijing 2008",
       "tooltip": "Olympic Games Beijing 2008",
@@ -4295,7 +3983,6 @@
     },
     {
       "rank": 309,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup South Africa",
       "url": "2010_FIFA_World_Cup",
@@ -4310,7 +3997,6 @@
     },
     {
       "rank": 310,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Vancouver 2010",
       "tooltip": "Olympic Winter Games Vancouver 2010",
@@ -4326,7 +4012,6 @@
     },
     {
       "rank": 311,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "London 2012",
       "tooltip": "Olympic Games London 2012",
@@ -4342,7 +4027,6 @@
     },
     {
       "rank": 312,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Brazil",
       "url": "2014_FIFA_World_Cup",
@@ -4357,7 +4041,6 @@
     },
     {
       "rank": 313,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Sochi 2014",
       "tooltip": "Olympic Winter Games Sochi 2014",
@@ -4373,7 +4056,6 @@
     },
     {
       "rank": 314,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Rio de Janeiro 2016",
       "tooltip": "Olympic Games Rio de Janeiro 2016",
@@ -4389,7 +4071,6 @@
     },
     {
       "rank": 315,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Russia",
       "url": "2018_FIFA_World_Cup",
@@ -4404,7 +4085,6 @@
     },
     {
       "rank": 316,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "PyeongChang 2018",
       "tooltip": "Olympic Winter Games PyeongChang 2018",
@@ -4420,7 +4100,6 @@
     },
     {
       "rank": 317,
-      "zoomscale": 36,
       "iconId": 70,
       "caption": "Beirut Explosion",
       "tooltip": "Beirut Explosion",
@@ -4431,7 +4110,6 @@
     },
     {
       "rank": 318,
-      "zoomscale": 36,
       "iconId": 98,
       "caption": "COVID Vaccine",
       "tooltip": "First COVID Vaccine Administered (UK)",
@@ -4442,7 +4120,6 @@
     },
     {
       "rank": 319,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Tokyo 2020 (held in 2021)",
       "tooltip": "Olympic Games Tokyo 2020 (held in 2021)",
@@ -4458,7 +4135,6 @@
     },
     {
       "rank": 320,
-      "zoomscale": 36,
       "iconId": 71,
       "caption": "FIFA World Cup Qatar",
       "url": "2022_FIFA_World_Cup",
@@ -4473,7 +4149,6 @@
     },
     {
       "rank": 321,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Beijing 2022",
       "tooltip": "Olympic Winter Games Beijing 2022",
@@ -4489,7 +4164,6 @@
     },
     {
       "rank": 322,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Elizabeth II",
       "tooltip": "Death of Elizabeth II",
@@ -4500,7 +4174,6 @@
     },
     {
       "rank": 323,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Ukraine Invasion",
       "tooltip": "Ukraine Invasion by Russia",
@@ -4511,7 +4184,6 @@
     },
     {
       "rank": 324,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "100 Million Refugees",
       "tooltip": "UNHCR Announces 100 Million Refugees",
@@ -4522,7 +4194,6 @@
     },
     {
       "rank": 325,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Paris 2024",
       "tooltip": "Olympic Games Paris 2024",
@@ -4538,7 +4209,6 @@
     },
     {
       "rank": 326,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Milano Cortina 2026",
       "tooltip": "Olympic Winter Games Milano Cortina 2026",
@@ -4554,7 +4224,6 @@
     },
     {
       "rank": 327,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "Los Angeles 2028",
       "tooltip": "Olympic Games Los Angeles 2028",
@@ -4570,7 +4239,6 @@
     },
     {
       "rank": 328,
-      "zoomscale": 36,
       "iconId": 106,
       "caption": "French Alps 2030",
       "tooltip": "Olympic Winter Games French Alps 2030",
@@ -4586,7 +4254,6 @@
     },
     {
       "rank": 329,
-      "zoomscale": 36,
       "iconId": 83,
       "caption": "Brisbane 2032",
       "tooltip": "Olympic Games Brisbane 2032",
@@ -4602,7 +4269,6 @@
     },
     {
       "rank": 330,
-      "zoomscale": 36,
       "iconId": 83,
       "caption": "Salt Lake City 2034",
       "tooltip": "Olympic Winter Games Salt Lake City 2034",
