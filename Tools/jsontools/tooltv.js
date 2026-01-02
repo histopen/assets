@@ -28,7 +28,6 @@ async function tooltv() {
     const filename = "tvConfig.json";
 
     saveJsonToFile(pathname, filename, data);
-    console.log(`...SAVED ${pathname}/${filename} !\n`);
   } catch (err) {
     console.error(`Error ${pathname}/${filename}`, err.message);
   }

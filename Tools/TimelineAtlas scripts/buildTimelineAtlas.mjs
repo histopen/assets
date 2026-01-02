@@ -94,9 +94,12 @@ async function convertToWhite(pngBuffer, width, height) {
  * Build a single atlas at specified size
  */
 async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
+  const PADDING = 4; // px between icons
   const iconHeight = iconWidth / 2;
-  const iconsPerRow = Math.floor(CONFIG.atlasWidth / iconWidth);
-  const maxIcons = iconsPerRow * Math.floor(CONFIG.atlasHeight / iconHeight);
+  const paddedWidth = iconWidth + PADDING;
+  const paddedHeight = iconHeight + PADDING;
+  const iconsPerRow = Math.floor(CONFIG.atlasWidth / paddedWidth);
+  const maxIcons = iconsPerRow * Math.floor(CONFIG.atlasHeight / paddedHeight);
 
   console.log(`\n--- Building ${iconWidth}x${iconHeight} atlas ---`);
   console.log(`Grid: ${iconsPerRow} icons per row, max ${maxIcons} icons`);
@@ -130,8 +133,8 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
       // Calculate position in grid
       const col = i % iconsPerRow;
       const row = Math.floor(i / iconsPerRow);
-      const x = col * iconWidth;
-      const y = row * iconHeight;
+      const x = col * paddedWidth + Math.floor(PADDING / 2);
+      const y = row * paddedHeight + Math.floor(PADDING / 2);
 
       // Add to composite operations
       compositeOps.push({
@@ -149,6 +152,7 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
         trimmed: false,
         spriteSourceSize: { x: 0, y: 0, w: iconWidth, h: iconHeight },
         sourceSize: { w: iconWidth, h: iconHeight },
+        padding: PADDING,
       };
 
     } catch (err) {

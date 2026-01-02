@@ -35,8 +35,7 @@ async function toolloc() {
       const filename = `${lang}.json`;
 
       saveJsonToFile(pathname, filename, data);
-    console.log(`...SAVED ${pathname}/${filename} !\n`);
-  } catch (err) {
+    } catch (err) {
     console.error(`Error ${pathname}/${filename}`, err.message);
     }
   }

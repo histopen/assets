@@ -38,14 +38,24 @@ async function buildSprite() {
         const viewBoxMatch = content.match(/viewBox="([^"]+)"/);
         let viewBox = viewBoxMatch ? viewBoxMatch[1] : null;
 
-        if (!viewBox) {
+        let w = 24, h = 24;
+        if (viewBox) {
+          const vb = viewBox.split(' ');
+          if (vb.length === 4) {
+            w = parseInt(vb[2], 10);
+            h = parseInt(vb[3], 10);
+          }
+        } else {
           const widthMatch = content.match(/\bwidth="(\d+)"/);
           const heightMatch = content.match(/\bheight="(\d+)"/);
-          const w = widthMatch ? widthMatch[1] : '24';
-          const h = heightMatch ? heightMatch[1] : '24';
+          w = widthMatch ? parseInt(widthMatch[1], 10) : 24;
+          h = heightMatch ? parseInt(heightMatch[1], 10) : 24;
           viewBox = `0 0 ${w} ${h}`;
         }
 
+        // Add padding
+        const PADDING = 4;
+        const paddedViewBox = `0 0 ${w + PADDING} ${h + PADDING}`;
         // Extract inner content (remove <svg> wrapper and XML declaration)
         const inner = content
           .replace(/<\?xml[^>]*\?>/g, '')
@@ -54,7 +64,8 @@ async function buildSprite() {
           .replace(/<\/svg>\s*$/, '')
           .trim();
 
-        symbols += `  <symbol id="${id}" viewBox="${viewBox}">${inner}</symbol>\n`;
+        // Wrap inner content in a <g> and translate by PADDING/2
+        symbols += `  <symbol id="${id}" viewBox="${paddedViewBox}"><g transform="translate(${PADDING/2},${PADDING/2})">${inner}</g></symbol>\n`;
         count++;
       }
 

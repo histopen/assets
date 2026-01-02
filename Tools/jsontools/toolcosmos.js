@@ -29,7 +29,6 @@ async function toolcosmos() {
     const data = await getSheetData(webappUrl);
 
     saveJsonToFile(pathname, filename, data);
-    console.log(`...SAVED ${pathname}/${filename} !\n`);
   } catch (err) {
     console.error(`Error saving ${pathname}/${filename}:`, err.message);
   }

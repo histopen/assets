@@ -29,7 +29,6 @@ async function toolbtn() {
     const data = await getSheetData(webappUrl);
 
     saveJsonToFile(pathname, filename, data);
-    console.log(`...SAVED ${pathname}/${filename} !\n`);
   } catch (err) {
     console.error(`Error ${pathname}/${filename}`, err.message);
   }
