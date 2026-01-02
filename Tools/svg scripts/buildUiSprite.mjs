@@ -7,9 +7,9 @@
  */
 
 import { promises as fs } from 'fs';
-import { dirname, join, basename } from 'path';
-import { fileURLToPath } from 'url';
+import { basename, dirname, join } from 'path';
 import { optimize } from 'svgo';
+import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ICONS_DIR = join(__dirname, '../../Icons');

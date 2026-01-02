@@ -8,11 +8,11 @@
  * Usage: node "Tools/TimelineAtlas scripts/buildTimelineAtlas.mjs"
  */
 
-import { readFileSync, writeFileSync, readdirSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import sharp from 'sharp';
 import { Resvg } from '@resvg/resvg-js';
+import { readFileSync, writeFileSync } from 'fs';
+import { dirname, join } from 'path';
+import sharp from 'sharp';
+import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
