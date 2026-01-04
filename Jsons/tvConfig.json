@@ -9,7 +9,7 @@
       "startYear": -13800000000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -22,7 +22,7 @@
       "startYear": -4000000000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -35,7 +35,7 @@
       "startYear": -230000000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -48,7 +48,7 @@
       "startYear": -20000000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -61,7 +61,7 @@
       "startYear": -3500000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -74,7 +74,7 @@
       "startYear": -300000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -87,7 +87,7 @@
       "startYear": -50000,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
@@ -100,33 +100,33 @@
       "startYear": -3500,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
     {
       "id": 8,
       "caption": "tv_milenium",
-      "bgColor": "999999",
+      "bgColor": "9F9F9F",
       "textColor": "000000",
       "width": 0.15,
-      "startYear": 1025,
+      "startYear": 1026,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     },
     {
       "id": 9,
       "caption": "tv_century",
-      "bgColor": "999999",
+      "bgColor": "BFBFBF",
       "textColor": "000000",
       "width": 0.24,
-      "startYear": 1925,
+      "startYear": 1926,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
+      "endYear": 2026,
       "endMonth": 12,
       "endDay": 31
     }
@@ -424,12 +424,12 @@
       "bgColor": "8888AB",
       "textColor": "ffffff",
       "width": 0.03,
-      "startYear": -675,
+      "startYear": -674,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 23,
@@ -437,12 +437,12 @@
       "bgColor": "9494B3",
       "textColor": "ffffff",
       "width": 0.03,
-      "startYear": 725,
+      "startYear": 726,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 24,
@@ -450,12 +450,12 @@
       "bgColor": "A0A0BB",
       "textColor": "ffffff",
       "width": 0.03,
-      "startYear": 1375,
+      "startYear": 1376,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 25,
@@ -463,12 +463,12 @@
       "bgColor": "ABABC4",
       "textColor": "ffffff",
       "width": 0.03,
-      "startYear": 1705,
+      "startYear": 1706,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 26,
@@ -476,12 +476,12 @@
       "bgColor": "B7B7CC",
       "textColor": "000001",
       "width": 0.03,
-      "startYear": 1875,
+      "startYear": 1876,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 27,
@@ -489,12 +489,12 @@
       "bgColor": "C2C2D5",
       "textColor": "000000",
       "width": 0.03,
-      "startYear": 1955,
+      "startYear": 1956,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 28,
@@ -502,12 +502,12 @@
       "bgColor": "CECEDE",
       "textColor": "000000",
       "width": 0.03,
-      "startYear": 1995,
+      "startYear": 1996,
       "startMonth": 1,
       "startDay": 1,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 29,
@@ -515,12 +515,12 @@
       "bgColor": "DADAE6",
       "textColor": "000000",
       "width": 0.03,
-      "startYear": 2014,
-      "startMonth": 12,
-      "startDay": 26,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startYear": 2015,
+      "startMonth": 1,
+      "startDay": 22,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 30,
@@ -529,11 +529,11 @@
       "textColor": "000000",
       "width": 0.03,
       "startYear": 2022,
-      "startMonth": 8,
-      "startDay": 26,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 9,
+      "startDay": 22,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 31,
@@ -542,11 +542,11 @@
       "textColor": "ffffff",
       "width": 0.03,
       "startYear": 2024,
-      "startMonth": 4,
-      "startDay": 17,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 5,
+      "startDay": 14,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 32,
@@ -555,11 +555,11 @@
       "textColor": "ffffff",
       "width": 0.03,
       "startYear": 2025,
-      "startMonth": 2,
-      "startDay": 11,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 3,
+      "startDay": 10,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 33,
@@ -568,11 +568,11 @@
       "textColor": "000001",
       "width": 0.03,
       "startYear": 2025,
-      "startMonth": 7,
-      "startDay": 11,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 8,
+      "startDay": 7,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 34,
@@ -581,11 +581,11 @@
       "textColor": "000000",
       "width": 0.03,
       "startYear": 2025,
-      "startMonth": 9,
-      "startDay": 24,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 10,
+      "startDay": 21,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 35,
@@ -594,11 +594,11 @@
       "textColor": "000000",
       "width": 0.03,
       "startYear": 2025,
-      "startMonth": 10,
-      "startDay": 29,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 11,
+      "startDay": 25,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     },
     {
       "id": 36,
@@ -607,11 +607,11 @@
       "textColor": "ffffff",
       "width": 0.03,
       "startYear": 2025,
-      "startMonth": 11,
-      "startDay": 24,
-      "endYear": 2025,
-      "endMonth": 12,
-      "endDay": 8
+      "startMonth": 12,
+      "startDay": 21,
+      "endYear": 2026,
+      "endMonth": 1,
+      "endDay": 4
     }
   ],
   "2": [
