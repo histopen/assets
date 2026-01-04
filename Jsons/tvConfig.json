@@ -3,8 +3,8 @@
     {
       "id": 0,
       "caption": "tv_universe",
-      "bgColor": "333333",
-      "textColor": "D9D9D9",
+      "bgColor": "bbbbbb",
+      "textColor": "000000",
       "width": 0.07,
       "startYear": -13800000000,
       "startMonth": 1,
@@ -68,7 +68,7 @@
     {
       "id": 5,
       "caption": "tv_humans",
-      "bgColor": "595959",
+      "bgColor": "888888",
       "textColor": "D9D9D9",
       "width": 0.07,
       "startYear": -300000,
@@ -81,7 +81,7 @@
     {
       "id": 6,
       "caption": "tv_language",
-      "bgColor": "797979",
+      "bgColor": "999999",
       "textColor": "D9D9D9",
       "width": 0.07,
       "startYear": -50000,
@@ -94,7 +94,7 @@
     {
       "id": 7,
       "caption": "tv_history",
-      "bgColor": "999999",
+      "bgColor": "aaaaaa",
       "textColor": "000000",
       "width": 0.12,
       "startYear": -3500,
@@ -107,7 +107,7 @@
     {
       "id": 8,
       "caption": "tv_milenium",
-      "bgColor": "AAAAAA",
+      "bgColor": "bbbbbb",
       "textColor": "000000",
       "width": 0.15,
       "startYear": 1000,
@@ -120,7 +120,7 @@
     {
       "id": 9,
       "caption": "tv_century",
-      "bgColor": "BFBFBF",
+      "bgColor": "CCCCCC",
       "textColor": "000000",
       "width": 0.24,
       "startYear": 1900,
