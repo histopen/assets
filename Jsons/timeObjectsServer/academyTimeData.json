@@ -4,8 +4,8 @@
       "eDay":  5, "eMonth": 12, "eYear": 1791, "eCirca": 0, "eCircaUnit": "Y"
     }}],
   [1, {"timeDataCaption": "Moulay Al-Rashid", "timeDataUrl": "Al-Rashid_of_Morocco", "timeDataDate": {
-      "sDay":  1, "sMonth":  1, "sYear": 1731, "sCirca": 1, "sCircaUnit": "Y",
-      "eDay":  9, "eMonth": 11, "eYear": 1799, "eCirca": 0, "eCircaUnit": "Y"
+      "sDay":  1, "sMonth":  1, "sYear": 1631, "sCirca": 1, "sCircaUnit": "Y",
+      "eDay":  9, "eMonth":  4, "eYear": 1672, "eCirca": 0, "eCircaUnit": "Y"
     }}],
   [2, {"timeDataCaption": "Franklin D. Roosevelt", "timeDataUrl": "Franklin_D._Roosevelt", "timeDataDate": {
       "sDay": 30, "sMonth":  1, "sYear": 1882, "sCirca": 0, "sCircaUnit": "Y",
