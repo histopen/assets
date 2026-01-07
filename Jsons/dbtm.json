@@ -2,6 +2,16 @@
   [
     {
       "rank": 1,
+      "iconId": 70,
+      "caption": "Big Bang",
+      "tooltip": "The Big Bang is a physical theory that describes how the universe expanded from an initial state of high density and temperature.",
+      "url": "Big_Bang",
+      "startYear": -13782000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "rank": 2,
       "iconId": 1,
       "caption": "Milky Way",
       "url": "Milky_Way",
@@ -10,7 +20,7 @@
       "countries": "World"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "iconId": 2,
       "caption": "Solar system",
       "url": "Solar_System",
@@ -19,7 +29,7 @@
       "countries": "World"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "iconId": 3,
       "caption": "Death of Sun",
       "url": "Solar_System",
@@ -29,7 +39,7 @@
       "countries": "World"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "iconId": 4,
       "caption": "Andromeda Galaxy",
       "url": "Andromeda_Galaxy",
@@ -38,7 +48,7 @@
       "countries": "World"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "iconId": 5,
       "caption": "Moon walking",
       "tooltip": "Commander Neil Armstrong is the first person to step onto the Moon's surface",
@@ -50,7 +60,7 @@
       "countries": "USA, World"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "iconId": 6,
       "caption": "Alpha Centauri",
       "url": "Alpha_Centauri",
@@ -59,7 +69,7 @@
       "countries": "World"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "iconId": 7,
       "caption": "Eukaryote",
       "url": "Eukaryote",
@@ -68,7 +78,7 @@
       "countries": "World"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "iconId": 8,
       "caption": "Fishes",
       "url": "Fish",
@@ -77,7 +87,7 @@
       "countries": "World"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "iconId": 9,
       "caption": "Multicellular",
       "url": "Multicellular_organism",
@@ -86,7 +96,7 @@
       "countries": "World"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "iconId": 10,
       "caption": "Oxygen appears",
       "url": "Great_Oxidation_Event",
@@ -95,7 +105,7 @@
       "countries": "World"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "iconId": 11,
       "caption": "Chicxulub impactor",
       "tooltip": "The asteroid that caused dinosaurs extinction.",
@@ -105,7 +115,7 @@
       "countries": "World"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "iconId": 12,
       "caption": "Flowers",
       "url": "Flower",
@@ -114,7 +124,7 @@
       "countries": "World"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "iconId": 13,
       "caption": "Mammals",
       "url": "Mammal",
@@ -123,7 +133,7 @@
       "countries": "World"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "iconId": 14,
       "caption": "Argentinosaurus",
       "url": "Argentinosaurus",
@@ -132,7 +142,7 @@
       "countries": "World"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "iconId": 15,
       "caption": "Pterodactylus",
       "url": "Pterodactylus",
@@ -141,7 +151,7 @@
       "countries": "World"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "iconId": 16,
       "caption": "Ceratops",
       "url": "Ceratops",
@@ -150,7 +160,7 @@
       "countries": "World"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "iconId": 17,
       "caption": "Velociraptor",
       "url": "Velociraptor",
@@ -159,7 +169,7 @@
       "countries": "World"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "iconId": 18,
       "caption": "Afropithecus",
       "tooltip": "Afropithecus was excavated from a small site near Lake Turkana called Kalodirr in northern Kenya in 1986 and named by Meave and Richard Leakey.",
@@ -171,7 +181,7 @@
       "countries": "World"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "iconId": 19,
       "caption": "Australopithecus",
       "tooltip": "The first Australopithecus specimen, the type specimen, was discovered in 1924 in a lime quarry by workers at Taung, South Africa.",
@@ -181,7 +191,7 @@
       "countries": "World"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "iconId": 20,
       "caption": "Tyrannosaurus",
       "url": "Tyrannosaurus",
@@ -190,7 +200,7 @@
       "countries": "World"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "iconId": 21,
       "caption": "Mendozasaurus",
       "url": "Mendozasaurus",
@@ -199,7 +209,7 @@
       "countries": "World"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "iconId": 22,
       "caption": "Gorilla",
       "tooltip": "The closest relatives of gorillas are the other two Homininae genera, chimpanzees and humans, all of them having diverged from a common ancestor about 7 million years ago.",
@@ -209,7 +219,7 @@
       "countries": "World"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "iconId": 23,
       "caption": "Kenyapithecus",
       "tooltip": "Kenyapithecus was discovered by Louis Leakey in 1961 at a site called Fort Ternan in Kenya.",
@@ -219,7 +229,7 @@
       "countries": "World"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "iconId": 24,
       "caption": "Homo habilis",
       "url": "Homo_habilis",
@@ -230,7 +240,7 @@
       "countries": "World"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "iconId": 25,
       "caption": "Homo antecessor",
       "url": "Homo_antecessor",
@@ -239,7 +249,7 @@
       "countries": "World"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "iconId": 26,
       "caption": "Homo erectus",
       "url": "Homo_erectus",
@@ -248,7 +258,7 @@
       "countries": "World"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "iconId": 27,
       "caption": "Fire Making",
       "url": "Fire_making",
@@ -257,7 +267,7 @@
       "countries": "World"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "iconId": 28,
       "caption": "Homo sapiens",
       "url": "Human",
@@ -266,7 +276,7 @@
       "countries": "World"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "iconId": 29,
       "caption": "Homo ergaster",
       "url": "Homo_ergaster",
@@ -277,7 +287,7 @@
       "countries": "World"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "iconId": 30,
       "caption": "Art",
       "tooltip": "A shell engraved by Homo erectus was determined to be between 430,000 and 540,000 years old.",
@@ -290,7 +300,7 @@
       "countries": "World"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "iconId": 31,
       "caption": "Clothing",
       "tooltip": "Humans are wearing clothing by this date.",
@@ -299,7 +309,7 @@
       "categories": "c"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "iconId": 32,
       "caption": "Neanderthal",
       "url": "Neanderthal",
@@ -308,7 +318,7 @@
       "countries": "World"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "iconId": 33,
       "caption": "💡 Writing",
       "tooltip": "Sumerian cuneiform writing system and Egyptian hieroglyphs are first used.",
@@ -320,7 +330,7 @@
       "countries": "Middle East"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "iconId": 34,
       "caption": "Jesus",
       "tooltip": "Widely accepted date (Ussher) for birth of Jesus.",
@@ -329,7 +339,7 @@
       "countries": "Israel"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "iconId": 34,
       "caption": "Crucifixion of Jesus",
       "tooltip": "Crucifixion of Jesus, exact date unknown.",
@@ -341,7 +351,7 @@
       "countries": "Israel"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "iconId": 35,
       "caption": "Agriculture",
       "url": "Agriculture",
@@ -350,7 +360,7 @@
       "countries": "World"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "iconId": 36,
       "caption": "Dog Pet",
       "tooltip": "Domestication of the dog in Siberia.",
@@ -361,7 +371,7 @@
       "countries": "Russia"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "iconId": 37,
       "caption": "Dolní Věstonice",
       "tooltip": "A hamlet consisting of huts built of rocks and of mammoth bones is founded in what is now Dolní Věstonice in Moravia in the Czech Republic, the oldest human permanent settlement found.\r\n",
@@ -373,7 +383,7 @@
       "countries": "Czech Republic"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "iconId": 39,
       "caption": "Shang Dynasty",
       "url": "Shang_dynasty",
@@ -382,7 +392,7 @@
       "countries": "China"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "iconId": 107,
       "caption": "Willem of Orange",
       "tooltip": "Willem of Orange Birth",
@@ -394,7 +404,7 @@
       "countries": "World"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "iconId": 40,
       "caption": "First Crusade",
       "url": "First_Crusade",
@@ -408,7 +418,7 @@
       "countries": "Europe, Middle East"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "iconId": 41,
       "caption": "Kheops Great Pyramid",
       "tooltip": "Great Pyramid of Giza, Kheops",
@@ -418,7 +428,7 @@
       "countries": "Egypt"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "iconId": 42,
       "caption": "💡Print (Gutenberg)",
       "tooltip": "Gutenberg Printing Press Invention",
@@ -430,7 +440,7 @@
       "countries": "Europe"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "iconId": 43,
       "caption": "Rome Foundation",
       "tooltip": "Rome founded by Romulus (according to legend). Beginning of the Roman 'Ab urbe condita' calendar.",
@@ -444,7 +454,7 @@
       "countries": "Italy"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "iconId": 44,
       "caption": "Fall of Rome",
       "tooltip": "Fall of Rome (Western Empire)",
@@ -456,7 +466,7 @@
       "countries": "Europe"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "iconId": 45,
       "caption": "Trojan War",
       "tooltip": "estimation",
@@ -467,7 +477,7 @@
       "countries": "Europe"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "iconId": 46,
       "caption": "Charlemagne Emperor",
       "url": "Charlemagne",
@@ -477,7 +487,7 @@
       "countries": "France"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "iconId": 47,
       "caption": "French Revolution",
       "tooltip": "French Revolution.",
@@ -496,7 +506,7 @@
       "countries": "France"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "iconId": 48,
       "caption": "American Revolution",
       "tooltip": "American Revolution",
@@ -515,7 +525,7 @@
       "countries": "USA, United Kingdom"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "iconId": 50,
       "caption": "Beethoven's 9th",
       "tooltip": "Beethoven's 9th Symphony Premiere",
@@ -527,7 +537,7 @@
       "countries": "Germany"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "iconId": 52,
       "caption": "💡Smartphone",
       "tooltip": "The iPhone is the first smartphone with a world scale.",
@@ -539,7 +549,7 @@
       "countries": "World"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "iconId": 53,
       "caption": "World War I",
       "tooltip": "World War I",
@@ -554,7 +564,7 @@
       "countries": "World"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "iconId": 55,
       "caption": "Internet",
       "tooltip": "(ARPANET to TCP/IP)",
@@ -566,7 +576,7 @@
       "countries": "World"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "iconId": 58,
       "caption": "Magellan",
       "tooltip": "World Tour",
@@ -579,7 +589,7 @@
       "endYear": 1522
     },
     {
-      "rank": 55,
+      "rank": 56,
       "iconId": 60,
       "caption": "Caravels",
       "tooltip": "Caravel Ship Development",
@@ -589,7 +599,7 @@
       "startYear": 1450
     },
     {
-      "rank": 56,
+      "rank": 57,
       "iconId": 62,
       "caption": "Coins",
       "tooltip": "Coins Invention (Lydia)",
@@ -597,7 +607,7 @@
       "startYear": -602
     },
     {
-      "rank": 57,
+      "rank": 58,
       "iconId": 63,
       "caption": "Columbus",
       "tooltip": "Columbus Discovers America",
@@ -607,7 +617,7 @@
       "startYear": 1492
     },
     {
-      "rank": 58,
+      "rank": 59,
       "iconId": 64,
       "caption": "Constantinople",
       "tooltip": "Constantinople Foundation",
@@ -617,7 +627,7 @@
       "startYear": 330
     },
     {
-      "rank": 59,
+      "rank": 60,
       "iconId": 65,
       "caption": "Bill of Rights",
       "tooltip": "Bill of Rights (includes copyright)",
@@ -627,7 +637,7 @@
       "startYear": 1789
     },
     {
-      "rank": 60,
+      "rank": 61,
       "iconId": 66,
       "caption": "Elizabeth I",
       "tooltip": "Elizabeth I Crowned Queen of England",
@@ -637,7 +647,7 @@
       "startYear": 1558
     },
     {
-      "rank": 61,
+      "rank": 62,
       "iconId": 90,
       "caption": "Special Relativity",
       "tooltip": "Theory of Relativity (Special) Published",
@@ -647,7 +657,7 @@
       "startYear": 1905
     },
     {
-      "rank": 62,
+      "rank": 63,
       "iconId": 69,
       "caption": "Darwin's theory",
       "tooltip": "Charles Darwin publishes On the Origin of Species.",
@@ -659,16 +669,6 @@
       "startYear": 1859,
       "categories": "s",
       "countries": "United Kingdom"
-    },
-    {
-      "rank": 63,
-      "iconId": 70,
-      "caption": "Big Bang",
-      "tooltip": "The Big Bang is a physical theory that describes how the universe expanded from an initial state of high density and temperature.",
-      "url": "Big_Bang",
-      "startYear": -13782000000,
-      "categories": "s",
-      "countries": "World"
     },
     {
       "rank": 64,
@@ -2114,7 +2114,7 @@
     {
       "rank": 176,
       "iconId": 106,
-      "caption": "Neutron",
+      "caption": "Neutron discovered",
       "tooltip": "The Neutron is discovered.",
       "url": "Neutron",
       "startCirca": 1,
