@@ -1,9 +1,13 @@
 [
   [0, {"timeContainerCaption": "timepanel", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 4},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 1},
-      {"TOType": "timeContainer", "Database": "dbUserAccount", "DatabaseKey": 2},
-      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 3}
+      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 3},
+      {"TOType": "timeContainer", "Database": "dbUserAccount", "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 1},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 3}
     ]}],
   [1, {"timeContainerCaption": "Eugène, Mélanie", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
