@@ -525,6 +525,36 @@
       "countries": "USA, United Kingdom"
     },
     {
+      "rank": 53,
+      "iconId": 53,
+      "caption": "World War I",
+      "tooltip": "World War I",
+      "url": "World_War_I",
+      "startDay": 28,
+      "startMonth": 7,
+      "startYear": 1914,
+      "endDay": 11,
+      "endMonth": 11,
+      "endYear": 1918,
+      "categories": "p",
+      "countries": "World"
+    },
+    {
+      "rank": 181,
+      "iconId": 54,
+      "caption": "World War II",
+      "tooltip": "Global conflict between two coalitions. Nearly all of the world's countries participated, with many nations mobilising all resources in pursuit of total war.",
+      "url": "World_War_II",
+      "startDay": 1,
+      "startMonth": 9,
+      "startYear": 1939,
+      "endDay": 2,
+      "endMonth": 9,
+      "endYear": 1945,
+      "categories": "p",
+      "countries": "World"
+    },
+    {
       "rank": 51,
       "iconId": 50,
       "caption": "Beethoven's 9th",
@@ -546,21 +576,6 @@
       "startMonth": 1,
       "startYear": 2007,
       "categories": "s, c, t",
-      "countries": "World"
-    },
-    {
-      "rank": 53,
-      "iconId": 53,
-      "caption": "World War I",
-      "tooltip": "World War I",
-      "url": "World_War_I",
-      "startDay": 28,
-      "startMonth": 7,
-      "startYear": 1914,
-      "endDay": 11,
-      "endMonth": 11,
-      "endYear": 1918,
-      "categories": "p",
       "countries": "World"
     },
     {
@@ -2180,21 +2195,6 @@
       "startYear": 1937,
       "categories": "c",
       "countries": "USA"
-    },
-    {
-      "rank": 181,
-      "iconId": 54,
-      "caption": "World War II",
-      "tooltip": "Global conflict between two coalitions. Nearly all of the world's countries participated, with many nations mobilising all resources in pursuit of total war.",
-      "url": "World_War_II",
-      "startDay": 1,
-      "startMonth": 9,
-      "startYear": 1939,
-      "endDay": 2,
-      "endMonth": 9,
-      "endYear": 1945,
-      "categories": "p",
-      "countries": "World"
     },
     {
       "rank": 182,
