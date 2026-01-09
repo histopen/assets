@@ -1,3 +1,5 @@
+npm run : atlas - loc - loc en - btn - tv - cosmos - dbtm  
+
 | Category | Type | Description | npm run command | File Output | Google Sheet |
 |------------------|------|--------------------------|-------------------------|-------------------------------|-----------------------------------------------------------------------|
 | atlas | svg | timeline icons atlas | `npm run atlas` | TimelineAtlas/timeline-atlas.png | N/A |
