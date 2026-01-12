@@ -48,7 +48,8 @@
       "Bash(pnpm --filter @histopen/core build:*)",
       "Bash(pnpm --filter @histopen/wikitimeline build:*)",
       "Bash(pnpm --filter @histopen/timepanel build:*)",
-      "Bash(pnpm --filter @histopen/wikitimeview build:*)"
+      "Bash(pnpm --filter @histopen/wikitimeview build:*)",
+      "Read(//c/code/wikit/ghp/**)"
     ]
   }
 }
