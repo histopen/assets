@@ -6,7 +6,7 @@
       "caption": "Big Bang",
       "tooltip": "The Big Bang is a physical theory that describes how the universe expanded from an initial state of high density and temperature.",
       "url": "Big_Bang",
-      "startYear": -13782000000,
+      "startYear": -13787000000,
       "categories": "s",
       "countries": "World"
     },
@@ -669,7 +669,8 @@
       "url": "Special_relativity",
       "startDay": 30,
       "startMonth": 6,
-      "startYear": 1905
+      "startYear": 1905,
+      "categories": "s"
     },
     {
       "rank": 63,
