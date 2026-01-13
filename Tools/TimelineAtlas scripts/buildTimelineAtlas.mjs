@@ -27,7 +27,7 @@ const CONFIG = {
   atlasHeight: 4096,
   // Paths (relative to ghp/assets/)
   assetsDir: join(__dirname, '..', '..'),
-  svgDir: 'Icons/TM_Icons',
+  svgDir: 'TimelineAtlas/TM_Icons',
   iconMapPath: 'Jsons/tMIconMap.json',
   outputDir: 'TimelineAtlas',
 };

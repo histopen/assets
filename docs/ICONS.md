@@ -4,8 +4,8 @@ Source format: SVG, monochrome.
 
 | Type | Count | Location | Renderer |
 |------|-------|----------|----------|
-| Historical | ~350 (→1000) | `Icons/TM_Icons/` | PIXI.js (WebGL) |
-| UI | ~52 | `Icons/UI_*/` | React/CSS |
+| Historical | ~350 (→1000) | `TimelineAtlas/TM_Icons/` | PIXI.js (WebGL) |
+| UI | ~52 | `Icons_UI/UI_*/` | React/CSS |
 
 ---
 
@@ -19,7 +19,7 @@ Source format: SVG, monochrome.
 - Wraps each as `<symbol id="filename">...</symbol>`
 - Combines into single `<svg>` with `style="display:none"`
 - Optimizes with SVGO
-- Outputs to `Icons/sprites-ui.svg`
+- Outputs to `Icons_UI/sprites-ui.svg`
 
 ## UI Buttons
 

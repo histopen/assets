@@ -50,6 +50,9 @@
       "Bash(pnpm --filter @histopen/timepanel build:*)",
       "Bash(pnpm --filter @histopen/wikitimeview build:*)",
       "Read(//c/code/wikit/ghp/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\code\\wikit\\ghp\\core\\src\\state\\Settings"
     ]
   }
 }

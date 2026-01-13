@@ -22,7 +22,7 @@ Run the script from the project root:
 Configuration is set in the script:
 - **Atlas sizes:** `[128, 96, 64, 32]` (width, height is always width/2)
 - **Atlas dimensions:** 4096x4096 px
-- **SVG source directory:** `Icons/TM_Icons/`
+- **SVG source directory:** `TimelineAtlas/TM_Icons/`
 - **Icon map file:** `Jsons/tMIconMap.json`
 - **Output directory:** `TimelineAtlas/`
 
@@ -42,7 +42,7 @@ Only icons listed in `Jsons/tMIconMap.json` are included in the atlas. This file
 ---
 
 ## Adding New Icons
-1. Place your new SVG file in `Icons/TM_Icons/`.
+1. Place your new SVG file in `TimelineAtlas/TM_Icons/`.
 2. Add a new entry to `Jsons/tMIconMap.json` with a unique numeric ID and the SVG filename.
 3. Save the file.
 4. Run the build script again. The new icon will be included in all atlas sizes.

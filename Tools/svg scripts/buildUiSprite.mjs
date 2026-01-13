@@ -12,7 +12,7 @@ import { optimize } from 'svgo';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ICONS_DIR = join(__dirname, '../../Icons');
+const ICONS_DIR = join(__dirname, '../../Icons_UI');
 const OUTPUT_FILE = join(ICONS_DIR, 'sprites-ui.svg');
 
 // UI icon folders to include
