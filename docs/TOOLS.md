@@ -11,9 +11,11 @@
 | tv | `npm run tv` | [sheet](https://docs.google.com/spreadsheets/d/1-aKx4qxKP-cK0Tq5XyMW0G4fa_BBc8go6cWh8kyYydI) | json | timeview buttons | Jsons/tvConfig.json |
 | cosmos | `npm run cosmos` | [sheet](https://docs.google.com/spreadsheets/d/1pWIrnNb7jKis5M0ftDJ9CvAgVUytXaKW41-dquWfS5I) | json | space levels | Jsons/cosmos.json |
 | dbtm | `npm run dbtm` | [sheet](https://docs.google.com/spreadsheets/d/1OGOFf6rSTcJCxB9-EVVoeDD6fp9_ZVbqdN9mx2IeUzo) | json | database of timeMarks<br>(dbtm) | Jsons/dbtm.json |
-| atlas | `npm run atlas` | N/A | svg | timeline icons atlas | TimelineAtlas/Atlas/ *.json<br>TimelineAtlas/Atlas/ *.png |
-| sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
+|||||||
 | tm | `npm run tm` | N/A | svg | timeMarks SVG tool | TimelineAtlas/target/*.svg |
+| atlas | `npm run atlas` | N/A | svg | timeline icons atlas | TimelineAtlas/Atlas/ *.json<br>TimelineAtlas/Atlas/ *.png |
+|||||||
+| sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
 
 
 ---
