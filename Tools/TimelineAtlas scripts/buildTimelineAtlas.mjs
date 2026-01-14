@@ -9,7 +9,7 @@
  */
 
 import { Resvg } from '@resvg/resvg-js';
-import { readFileSync, writeFileSync } from 'fs';
+import { readdirSync, readFileSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import sharp from 'sharp';
 import { fileURLToPath } from 'url';
@@ -28,17 +28,105 @@ const CONFIG = {
   // Paths (relative to ghp/assets/)
   assetsDir: join(__dirname, '..', '..'),
   svgDir: 'TimelineAtlas/TM_Icons',
-  iconMapPath: 'Jsons/tMIconMap.json',
-  outputDir: 'TimelineAtlas',
+  iconMapPath: 'TimelineAtlas/Atlas/tMIconMap.json',
+  outputDir: 'TimelineAtlas/Atlas',
 };
 
+// Track excluded files for final warning
+const excludedFiles = [];
+
 /**
- * Load and parse the icon map JSON
+ * Validate SVG file and extract aspect ratio
+ * Returns { valid: boolean, errors: string[], aspectRatio: number|null }
  */
-function loadIconMap() {
+function validateSvg(filename, svgContent) {
+  const errors = [];
+
+  // Check filename pattern: must start with 4 digits then hyphen
+  if (!/^\d{4}-.+\.svg$/.test(filename)) {
+    errors.push('Filename must match NNNN-name.svg (4 digits + hyphen)');
+  }
+
+  // Extract aspect ratio from viewBox or width/height
+  let aspectRatio = null;
+  const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
+  if (viewBoxMatch) {
+    const parts = viewBoxMatch[1].trim().split(/\s+/);
+    if (parts.length >= 4) {
+      const w = parseFloat(parts[2]);
+      const h = parseFloat(parts[3]);
+      if (w > 0 && h > 0) {
+        aspectRatio = w / h;
+      }
+    }
+  }
+
+  // Fallback to width/height attributes
+  if (aspectRatio === null) {
+    const widthMatch = svgContent.match(/\bwidth="(\d+(?:\.\d+)?)"/);
+    const heightMatch = svgContent.match(/\bheight="(\d+(?:\.\d+)?)"/);
+    if (widthMatch && heightMatch) {
+      const w = parseFloat(widthMatch[1]);
+      const h = parseFloat(heightMatch[1]);
+      if (w > 0 && h > 0) {
+        aspectRatio = w / h;
+      }
+    }
+  }
+
+  // Check 2:1 aspect ratio (allow 5% tolerance)
+  if (aspectRatio === null) {
+    errors.push('Could not determine aspect ratio (no viewBox or width/height)');
+  } else if (Math.abs(aspectRatio - 2) > 0.1) {
+    errors.push(`Aspect ratio ${aspectRatio.toFixed(2)}:1 is not 2:1`);
+  }
+
+  return {
+    valid: errors.length === 0,
+    errors,
+    aspectRatio,
+  };
+}
+
+/**
+ * Build icon map from SVG files in the source directory
+ * Only includes valid SVGs matching NNNN-*.svg with 2:1 aspect ratio
+ */
+function buildIconMap() {
+  const svgDir = join(CONFIG.assetsDir, CONFIG.svgDir);
+  const files = readdirSync(svgDir).filter(f => f.endsWith('.svg'));
+  const iconMap = {};
+
+  console.log(`Scanning ${files.length} SVG files in ${CONFIG.svgDir}...\n`);
+
+  for (const filename of files) {
+    const svgPath = join(svgDir, filename);
+    let svgContent;
+    try {
+      svgContent = readFileSync(svgPath, 'utf-8');
+    } catch (err) {
+      excludedFiles.push({ filename, reasons: [`Could not read file: ${err.message}`] });
+      continue;
+    }
+
+    const validation = validateSvg(filename, svgContent);
+
+    if (validation.valid) {
+      // Extract numeric ID from filename (first 4 digits)
+      const idMatch = filename.match(/^(\d{4})/);
+      const iconId = parseInt(idMatch[1], 10);
+      iconMap[iconId.toString()] = filename;
+    } else {
+      excludedFiles.push({ filename, reasons: validation.errors });
+    }
+  }
+
+  // Write the icon map
   const mapPath = join(CONFIG.assetsDir, CONFIG.iconMapPath);
-  const mapContent = readFileSync(mapPath, 'utf-8');
-  return JSON.parse(mapContent);
+  writeFileSync(mapPath, JSON.stringify(iconMap, null, 2) + '\n');
+  console.log(`Generated ${CONFIG.iconMapPath} with ${Object.keys(iconMap).length} icons`);
+
+  return iconMap;
 }
 
 /**
@@ -207,10 +295,27 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
 }
 
 /**
+ * Print warnings about excluded files
+ */
+function printExcludedWarnings() {
+  if (excludedFiles.length === 0) return;
+
+  console.log('\n=== EXCLUDED FILES ===');
+  for (const { filename, reasons } of excludedFiles) {
+    console.log(`\n  ${filename}`);
+    for (const reason of reasons) {
+      console.log(`    - ${reason}`);
+    }
+  }
+  console.log(`\nTotal excluded: ${excludedFiles.length} files`);
+}
+
+/**
  * Build all atlas sizes
  */
 async function buildAtlas() {
-  const iconMap = loadIconMap();
+  // Step 1: Build icon map from SVG files
+  const iconMap = buildIconMap();
   const svgDir = join(CONFIG.assetsDir, CONFIG.svgDir);
 
   // Sort icon IDs numerically for consistent ordering
@@ -218,8 +323,7 @@ async function buildAtlas() {
     .map(id => parseInt(id, 10))
     .sort((a, b) => a - b);
 
-  console.log(`Found ${iconIds.length} icons in map`);
-  console.log(`Generating atlases for sizes: ${ATLAS_SIZES.join(', ')}`);
+  console.log(`\nGenerating atlases for sizes: ${ATLAS_SIZES.join(', ')}`);
 
   // Build each atlas size
   for (const size of ATLAS_SIZES) {
@@ -231,6 +335,9 @@ async function buildAtlas() {
   console.log(`Icons: ${iconIds.length}`);
   console.log(`Sizes: ${ATLAS_SIZES.map(s => `${s}x${s/2}`).join(', ')}`);
   console.log(`Output: ${CONFIG.outputDir}`);
+
+  // Print warnings about excluded files
+  printExcludedWarnings();
 }
 
 // Run

@@ -20,12 +20,119 @@ import { optimize } from 'svgo';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SOURCE_DIR = join(__dirname, 'source');
-const TARGET_DIR = join(__dirname, 'target');
+const SOURCE_DIR = join(__dirname, '../../../TimelineAtlas/source');
+const TARGET_DIR = join(__dirname, '../../../TimelineAtlas/target');
 
 // Target box dimensions (2:1 aspect ratio)
 const TARGET_WIDTH = 400;
 const TARGET_HEIGHT = 200;
+
+// Target color for normalization
+const TARGET_COLOR = '#000000';
+
+// Common named colors to hex mapping
+const NAMED_COLORS = {
+  black: '#000000', white: '#ffffff', red: '#ff0000', green: '#008000', blue: '#0000ff',
+  yellow: '#ffff00', cyan: '#00ffff', magenta: '#ff00ff', gray: '#808080', grey: '#808080',
+  silver: '#c0c0c0', maroon: '#800000', olive: '#808000', lime: '#00ff00', aqua: '#00ffff',
+  teal: '#008080', navy: '#000080', fuchsia: '#ff00ff', purple: '#800080', orange: '#ffa500',
+  pink: '#ffc0cb', brown: '#a52a2a', coral: '#ff7f50', crimson: '#dc143c', gold: '#ffd700',
+  indigo: '#4b0082', ivory: '#fffff0', khaki: '#f0e68c', lavender: '#e6e6fa', salmon: '#fa8072',
+  tan: '#d2b48c', tomato: '#ff6347', turquoise: '#40e0d0', violet: '#ee82ee', wheat: '#f5deb3',
+};
+
+/**
+ * Normalize a color value to lowercase 6-digit hex
+ * Handles: hex (#fff, #ffffff), rgb(r,g,b), named colors
+ */
+function normalizeColor(color) {
+  if (!color) return null;
+  const c = color.trim().toLowerCase();
+
+  // Named color
+  if (NAMED_COLORS[c]) return NAMED_COLORS[c];
+
+  // Hex color
+  if (c.startsWith('#')) {
+    const hex = c.slice(1);
+    if (hex.length === 3) {
+      return '#' + hex.split('').map(ch => ch + ch).join('');
+    }
+    if (hex.length === 6) return c;
+  }
+
+  // rgb(r, g, b)
+  const rgbMatch = c.match(/rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)/);
+  if (rgbMatch) {
+    const toHex = n => parseInt(n).toString(16).padStart(2, '0');
+    return '#' + toHex(rgbMatch[1]) + toHex(rgbMatch[2]) + toHex(rgbMatch[3]);
+  }
+
+  // Return as-is if unrecognized
+  return c;
+}
+
+/**
+ * Transform 0: Normalize colors to monochrome
+ * Finds all fill/stroke colors and normalizes to a single target color
+ */
+function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
+  const colors = new Set();
+
+  // Find colors in fill/stroke attributes
+  $svg.find('[fill], [stroke]').each((i, el) => {
+    const $el = $(el);
+    const fill = $el.attr('fill');
+    const stroke = $el.attr('stroke');
+    if (fill && fill !== 'none') {
+      const normalized = normalizeColor(fill);
+      if (normalized) colors.add(normalized);
+    }
+    if (stroke && stroke !== 'none') {
+      const normalized = normalizeColor(stroke);
+      if (normalized) colors.add(normalized);
+    }
+  });
+
+  // Find colors in style attributes
+  $svg.find('[style]').each((i, el) => {
+    const style = $(el).attr('style');
+    const fillMatch = style.match(/fill:\s*([^;]+)/);
+    const strokeMatch = style.match(/stroke:\s*([^;]+)/);
+    if (fillMatch && fillMatch[1].trim() !== 'none') {
+      const normalized = normalizeColor(fillMatch[1].trim());
+      if (normalized) colors.add(normalized);
+    }
+    if (strokeMatch && strokeMatch[1].trim() !== 'none') {
+      const normalized = normalizeColor(strokeMatch[1].trim());
+      if (normalized) colors.add(normalized);
+    }
+  });
+
+  const uniqueColors = [...colors];
+  const isMonochrome = uniqueColors.length <= 1;
+
+  if (!isMonochrome) {
+    // Replace all colors in fill/stroke attributes
+    $svg.find('[fill]').each((i, el) => {
+      const fill = $(el).attr('fill');
+      if (fill && fill !== 'none') $(el).attr('fill', targetColor);
+    });
+    $svg.find('[stroke]').each((i, el) => {
+      const stroke = $(el).attr('stroke');
+      if (stroke && stroke !== 'none') $(el).attr('stroke', targetColor);
+    });
+    // Handle inline styles
+    $svg.find('[style]').each((i, el) => {
+      let style = $(el).attr('style');
+      style = style.replace(/fill:\s*[^;]+/g, `fill: ${targetColor}`);
+      style = style.replace(/stroke:\s*[^;]+/g, `stroke: ${targetColor}`);
+      $(el).attr('style', style);
+    });
+  }
+
+  return { isMonochrome, colors: uniqueColors, normalized: !isMonochrome };
+}
 
 /**
  * Parse a transform attribute and extract translate values
@@ -310,6 +417,37 @@ async function main() {
     content = normalizeNamespaces(content);
     await fs.writeFile(join(TARGET_DIR, file), content);
   }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // TRANSFORM 0: Normalize colors to monochrome
+  // ═══════════════════════════════════════════════════════════════════════════
+  console.log('\n┌───────────────────────────────────────────────────────────┐');
+  console.log('│  TRANSFORM 0: Normalize colors to monochrome              │');
+  console.log('└───────────────────────────────────────────────────────────┘\n');
+
+  for (const file of files) {
+    const targetPath = join(TARGET_DIR, file);
+    const content = await fs.readFile(targetPath, 'utf-8');
+
+    const $ = cheerio.load(content, { xmlMode: true });
+    const $svg = $('svg');
+
+    const result = transformNormalizeColors($, $svg);
+
+    await fs.writeFile(targetPath, $.xml());
+
+    if (result.isMonochrome) {
+      const colorStr = result.colors.length ? result.colors[0] : 'none';
+      console.log(`  ✓ ${file}`);
+      console.log(`      Monochrome: ✓ (${colorStr})`);
+    } else {
+      console.log(`  ⚠ ${file}`);
+      console.log(`      Multiple colors: ${result.colors.join(', ')}`);
+      console.log(`      → Normalized to ${TARGET_COLOR}`);
+    }
+  }
+
+  console.log('\n✅ Transform 0 complete. Colors normalized to monochrome.');
 
   // ═══════════════════════════════════════════════════════════════════════════
   // TRANSFORM 1: Resize to fit 400×200

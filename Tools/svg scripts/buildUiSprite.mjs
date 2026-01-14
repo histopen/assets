@@ -15,10 +15,13 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ICONS_DIR = join(__dirname, '../../Icons_UI');
 const OUTPUT_FILE = join(ICONS_DIR, 'sprites-ui.svg');
 
-// UI icon folders to include
-const UI_FOLDERS = ['UI_Debug', 'UI_flags', 'UI_Social', 'UI_SourceNavbar', 'UI_Sources', 'UI_Toolbar'];
-
 async function buildSprite() {
+  // Auto-discover all UI_* folders
+  const entries = await fs.readdir(ICONS_DIR, { withFileTypes: true });
+  const UI_FOLDERS = entries
+    .filter(e => e.isDirectory() && e.name.startsWith('UI_'))
+    .map(e => e.name)
+    .sort();
   console.log('Building UI sprite...\n');
 
   let symbols = '';

@@ -52,7 +52,9 @@
       "Read(//c/code/wikit/ghp/**)"
     ],
     "additionalDirectories": [
-      "c:\\code\\wikit\\ghp\\core\\src\\state\\Settings"
+      "c:\\code\\wikit\\ghp\\core\\src\\state\\Settings",
+      "C:\\code\\wikit\\docs\\PLANS",
+      "c:\\code\\wikit\\ghp\\assets\\TimelineAtlas"
     ]
   }
 }
