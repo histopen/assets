@@ -80,3 +80,39 @@ B) prepare atlas
 ## References
 
 - [SVGO](https://github.com/svg/svgo) | [PIXI Assets](https://pixijs.download/release/docs/assets.Assets.html) | [TexturePacker](https://www.codeandweb.com/texturepacker)
+
+---
+
+## Future Improvements
+
+### Icon preview page
+Generate HTML page showing all TM_icons
+
+### Flag SVG Consistency Checklist
+
+When adding or updating flag icons in `Icons_UI/UI_flags/`, ensure they pass these 7 checks:
+
+| # | Check | Standard |
+|---|-------|----------|
+| 1 | No explicit width/height | Omit (responsive) |
+| 2 | ViewBox dimensions | `0 0 640 480` |
+| 3 | Aspect ratio | 4:3 (640:480) |
+| 4 | Origin position | Top-left (0,0) |
+| 5 | id attribute | `flag-icons-xx` |
+| 6 | Title element | None |
+| 7 | xmlns:xlink | Only if needed for `<use>` |
+
+**Example standard format:**
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-fr" viewBox="0 0 640 480">
+  <path fill="#fff" d="M0 0h640v480H0z"/>
+  ...
+</svg>
+```
+
+### Other Ideas
+
+- **SVG lint script**: Auto-validate all UI SVGs against consistency rules (viewBox, no width/height, etc.)
+- **Flag conversion tool**: Script to normalize flags from various sources to standard 640x480 format
+- **Sprite validation**: Check for duplicate symbol IDs in sprites-ui.svg
+- **Atlas optimization**: Detect unused icons in atlas and report them
