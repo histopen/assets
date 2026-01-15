@@ -580,7 +580,7 @@
     },
     {
       "rank": 55,
-      "iconId": 106,
+      "iconId": 113,
       "caption": "Auschwitz liberated",
       "tooltip": "The Holocaust (in Hebrew Shoah) was the genocide of European Jews during World War II. Between 1941 and 1945, Nazis and collaborators systematically murdered some six million Jews.",
       "url": "The_Holocaust",
@@ -2607,7 +2607,7 @@
     },
     {
       "rank": 214,
-      "iconId": 106,
+      "iconId": 3,
       "caption": "Sound barrier",
       "tooltip": "Breaking of the sound barrier.",
       "url": "Sound_barrier",
