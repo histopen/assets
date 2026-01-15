@@ -1,6 +1,6 @@
 # SVG Recenter/Resize/Format Tool
 
-Batch-transforms SVG icons for timeline atlas. Applies 4 transformations to all SVGs in `TimelineAtlas/source/` and writes results to `TimelineAtlas/target/`:
+Batch-transforms SVG icons for timeline atlas. Applies 4 transformations to all SVGs in `Icons_TimeMarks/source/` and writes results to `Icons_TimeMarks/target/`:
 
 - **T0**: Normalize colors to monochrome (#000000) if multiple colors detected
 - **T1**: Resize to fit 400×200 display (2:1 aspect) while preserving aspect ratio
@@ -20,8 +20,8 @@ node "Tools/svg scripts/recenteresizeformat/transform.mjs"
 
 ## Source/Target Folders
 
-- **Source**: `TimelineAtlas/source/` - place input SVG files here
-- **Target**: `TimelineAtlas/target/` - transformed output files
+- **Source**: `Icons_TimeMarks/source/` - place input SVG files here
+- **Target**: `Icons_TimeMarks/target/` - transformed output files
 
 ## Customization
 

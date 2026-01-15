@@ -20,8 +20,8 @@ import { optimize } from 'svgo';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SOURCE_DIR = join(__dirname, '../../../TimelineAtlas/source');
-const TARGET_DIR = join(__dirname, '../../../TimelineAtlas/target');
+const SOURCE_DIR = join(__dirname, '../../../Icons_TimeMarks/source');
+const TARGET_DIR = join(__dirname, '../../../Icons_TimeMarks/target');
 
 // Target box dimensions (2:1 aspect ratio)
 const TARGET_WIDTH = 400;

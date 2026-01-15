@@ -12,8 +12,8 @@
 | cosmos | `npm run cosmos` | [sheet](https://docs.google.com/spreadsheets/d/1pWIrnNb7jKis5M0ftDJ9CvAgVUytXaKW41-dquWfS5I) | json | space levels | Jsons/cosmos.json |
 | dbtm | `npm run dbtm` | [sheet](https://docs.google.com/spreadsheets/d/1OGOFf6rSTcJCxB9-EVVoeDD6fp9_ZVbqdN9mx2IeUzo) | json | database of timeMarks<br>(dbtm) | Jsons/dbtm.json |
 |||||||
-| tm | `npm run tm` | N/A | svg | timeMarks SVG tool | TimelineAtlas/target/*.svg |
-| atlas | `npm run atlas` | N/A | svg | timeline icons atlas | TimelineAtlas/Atlas/ *.json<br>TimelineAtlas/Atlas/ *.png |
+| tm | `npm run tm` | N/A | svg | timeMarks SVG tool | Icons_TimeMarks/target/*.svg |
+| atlas | `npm run atlas` | N/A | svg | timeline icons atlas | Icons_TimeMarks/Atlas/ *.json<br>Icons_TimeMarks/Atlas/ *.png |
 |||||||
 | sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
 
@@ -32,7 +32,7 @@ Use `-n` suffix to skip commit/push:
 A) prepare icon
 1. create an svg
 2. Filename: `NNNN-name.svg` (4 digits + hyphen + name)
-3. move it in `TimelineAtlas/source/`
+3. move it in `Icons_TimeMarks/source/`
 4. `npm run tm`  
    what it does:
     a. Normalize colors to monochrome (#000000) if multiple colors detected
@@ -40,14 +40,14 @@ A) prepare icon
     c. Center visual content within viewBox
     d. Minify with SVGO
 
-5. icon is now in `TimelineAtlas/target/`
+5. icon is now in `Icons_TimeMarks/target/`
 
 B) prepare atlas
-1. move icon in `TimelineAtlas/target/`
+1. move icon in `Icons_TimeMarks/target/`
 2.  `npm run atlas`  
    what it does:  
-   a. generates** `TimelineAtlas/Atlas/tMIconMap.json` from SVG files
-   b. from SVG icons in `TimelineAtlas/TM_Icons/` creates PIXI.js texture atlases (4096x4096 atlas grid with 4px padding):     `TimelineAtlas/Atlas/`: `timeline-atlas-{size}.png` + `timeline-atlas-{size}.json` (PIXI spritesheet metadata) at 4 sizes: 128x64, 96x48, 64x32, 32x16
+   a. generates** `Icons_TimeMarks/Atlas/tMIconMap.json` from SVG files
+   b. from SVG icons in `Icons_TimeMarks/TM_Icons/` creates PIXI.js texture atlases (4096x4096 atlas grid with 4px padding):     `Icons_TimeMarks/Atlas/`: `timeline-atlas-{size}.png` + `timeline-atlas-{size}.json` (PIXI spritesheet metadata) at 4 sizes: 128x64, 96x48, 64x32, 32x16
 
 ---
 

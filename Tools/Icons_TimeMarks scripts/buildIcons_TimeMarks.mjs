@@ -5,7 +5,7 @@
  * Generates 4 atlas sizes: 128x64, 96x48, 64x32, 32x16 (2:1 aspect ratio)
  * Output: timeline-atlas-{size}.png + timeline-atlas-{size}.json (PIXI spritesheet format)
  *
- * Usage: node "Tools/TimelineAtlas scripts/buildTimelineAtlas.mjs"
+ * Usage: node "Tools/Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs"
  */
 
 import { Resvg } from '@resvg/resvg-js';
@@ -27,9 +27,9 @@ const CONFIG = {
   atlasHeight: 4096,
   // Paths (relative to ghp/assets/)
   assetsDir: join(__dirname, '..', '..'),
-  svgDir: 'TimelineAtlas/TM_Icons',
-  iconMapPath: 'TimelineAtlas/Atlas/tMIconMap.json',
-  outputDir: 'TimelineAtlas/Atlas',
+  svgDir: 'Icons_TimeMarks/TM_Icons',
+  iconMapPath: 'Icons_TimeMarks/Atlas/tMIconMap.json',
+  outputDir: 'Icons_TimeMarks/Atlas',
 };
 
 // Track excluded files for final warning
@@ -271,7 +271,7 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
   const spritesheetJson = {
     frames,
     meta: {
-      app: 'buildTimelineAtlas.mjs',
+      app: 'buildIcons_TimeMarks.mjs',
       version: '1.0.0',
       image: atlasImageName,
       format: 'RGBA8888',

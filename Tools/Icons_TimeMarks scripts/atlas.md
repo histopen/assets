@@ -6,7 +6,7 @@ Converts a set of SVG icons into texture atlases (spritesheets) in multiple size
 - PNG atlas images: `timeline-atlas-{size}.png`
 - JSON metadata: `timeline-atlas-{size}.json`
 - Icon map: `tMIconMap.json`
-- Output directory: `TimelineAtlas/Atlas/`
+- Output directory: `Icons_TimeMarks/Atlas/`
 
 ---
 
@@ -21,14 +21,14 @@ Run the script from the project root:
 Configuration is set in the script:
 - **Atlas sizes:** `[128, 96, 64, 32]` (width, height is always width/2)
 - **Atlas dimensions:** 4096x4096 px
-- **SVG source directory:** `TimelineAtlas/TM_Icons/`
-- **Output directory:** `TimelineAtlas/Atlas/`
+- **SVG source directory:** `Icons_TimeMarks/TM_Icons/`
+- **Output directory:** `Icons_TimeMarks/Atlas/`
 
 ---
 
 ## How Icon Inclusion Works
 
-Icons are **auto-discovered** from `TimelineAtlas/TM_Icons/`. The script automatically generates `tMIconMap.json`.
+Icons are **auto-discovered** from `Icons_TimeMarks/TM_Icons/`. The script automatically generates `tMIconMap.json`.
 
 ### Validation Rules
 An SVG is included only if:
@@ -40,7 +40,7 @@ Files that don't meet these criteria are excluded and listed in warnings at the 
 ---
 
 ## Adding New Icons
-1. Place your new SVG file in `TimelineAtlas/TM_Icons/`
+1. Place your new SVG file in `Icons_TimeMarks/TM_Icons/`
    - Name it `NNNN-name.svg` (e.g., `0109-myicon.svg`)
    - Ensure 2:1 aspect ratio
 2. Run `npm run atlas`

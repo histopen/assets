@@ -17,8 +17,8 @@
     "cosmos-n": "node jsontools/toolcosmos.js",
     "tm": "node \"svg scripts/recenteresizeformat/transform.mjs\"",
     "sprite": "node \"svg scripts/buildUiSprite.mjs\"",
-    "atlas": "node \"TimelineAtlas scripts/buildTimelineAtlas.mjs\" && git add ../TimelineAtlas/Atlas && git commit -m \"update atlas\" && git push",
-    "atlas-n": "node \"TimelineAtlas scripts/buildTimelineAtlas.mjs\""
+    "atlas": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git add ../Icons_TimeMarks/Atlas && git commit -m \"update atlas\" && git push",
+    "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\""
   },
   "devDependencies": {
     "svg-path-commander": "^2.1.11",
