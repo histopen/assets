@@ -580,7 +580,7 @@
     },
     {
       "rank": 55,
-      "iconId": 113,
+      "iconId": 157,
       "caption": "Auschwitz liberated",
       "tooltip": "The Holocaust (in Hebrew Shoah) was the genocide of European Jews during World War II. Between 1941 and 1945, Nazis and collaborators systematically murdered some six million Jews.",
       "url": "The_Holocaust",
@@ -1933,7 +1933,7 @@
     },
     {
       "rank": 163,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Hitler becomes führer",
       "tooltip": "Adolf Hitler becomes Führer of the Nazi Party as hyperinflation in the Weimar Republic begins.",
       "url": "Adolf_Hitler%27s_rise_to_power",
@@ -2017,7 +2017,7 @@
     },
     {
       "rank": 169,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Mein Kampf",
       "tooltip": "Mein Kampf is published.",
       "url": "Mein_Kampf",
@@ -2197,7 +2197,7 @@
     },
     {
       "rank": 182,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Long March",
       "tooltip": "Mao Zedong begins the Long March.",
       "url": "Long_March",
@@ -2239,7 +2239,7 @@
     },
     {
       "rank": 185,
-      "iconId": 106,
+      "iconId": 168,
       "caption": "Snow White movie",
       "tooltip": "Snow White movie",
       "url": "Snow_White_and_the_Seven_Dwarfs_(1937_film)",
@@ -2566,7 +2566,7 @@
     },
     {
       "rank": 211,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Death of Adolf Hitler.",
       "tooltip": "Adolf Hitler, chancellor and dictator of Germany during the Nazi era from 1933 to 1945, committed suicide by gunshot to the head in the Führerbunker in Berlin after it became clear that Germany would be defeated during the Battle of Berlin.",
       "url": "Death_of_Adolf_Hitler",
@@ -2635,7 +2635,7 @@
     },
     {
       "rank": 216,
-      "iconId": 106,
+      "iconId": 169,
       "caption": "NATO",
       "tooltip": "Creation of NATO.",
       "url": "NATO",
