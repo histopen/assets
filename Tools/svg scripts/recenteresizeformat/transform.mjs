@@ -73,13 +73,23 @@ function normalizeColor(color) {
 }
 
 /**
- * Transform 0: Normalize colors to monochrome
- * Finds all fill/stroke colors and normalizes to a single target color
+ * Check if a color is white (should be made transparent)
+ */
+function isWhiteColor(color) {
+  const normalized = normalizeColor(color);
+  return normalized === '#ffffff';
+}
+
+/**
+ * Transform 0: Normalize colors - white to transparent, others to black
+ * White fills/strokes are removed (set to 'none'), other colors normalized to target
  */
 function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
   const colors = new Set();
+  let whiteRemoved = 0;
+  let colorsNormalized = 0;
 
-  // Find colors in fill/stroke attributes
+  // Find all colors in fill/stroke attributes
   $svg.find('[fill], [stroke]').each((i, el) => {
     const $el = $(el);
     const fill = $el.attr('fill');
@@ -110,28 +120,63 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
   });
 
   const uniqueColors = [...colors];
-  const isMonochrome = uniqueColors.length <= 1;
 
-  if (!isMonochrome) {
-    // Replace all colors in fill/stroke attributes
-    $svg.find('[fill]').each((i, el) => {
-      const fill = $(el).attr('fill');
-      if (fill && fill !== 'none') $(el).attr('fill', targetColor);
-    });
-    $svg.find('[stroke]').each((i, el) => {
-      const stroke = $(el).attr('stroke');
-      if (stroke && stroke !== 'none') $(el).attr('stroke', targetColor);
-    });
-    // Handle inline styles
-    $svg.find('[style]').each((i, el) => {
-      let style = $(el).attr('style');
-      style = style.replace(/fill:\s*[^;]+/g, `fill: ${targetColor}`);
-      style = style.replace(/stroke:\s*[^;]+/g, `stroke: ${targetColor}`);
-      $(el).attr('style', style);
-    });
-  }
+  // Always process: white → transparent, non-white → black
+  // Process fill attributes
+  $svg.find('[fill]').each((i, el) => {
+    const fill = $(el).attr('fill');
+    if (fill && fill !== 'none') {
+      if (isWhiteColor(fill)) {
+        $(el).attr('fill', 'none');
+        whiteRemoved++;
+      } else {
+        $(el).attr('fill', targetColor);
+        colorsNormalized++;
+      }
+    }
+  });
 
-  return { isMonochrome, colors: uniqueColors, normalized: !isMonochrome };
+  // Process stroke attributes
+  $svg.find('[stroke]').each((i, el) => {
+    const stroke = $(el).attr('stroke');
+    if (stroke && stroke !== 'none') {
+      if (isWhiteColor(stroke)) {
+        $(el).attr('stroke', 'none');
+        whiteRemoved++;
+      } else {
+        $(el).attr('stroke', targetColor);
+        colorsNormalized++;
+      }
+    }
+  });
+
+  // Process inline styles
+  $svg.find('[style]').each((i, el) => {
+    let style = $(el).attr('style');
+    // Replace fill in style
+    style = style.replace(/fill:\s*([^;]+)/g, (match, color) => {
+      if (color.trim() === 'none') return match;
+      if (isWhiteColor(color.trim())) {
+        whiteRemoved++;
+        return 'fill: none';
+      }
+      colorsNormalized++;
+      return `fill: ${targetColor}`;
+    });
+    // Replace stroke in style
+    style = style.replace(/stroke:\s*([^;]+)/g, (match, color) => {
+      if (color.trim() === 'none') return match;
+      if (isWhiteColor(color.trim())) {
+        whiteRemoved++;
+        return 'stroke: none';
+      }
+      colorsNormalized++;
+      return `stroke: ${targetColor}`;
+    });
+    $(el).attr('style', style);
+  });
+
+  return { colors: uniqueColors, whiteRemoved, colorsNormalized };
 }
 
 /**
@@ -422,7 +467,7 @@ async function main() {
   // TRANSFORM 0: Normalize colors to monochrome
   // ═══════════════════════════════════════════════════════════════════════════
   console.log('\n┌───────────────────────────────────────────────────────────┐');
-  console.log('│  TRANSFORM 0: Normalize colors to monochrome              │');
+  console.log('│  TRANSFORM 0: Normalize colors (white→transparent, other→black) │');
   console.log('└───────────────────────────────────────────────────────────┘\n');
 
   for (const file of files) {
@@ -436,18 +481,22 @@ async function main() {
 
     await fs.writeFile(targetPath, $.xml());
 
-    if (result.isMonochrome) {
-      const colorStr = result.colors.length ? result.colors[0] : 'none';
-      console.log(`  ✓ ${file}`);
-      console.log(`      Monochrome: ✓ (${colorStr})`);
-    } else {
-      console.log(`  ⚠ ${file}`);
-      console.log(`      Multiple colors: ${result.colors.join(', ')}`);
-      console.log(`      → Normalized to ${TARGET_COLOR}`);
+    console.log(`  ✓ ${file}`);
+    if (result.colors.length > 0) {
+      console.log(`      Found colors: ${result.colors.join(', ')}`);
+    }
+    if (result.whiteRemoved > 0) {
+      console.log(`      → Removed ${result.whiteRemoved} white fill(s) (transparent)`);
+    }
+    if (result.colorsNormalized > 0) {
+      console.log(`      → Normalized ${result.colorsNormalized} color(s) to ${TARGET_COLOR}`);
+    }
+    if (result.whiteRemoved === 0 && result.colorsNormalized === 0) {
+      console.log(`      No changes needed`);
     }
   }
 
-  console.log('\n✅ Transform 0 complete. Colors normalized to monochrome.');
+  console.log('\n✅ Transform 0 complete. White→transparent, other→black.');
 
   // ═══════════════════════════════════════════════════════════════════════════
   // TRANSFORM 1: Resize to fit 400×200

@@ -35,7 +35,7 @@ A) prepare icon
 3. move it in `Icons_TimeMarks/source/`
 4. `npm run tm`  
    what it does:
-    a. Normalize colors to monochrome (#000000) if multiple colors detected
+    a. Normalize colors: white→transparent, other colors→black
     b. Resize to fit 400×200 (2:1 aspect ratio)
     c. Center visual content within viewBox
     d. Minify with SVGO

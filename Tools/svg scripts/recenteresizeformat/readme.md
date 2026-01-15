@@ -2,7 +2,7 @@
 
 Batch-transforms SVG icons for timeline atlas. Applies 4 transformations to all SVGs in `Icons_TimeMarks/source/` and writes results to `Icons_TimeMarks/target/`:
 
-- **T0**: Normalize colors to monochrome (#000000) if multiple colors detected
+- **T0**: Normalize colors: white→transparent, other colors→black (#000000)
 - **T1**: Resize to fit 400×200 display (2:1 aspect) while preserving aspect ratio
 - **T2**: Center visual content (path bounds) inside viewBox
 - **T3**: Minify with SVGO, preserving `xmlns`
