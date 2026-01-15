@@ -3590,6 +3590,48 @@
         "h": 64
       },
       "padding": 4
+    },
+    "0172": {
+      "frame": {
+        "x": 2114,
+        "y": 342,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "padding": 4
+    },
+    "0173": {
+      "frame": {
+        "x": 2246,
+        "y": 342,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "padding": 4
     }
   },
   "meta": {
