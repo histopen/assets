@@ -1089,7 +1089,7 @@
     },
     {
       "rank": 101,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "5 million Humans",
       "tooltip": "It has been estimated that there were some five million people at the time of the Last Glacial Maximum. That is an average growth rate of 0.027% p.a. from the beginning of the Neolithic to the Middle Bronze Age.",
       "url": "World_population_estimates",
@@ -1135,7 +1135,7 @@
     },
     {
       "rank": 105,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "40 million Humans",
       "tooltip": "It has been estimated that there were some forty million people by 5000 BC. That is an average growth rate of 0.027% p.a. from the beginning of the Neolithic to the Middle Bronze Age.",
       "url": "World_population_estimates",
@@ -1147,7 +1147,7 @@
     },
     {
       "rank": 106,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "100 million Humans",
       "tooltip": "It has been estimated that there were around 100 million people by 1600 BC. That is an average growth rate of 0.027% p.a. from the beginning of the Neolithic to the Middle Bronze Age.",
       "url": "World_population_estimates",
@@ -1310,7 +1310,7 @@
     },
     {
       "rank": 118,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "1 billion Humans",
       "tooltip": "World population reaches 1 billion",
       "url": "World_population",
@@ -2073,7 +2073,7 @@
     },
     {
       "rank": 173,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "2 billion Humans",
       "tooltip": "World population reaches 2 billion.",
       "url": "World_population",
@@ -2696,7 +2696,7 @@
     },
     {
       "rank": 220,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "3 billion Humans",
       "tooltip": "World population reaches 3 billion.",
       "url": "World_population",
@@ -2950,7 +2950,7 @@
     },
     {
       "rank": 239,
-      "iconId": 106,
+      "iconId": 171,
       "caption": "5 billion Humans",
       "tooltip": "World population reaches 5 billion.",
       "url": "World_population",
