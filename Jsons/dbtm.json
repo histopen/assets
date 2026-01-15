@@ -568,7 +568,7 @@
     },
     {
       "rank": 54,
-      "iconId": 106,
+      "iconId": 54,
       "caption": "World War II over in Europe",
       "tooltip": "End of World War II in Europe.",
       "url": "End_of_World_War_II_in_Europe",
@@ -1079,7 +1079,7 @@
     },
     {
       "rank": 100,
-      "iconId": 106,
+      "iconId": 145,
       "caption": "Common Era",
       "tooltip": "The dating system globally adopted for international commerce and communication. Afghanistan, Iran, Ethiopia, and Nepal have not adopted it. Some countries also use their own traditional calendars for religious or cultural purposes.",
       "url": "Common_Era",
@@ -1101,7 +1101,7 @@
     },
     {
       "rank": 102,
-      "iconId": 106,
+      "iconId": 145,
       "caption": "Laschamp event",
       "tooltip": "The Laschamp event is the first geomagnetic excursion (short reversal of Earth's magnetic field) studied (we only know a few reversals). Effects are not considered strong enough to significantly affect natural or human history.",
       "url": "Laschamp_event",
@@ -1125,7 +1125,7 @@
     },
     {
       "rank": 104,
-      "iconId": 106,
+      "iconId": 161,
       "caption": "Holocene global warming",
       "tooltip": "An abrupt period of global warming begins. This is taken as the beginning of the Holocene geological epoch.",
       "url": "Global_warming",
@@ -1161,7 +1161,7 @@
     },
     {
       "rank": 107,
-      "iconId": 106,
+      "iconId": 88,
       "caption": "Aeschylus",
       "tooltip": "Athenian playwright Aeschylus wins a poetry prize.",
       "url": "Aeschylus",
@@ -1184,7 +1184,7 @@
     },
     {
       "rank": 109,
-      "iconId": 106,
+      "iconId": 89,
       "caption": "Plato",
       "tooltip": "Central figure of Western philosophy. His most famous contribution is the theory of forms (or ideas). He was influenced by Pythagoras, Heraclitus, and Parmenides. His teacher was Socrates. Aristotle was one of his students.",
       "url": "Plato",
@@ -1203,7 +1203,7 @@
     },
     {
       "rank": 110,
-      "iconId": 106,
+      "iconId": 89,
       "caption": "Plato in Syracuse",
       "tooltip": "Plato, having left Athens on Socrates' death to visit Megara and possibly Egypt, travels to Syracuse at the invitation of Dionysius I's brother-in-law Dion.",
       "url": "Plato",
@@ -1371,7 +1371,7 @@
     },
     {
       "rank": 122,
-      "iconId": 106,
+      "iconId": 98,
       "caption": "Pasteur",
       "tooltip": "Louis Pasteur creates the first successful vaccine against rabies for a young boy who had been bitten 14 times by a rabid dog.",
       "url": "Louis_Pasteur",
@@ -1385,7 +1385,7 @@
     },
     {
       "rank": 123,
-      "iconId": 106,
+      "iconId": 114,
       "caption": "Dr. Jekyll, Mr. Hyde",
       "tooltip": "\"The Strange Case of Dr. Jekyll and Mr. Hyde\" by Robert Louis Stevenson is published.",
       "url": "Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
@@ -1399,7 +1399,7 @@
     },
     {
       "rank": 124,
-      "iconId": 106,
+      "iconId": 128,
       "caption": "Jack the Ripper",
       "tooltip": "Jack the Ripper murders occur in Whitechapel, London.",
       "url": "Jack_the_Ripper",
@@ -1475,7 +1475,7 @@
     },
     {
       "rank": 129,
-      "iconId": 106,
+      "iconId": 114,
       "caption": "Oscar Wilde",
       "tooltip": "Trial of Oscar Wilde and premiere of his play The Importance of Being Earnest.",
       "url": "Oscar_Wilde",
@@ -1503,7 +1503,7 @@
     },
     {
       "rank": 131,
-      "iconId": 106,
+      "iconId": 114,
       "caption": "Dracula",
       "tooltip": "Bram Stoker writes Dracula.",
       "url": "Dracula",
@@ -1585,7 +1585,7 @@
     },
     {
       "rank": 137,
-      "iconId": 106,
+      "iconId": 145,
       "caption": "💡 Special relativity",
       "tooltip": "Albert Einstein published the special relativity theory",
       "url": "Special_relativity",
@@ -1640,7 +1640,7 @@
     },
     {
       "rank": 141,
-      "iconId": 106,
+      "iconId": 59,
       "caption": "Radio",
       "tooltip": "First commercial radio transmissions.",
       "url": "Radio",
@@ -1668,7 +1668,7 @@
     },
     {
       "rank": 143,
-      "iconId": 106,
+      "iconId": 70,
       "caption": "Tunguska",
       "tooltip": "The Tunguska impact devastates thousands of square kilometres of Siberia.",
       "url": "Tunguska_impact",
@@ -1738,7 +1738,7 @@
     },
     {
       "rank": 148,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Kuomintang",
       "tooltip": "The Kuomintang, the Chinese nationalist party, is founded.",
       "url": "Kuomintang",
@@ -1767,7 +1767,7 @@
     },
     {
       "rank": 150,
-      "iconId": 106,
+      "iconId": 128,
       "caption": "Ferdinand Assassination",
       "tooltip": "Gavrilo Princip assassinates Archduke Franz Ferdinand of Austria in Sarajevo, triggering the start of World War I.",
       "url": "Archduke_Franz_Ferdinand_of_Austria",
@@ -1815,7 +1815,7 @@
     },
     {
       "rank": 154,
-      "iconId": 106,
+      "iconId": 145,
       "caption": "💡 General relativity",
       "tooltip": "Albert Einstein published the general relativity theory",
       "url": "General_relativity",
@@ -1857,7 +1857,7 @@
     },
     {
       "rank": 157,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "October Revolution",
       "tooltip": "October Revolution in Russia.",
       "url": "October_Revolution",
@@ -1869,7 +1869,7 @@
     },
     {
       "rank": 158,
-      "iconId": 106,
+      "iconId": 53,
       "caption": "USA in WWI",
       "tooltip": "USA joins the Allies for the last 17 months of World War I.",
       "url": "American_entry_into_World_War_I",
@@ -1881,7 +1881,7 @@
     },
     {
       "rank": 159,
-      "iconId": 106,
+      "iconId": 53,
       "caption": "World War  I end",
       "tooltip": "Armistice of 11 November 1918 ends World War I. Casualties: 30 million military, 8 million civilian deaths.",
       "url": "Armistice_of_11_November_1918",
@@ -1947,7 +1947,7 @@
     },
     {
       "rank": 164,
-      "iconId": 106,
+      "iconId": 41,
       "caption": "Tutankhamen's tomb",
       "tooltip": "Howard Carter discovers Tutankhamen's tomb.",
       "url": "Tomb_of_Tutankhamun",
@@ -1975,7 +1975,7 @@
     },
     {
       "rank": 166,
-      "iconId": 106,
+      "iconId": 168,
       "caption": "Walt Disney Company",
       "tooltip": "The Walt Disney Company is founded.",
       "url": "Walt_Disney_Company",
@@ -2003,7 +2003,7 @@
     },
     {
       "rank": 168,
-      "iconId": 106,
+      "iconId": 140,
       "caption": "Rhapsody In Blue",
       "tooltip": "George Gershwin composes Rhapsody In Blue.",
       "url": "Rhapsody_In_Blue",
@@ -2087,7 +2087,7 @@
     },
     {
       "rank": 174,
-      "iconId": 106,
+      "iconId": 140,
       "caption": "Mickey Mouse",
       "tooltip": "Mickey Mouse is created at the Walt Disney Studio.",
       "url": "Mickey_Mouse",
@@ -2129,7 +2129,7 @@
     },
     {
       "rank": 177,
-      "iconId": 106,
+      "iconId": 139,
       "caption": "Academy Awards",
       "tooltip": "The first Academy Awards are presented.",
       "url": "Academy_Awards",
@@ -2157,7 +2157,7 @@
     },
     {
       "rank": 179,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Mao Zedong",
       "tooltip": "The Chinese Soviet Republic is proclaimed by Mao Zedong.",
       "url": "Chinese_Soviet_Republic",
@@ -2253,7 +2253,7 @@
     },
     {
       "rank": 186,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Nazi invasion of Poland",
       "tooltip": "Nazi invasion of Poland triggers the beginning of World War II in Europe.",
       "url": "Timeline_of_the_1939_invasion_of_Poland",
@@ -2289,7 +2289,7 @@
     },
     {
       "rank": 189,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Nazi invasion of France",
       "tooltip": "Nazis invade France, the Netherlands, Denmark and Norway.",
       "url": "Timeline_of_the_Battle_of_France",
@@ -2328,7 +2328,7 @@
     },
     {
       "rank": 192,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Trotsky assassinated.",
       "tooltip": "Trotsky and Lenin were considered the two most prominent figures in the Soviet state from 1917. Ideologically a Marxist and a Leninist, Trotsky's ideas inspired a school of Marxism known as Trotskyism.",
       "url": "Leon_Trotsky",
@@ -2340,7 +2340,7 @@
     },
     {
       "rank": 193,
-      "iconId": 106,
+      "iconId": 54,
       "caption": "Pearl Harbor",
       "tooltip": "Attack on Pearl Harbor, which leads to the USA joining World War II.",
       "url": "Attack_on_Pearl_Harbor",
@@ -2352,7 +2352,7 @@
     },
     {
       "rank": 194,
-      "iconId": 106,
+      "iconId": 54,
       "caption": "London Blitz ends.",
       "tooltip": "The Blitz is a bombing campaign against the UK that lasted eight months (7/9/1940-11/5/1941). The name is a shortened form of Blitzkrieg, a term used in the popular press to describe a German style of surprise attack.",
       "url": "The_Blitz",
@@ -2374,7 +2374,7 @@
     },
     {
       "rank": 196,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Operation Barbarossa starts",
       "tooltip": "Hitler commences the Nazi invasion of the Soviet Union.",
       "url": "Operation_Barbarossa",
@@ -2396,7 +2396,7 @@
     },
     {
       "rank": 198,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "⚔ Stalingrad",
       "tooltip": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II, beginning when Nazi Germany and its Axis allies attacked and became locked in a protracted struggle with the Soviet Union for control over Stalingrad (now Volgograd).",
       "url": "Battle_of_Stalingrad",
@@ -2423,7 +2423,7 @@
     },
     {
       "rank": 200,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "⚔ Stalingrad start",
       "tooltip": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II, beginning when Nazi Germany and its Axis allies attacked and became locked in a protracted struggle with the Soviet Union for control over Stalingrad (now Volgograd).",
       "url": "Battle_of_Stalingrad",
@@ -2450,7 +2450,7 @@
     },
     {
       "rank": 202,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "⚔ Stalingrad end",
       "tooltip": "Battle of Stalingrad ends with over two million casualties and the retreat of the German Army.",
       "url": "Battle_of_Stalingrad",
@@ -2462,7 +2462,7 @@
     },
     {
       "rank": 203,
-      "iconId": 106,
+      "iconId": 157,
       "caption": "Warsaw Ghetto uprising",
       "tooltip": "Warsaw Ghetto uprising fails.",
       "url": "Warsaw_Ghetto_uprising",
@@ -2489,7 +2489,7 @@
     },
     {
       "rank": 205,
-      "iconId": 106,
+      "iconId": 126,
       "caption": "💡 Colossus computer",
       "tooltip": "First electronic computer prototype, Colossus Mark 1, works in December 1943 and is in use at Bletchley Park by early 1944.",
       "url": "Colossus_computer",
@@ -2593,7 +2593,7 @@
     },
     {
       "rank": 213,
-      "iconId": 106,
+      "iconId": 170,
       "caption": "Nuremberg trials",
       "tooltip": "Nuremberg trials end.",
       "url": "Nuremberg_trials",
@@ -2621,7 +2621,7 @@
     },
     {
       "rank": 215,
-      "iconId": 106,
+      "iconId": 159,
       "caption": "Gandhi",
       "tooltip": "Assassination of Mahatma Gandhi.",
       "url": "Assassination_of_Mahatma_Gandhi",
@@ -2649,7 +2649,7 @@
     },
     {
       "rank": 217,
-      "iconId": 106,
+      "iconId": 70,
       "caption": "Hydrogen bomb",
       "tooltip": "Detonation of the hydrogen bomb.",
       "url": "Hydrogen_bomb",
@@ -2677,7 +2677,7 @@
     },
     {
       "rank": 219,
-      "iconId": 106,
+      "iconId": 54,
       "caption": "Vietnam War",
       "tooltip": "Beginning of the Vietnam War.",
       "url": "Vietnam_War",
@@ -2758,7 +2758,7 @@
     },
     {
       "rank": 225,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Leonid Brezhnev",
       "tooltip": "Leonid Brezhnev ousts Khrushchev and assumes power in the Soviet Union.",
       "url": "Leonid_Brezhnev",
@@ -2772,7 +2772,7 @@
     },
     {
       "rank": 226,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Cultural Revolution",
       "tooltip": "China's Cultural Revolution begins.",
       "url": "Cultural_Revolution",
@@ -2839,7 +2839,7 @@
     },
     {
       "rank": 231,
-      "iconId": 106,
+      "iconId": 19,
       "caption": "Lucy",
       "tooltip": "Discovery of \"Lucy\" (Australopithecus afarensis) in Tanzania's Olduvai Gorge.",
       "url": "Lucy_(Australopithecus)",
@@ -2853,7 +2853,7 @@
     },
     {
       "rank": 232,
-      "iconId": 106,
+      "iconId": 125,
       "caption": "Apple Computer",
       "tooltip": "Steve Wozniak invented the Apple I and Steve Jobs then convinced Wozniak to sell the system, giving birth to Apple Computer.",
       "url": "Apple_Inc.",
@@ -2867,7 +2867,7 @@
     },
     {
       "rank": 233,
-      "iconId": 106,
+      "iconId": 145,
       "caption": "Star Wars",
       "tooltip": "Star Wars quickly becomes the highest-grossing film of all-time.",
       "url": "Star_Wars",
@@ -2881,7 +2881,7 @@
     },
     {
       "rank": 234,
-      "iconId": 106,
+      "iconId": 156,
       "caption": "Pope John Paul II",
       "tooltip": "John Paul I and then John Paul II become Pope.",
       "url": "Pope_John_Paul_II",
@@ -2895,7 +2895,7 @@
     },
     {
       "rank": 235,
-      "iconId": 106,
+      "iconId": 70,
       "caption": "Three Mile Island",
       "tooltip": "Three Mile Island nuclear accident.",
       "url": "Three_Mile_Island_accident",
@@ -2924,7 +2924,7 @@
     },
     {
       "rank": 237,
-      "iconId": 106,
+      "iconId": 140,
       "caption": "Thriller",
       "tooltip": "Michael Jackson releases his landmark album Thriller, the best-selling album of all time.",
       "url": "Thriller_(album)",
@@ -2936,7 +2936,7 @@
     },
     {
       "rank": 238,
-      "iconId": 106,
+      "iconId": 70,
       "caption": "Chernobyl",
       "tooltip": "Challenger and Chernobyl disasters.",
       "url": "Chernobyl_disaster",
@@ -2964,7 +2964,7 @@
     },
     {
       "rank": 240,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Perestroika",
       "tooltip": "Perestroika begins.",
       "url": "Perestroika",
@@ -2978,7 +2978,7 @@
     },
     {
       "rank": 241,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Berlin Wall",
       "tooltip": "Fall of the Berlin Wall; Revolutions of 1989 and collapse of the Soviet Bloc in Europe, which lead to the end of the Cold War.",
       "url": "Berlin_Wall",
@@ -3034,7 +3034,7 @@
     },
     {
       "rank": 245,
-      "iconId": 106,
+      "iconId": 167,
       "caption": "Putin President",
       "tooltip": "Vladimir Putin becomes President of Russia.",
       "url": "Vladimir_Putin",
@@ -3076,7 +3076,7 @@
     },
     {
       "rank": 248,
-      "iconId": 106,
+      "iconId": 157,
       "caption": "Rabin Assassination",
       "tooltip": "Assassination of Yitzhak Rabin.",
       "url": "Assassination_of_Yitzhak_Rabin",
