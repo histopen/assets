@@ -1,11 +1,12 @@
 # SVG Recenter/Resize/Format Tool
 
-Batch-transforms SVG icons for timeline atlas. Applies 4 transformations to all SVGs in `Icons_TimeMarks/source/` and writes results to `Icons_TimeMarks/target/`:
+Batch-transforms SVG icons for timeline atlas. Applies transformations to all SVGs in `Icons_TimeMarks/source/` and writes results to `Icons_TimeMarks/target/`:
 
-- **T0**: Normalize colors: white→transparent, other colors→black (#000000)
+- **Pre**: Simplify structure (remove clipPaths, defs, unwrap groups)
+- **T0**: Normalize colors: white→transparent, other colors→white (#fff)
 - **T1**: Resize to fit 400×200 display (2:1 aspect) while preserving aspect ratio
 - **T2**: Center visual content (path bounds) inside viewBox
-- **T3**: Minify with SVGO, preserving `xmlns`
+- **T3**: Minify with SVGO (aggressive simplification)
 
 ## Usage
 
@@ -27,7 +28,7 @@ node "Tools/svg scripts/recenteresizeformat/transform.mjs"
 
 Edit constants in `transform.mjs`:
 - `TARGET_WIDTH`, `TARGET_HEIGHT` - target display size (default: 400×200)
-- `TARGET_COLOR` - monochrome normalization color (default: #000000)
+- `TARGET_COLOR` - normalization color (default: #ffffff)
 
 ## Prerequisites
 

@@ -27,8 +27,8 @@ const TARGET_DIR = join(__dirname, '../../../Icons_TimeMarks/target');
 const TARGET_WIDTH = 400;
 const TARGET_HEIGHT = 200;
 
-// Target color for normalization
-const TARGET_COLOR = '#000000';
+// Target color for normalization (white for dark mode file explorer visibility)
+const TARGET_COLOR = '#ffffff';
 
 // Common named colors to hex mapping
 const NAMED_COLORS = {
@@ -81,6 +81,50 @@ function isWhiteColor(color) {
 }
 
 /**
+ * Simplify SVG structure for better file explorer compatibility
+ * Removes clipPaths, defs, and unwraps groups to create flat structure
+ */
+function transformSimplifyStructure($, $svg) {
+  let simplified = 0;
+
+  // Remove defs (including clipPaths defined inside)
+  $svg.find('defs').remove();
+
+  // Remove clip-path attributes from all elements
+  $svg.find('[clip-path]').each((i, el) => {
+    $(el).removeAttr('clip-path');
+    simplified++;
+  });
+
+  // Remove clipPath elements outside defs
+  $svg.find('clipPath').remove();
+
+  // Remove xml:space and overflow attributes from svg
+  $svg.removeAttr('xml:space');
+  $svg.removeAttr('overflow');
+
+  // Unwrap groups: move children to parent, remove empty groups
+  // Repeat until no more groups with single path child
+  let unwrapped = true;
+  while (unwrapped) {
+    unwrapped = false;
+    $svg.find('g').each((i, g) => {
+      const $g = $(g);
+      const children = $g.children();
+      // If group has transform, we can't easily unwrap (would need to bake transform)
+      // For now, only unwrap groups without transforms
+      if (!$g.attr('transform')) {
+        $g.replaceWith(children);
+        unwrapped = true;
+        simplified++;
+      }
+    });
+  }
+
+  return { simplified };
+}
+
+/**
  * Transform 0: Normalize colors - white to transparent, others to black
  * White fills/strokes are removed (set to 'none'), other colors normalized to target
  */
@@ -121,11 +165,22 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
 
   const uniqueColors = [...colors];
 
-  // Always process: white → transparent, non-white → black
+  // Always process: white → transparent, non-white → currentColor
+  let fillsAdded = 0;
+
+  // Add fill to paths that don't have one (SVG default is black, but we want explicit currentColor)
+  $svg.find('path').each((i, el) => {
+    const $el = $(el);
+    if (!$el.attr('fill') && !$el.attr('style')?.includes('fill')) {
+      $el.attr('fill', targetColor);
+      fillsAdded++;
+    }
+  });
+
   // Process fill attributes
   $svg.find('[fill]').each((i, el) => {
     const fill = $(el).attr('fill');
-    if (fill && fill !== 'none') {
+    if (fill && fill !== 'none' && fill !== targetColor) {
       if (isWhiteColor(fill)) {
         $(el).attr('fill', 'none');
         whiteRemoved++;
@@ -176,7 +231,7 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
     $(el).attr('style', style);
   });
 
-  return { colors: uniqueColors, whiteRemoved, colorsNormalized };
+  return { colors: uniqueColors, whiteRemoved, colorsNormalized, fillsAdded };
 }
 
 /**
@@ -391,7 +446,7 @@ function transformCenter($, $svg) {
 
 /**
  * Transform 3: Minify with SVGO
- * Preserves xmlns for standalone SVG files
+ * Aggressively simplifies SVG structure for better file explorer compatibility
  */
 function transformMinify(svgContent) {
   const result = optimize(svgContent, {
@@ -401,10 +456,16 @@ function transformMinify(svgContent) {
         name: 'preset-default',
         params: {
           overrides: {
-            cleanupIds: false, // Keep IDs for clip paths etc
+            cleanupIds: true, // Clean up IDs
+            collapseGroups: true, // Flatten group structure
+            convertTransform: true, // Convert transforms
+            removeUselessDefs: true, // Remove unused defs
           }
         }
       },
+      'removeXMLNS', // Remove unnecessary xmlns
+      'removeOffCanvasPaths', // Remove paths outside viewBox
+      'reusePaths', // Reuse paths where possible
     ]
   });
   
@@ -464,10 +525,38 @@ async function main() {
   }
 
   // ═══════════════════════════════════════════════════════════════════════════
+  // PRE-PROCESS: Simplify SVG structure (remove clipPaths, defs, unwrap groups)
+  // ═══════════════════════════════════════════════════════════════════════════
+  console.log('\n┌───────────────────────────────────────────────────────────┐');
+  console.log('│  PRE-PROCESS: Simplify structure (clipPath, defs, groups) │');
+  console.log('└───────────────────────────────────────────────────────────┘\n');
+
+  for (const file of files) {
+    const targetPath = join(TARGET_DIR, file);
+    const content = await fs.readFile(targetPath, 'utf-8');
+
+    const $ = cheerio.load(content, { xmlMode: true });
+    const $svg = $('svg');
+
+    const result = transformSimplifyStructure($, $svg);
+
+    await fs.writeFile(targetPath, $.xml());
+
+    if (result.simplified > 0) {
+      console.log(`  ✓ ${file}`);
+      console.log(`      → Simplified ${result.simplified} element(s)`);
+    } else {
+      console.log(`  ✓ ${file} (already simple)`);
+    }
+  }
+
+  console.log('\n✅ Pre-process complete. SVG structure simplified.');
+
+  // ═══════════════════════════════════════════════════════════════════════════
   // TRANSFORM 0: Normalize colors to monochrome
   // ═══════════════════════════════════════════════════════════════════════════
   console.log('\n┌───────────────────────────────────────────────────────────┐');
-  console.log('│  TRANSFORM 0: Normalize colors (white→transparent, other→black) │');
+  console.log('│  TRANSFORM 0: Normalize colors (white→transparent, other→currentColor) │');
   console.log('└───────────────────────────────────────────────────────────┘\n');
 
   for (const file of files) {
@@ -485,13 +574,16 @@ async function main() {
     if (result.colors.length > 0) {
       console.log(`      Found colors: ${result.colors.join(', ')}`);
     }
+    if (result.fillsAdded > 0) {
+      console.log(`      → Added fill to ${result.fillsAdded} path(s)`);
+    }
     if (result.whiteRemoved > 0) {
       console.log(`      → Removed ${result.whiteRemoved} white fill(s) (transparent)`);
     }
     if (result.colorsNormalized > 0) {
       console.log(`      → Normalized ${result.colorsNormalized} color(s) to ${TARGET_COLOR}`);
     }
-    if (result.whiteRemoved === 0 && result.colorsNormalized === 0) {
+    if (result.fillsAdded === 0 && result.whiteRemoved === 0 && result.colorsNormalized === 0) {
       console.log(`      No changes needed`);
     }
   }

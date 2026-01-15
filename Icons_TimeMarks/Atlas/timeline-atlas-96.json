@@ -3485,10 +3485,115 @@
         "h": 48
       },
       "padding": 4
+    },
+    "0167": {
+      "frame": {
+        "x": 602,
+        "y": 210,
+        "w": 96,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 48
+      },
+      "padding": 4
+    },
+    "0168": {
+      "frame": {
+        "x": 702,
+        "y": 210,
+        "w": 96,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 48
+      },
+      "padding": 4
+    },
+    "0169": {
+      "frame": {
+        "x": 802,
+        "y": 210,
+        "w": 96,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 48
+      },
+      "padding": 4
+    },
+    "0170": {
+      "frame": {
+        "x": 902,
+        "y": 210,
+        "w": 96,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 48
+      },
+      "padding": 4
+    },
+    "0171": {
+      "frame": {
+        "x": 1002,
+        "y": 210,
+        "w": 96,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 48
+      },
+      "padding": 4
     }
   },
   "meta": {
-    "app": "buildTimelineAtlas.mjs",
+    "app": "buildIcons_TimeMarks.mjs",
     "version": "1.0.0",
     "image": "timeline-atlas-96.png",
     "format": "RGBA8888",
