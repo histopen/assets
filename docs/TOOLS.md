@@ -2,7 +2,7 @@
 
 ## Scripts Summary
 
-`npm run` : atlas - sprite - tm - loc - loc en - btn - tv - cosmos - dbtm
+`npm run` : atlas - sprite - tmconvert - loc - loc en - btn - tv - cosmos - dbtm
 
 | Category | npm run command | Google Sheet | Type | Description | File Output |
 |----------|-----------------|--------------|------|-------------|-------------|
@@ -12,7 +12,7 @@
 | cosmos | `npm run cosmos` | [sheet](https://docs.google.com/spreadsheets/d/1pWIrnNb7jKis5M0ftDJ9CvAgVUytXaKW41-dquWfS5I) | json | space levels | Jsons/cosmos.json |
 | dbtm | `npm run dbtm` | [sheet](https://docs.google.com/spreadsheets/d/1OGOFf6rSTcJCxB9-EVVoeDD6fp9_ZVbqdN9mx2IeUzo) | json | database of timeMarks<br>(dbtm) | Jsons/dbtm.json |
 |||||||
-| tm | `npm run tm` | N/A | svg | timeMarks SVG tool | Icons_TimeMarks/target/*.svg |
+| tmconvert | `npm run tmconvert` | N/A | svg | timeMarks SVG tool | Icons_TimeMarks/target/*.svg |
 | atlas | `npm run atlas` | N/A | svg | timeline icons atlas | Icons_TimeMarks/Atlas/ *.json<br>Icons_TimeMarks/Atlas/ *.png |
 |||||||
 | sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
@@ -33,7 +33,7 @@ A) prepare icon
 1. create an svg
 2. Filename: `NNNN-name.svg` (4 digits + hyphen + name)
 3. move it in `Icons_TimeMarks/source/`
-4. `npm run tm`  
+4. `npm run tmconvert`
    what it does:
     a. Normalize colors: white→transparent, other→white (#fff)
     b. Resize to fit 400×200 (2:1 aspect ratio)

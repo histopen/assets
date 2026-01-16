@@ -15,8 +15,8 @@
     "dbtm-n": "node jsontools/tooldbtm.js",
     "cosmos": "node jsontools/toolcosmos.js && git add ../Jsons/cosmos.json && git commit -m \"update cosmos\" && git push",
     "cosmos-n": "node jsontools/toolcosmos.js",
-    "tm": "node \"svg scripts/recenteresizeformat/transform.mjs\"",
-    "sprite": "node \"svg scripts/buildUiSprite.mjs\"",
+    "tmconvert": "node \"svg scripts/recenteresizeformat/transform.mjs\"",
+    "uisprites": "node \"svg scripts/buildUiSprite.mjs\"",
     "atlas": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git add ../Icons_TimeMarks/Atlas && git commit -m \"update atlas\" && git push",
     "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\""
   },
