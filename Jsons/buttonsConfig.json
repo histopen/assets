@@ -508,6 +508,32 @@
       "parameter2": "French flag"
     },
     {
+      "caption": "lg_wt",
+      "tooltip": "",
+      "imgPath": "UI_flags",
+      "imgFileName": "lg_wt.svg",
+      "txtstyle": 0,
+      "imgstyle": 1,
+      "alignV": "",
+      "alignH": "",
+      "functionName": "changeLanguage",
+      "parameter1": "fr",
+      "parameter2": "Wikitime flag"
+    },
+    {
+      "caption": "lg_us",
+      "tooltip": "",
+      "imgPath": "UI_flags",
+      "imgFileName": "lg_us.svg",
+      "txtstyle": 0,
+      "imgstyle": 1,
+      "alignV": "",
+      "alignH": "",
+      "functionName": "changeLanguage",
+      "parameter1": "fr",
+      "parameter2": "Us flag"
+    },
+    {
       "caption": "lg_it",
       "tooltip": "",
       "imgPath": "UI_flags",

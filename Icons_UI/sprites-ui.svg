@@ -589,6 +589,27 @@ c-178 -90 -179 -107 -3 -112 176 -5 716 13 727 24 6 6 6 22 0 45 l-10 36 -122
   <path fill="#fecb00" d="M176 0v192H0v96h176v192h96V288h368v-96H272V0z"/></g></symbol>
   <symbol id="lg_uk" viewBox="0 0 644 484"><g transform="translate(2,2)"><path fill="#0057B7" d="m0 0h640v480H0z"/>
   <path fill="#FFD700" d="m0 240h640v480H0z"/></g></symbol>
+  <symbol id="lg_us" viewBox="0 0 644 484"><g transform="translate(2,2)"><path fill="#bd3d44" d="M0 0h640v480H0z"/>
+  <path fill="#fff" d="M0 37h640v37H0zm0 74h640v37H0zm0 73h640v37H0zm0 74h640v37H0zm0 73h640v37H0zm0 74h640v37H0z"/>
+  <path fill="#192f5d" d="M0 0h364.8v259H0z"/>
+  <defs>
+    <path id="us-s" d="m0 0 3 10h10l-8 6 3 10-8-6-8 6 3-10-8-6h10z"/>
+  </defs>
+  <g fill="#fff">
+    <use href="#us-s" x="30" y="12"/><use href="#us-s" x="91" y="12"/><use href="#us-s" x="152" y="12"/><use href="#us-s" x="213" y="12"/><use href="#us-s" x="274" y="12"/><use href="#us-s" x="335" y="12"/>
+    <use href="#us-s" x="60" y="38"/><use href="#us-s" x="121" y="38"/><use href="#us-s" x="182" y="38"/><use href="#us-s" x="243" y="38"/><use href="#us-s" x="304" y="38"/>
+    <use href="#us-s" x="30" y="64"/><use href="#us-s" x="91" y="64"/><use href="#us-s" x="152" y="64"/><use href="#us-s" x="213" y="64"/><use href="#us-s" x="274" y="64"/><use href="#us-s" x="335" y="64"/>
+    <use href="#us-s" x="60" y="90"/><use href="#us-s" x="121" y="90"/><use href="#us-s" x="182" y="90"/><use href="#us-s" x="243" y="90"/><use href="#us-s" x="304" y="90"/>
+    <use href="#us-s" x="30" y="116"/><use href="#us-s" x="91" y="116"/><use href="#us-s" x="152" y="116"/><use href="#us-s" x="213" y="116"/><use href="#us-s" x="274" y="116"/><use href="#us-s" x="335" y="116"/>
+    <use href="#us-s" x="60" y="142"/><use href="#us-s" x="121" y="142"/><use href="#us-s" x="182" y="142"/><use href="#us-s" x="243" y="142"/><use href="#us-s" x="304" y="142"/>
+    <use href="#us-s" x="30" y="168"/><use href="#us-s" x="91" y="168"/><use href="#us-s" x="152" y="168"/><use href="#us-s" x="213" y="168"/><use href="#us-s" x="274" y="168"/><use href="#us-s" x="335" y="168"/>
+    <use href="#us-s" x="60" y="194"/><use href="#us-s" x="121" y="194"/><use href="#us-s" x="182" y="194"/><use href="#us-s" x="243" y="194"/><use href="#us-s" x="304" y="194"/>
+    <use href="#us-s" x="30" y="220"/><use href="#us-s" x="91" y="220"/><use href="#us-s" x="152" y="220"/><use href="#us-s" x="213" y="220"/><use href="#us-s" x="274" y="220"/><use href="#us-s" x="335" y="220"/>
+  </g></g></symbol>
+  <symbol id="lg_wt" viewBox="0 0 644 484"><g transform="translate(2,2)"><path fill="#fff" d="M0 0h640v480H0z"/>
+  <g fill="#000" transform="translate(180 100) scale(3.2)">
+    <path fill-rule="evenodd" d="M89 40v9h-8.94l.11-1.51L80 40Zm-4 23.3L80.52 71 73 66.7l2.44-3.74L77.48 59ZM71 80.49 62.65 85 58 77.47l7.05-3.62 1.33-.85ZM49 80v9h-9v-8.94l1.51.11Zm-19-2.52L25.7 85 18 80.52 22.3 73l3.74 2.44ZM16 66.74 8.52 71 4 63.29 11.53 59l3.62 6.5ZM9 49H0v-9h8.94l-.11 1.51Zm7-26.34-2.44 4.05L11.52 31 4 26.34 8.48 18Zm14-11.13-6.5 3.62-1.24.85L18 8.51 25.71 4ZM49 0v8.94l-1.51-.11L40 9V0Zm22 8.48L66.34 16l-4.05-2.44L58 11.52 62.66 4Zm14 17.87L77.47 31l-3.62-7.05-.85-1.33L80.48 18Z"/>
+  </g></g></symbol>
   <symbol id="lg_zh" viewBox="0 0 644 484"><g transform="translate(2,2)"><rect width="640" height="480" fill="#de2910"/>
   <polygon points="120,96 133,144 184,144 142,172 155,220 120,192 85,220 98,172 56,144 107,144" fill="#ffde00"/></g></symbol>
 </svg>
