@@ -182,15 +182,34 @@ function renderSvgToPng(svgPath, width, height) {
 /**
  * Convert PNG to white with alpha for compositing
  * Final atlas will extract alpha channel for R8 texture format
+ *
+ * To prevent edge bleeding in the atlas, we:
+ * 1. Resize to a slightly larger buffer (target + margin)
+ * 2. Extract the exact center portion at target dimensions
+ * This clips any antialiased pixels that extend beyond bounds.
  */
 async function convertToWhiteWithAlpha(pngBuffer, width, height) {
-  // First, resize to fit within bounds and ensure exact dimensions
-  const resized = await sharp(pngBuffer)
+  const MARGIN = 4; // Extra pixels to render, then clip
+  const oversizeWidth = width + MARGIN * 2;
+  const oversizeHeight = height + MARGIN * 2;
+
+  // First, resize to oversize buffer with icon centered
+  const oversized = await sharp(pngBuffer)
     .ensureAlpha()
-    .resize(width, height, {
+    .resize(oversizeWidth, oversizeHeight, {
       fit: 'contain',
       background: { r: 0, g: 0, b: 0, alpha: 0 },
       position: 'centre',
+    })
+    .toBuffer();
+
+  // Extract exact center portion, clipping any edge overflow
+  const resized = await sharp(oversized)
+    .extract({
+      left: MARGIN,
+      top: MARGIN,
+      width: width,
+      height: height,
     })
     .toBuffer();
 
@@ -221,7 +240,7 @@ async function convertToWhiteWithAlpha(pngBuffer, width, height) {
  * Build a single atlas at specified size
  */
 async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
-  const PADDING = 0; // No padding needed - icons are rendered to exact bounds
+  const PADDING = 0; // No padding needed - icons are clipped to exact bounds during render
   const iconHeight = iconWidth / 2;
   const paddedWidth = iconWidth + PADDING;
   const paddedHeight = iconHeight + PADDING;
