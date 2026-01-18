@@ -17,14 +17,45 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+/**
+ * Get next power of 2 >= n
+ */
+function nextPowerOf2(n) {
+  return Math.pow(2, Math.ceil(Math.log2(n)));
+}
+
+/**
+ * Calculate optimal atlas dimensions for a given icon count and size
+ * Returns { width, height } as powers of 2
+ */
+function calculateAtlasDimensions(iconCount, iconWidth, padding) {
+  const iconHeight = iconWidth / 2;
+  const paddedWidth = iconWidth + padding;
+  const paddedHeight = iconHeight + padding;
+
+  // Calculate optimal grid layout (favor wider than tall due to 2:1 icons)
+  const iconsPerRow = Math.ceil(Math.sqrt(iconCount * 2));
+  const rows = Math.ceil(iconCount / iconsPerRow);
+
+  // Calculate minimum dimensions needed
+  const minWidth = iconsPerRow * paddedWidth;
+  const minHeight = rows * paddedHeight;
+
+  // Round up to power of 2 for GPU efficiency
+  const width = nextPowerOf2(minWidth);
+  const height = nextPowerOf2(minHeight);
+
+  return { width, height };
+}
+
 // Atlas sizes to generate (width, height = width/2)
 const ATLAS_SIZES = [128, 96, 64, 32];
 
 // Configuration
 const CONFIG = {
-  // Atlas dimensions
-  atlasWidth: 4096,
-  atlasHeight: 4096,
+  // Atlas dimensions (will be auto-calculated if 0)
+  atlasWidth: 0,
+  atlasHeight: 0,
   // Paths (relative to ghp/assets/)
   assetsDir: join(__dirname, '..', '..'),
   svgDir: 'Icons_TimeMarks/TM_Icons',
@@ -149,14 +180,22 @@ function renderSvgToPng(svgPath, width, height) {
 }
 
 /**
- * Convert colored PNG to white (preserving alpha)
- * This allows PIXI tinting to work correctly
+ * Convert PNG to white with alpha for compositing
+ * Final atlas will extract alpha channel for R8 texture format
  */
-async function convertToWhite(pngBuffer, width, height) {
-  // Extract raw pixel data
-  const { data, info } = await sharp(pngBuffer)
+async function convertToWhiteWithAlpha(pngBuffer, width, height) {
+  // First, resize to fit within bounds and ensure exact dimensions
+  const resized = await sharp(pngBuffer)
     .ensureAlpha()
-    .resize(width, height, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .resize(width, height, {
+      fit: 'contain',
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+      position: 'centre',
+    })
+    .toBuffer();
+
+  // Extract raw pixel data at exact dimensions
+  const { data } = await sharp(resized)
     .raw()
     .toBuffer({ resolveWithObject: true });
 
@@ -172,7 +211,7 @@ async function convertToWhite(pngBuffer, width, height) {
     }
   }
 
-  // Convert back to PNG
+  // Convert back to PNG with exact dimensions
   return sharp(Buffer.from(pixels), {
     raw: { width, height, channels: 4 },
   }).png().toBuffer();
@@ -182,19 +221,21 @@ async function convertToWhite(pngBuffer, width, height) {
  * Build a single atlas at specified size
  */
 async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
-  const PADDING = 4; // px between icons
+  const PADDING = 0; // No padding needed - icons are rendered to exact bounds
   const iconHeight = iconWidth / 2;
   const paddedWidth = iconWidth + PADDING;
   const paddedHeight = iconHeight + PADDING;
-  const iconsPerRow = Math.floor(CONFIG.atlasWidth / paddedWidth);
-  const maxIcons = iconsPerRow * Math.floor(CONFIG.atlasHeight / paddedHeight);
+
+  // Calculate dynamic atlas dimensions based on icon count
+  const atlasDims = calculateAtlasDimensions(iconIds.length, iconWidth, PADDING);
+  const atlasWidth = CONFIG.atlasWidth || atlasDims.width;
+  const atlasHeight = CONFIG.atlasHeight || atlasDims.height;
+
+  const iconsPerRow = Math.floor(atlasWidth / paddedWidth);
 
   console.log(`\n--- Building ${iconWidth}x${iconHeight} atlas ---`);
-  console.log(`Grid: ${iconsPerRow} icons per row, max ${maxIcons} icons`);
-
-  if (iconIds.length > maxIcons) {
-    console.warn(`Warning: ${iconIds.length} icons exceeds max ${maxIcons} for atlas size`);
-  }
+  console.log(`Atlas size: ${atlasWidth}x${atlasHeight} (dynamic)`);
+  console.log(`Grid: ${iconsPerRow} icons per row, ${iconIds.length} icons total`);
 
   // Prepare composite operations for sharp
   const compositeOps = [];
@@ -215,14 +256,14 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
       // Render SVG to PNG
       const pngBuffer = renderSvgToPng(svgPath, iconWidth, iconHeight);
 
-      // Convert to white (for tinting)
-      const whitePng = await convertToWhite(pngBuffer, iconWidth, iconHeight);
+      // Convert to white with alpha (alpha will be extracted for R8 format)
+      const whitePng = await convertToWhiteWithAlpha(pngBuffer, iconWidth, iconHeight);
 
       // Calculate position in grid
       const col = i % iconsPerRow;
       const row = Math.floor(i / iconsPerRow);
-      const x = col * paddedWidth + Math.floor(PADDING / 2);
-      const y = row * paddedHeight + Math.floor(PADDING / 2);
+      const x = col * paddedWidth;
+      const y = row * paddedHeight;
 
       // Add to composite operations
       compositeOps.push({
@@ -240,7 +281,6 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
         trimmed: false,
         spriteSourceSize: { x: 0, y: 0, w: iconWidth, h: iconHeight },
         sourceSize: { w: iconWidth, h: iconHeight },
-        padding: PADDING,
       };
 
     } catch (err) {
@@ -248,18 +288,20 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
     }
   }
 
-  // Create atlas image
+  // Create atlas image (grayscale/alpha-only for R8 texture format)
   console.log('Compositing atlas image...');
 
+  // Create RGBA base, composite white+alpha icons, then extract alpha channel
   const atlasBuffer = await sharp({
     create: {
-      width: CONFIG.atlasWidth,
-      height: CONFIG.atlasHeight,
+      width: atlasWidth,
+      height: atlasHeight,
       channels: 4,
       background: { r: 0, g: 0, b: 0, alpha: 0 },
     },
   })
     .composite(compositeOps)
+    .extractChannel(3) // Extract alpha channel as grayscale
     .png()
     .toBuffer();
 
@@ -274,8 +316,8 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
       app: 'buildIcons_TimeMarks.mjs',
       version: '1.0.0',
       image: atlasImageName,
-      format: 'RGBA8888',
-      size: { w: CONFIG.atlasWidth, h: CONFIG.atlasHeight },
+      format: 'R8', // Alpha-only grayscale for tinting
+      size: { w: atlasWidth, h: atlasHeight },
       scale: 1,
     },
   };
