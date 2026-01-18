@@ -162,15 +162,36 @@ function buildIconMap() {
 
 /**
  * Render SVG to PNG buffer at specified size (2:1 aspect ratio)
+ *
+ * IMPORTANT: Expands the SVG viewBox before rendering to capture content
+ * that may extend beyond the original bounds (strokes, shadows, transforms).
+ * The oversizeMargin is in SVG units proportional to the viewBox.
  */
-function renderSvgToPng(svgPath, width, height) {
-  const svgContent = readFileSync(svgPath, 'utf-8');
+function renderSvgToPng(svgPath, width, _height, oversizeMargin = 0) {
+  let svgContent = readFileSync(svgPath, 'utf-8');
 
-  // Render SVG at target size
+  // Expand viewBox to capture edge overflow (strokes, shadows, etc.)
+  if (oversizeMargin > 0) {
+    const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
+    if (viewBoxMatch) {
+      const parts = viewBoxMatch[1].trim().split(/\s+/).map(Number);
+      if (parts.length === 4) {
+        const [minX, minY, vbWidth, vbHeight] = parts;
+        // Calculate margin in viewBox units (proportional to render size)
+        const vbMargin = (vbWidth / width) * oversizeMargin;
+        const newViewBox = `${minX - vbMargin} ${minY - vbMargin} ${vbWidth + vbMargin * 2} ${vbHeight + vbMargin * 2}`;
+        svgContent = svgContent.replace(/viewBox="[^"]+"/, `viewBox="${newViewBox}"`);
+      }
+    }
+  }
+
+  // Render SVG at target size + margin
+  const renderWidth = width + oversizeMargin * 2;
+
   const resvg = new Resvg(svgContent, {
     fitTo: {
       mode: 'width',
-      value: width,
+      value: renderWidth,
     },
     background: 'transparent',
   });
@@ -183,17 +204,14 @@ function renderSvgToPng(svgPath, width, height) {
  * Convert PNG to white with alpha for compositing
  * Final atlas will extract alpha channel for R8 texture format
  *
- * To prevent edge bleeding in the atlas, we:
- * 1. Resize to a slightly larger buffer (target + margin)
- * 2. Extract the exact center portion at target dimensions
- * This clips any antialiased pixels that extend beyond bounds.
+ * The input PNG is rendered at (width + margin*2) x (height + margin*2) to
+ * capture edge overflow. We crop to exact dimensions, discarding the overflow.
  */
-async function convertToWhiteWithAlpha(pngBuffer, width, height) {
-  const MARGIN = 4; // Extra pixels to render, then clip
-  const oversizeWidth = width + MARGIN * 2;
-  const oversizeHeight = height + MARGIN * 2;
+async function convertToWhiteWithAlpha(pngBuffer, width, height, margin = 4) {
+  const oversizeWidth = width + margin * 2;
+  const oversizeHeight = height + margin * 2;
 
-  // First, resize to oversize buffer with icon centered
+  // Resize the oversized render to exact oversize dimensions (in case aspect differs slightly)
   const oversized = await sharp(pngBuffer)
     .ensureAlpha()
     .resize(oversizeWidth, oversizeHeight, {
@@ -203,11 +221,11 @@ async function convertToWhiteWithAlpha(pngBuffer, width, height) {
     })
     .toBuffer();
 
-  // Extract exact center portion, clipping any edge overflow
+  // Extract exact center portion, cropping the expanded viewBox area
   const resized = await sharp(oversized)
     .extract({
-      left: MARGIN,
-      top: MARGIN,
+      left: margin,
+      top: margin,
       width: width,
       height: height,
     })
@@ -272,11 +290,12 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
     const svgPath = join(svgDir, filename);
 
     try {
-      // Render SVG to PNG
-      const pngBuffer = renderSvgToPng(svgPath, iconWidth, iconHeight);
+      // Render SVG to PNG with expanded viewBox to capture edge overflow
+      const RENDER_MARGIN = 2; // Extra pixels to render for strokes/shadows (minimal to avoid shrinking)
+      const pngBuffer = renderSvgToPng(svgPath, iconWidth, iconHeight, RENDER_MARGIN);
 
-      // Convert to white with alpha (alpha will be extracted for R8 format)
-      const whitePng = await convertToWhiteWithAlpha(pngBuffer, iconWidth, iconHeight);
+      // Convert to white with alpha, cropping back to exact dimensions
+      const whitePng = await convertToWhiteWithAlpha(pngBuffer, iconWidth, iconHeight, RENDER_MARGIN);
 
       // Calculate position in grid
       const col = i % iconsPerRow;
