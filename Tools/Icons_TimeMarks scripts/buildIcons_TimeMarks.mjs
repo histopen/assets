@@ -28,18 +28,14 @@ function nextPowerOf2(n) {
  * Calculate optimal atlas dimensions for a given icon count and size
  * Returns { width, height } as powers of 2
  */
-function calculateAtlasDimensions(iconCount, iconWidth, padding) {
-  const iconHeight = iconWidth / 2;
-  const paddedWidth = iconWidth + padding;
-  const paddedHeight = iconHeight + padding;
-
-  // Calculate optimal grid layout (favor wider than tall due to 2:1 icons)
+function calculateAtlasDimensions(iconCount, cellWidth, cellHeight) {
+  // Calculate optimal grid layout (favor wider than tall due to ~2:1 icons)
   const iconsPerRow = Math.ceil(Math.sqrt(iconCount * 2));
   const rows = Math.ceil(iconCount / iconsPerRow);
 
   // Calculate minimum dimensions needed
-  const minWidth = iconsPerRow * paddedWidth;
-  const minHeight = rows * paddedHeight;
+  const minWidth = iconsPerRow * cellWidth;
+  const minHeight = rows * cellHeight;
 
   // Round up to power of 2 for GPU efficiency
   const width = nextPowerOf2(minWidth);
@@ -50,6 +46,9 @@ function calculateAtlasDimensions(iconCount, iconWidth, padding) {
 
 // Atlas sizes to generate (width, height = width/2)
 const ATLAS_SIZES = [128, 96, 64, 32];
+
+// 1px transparent border around each icon to prevent OutlineFilter artifacts
+const ICON_PADDING = 1;
 
 // Configuration
 const CONFIG = {
@@ -181,6 +180,7 @@ function renderSvgToPng(svgPath, width) {
 
 /**
  * Convert PNG to white with alpha for compositing
+ * Adds 1px transparent border for OutlineFilter compatibility
  * Final atlas will extract alpha channel for R8 texture format
  */
 async function convertToWhiteWithAlpha(pngBuffer, width, height) {
@@ -211,29 +211,38 @@ async function convertToWhiteWithAlpha(pngBuffer, width, height) {
     }
   }
 
-  // Convert back to PNG with exact dimensions
+  // Convert back to PNG and add transparent border for OutlineFilter
   return sharp(Buffer.from(pixels), {
     raw: { width, height, channels: 4 },
-  }).png().toBuffer();
+  })
+    .extend({
+      top: ICON_PADDING,
+      bottom: ICON_PADDING,
+      left: ICON_PADDING,
+      right: ICON_PADDING,
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    })
+    .png()
+    .toBuffer();
 }
 
 /**
  * Build a single atlas at specified size
  */
 async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
-  const PADDING = 0; // No padding needed - icons are clipped to exact bounds during render
   const iconHeight = iconWidth / 2;
-  const paddedWidth = iconWidth + PADDING;
-  const paddedHeight = iconHeight + PADDING;
+  // Each icon gets 1px transparent border on all sides
+  const paddedWidth = iconWidth + ICON_PADDING * 2;
+  const paddedHeight = iconHeight + ICON_PADDING * 2;
 
-  // Calculate dynamic atlas dimensions based on icon count
-  const atlasDims = calculateAtlasDimensions(iconIds.length, iconWidth, PADDING);
+  // Calculate dynamic atlas dimensions based on icon count (using padded icon size)
+  const atlasDims = calculateAtlasDimensions(iconIds.length, paddedWidth, paddedHeight);
   const atlasWidth = CONFIG.atlasWidth || atlasDims.width;
   const atlasHeight = CONFIG.atlasHeight || atlasDims.height;
 
   const iconsPerRow = Math.floor(atlasWidth / paddedWidth);
 
-  console.log(`\n--- Building ${iconWidth}x${iconHeight} atlas ---`);
+  console.log(`\n--- Building ${iconWidth}x${iconHeight} atlas (${paddedWidth}x${paddedHeight} with padding) ---`);
   console.log(`Atlas size: ${atlasWidth}x${atlasHeight} (dynamic)`);
   console.log(`Grid: ${iconsPerRow} icons per row, ${iconIds.length} icons total`);
 
@@ -272,15 +281,15 @@ async function buildAtlasForSize(iconWidth, iconMap, iconIds, svgDir) {
         top: y,
       });
 
-      // Add frame to spritesheet JSON
+      // Add frame to spritesheet JSON (includes transparent padding)
       // Use padded format like "0001" for consistency
       const frameId = iconId.toString().padStart(4, '0');
       frames[frameId] = {
-        frame: { x, y, w: iconWidth, h: iconHeight },
+        frame: { x, y, w: paddedWidth, h: paddedHeight },
         rotated: false,
         trimmed: false,
-        spriteSourceSize: { x: 0, y: 0, w: iconWidth, h: iconHeight },
-        sourceSize: { w: iconWidth, h: iconHeight },
+        spriteSourceSize: { x: 0, y: 0, w: paddedWidth, h: paddedHeight },
+        sourceSize: { w: paddedWidth, h: paddedHeight },
       };
 
     } catch (err) {
