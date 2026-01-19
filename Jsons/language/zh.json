@@ -312,7 +312,7 @@
   "tv_2020s_wikipedia": "",
   "account_login": "登录",
   "account_email": "电子邮件",
-  "account_email_placeholder": "请输入您的电子邮件地址",
+  "account_email_placeholder": "请输入您的邮箱",
   "account_password": "密码",
   "account_password_placeholder": "请输入您的密码",
   "account_login_not_implemented": "登录功能尚未实现",
