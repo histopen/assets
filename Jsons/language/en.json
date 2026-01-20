@@ -323,7 +323,7 @@
   "cal_hebrew": "Hebrew",
   "cal_balinese": "Balinese",
   "cal_creationist": "Creationist",
-  "cal_gregorian_explanation": "Solar calendar, 12 months, 365-366 days, introduced by Pope Gregory XIII in 1582.",
+  "cal_gregorian_explanation": "Solar calendar, 12 months, 365-366 days, introduced in 1582.",
   "cal_islamic_explanation": "Lunar calendar, 12 months, 354-355 days, begins with Muhammad's migration to Medina (622 CE).",
   "cal_chinese_explanation": "Lunisolar calendar, combines lunar months, solar year, 12-year zodiac animal cycle. Used for traditional East Asian festivals.",
   "cal_persian_explanation": "Solar calendar, 365-366 days, begins at the spring equinox (Nowruz).",

@@ -323,7 +323,7 @@
   "cal_hebrew": "希伯来语",
   "cal_balinese": "巴厘岛",
   "cal_creationist": "创造论者",
-  "cal_gregorian_explanation": "太阳历，12 个月，365-366 天，由教皇格里高利十三世于 1582 年颁布。",
+  "cal_gregorian_explanation": "太阳历，12 个月，365-366 天，于 1582 年引入。",
   "cal_islamic_explanation": "阴历，12 个月，354-355 天，始于穆罕默德迁徙到麦地那（公元 622 年）。",
   "cal_chinese_explanation": "阴阳历，结合了农历月份、太阳年和十二生肖周期。用于东亚传统节日。",
   "cal_persian_explanation": "太阳历，365-366天，始于春分（诺鲁孜节）。",
