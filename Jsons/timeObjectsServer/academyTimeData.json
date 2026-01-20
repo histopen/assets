@@ -3,13 +3,13 @@
       "sDay": 27, "sMonth":  1, "sYear": 1756, "sCirca": 0, "sCircaUnit": "Y",
       "eDay":  5, "eMonth": 12, "eYear": 1791, "eCirca": 0, "eCircaUnit": "Y"
     }}],
-  [1, {"timeDataCaption": "Al-Rashid", "timeDataUrl": "Al-Rashid_of_Morocco", "timeDataDate": {
-      "sDay":  1, "sMonth":  1, "sYear": 1631, "sCirca": 1, "sCircaUnit": "Y",
-      "eDay":  9, "eMonth":  4, "eYear": 1672, "eCirca": 0, "eCircaUnit": "Y"
-    }}],
-  [2, {"timeDataCaption": "Roosevelt", "timeDataUrl": "Franklin_D._Roosevelt", "timeDataDate": {
+  [1, {"timeDataCaption": "Roosevelt", "timeDataUrl": "Franklin_D._Roosevelt", "timeDataDate": {
       "sDay": 30, "sMonth":  1, "sYear": 1882, "sCirca": 0, "sCircaUnit": "Y",
       "eDay": 12, "eMonth":  4, "eYear": 1945, "eCirca": 0, "eCircaUnit": "Y"
+    }}],
+  [2, {"timeDataCaption": "Al-Rashid", "timeDataUrl": "Al-Rashid_of_Morocco", "timeDataDate": {
+      "sDay":  1, "sMonth":  1, "sYear": 1631, "sCirca": 1, "sCircaUnit": "Y",
+      "eDay":  9, "eMonth":  4, "eYear": 1672, "eCirca": 0, "eCircaUnit": "Y"
     }}],
   [3, {"timeDataCaption": "Einstein", "timeDataUrl": "Albert_Einstein", "timeDataDate": {
       "sDay": 14, "sMonth":  3, "sYear": 1879, "sCirca": 0, "sCircaUnit": "Y",

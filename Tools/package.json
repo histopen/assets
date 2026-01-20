@@ -5,19 +5,19 @@
   "type": "module",
 
   "scripts": {
-    "loc": "node jsontools/toolloc.js && git add ../Jsons/language && git commit -m \"update loc\" && git push",
+    "loc": "(node jsontools/toolloc.js && git add ../Jsons/language && git commit -m \"update loc\" && git push && echo \"success\") || echo \"failure\"",
     "loc-n": "node jsontools/toolloc.js",
     "btn": "node \"svg scripts/buildUiSprite.mjs\" && node jsontools/toolbtn.js && git add ../Icons_UI/sprites-ui.svg ../Jsons/buttonsConfig.json && git commit -m \"update btn\" && git push",
     "btn-n": "node \"svg scripts/buildUiSprite.mjs\" && node jsontools/toolbtn.js",
-    "tv": "node jsontools/tooltv.js && git add ../Jsons/tvConfig.json && git commit -m \"update tv\" && git push",
+    "tv": "(node jsontools/tooltv.js && git add ../Jsons/tvConfig.json && git commit -m \"update tv\" && git push && echo \"success\") || echo \"failure\"",
     "tv-n": "node jsontools/tooltv.js",
-    "dbtm": "node jsontools/tooldbtm.js && git add ../Jsons/dbtm.json && git commit -m \"update dbtm\" && git push",
+    "dbtm": "(node jsontools/tooldbtm.js && git add ../Jsons/dbtm.json && git commit -m \"update dbtm\" && git push && echo \"success\") || echo \"failure\"",
     "dbtm-n": "node jsontools/tooldbtm.js",
-    "cosmos": "node jsontools/toolcosmos.js && git add ../Jsons/cosmos.json && git commit -m \"update cosmos\" && git push",
+    "cosmos": "(node jsontools/toolcosmos.js && git add ../Jsons/cosmos.json && git commit -m \"update cosmos\" && git push && echo \"success\") || echo \"failure\"",
     "cosmos-n": "node jsontools/toolcosmos.js",
-    "tmconvert": "node \"svg scripts/recenteresizeformat/transform.mjs\"",
-    "uisprites": "node \"svg scripts/buildUiSprite.mjs\"",
-    "atlas": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git add ../Icons_TimeMarks/Atlas && git commit -m \"update atlas\" && git push",
+    "tmconvert": "(node \"svg scripts/recenteresizeformat/transform.mjs\" && echo \"success\") || echo \"failure\"",
+    "uisprites": "(node \"svg scripts/buildUiSprite.mjs\" && echo \"success\") || echo \"failure\"",
+    "atlas": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git add ../Icons_TimeMarks/Atlas && git commit -m \"update atlas\" && git push && echo \"success\") || echo \"failure\"",
     "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\""
   },
   "devDependencies": {

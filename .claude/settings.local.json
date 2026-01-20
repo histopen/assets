@@ -1,15 +1,5 @@
 {
   "permissions": {
-    "dangerouslySkipPermissions": true,
-    "allow": [
-      "Read(*)",
-      "Write(*)",
-      "Edit(*)",
-      "Bash(*)",
-      "Bash(ls:*)"
-    ],
-    "additionalDirectories": [
-      "C:\\code\\wikit\\docs"
-    ]
+    "defaultMode": "bypassPermissions"
   }
 }
