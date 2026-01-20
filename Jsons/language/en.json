@@ -343,7 +343,7 @@
   "settings_parameters": "Parameters",
   "controls_mouse": "Mouse",
   "controls_mouse_drag": "Drag",
-  "controls_mouse_drag_pan": "Pan timeline",
+  "controls_mouse_drag_pan": "Pan",
   "controls_mouse_wheel": "Wheel",
   "controls_mouse_wheel_zoom_at_cursor": "Zoom at cursor",
   "controls_mouse_enable_inertia": "Momentum after drag",

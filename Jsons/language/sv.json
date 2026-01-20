@@ -343,7 +343,7 @@
   "settings_parameters": "Parametrar",
   "controls_mouse": "Mus",
   "controls_mouse_drag": "Dra",
-  "controls_mouse_drag_pan": "Pan-tidslinje",
+  "controls_mouse_drag_pan": "Panorera",
   "controls_mouse_wheel": "Hjul",
   "controls_mouse_wheel_zoom_at_cursor": "Zooma vid markören",
   "controls_mouse_enable_inertia": "Momentum efter motstånd",

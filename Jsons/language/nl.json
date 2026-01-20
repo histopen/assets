@@ -343,7 +343,7 @@
   "settings_parameters": "Parameters",
   "controls_mouse": "Muis",
   "controls_mouse_drag": "Sleuren",
-  "controls_mouse_drag_pan": "Pan-tijdlijn",
+  "controls_mouse_drag_pan": "Pan",
   "controls_mouse_wheel": "Wiel",
   "controls_mouse_wheel_zoom_at_cursor": "Zoom in op de cursor",
   "controls_mouse_enable_inertia": "Momentum na het slepen",

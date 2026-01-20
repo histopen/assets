@@ -343,7 +343,7 @@
   "settings_parameters": "パラメータ",
   "controls_mouse": "ねずみ",
   "controls_mouse_drag": "ドラッグ",
-  "controls_mouse_drag_pan": "タイムラインをパン",
+  "controls_mouse_drag_pan": "パン",
   "controls_mouse_wheel": "車輪",
   "controls_mouse_wheel_zoom_at_cursor": "カーソル位置でズーム",
   "controls_mouse_enable_inertia": "抗力後の運動量",

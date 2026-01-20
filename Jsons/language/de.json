@@ -343,7 +343,7 @@
   "settings_parameters": "Parameter",
   "controls_mouse": "Maus",
   "controls_mouse_drag": "Ziehen",
-  "controls_mouse_drag_pan": "Pan-Zeitleiste",
+  "controls_mouse_drag_pan": "Pfanne",
   "controls_mouse_wheel": "Rad",
   "controls_mouse_wheel_zoom_at_cursor": "Zoomen Sie am Cursor",
   "controls_mouse_enable_inertia": "Impuls nach dem Bremsvorgang",
