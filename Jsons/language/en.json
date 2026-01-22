@@ -69,7 +69,7 @@
   "cred_wikipedia": "Wiki",
   "cred_wikipedia_who": "Sabat",
   "cred_project": "Mind",
-  "cred_project_who": "Pierre1",
+  "cred_project_who": "Pierre",
   "cred_sideral": "Guru",
   "cred_sideral_who": "Caro",
   "settings_source": "Source",
@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Pinch",
   "controls_touch_pinch_zoom": "Zoom in/out",
   "controls_touch_zoom_sensitivity": "Pinch",
-  "controls_touch_enable_pinch_zoom": "Enable pinch to zoom"
+  "controls_touch_enable_pinch_zoom": "Enable pinch to zoom",
+  "time_bar_display": "Time Bar",
+  "time_bar_show": "Simple",
+  "time_viewbars_show": "Advanced",
+  "time_view_mode": "Timeview",
+  "time_view_display": "Display",
+  "time_view_customize": "Customize"
 }

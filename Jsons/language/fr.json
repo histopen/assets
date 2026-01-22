@@ -334,7 +334,7 @@
   "cal_chinese_explanation": "Calendrier luni-solaire, combinant les mois lunaires, l'année solaire et le cycle zodiacal de 12 ans. Utilisé pour les fêtes traditionnelles d'Asie de l'Est.",
   "cal_persian_explanation": "Le calendrier solaire, de 365 à 366 jours, commence à l'équinoxe de printemps (Nowruz).",
   "cal_balinese_explanation": "Système calendaire combinant des cycles simultanés, incluant un calendrier Pawukon de 210 jours. Utilisé pour les cérémonies religieuses.",
-  "cal_hebrew_explanation": "Calendrier luni-solaire, de 12 à 13 mois, débutant avec la création (3761 av. J.-C.). Utilisé pour les observances religieuses.",
+  "cal_hebrew_explanation": "Calendrier luni-solaire, de 12 à 13 mois, débutant avec la création (3761 av. J.-C.). Utilisé pour les pratiques religieuses.",
   "cal_ethiopian_explanation": "Calendrier solaire, 13 mois (12 de 30 jours et 1 de 5-6 jours), 7-8 ans en retard sur le calendrier grégorien.",
   "cal_creationist_explanation": "Ce cadre chronologique calcule l'âge de la Terre à partir des généalogies bibliques, situant la création il y a 6 000 à 10 000 ans.",
   "cal_gregorian_usage": "Utilisation : 95 % (officiel) - Utilisé comme calendrier civil dans presque tous les pays à des fins officielles et économiques.",
@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Pincer",
   "controls_touch_pinch_zoom": "Zoom avant/arrière",
   "controls_touch_zoom_sensitivity": "Pincer",
-  "controls_touch_enable_pinch_zoom": "Pincer-zoomer"
+  "controls_touch_enable_pinch_zoom": "Pincer-zoomer",
+  "time_bar_display": "Temps",
+  "time_bar_show": "Simple",
+  "time_viewbars_show": "Avancé",
+  "time_view_mode": "Timeview",
+  "time_view_display": "Afficher",
+  "time_view_customize": "Personnaliser"
 }

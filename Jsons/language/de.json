@@ -30,7 +30,7 @@
   "timeview_save": "Zeitansicht speichern",
   "catalogs_show": "Kataloge",
   "database_show": "Datenbank anzeigen",
-  "load": "Lastpaneele und -kästen",
+  "load": "Lastverteiler und -kästen",
   "cosmos_show": "Hintergrund umschalten",
   "cat_b": "Sein",
   "cat_c": "Kultur",
@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Prise",
   "controls_touch_pinch_zoom": "Vergrößern/Verkleinern",
   "controls_touch_zoom_sensitivity": "Prise",
-  "controls_touch_enable_pinch_zoom": "Pinch-to-Zoom aktivieren"
+  "controls_touch_enable_pinch_zoom": "Pinch-to-Zoom aktivieren",
+  "time_bar_display": "Zeitleiste",
+  "time_bar_show": "Einfach",
+  "time_viewbars_show": "Fortschrittlich",
+  "time_view_mode": "Zeitansicht",
+  "time_view_display": "Anzeige",
+  "time_view_customize": "Anpassen"
 }

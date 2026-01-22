@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Kneep",
   "controls_touch_pinch_zoom": "In-/uitzoomen",
   "controls_touch_zoom_sensitivity": "Kneep",
-  "controls_touch_enable_pinch_zoom": "Schakel knijpzoomen in."
+  "controls_touch_enable_pinch_zoom": "Schakel knijpzoomen in.",
+  "time_bar_display": "Tijdsbalk",
+  "time_bar_show": "Eenvoudig",
+  "time_viewbars_show": "Geavanceerd",
+  "time_view_mode": "Tijdsweergave",
+  "time_view_display": "Weergave",
+  "time_view_customize": "Aanpassen"
 }

@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Pizzico",
   "controls_touch_pinch_zoom": "Ingrandisci/riduci",
   "controls_touch_zoom_sensitivity": "Pizzico",
-  "controls_touch_enable_pinch_zoom": "Abilita il pizzico per ingrandire"
+  "controls_touch_enable_pinch_zoom": "Abilita il pizzico per ingrandire",
+  "time_bar_display": "Barra del tempo",
+  "time_bar_show": "Semplice",
+  "time_viewbars_show": "Avanzato",
+  "time_view_mode": "Timeview",
+  "time_view_display": "Display",
+  "time_view_customize": "Personalizza"
 }

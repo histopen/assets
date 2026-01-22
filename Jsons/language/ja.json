@@ -318,7 +318,7 @@
   "time_region_week_starts_sunday": "日曜日",
   "cal_name": "カレンダー：",
   "cal_availability_yes": "利用可能",
-  "cal_availability_no": "まだ準備ができていません（助けが必要です...貢献ウェブサイトはこちら）",
+  "cal_availability_no": "まだ準備ができていません (支援が必要です... 貢献ウェブサイトはこちら)",
   "cal_other": "カレンダー",
   "cal_usage": "使用法：",
   "cal_gregorian": "グレゴリオ暦",
@@ -342,7 +342,7 @@
   "cal_chinese_usage": "使用率: 18% (文化的) - 旧正月などの祭りで約 14 億人の中国人がこれを祝います。",
   "cal_persian_usage": "使用率: 1.5% (民間/文化) - イラン (~8,900 万) とアフガニスタン (~4,100 万) の公式カレンダー。",
   "cal_balinese_usage": "使用率: 1.5% (民間) - エチオピア(~126M)で公用語、エリトリアで使用。",
-  "cal_hebrew_usage": "使用率: 0.2% (宗教的) - ユダヤ人コミュニティ (約 1,600 万人) が宗教的な目的で使用しています。",
+  "cal_hebrew_usage": "使用状況: 0.2% (宗教的) - ユダヤ人コミュニティ (約 1,600 万人) が宗教的な目的で使用しています。",
   "cal_ethiopian_usage": "使用率: <0.1% (文化的) - 主にバリ島 (インドネシア) で使用されており、約 450 万人が使用しています。",
   "cal_creationist_usage": "使用率: <0.01% (ニッチ) - いくつかの原理主義キリスト教コミュニティで使用されています。",
   "settings_source_academy": "アカデミー",
@@ -368,5 +368,11 @@
   "controls_touch_pinch": "ピンチ",
   "controls_touch_pinch_zoom": "ズームイン/ズームアウト",
   "controls_touch_zoom_sensitivity": "ピンチ",
-  "controls_touch_enable_pinch_zoom": "ピンチズームを有効にする"
+  "controls_touch_enable_pinch_zoom": "ピンチズームを有効にする",
+  "time_bar_display": "タイムバー",
+  "time_bar_show": "単純",
+  "time_viewbars_show": "高度な",
+  "time_view_mode": "タイムビュー",
+  "time_view_display": "画面",
+  "time_view_customize": "カスタマイズ"
 }

@@ -78,7 +78,7 @@
   "source_wikipedia_label": "Wikipedia",
   "source_baidubaike": "Baidu Baike",
   "source_britannica": "Britannica",
-  "source_citizendium": "Citizendium",
+  "source_citizendium": "Citizenium",
   "source_encyclopedia.com": "Encyklopedi",
   "source_imdb": "Imdb",
   "source_internetarchive": "Internetarkivet",
@@ -331,7 +331,7 @@
   "cal_creationist": "Kreationist",
   "cal_gregorian_explanation": "Solkalender, 12 månader, 365–366 dagar, introducerad 1582.",
   "cal_islamic_explanation": "Månkalendern, 12 månader, 354-355 dagar, börjar med Muhammeds migration till Medina (622 e.Kr.).",
-  "cal_chinese_explanation": "Lunisolarkalender, kombinerar månmånader, solår och 12-åriga zodiakcykel för djur. Används för traditionella östasiatiska festivaler.",
+  "cal_chinese_explanation": "Lunisolarkalender, kombinerar månmånader, solår och 12-åriga zodiakcykeln för djuren. Används för traditionella östasiatiska festivaler.",
   "cal_persian_explanation": "Solkalendern, 365-366 dagar, börjar vid vårdagjämningen (Nowruz).",
   "cal_balinese_explanation": "Kalendersystem som kombinerar samtidiga cykler, inklusive en 210-dagars Pawukon-kalender. Används för religiösa ceremonier.",
   "cal_hebrew_explanation": "Lunisolarkalendern, 12–13 månader, börjar vid skapelsen (3761 f.Kr.). Används för religiösa högtider.",
@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Nypa",
   "controls_touch_pinch_zoom": "Zooma in/ut",
   "controls_touch_zoom_sensitivity": "Nypa",
-  "controls_touch_enable_pinch_zoom": "Aktivera nyp för att zooma"
+  "controls_touch_enable_pinch_zoom": "Aktivera nyp för att zooma",
+  "time_bar_display": "Tidsstapel",
+  "time_bar_show": "Enkel",
+  "time_viewbars_show": "Avancerad",
+  "time_view_mode": "Tidsvy",
+  "time_view_display": "Visa",
+  "time_view_customize": "Anpassa"
 }

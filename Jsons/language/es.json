@@ -330,7 +330,7 @@
   "cal_balinese": "balinés",
   "cal_creationist": "Creacionista",
   "cal_gregorian_explanation": "Calendario solar, 12 meses, 365-366 días, introducido en 1582.",
-  "cal_islamic_explanation": "Calendario lunar, 12 meses, 354-355 días, comienza con la migración de Mahoma a Medina (622 d.C.).",
+  "cal_islamic_explanation": "El calendario lunar, de 12 meses y 354-355 días, comienza con la migración de Mahoma a Medina (622 d.C.).",
   "cal_chinese_explanation": "Calendario lunisolar que combina los meses lunares, el año solar y el ciclo animal del zodíaco de 12 años. Se utiliza para festivales tradicionales del este asiático.",
   "cal_persian_explanation": "El calendario solar, de 365-366 días, comienza en el equinoccio de primavera (Nowruz).",
   "cal_balinese_explanation": "Sistema de calendario que combina ciclos simultáneos, incluyendo un calendario Pawukon de 210 días. Se utiliza para ceremonias religiosas.",
@@ -368,5 +368,11 @@
   "controls_touch_pinch": "Pellizco",
   "controls_touch_pinch_zoom": "Acercar/alejar",
   "controls_touch_zoom_sensitivity": "Pellizco",
-  "controls_touch_enable_pinch_zoom": "Habilitar pellizcar para hacer zoom"
+  "controls_touch_enable_pinch_zoom": "Habilitar pellizcar para hacer zoom",
+  "time_bar_display": "Barra de tiempo",
+  "time_bar_show": "Simple",
+  "time_viewbars_show": "Avanzado",
+  "time_view_mode": "Vista del tiempo",
+  "time_view_display": "Mostrar",
+  "time_view_customize": "Personalizar"
 }

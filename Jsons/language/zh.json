@@ -368,5 +368,11 @@
   "controls_touch_pinch": "捏",
   "controls_touch_pinch_zoom": "放大/缩小",
   "controls_touch_zoom_sensitivity": "捏",
-  "controls_touch_enable_pinch_zoom": "启用捏合缩放功能"
+  "controls_touch_enable_pinch_zoom": "启用捏合缩放功能",
+  "time_bar_display": "时间条",
+  "time_bar_show": "简单的",
+  "time_viewbars_show": "先进的",
+  "time_view_mode": "时空",
+  "time_view_display": "展示",
+  "time_view_customize": "定制"
 }
