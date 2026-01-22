@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Powiększ/pomniejsz",
   "controls_touch_zoom_sensitivity": "Szczypta",
   "controls_touch_enable_pinch_zoom": "Włącz funkcję szczypania, aby powiększyć",
-  "time_bar_display": "Pasek czasu",
-  "time_bar_show": "Prosty",
-  "time_viewbars_show": "Zaawansowany",
+  "time_bar_mode": "Pasek czasu",
+  "time_bar_mode_simple": "Prosty",
+  "time_bar_mode_advanced": "Zaawansowany",
+  "time_bar_mode_adapted": "Adaptacyjny",
   "time_view_mode": "Podgląd czasu",
   "time_view_display": "Wyświetlacz",
   "time_view_customize": "Dostosuj"

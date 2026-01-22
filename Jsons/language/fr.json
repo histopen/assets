@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Zoom avant/arrière",
   "controls_touch_zoom_sensitivity": "Pincer",
   "controls_touch_enable_pinch_zoom": "Pincer-zoomer",
-  "time_bar_display": "Temps",
-  "time_bar_show": "Simple",
-  "time_viewbars_show": "Avancé",
+  "time_bar_mode": "Temps",
+  "time_bar_mode_simple": "Simple",
+  "time_bar_mode_advanced": "Avancé",
+  "time_bar_mode_adapted": "Adaptatif",
   "time_view_mode": "Timeview",
   "time_view_display": "Afficher",
   "time_view_customize": "Personnaliser"

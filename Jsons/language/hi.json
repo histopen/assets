@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "ज़ूम इन/आउट",
   "controls_touch_zoom_sensitivity": "चुटकी",
   "controls_touch_enable_pinch_zoom": "पिंच टू ज़ूम को सक्षम करें",
-  "time_bar_display": "समय पट्टी",
-  "time_bar_show": "सरल",
-  "time_viewbars_show": "विकसित",
+  "time_bar_mode": "समय पट्टी",
+  "time_bar_mode_simple": "सरल",
+  "time_bar_mode_advanced": "विकसित",
+  "time_bar_mode_adapted": "अनुकूली",
   "time_view_mode": "टाइमव्यू",
   "time_view_display": "प्रदर्शन",
   "time_view_customize": "अनुकूलित करें"

@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Zoom in/out",
   "controls_touch_zoom_sensitivity": "Pinch",
   "controls_touch_enable_pinch_zoom": "Enable pinch to zoom",
-  "time_bar_display": "Time Bar",
-  "time_bar_show": "Simple",
-  "time_viewbars_show": "Advanced",
+  "time_bar_mode": "Time Bar",
+  "time_bar_mode_simple": "Simple",
+  "time_bar_mode_advanced": "Advanced",
+  "time_bar_mode_adapted": "Adaptative",
   "time_view_mode": "Timeview",
   "time_view_display": "Display",
   "time_view_customize": "Customize"

@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Acercar/alejar",
   "controls_touch_zoom_sensitivity": "Pellizco",
   "controls_touch_enable_pinch_zoom": "Habilitar pellizcar para hacer zoom",
-  "time_bar_display": "Barra de tiempo",
-  "time_bar_show": "Simple",
-  "time_viewbars_show": "Avanzado",
+  "time_bar_mode": "Barra de tiempo",
+  "time_bar_mode_simple": "Simple",
+  "time_bar_mode_advanced": "Avanzado",
+  "time_bar_mode_adapted": "Adaptativo",
   "time_view_mode": "Vista del tiempo",
   "time_view_display": "Mostrar",
   "time_view_customize": "Personalizar"

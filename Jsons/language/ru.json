@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Увеличение/уменьшение масштаба",
   "controls_touch_zoom_sensitivity": "Ущипнуть",
   "controls_touch_enable_pinch_zoom": "Включить масштабирование с помощью жеста «щипок»",
-  "time_bar_display": "Временная шкала",
-  "time_bar_show": "Простой",
-  "time_viewbars_show": "Передовой",
+  "time_bar_mode": "Временная шкала",
+  "time_bar_mode_simple": "Простой",
+  "time_bar_mode_advanced": "Передовой",
+  "time_bar_mode_adapted": "Адаптивный",
   "time_view_mode": "Просмотр по времени",
   "time_view_display": "Отображать",
   "time_view_customize": "Настроить"

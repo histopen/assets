@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "ズームイン/ズームアウト",
   "controls_touch_zoom_sensitivity": "ピンチ",
   "controls_touch_enable_pinch_zoom": "ピンチズームを有効にする",
-  "time_bar_display": "タイムバー",
-  "time_bar_show": "単純",
-  "time_viewbars_show": "高度な",
+  "time_bar_mode": "タイムバー",
+  "time_bar_mode_simple": "単純",
+  "time_bar_mode_advanced": "高度な",
+  "time_bar_mode_adapted": "適応型",
   "time_view_mode": "タイムビュー",
   "time_view_display": "画面",
   "time_view_customize": "カスタマイズ"

@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Zooma in/ut",
   "controls_touch_zoom_sensitivity": "Nypa",
   "controls_touch_enable_pinch_zoom": "Aktivera nyp för att zooma",
-  "time_bar_display": "Tidsstapel",
-  "time_bar_show": "Enkel",
-  "time_viewbars_show": "Avancerad",
+  "time_bar_mode": "Tidsstapel",
+  "time_bar_mode_simple": "Enkel",
+  "time_bar_mode_advanced": "Avancerad",
+  "time_bar_mode_adapted": "Anpassningsbar",
   "time_view_mode": "Tidsvy",
   "time_view_display": "Visa",
   "time_view_customize": "Anpassa"

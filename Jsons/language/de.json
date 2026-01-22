@@ -369,9 +369,10 @@
   "controls_touch_pinch_zoom": "Vergrößern/Verkleinern",
   "controls_touch_zoom_sensitivity": "Prise",
   "controls_touch_enable_pinch_zoom": "Pinch-to-Zoom aktivieren",
-  "time_bar_display": "Zeitleiste",
-  "time_bar_show": "Einfach",
-  "time_viewbars_show": "Fortschrittlich",
+  "time_bar_mode": "Zeitleiste",
+  "time_bar_mode_simple": "Einfach",
+  "time_bar_mode_advanced": "Fortschrittlich",
+  "time_bar_mode_adapted": "Adaptiv",
   "time_view_mode": "Zeitansicht",
   "time_view_display": "Anzeige",
   "time_view_customize": "Anpassen"
