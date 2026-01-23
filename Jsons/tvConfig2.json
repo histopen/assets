@@ -1301,6 +1301,232 @@
         "url": "Social_media",
         "fragment": ""
       }
+    ],
+    "Decades": [
+      {
+        "caption": "1850s",
+        "startYear": "1 850",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1850s",
+        "fragment": ""
+      }
+    ]
+  },
+  "": {
+    "": [
+      {
+        "caption": "1860s",
+        "startYear": "1 860",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1860s",
+        "fragment": ""
+      },
+      {
+        "caption": "1870s",
+        "startYear": "1 870",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1870s",
+        "fragment": ""
+      },
+      {
+        "caption": "1880s",
+        "startYear": "1 880",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1880s",
+        "fragment": ""
+      },
+      {
+        "caption": "1890s",
+        "startYear": "1 890",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1890s",
+        "fragment": ""
+      },
+      {
+        "caption": "1900s",
+        "startYear": "1 900",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1900s",
+        "fragment": ""
+      },
+      {
+        "caption": "1910s",
+        "startYear": "1 910",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1910s",
+        "fragment": ""
+      },
+      {
+        "caption": "1920s",
+        "startYear": "1 920",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1920s",
+        "fragment": ""
+      },
+      {
+        "caption": "1930s",
+        "startYear": "1 930",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1930s",
+        "fragment": ""
+      },
+      {
+        "caption": "1940s",
+        "startYear": "1 940",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1940s",
+        "fragment": ""
+      },
+      {
+        "caption": "1950s",
+        "startYear": "1 950",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1950s",
+        "fragment": ""
+      },
+      {
+        "caption": "1960s",
+        "startYear": "1 960",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1960s",
+        "fragment": ""
+      },
+      {
+        "caption": "1970s",
+        "startYear": "1 970",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1970s",
+        "fragment": ""
+      },
+      {
+        "caption": "1980s",
+        "startYear": "1 980",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "1980s",
+        "fragment": ""
+      },
+      {
+        "caption": "1990s",
+        "startYear": "1 990",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "1990s",
+        "fragment": ""
+      },
+      {
+        "caption": "2000s",
+        "startYear": "2 000",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "2000s",
+        "fragment": ""
+      },
+      {
+        "caption": "2010s",
+        "startYear": "2 010",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "797979",
+        "textColor": "D9D9D9",
+        "width": 5,
+        "url": "2010s",
+        "fragment": ""
+      },
+      {
+        "caption": "2020s",
+        "startYear": "2 020",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "999999",
+        "textColor": "000000",
+        "width": 5,
+        "url": "2020s",
+        "fragment": ""
+      },
+      {
+        "caption": "",
+        "startYear": "",
+        "startMonth": "",
+        "startDay": "",
+        "bgColor": "",
+        "textColor": "",
+        "width": 0,
+        "url": "",
+        "fragment": ""
+      },
+      {
+        "caption": "",
+        "startYear": "",
+        "startMonth": "",
+        "startDay": "",
+        "bgColor": "",
+        "textColor": "",
+        "width": 0,
+        "url": "",
+        "fragment": ""
+      }
     ]
   }
 }
