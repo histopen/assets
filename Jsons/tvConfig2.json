@@ -234,7 +234,7 @@
         "startDay": 1,
         "bgColor": "8B0000",
         "textColor": "ffffff",
-        "width": "",
+        "width": 6,
         "url": "Hadean",
         "fragment": ""
       },
@@ -245,7 +245,7 @@
         "startDay": 1,
         "bgColor": "A52A2A",
         "textColor": "ffffff",
-        "width": "",
+        "width": 7,
         "url": "Archean",
         "fragment": ""
       },
@@ -256,7 +256,7 @@
         "startDay": 1,
         "bgColor": "CD853F",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "Proterozoic",
         "fragment": ""
       },
@@ -267,7 +267,7 @@
         "startDay": 1,
         "bgColor": "7CFC00",
         "textColor": "000000",
-        "width": "",
+        "width": 8,
         "url": "Cambrian",
         "fragment": ""
       },
@@ -278,7 +278,7 @@
         "startDay": 1,
         "bgColor": "00CED1",
         "textColor": "000000",
-        "width": "",
+        "width": 10,
         "url": "Ordovician",
         "fragment": ""
       },
@@ -289,7 +289,7 @@
         "startDay": 1,
         "bgColor": "B0E0E6",
         "textColor": "000000",
-        "width": "",
+        "width": 8,
         "url": "Silurian",
         "fragment": ""
       },
@@ -300,7 +300,7 @@
         "startDay": 1,
         "bgColor": "DEB887",
         "textColor": "000000",
-        "width": "",
+        "width": 8,
         "url": "Devonian",
         "fragment": ""
       },
@@ -311,7 +311,7 @@
         "startDay": 1,
         "bgColor": "556B2F",
         "textColor": "ffffff",
-        "width": "",
+        "width": 13,
         "url": "Carboniferous",
         "fragment": ""
       },
@@ -322,7 +322,7 @@
         "startDay": 1,
         "bgColor": "FF6347",
         "textColor": "000000",
-        "width": "",
+        "width": 7,
         "url": "Permian",
         "fragment": ""
       },
@@ -333,7 +333,7 @@
         "startDay": 1,
         "bgColor": "9370DB",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Triassic",
         "fragment": ""
       },
@@ -344,7 +344,7 @@
         "startDay": 1,
         "bgColor": "00BFFF",
         "textColor": "000000",
-        "width": "",
+        "width": 8,
         "url": "Jurassic",
         "fragment": ""
       },
@@ -355,7 +355,7 @@
         "startDay": 1,
         "bgColor": "98FB98",
         "textColor": "000000",
-        "width": "",
+        "width": 10,
         "url": "Cretaceous",
         "fragment": ""
       },
@@ -366,7 +366,7 @@
         "startDay": 1,
         "bgColor": "FFA07A",
         "textColor": "000000",
-        "width": "",
+        "width": 9,
         "url": "Paleogene",
         "fragment": ""
       },
@@ -377,7 +377,7 @@
         "startDay": 1,
         "bgColor": "FFDAB9",
         "textColor": "000000",
-        "width": "",
+        "width": 7,
         "url": "Neogene",
         "fragment": ""
       },
@@ -388,7 +388,7 @@
         "startDay": 1,
         "bgColor": "F5F5DC",
         "textColor": "000000",
-        "width": "",
+        "width": 10,
         "url": "Quaternary",
         "fragment": ""
       }
@@ -401,7 +401,7 @@
         "startDay": 1,
         "bgColor": "FFFFFF",
         "textColor": "000000",
-        "width": "",
+        "width": 8,
         "url": "Big_Bang",
         "fragment": ""
       },
@@ -412,7 +412,7 @@
         "startDay": 1,
         "bgColor": "FFFACD",
         "textColor": "000000",
-        "width": "",
+        "width": 13,
         "url": "Radiation-dominated_era",
         "fragment": ""
       },
@@ -423,7 +423,7 @@
         "startDay": 1,
         "bgColor": "FFE4B5",
         "textColor": "000000",
-        "width": "",
+        "width": 10,
         "url": "Matter-dominated_era",
         "fragment": ""
       },
@@ -434,7 +434,7 @@
         "startDay": 1,
         "bgColor": "FFF8DC",
         "textColor": "000000",
-        "width": "",
+        "width": 11,
         "url": "Population_III_star",
         "fragment": ""
       },
@@ -445,7 +445,7 @@
         "startDay": 1,
         "bgColor": "E6E6FA",
         "textColor": "000000",
-        "width": "",
+        "width": 16,
         "url": "Galaxy_formation_and_evolution",
         "fragment": ""
       },
@@ -456,7 +456,7 @@
         "startDay": 1,
         "bgColor": "DDA0DD",
         "textColor": "000000",
-        "width": "",
+        "width": 23,
         "url": "Stellar_nucleosynthesis",
         "fragment": ""
       },
@@ -467,7 +467,7 @@
         "startDay": 1,
         "bgColor": "FFD700",
         "textColor": "000000",
-        "width": "",
+        "width": 22,
         "url": "Formation_and_evolution_of_the_Solar_System",
         "fragment": ""
       },
@@ -478,7 +478,7 @@
         "startDay": 1,
         "bgColor": "ADD8E6",
         "textColor": "000000",
-        "width": "",
+        "width": 17,
         "url": "Accelerating_expansion_of_the_universe",
         "fragment": ""
       }
@@ -491,7 +491,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 7,
         "url": "Ancient_art",
         "fragment": ""
       },
@@ -502,7 +502,7 @@
         "startDay": 1,
         "bgColor": "DAA520",
         "textColor": "ffffff",
-        "width": "",
+        "width": 9,
         "url": "Classical_antiquity",
         "fragment": ""
       },
@@ -513,7 +513,7 @@
         "startDay": 1,
         "bgColor": "800080",
         "textColor": "ffffff",
-        "width": "",
+        "width": 9,
         "url": "Byzantine_art",
         "fragment": ""
       },
@@ -524,7 +524,7 @@
         "startDay": 1,
         "bgColor": "A0522D",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Romanesque_art",
         "fragment": ""
       },
@@ -535,7 +535,7 @@
         "startDay": 1,
         "bgColor": "2F4F4F",
         "textColor": "ffffff",
-        "width": "",
+        "width": 6,
         "url": "Gothic_art",
         "fragment": ""
       },
@@ -546,7 +546,7 @@
         "startDay": 1,
         "bgColor": "DC143C",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "Renaissance_art",
         "fragment": ""
       },
@@ -557,7 +557,7 @@
         "startDay": 1,
         "bgColor": "8B008B",
         "textColor": "ffffff",
-        "width": "",
+        "width": 7,
         "url": "Baroque",
         "fragment": ""
       },
@@ -568,7 +568,7 @@
         "startDay": 1,
         "bgColor": "FF69B4",
         "textColor": "000000",
-        "width": "",
+        "width": 6,
         "url": "Rococo",
         "fragment": ""
       },
@@ -579,7 +579,7 @@
         "startDay": 1,
         "bgColor": "F0E68C",
         "textColor": "000000",
-        "width": "",
+        "width": 12,
         "url": "Neoclassicism",
         "fragment": ""
       },
@@ -590,7 +590,7 @@
         "startDay": 1,
         "bgColor": "B22222",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Romanticism",
         "fragment": ""
       },
@@ -601,7 +601,7 @@
         "startDay": 1,
         "bgColor": "87CEEB",
         "textColor": "000000",
-        "width": "",
+        "width": 13,
         "url": "Impressionism",
         "fragment": ""
       },
@@ -612,7 +612,7 @@
         "startDay": 1,
         "bgColor": "FF4500",
         "textColor": "000000",
-        "width": "",
+        "width": 6,
         "url": "Modern_art",
         "fragment": ""
       },
@@ -623,7 +623,7 @@
         "startDay": 1,
         "bgColor": "00FA9A",
         "textColor": "000000",
-        "width": "",
+        "width": 12,
         "url": "Contemporary_art",
         "fragment": ""
       }
@@ -636,7 +636,7 @@
         "startDay": 1,
         "bgColor": "8B0000",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Medieval_music",
         "fragment": ""
       },
@@ -647,7 +647,7 @@
         "startDay": 1,
         "bgColor": "CD853F",
         "textColor": "000000",
-        "width": "",
+        "width": 11,
         "url": "Renaissance_music",
         "fragment": ""
       },
@@ -658,7 +658,7 @@
         "startDay": 1,
         "bgColor": "DAA520",
         "textColor": "000000",
-        "width": "",
+        "width": 7,
         "url": "Baroque_music",
         "fragment": ""
       },
@@ -669,7 +669,7 @@
         "startDay": 1,
         "bgColor": "F0E68C",
         "textColor": "000000",
-        "width": "",
+        "width": 9,
         "url": "Classical_period_(music)",
         "fragment": ""
       },
@@ -680,7 +680,7 @@
         "startDay": 1,
         "bgColor": "B22222",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Romantic_music",
         "fragment": ""
       },
@@ -691,7 +691,7 @@
         "startDay": 1,
         "bgColor": "87CEEB",
         "textColor": "000000",
-        "width": "",
+        "width": 13,
         "url": "Impressionism_in_music",
         "fragment": ""
       },
@@ -702,7 +702,7 @@
         "startDay": 1,
         "bgColor": "FF4500",
         "textColor": "000000",
-        "width": "",
+        "width": 6,
         "url": "Modernism_(music)",
         "fragment": ""
       },
@@ -713,7 +713,7 @@
         "startDay": 1,
         "bgColor": "00FA9A",
         "textColor": "000000",
-        "width": "",
+        "width": 12,
         "url": "Contemporary_classical_music",
         "fragment": ""
       }
@@ -726,7 +726,7 @@
         "startDay": 1,
         "bgColor": "808080",
         "textColor": "ffffff",
-        "width": "",
+        "width": 9,
         "url": "Stone_Age",
         "fragment": ""
       },
@@ -737,7 +737,7 @@
         "startDay": 1,
         "bgColor": "CD7F32",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Bronze_Age",
         "fragment": ""
       },
@@ -748,7 +748,7 @@
         "startDay": 1,
         "bgColor": "708090",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Iron_Age",
         "fragment": ""
       },
@@ -759,7 +759,7 @@
         "startDay": 1,
         "bgColor": "DAA520",
         "textColor": "000000",
-        "width": "",
+        "width": 9,
         "url": "Classical_antiquity",
         "fragment": "Technology"
       },
@@ -770,7 +770,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Medieval_technology",
         "fragment": ""
       },
@@ -781,7 +781,7 @@
         "startDay": 1,
         "bgColor": "4682B4",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "Age_of_Sail",
         "fragment": ""
       },
@@ -792,7 +792,7 @@
         "startDay": 1,
         "bgColor": "696969",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Industrial_Revolution",
         "fragment": ""
       },
@@ -803,7 +803,7 @@
         "startDay": 1,
         "bgColor": "FFD700",
         "textColor": "000000",
-        "width": "",
+        "width": 10,
         "url": "Electrical_age",
         "fragment": ""
       },
@@ -814,7 +814,7 @@
         "startDay": 16,
         "bgColor": "32CD32",
         "textColor": "000000",
-        "width": "",
+        "width": 6,
         "url": "Atomic_Age",
         "fragment": ""
       },
@@ -825,7 +825,7 @@
         "startDay": 1,
         "bgColor": "00CED1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "Information_Age",
         "fragment": ""
       },
@@ -836,7 +836,7 @@
         "startDay": 1,
         "bgColor": "9370DB",
         "textColor": "ffffff",
-        "width": "",
+        "width": 6,
         "url": "Artificial_intelligence",
         "fragment": "History"
       }
@@ -849,7 +849,7 @@
         "startDay": 1,
         "bgColor": "228B22",
         "textColor": "ffffff",
-        "width": "",
+        "width": 15,
         "url": "Hunter-gatherer",
         "fragment": ""
       },
@@ -860,7 +860,7 @@
         "startDay": 1,
         "bgColor": "9ACD32",
         "textColor": "000000",
-        "width": "",
+        "width": 12,
         "url": "Neolithic_Revolution",
         "fragment": ""
       },
@@ -871,7 +871,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 6,
         "url": "Feudalism",
         "fragment": ""
       },
@@ -882,7 +882,7 @@
         "startDay": 1,
         "bgColor": "FFD700",
         "textColor": "000000",
-        "width": "",
+        "width": 10,
         "url": "Mercantilism",
         "fragment": ""
       },
@@ -893,7 +893,7 @@
         "startDay": 1,
         "bgColor": "696969",
         "textColor": "ffffff",
-        "width": "",
+        "width": 21,
         "url": "Industrial_capitalism",
         "fragment": ""
       },
@@ -904,7 +904,7 @@
         "startDay": 1,
         "bgColor": "4169E1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 13,
         "url": "Welfare_state",
         "fragment": ""
       },
@@ -915,7 +915,7 @@
         "startDay": 1,
         "bgColor": "DC143C",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Neoliberalism",
         "fragment": ""
       },
@@ -926,7 +926,7 @@
         "startDay": 1,
         "bgColor": "9370DB",
         "textColor": "ffffff",
-        "width": "",
+        "width": 16,
         "url": "Platform_economy",
         "fragment": ""
       }
@@ -939,7 +939,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 12,
         "url": "Pre-Socratic_philosophy",
         "fragment": ""
       },
@@ -950,7 +950,7 @@
         "startDay": 1,
         "bgColor": "DAA520",
         "textColor": "ffffff",
-        "width": "",
+        "width": 15,
         "url": "Ancient_Greek_philosophy",
         "fragment": "Classical_Greek_philosophy"
       },
@@ -961,7 +961,7 @@
         "startDay": 1,
         "bgColor": "CD853F",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "Hellenistic_philosophy",
         "fragment": ""
       },
@@ -972,7 +972,7 @@
         "startDay": 1,
         "bgColor": "8B0000",
         "textColor": "ffffff",
-        "width": "",
+        "width": 19,
         "url": "Scholasticism",
         "fragment": ""
       },
@@ -983,7 +983,7 @@
         "startDay": 1,
         "bgColor": "DC143C",
         "textColor": "ffffff",
-        "width": "",
+        "width": 20,
         "url": "Renaissance_humanism",
         "fragment": ""
       },
@@ -994,7 +994,7 @@
         "startDay": 1,
         "bgColor": "4169E1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "Rationalism",
         "fragment": ""
       },
@@ -1005,7 +1005,7 @@
         "startDay": 1,
         "bgColor": "228B22",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Empiricism",
         "fragment": ""
       },
@@ -1016,7 +1016,7 @@
         "startDay": 1,
         "bgColor": "9370DB",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "German_idealism",
         "fragment": ""
       },
@@ -1027,7 +1027,7 @@
         "startDay": 1,
         "bgColor": "2F4F4F",
         "textColor": "ffffff",
-        "width": "",
+        "width": 14,
         "url": "Existentialism",
         "fragment": ""
       },
@@ -1038,7 +1038,7 @@
         "startDay": 1,
         "bgColor": "00CED1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 8,
         "url": "Analytic_philosophy",
         "fragment": ""
       },
@@ -1049,7 +1049,7 @@
         "startDay": 1,
         "bgColor": "FF4500",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Postmodern_philosophy",
         "fragment": ""
       }
@@ -1062,7 +1062,7 @@
         "startDay": 1,
         "bgColor": "228B22",
         "textColor": "ffffff",
-        "width": "",
+        "width": 5,
         "url": "Band_society",
         "fragment": ""
       },
@@ -1073,7 +1073,7 @@
         "startDay": 1,
         "bgColor": "9ACD32",
         "textColor": "000000",
-        "width": "",
+        "width": 6,
         "url": "Tribe",
         "fragment": ""
       },
@@ -1084,7 +1084,7 @@
         "startDay": 1,
         "bgColor": "6B8E23",
         "textColor": "ffffff",
-        "width": "",
+        "width": 9,
         "url": "Chiefdom",
         "fragment": ""
       },
@@ -1095,7 +1095,7 @@
         "startDay": 1,
         "bgColor": "DAA520",
         "textColor": "ffffff",
-        "width": "",
+        "width": 11,
         "url": "City-state",
         "fragment": ""
       },
@@ -1106,7 +1106,7 @@
         "startDay": 1,
         "bgColor": "800080",
         "textColor": "ffffff",
-        "width": "",
+        "width": 7,
         "url": "Empire",
         "fragment": ""
       },
@@ -1117,7 +1117,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 15,
         "url": "Feudalism",
         "fragment": ""
       },
@@ -1128,7 +1128,7 @@
         "startDay": 1,
         "bgColor": "DC143C",
         "textColor": "ffffff",
-        "width": "",
+        "width": 13,
         "url": "Nation_state",
         "fragment": ""
       },
@@ -1139,7 +1139,7 @@
         "startDay": 1,
         "bgColor": "4169E1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 19,
         "url": "Supranational_union",
         "fragment": ""
       }
@@ -1152,7 +1152,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 12,
         "url": "Animal_power",
         "fragment": ""
       },
@@ -1163,7 +1163,7 @@
         "startDay": 1,
         "bgColor": "228B22",
         "textColor": "ffffff",
-        "width": "",
+        "width": 16,
         "url": "Biomass_(energy)",
         "fragment": ""
       },
@@ -1174,7 +1174,7 @@
         "startDay": 1,
         "bgColor": "2F4F4F",
         "textColor": "ffffff",
-        "width": "",
+        "width": 4,
         "url": "Coal",
         "fragment": "History"
       },
@@ -1185,7 +1185,7 @@
         "startDay": 1,
         "bgColor": "000000",
         "textColor": "ffffff",
-        "width": "",
+        "width": 3,
         "url": "Petroleum",
         "fragment": "History"
       },
@@ -1196,7 +1196,7 @@
         "startDay": 1,
         "bgColor": "FFD700",
         "textColor": "000000",
-        "width": "",
+        "width": 11,
         "url": "Electricity",
         "fragment": "History"
       },
@@ -1207,7 +1207,7 @@
         "startDay": 1,
         "bgColor": "32CD32",
         "textColor": "000000",
-        "width": "",
+        "width": 7,
         "url": "Nuclear_power",
         "fragment": "History"
       },
@@ -1218,7 +1218,7 @@
         "startDay": 1,
         "bgColor": "00CED1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Renewable_energy",
         "fragment": "History"
       }
@@ -1231,7 +1231,7 @@
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": "",
+        "width": 4,
         "url": "Oral_tradition",
         "fragment": ""
       },
@@ -1242,7 +1242,7 @@
         "startDay": 1,
         "bgColor": "D2691E",
         "textColor": "ffffff",
-        "width": "",
+        "width": 10,
         "url": "Manuscript",
         "fragment": ""
       },
@@ -1253,7 +1253,7 @@
         "startDay": 1,
         "bgColor": "DAA520",
         "textColor": "ffffff",
-        "width": "",
+        "width": 5,
         "url": "Printing_press",
         "fragment": ""
       },
@@ -1264,7 +1264,7 @@
         "startDay": 1,
         "bgColor": "FFD700",
         "textColor": "000000",
-        "width": "",
+        "width": 9,
         "url": "Electrical_telegraph",
         "fragment": ""
       },
@@ -1275,7 +1275,7 @@
         "startDay": 1,
         "bgColor": "4169E1",
         "textColor": "ffffff",
-        "width": "",
+        "width": 9,
         "url": "Broadcasting",
         "fragment": ""
       },
@@ -1286,7 +1286,7 @@
         "startDay": 1,
         "bgColor": "00CED1",
         "textColor": "000000",
-        "width": "",
+        "width": 7,
         "url": "Digital_Revolution",
         "fragment": ""
       },
@@ -1297,7 +1297,7 @@
         "startDay": 1,
         "bgColor": "9370DB",
         "textColor": "ffffff",
-        "width": "",
+        "width": 16,
         "url": "Social_media",
         "fragment": ""
       }
