@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Adaptative",
   "time_view_mode": "Timeview",
   "time_view_display": "Display",
-  "time_view_customize": "Customize"
+  "time_view_customize": "Customize",
+  "customizeTimeviews.loading": "Loading timeview configuration...",
+  "customizeTimeviews.empty": "No timeviews available",
+  "customizeTimeviews.customizeButton": "Customize",
+  "customizeTimeviews.customizeMessage": "create your own Timeview buttons - not available yet",
+  "customizeTimeviews.closeButton": "Close",
+  "customizeTimeviews.loadError": "Failed to load tvConfig:",
+  "displayOneTimeview.loadError": "Failed to load tvConfig:",
+  "timeviews.prefetchError": "Prefetch tvConfig failed"
 }

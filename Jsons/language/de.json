@@ -30,7 +30,7 @@
   "timeview_save": "Zeitansicht speichern",
   "catalogs_show": "Kataloge",
   "database_show": "Datenbank anzeigen",
-  "load": "Lastpaneele und -kästen",
+  "load": "Lastverteiler und -kästen",
   "cosmos_show": "Hintergrund umschalten",
   "cat_b": "Sein",
   "cat_c": "Kultur",
@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Adaptiv",
   "time_view_mode": "Zeitansicht",
   "time_view_display": "Anzeige",
-  "time_view_customize": "Anpassen"
+  "time_view_customize": "Anpassen",
+  "customizeTimeviews.loading": "Zeitansichtskonfiguration wird geladen...",
+  "customizeTimeviews.empty": "Keine Zeitansichten verfügbar",
+  "customizeTimeviews.customizeButton": "Anpassen",
+  "customizeTimeviews.customizeMessage": "Erstellen Sie Ihre eigenen Timeview-Schaltflächen – noch nicht verfügbar",
+  "customizeTimeviews.closeButton": "Schließen",
+  "customizeTimeviews.loadError": "tvConfig konnte nicht geladen werden:",
+  "displayOneTimeview.loadError": "tvConfig konnte nicht geladen werden:",
+  "timeviews.prefetchError": "Prefetch tvConfig fehlgeschlagen"
 }

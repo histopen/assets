@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "अनुकूली",
   "time_view_mode": "टाइमव्यू",
   "time_view_display": "प्रदर्शन",
-  "time_view_customize": "अनुकूलित करें"
+  "time_view_customize": "अनुकूलित करें",
+  "customizeTimeviews.loading": "टाइमव्यू कॉन्फ़िगरेशन लोड हो रहा है...",
+  "customizeTimeviews.empty": "कोई समय-दृश्य उपलब्ध नहीं है",
+  "customizeTimeviews.customizeButton": "अनुकूलित करें",
+  "customizeTimeviews.customizeMessage": "अपने खुद के टाइमव्यू बटन बनाएं - अभी उपलब्ध नहीं है",
+  "customizeTimeviews.closeButton": "बंद करना",
+  "customizeTimeviews.loadError": "tvConfig लोड करने में विफल:",
+  "displayOneTimeview.loadError": "tvConfig लोड करने में विफल:",
+  "timeviews.prefetchError": "टीवीकॉन्फ़िग प्रीफ़ेच करने में विफल रहा"
 }

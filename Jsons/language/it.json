@@ -27,7 +27,7 @@
   "timeview3_show": "Mostra/Nascondi la visualizzazione temporale alternativa",
   "timeview1_set": "Modifica la visualizzazione temporale principale",
   "timeview2_set": "Modifica la visualizzazione temporale alternativa",
-  "timeview_save": "Salva la visualizzazione del tempo",
+  "timeview_save": "Salva la visualizzazione temporale",
   "catalogs_show": "Cataloghi",
   "database_show": "Mostra database",
   "load": "Pannelli e scatole di carico",
@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Adattabile",
   "time_view_mode": "Timeview",
   "time_view_display": "Display",
-  "time_view_customize": "Personalizza"
+  "time_view_customize": "Personalizza",
+  "customizeTimeviews.loading": "Caricamento della configurazione di Timeview...",
+  "customizeTimeviews.empty": "Nessuna visualizzazione temporale disponibile",
+  "customizeTimeviews.customizeButton": "Personalizza",
+  "customizeTimeviews.customizeMessage": "crea i tuoi pulsanti Timeview - non ancora disponibili",
+  "customizeTimeviews.closeButton": "Vicino",
+  "customizeTimeviews.loadError": "Impossibile caricare tvConfig:",
+  "displayOneTimeview.loadError": "Impossibile caricare tvConfig:",
+  "timeviews.prefetchError": "Prefetch tvConfig non riuscito"
 }

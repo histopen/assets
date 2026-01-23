@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Adaptativo",
   "time_view_mode": "Vista del tiempo",
   "time_view_display": "Mostrar",
-  "time_view_customize": "Personalizar"
+  "time_view_customize": "Personalizar",
+  "customizeTimeviews.loading": "Cargando configuración de vista de tiempo...",
+  "customizeTimeviews.empty": "No hay vistas de tiempo disponibles",
+  "customizeTimeviews.customizeButton": "Personalizar",
+  "customizeTimeviews.customizeMessage": "Crea tus propios botones de vista de tiempo (aún no disponible)",
+  "customizeTimeviews.closeButton": "Cerca",
+  "customizeTimeviews.loadError": "#VALUE!",
+  "displayOneTimeview.loadError": "#VALUE!",
+  "timeviews.prefetchError": "Falló la precarga de tvConfig"
 }

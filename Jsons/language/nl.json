@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Adaptief",
   "time_view_mode": "Tijdsweergave",
   "time_view_display": "Weergave",
-  "time_view_customize": "Aanpassen"
+  "time_view_customize": "Aanpassen",
+  "customizeTimeviews.loading": "De tijdweergaveconfiguratie wordt geladen...",
+  "customizeTimeviews.empty": "Geen tijdsweergaven beschikbaar",
+  "customizeTimeviews.customizeButton": "Aanpassen",
+  "customizeTimeviews.customizeMessage": "Maak je eigen Timeview-knoppen - nog niet beschikbaar",
+  "customizeTimeviews.closeButton": "Dichtbij",
+  "customizeTimeviews.loadError": "Het laden van tvConfig is mislukt:",
+  "displayOneTimeview.loadError": "Het laden van tvConfig is mislukt:",
+  "timeviews.prefetchError": "Het ophalen van tvConfig is mislukt"
 }

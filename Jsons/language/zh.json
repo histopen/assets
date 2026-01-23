@@ -91,7 +91,7 @@
   "source_worldhistory": "世界历史",
   "account_login": "登录",
   "account_email": "电子邮件",
-  "account_email_placeholder": "请输入您的电子邮件地址",
+  "account_email_placeholder": "请输入您的邮箱",
   "account_password": "密码",
   "account_password_placeholder": "请输入您的密码",
   "account_login_not_implemented": "登录功能尚未实现",
@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "自适应",
   "time_view_mode": "时空",
   "time_view_display": "展示",
-  "time_view_customize": "定制"
+  "time_view_customize": "定制",
+  "customizeTimeviews.loading": "正在加载时间视图配置...",
+  "customizeTimeviews.empty": "暂无时间视图",
+  "customizeTimeviews.customizeButton": "定制",
+  "customizeTimeviews.customizeMessage": "创建您自己的时间视图按钮 - 暂不可用",
+  "customizeTimeviews.closeButton": "关闭",
+  "customizeTimeviews.loadError": "加载 tvConfig 失败：",
+  "displayOneTimeview.loadError": "加载 tvConfig 失败：",
+  "timeviews.prefetchError": "预取 tvConfig 失败"
 }

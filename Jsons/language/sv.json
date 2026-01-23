@@ -133,7 +133,7 @@
   "cal_creationist": "Kreationist",
   "cal_gregorian_explanation": "Solkalender, 12 månader, 365–366 dagar, introducerad 1582.",
   "cal_islamic_explanation": "Månkalendern, 12 månader, 354-355 dagar, börjar med Muhammeds migration till Medina (622 e.Kr.).",
-  "cal_chinese_explanation": "Lunisolarkalender, kombinerar månmånader, solår och 12-åriga zodiakcykel för djur. Används för traditionella östasiatiska festivaler.",
+  "cal_chinese_explanation": "Lunisolarkalender, kombinerar månmånader, solår och 12-åriga zodiakcykeln för djuren. Används för traditionella östasiatiska festivaler.",
   "cal_persian_explanation": "Solkalendern, 365-366 dagar, börjar vid vårdagjämningen (Nowruz).",
   "cal_balinese_explanation": "Kalendersystem som kombinerar samtidiga cykler, inklusive en 210-dagars Pawukon-kalender. Används för religiösa ceremonier.",
   "cal_hebrew_explanation": "Lunisolarkalendern, 12–13 månader, börjar vid skapelsen (3761 f.Kr.). Används för religiösa högtider.",
@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Anpassningsbar",
   "time_view_mode": "Tidsvy",
   "time_view_display": "Visa",
-  "time_view_customize": "Anpassa"
+  "time_view_customize": "Anpassa",
+  "customizeTimeviews.loading": "Laddar tidsvyns konfiguration...",
+  "customizeTimeviews.empty": "Inga tidsvyer tillgängliga",
+  "customizeTimeviews.customizeButton": "Anpassa",
+  "customizeTimeviews.customizeMessage": "skapa dina egna Timeview-knappar – inte tillgängliga ännu",
+  "customizeTimeviews.closeButton": "Nära",
+  "customizeTimeviews.loadError": "Misslyckades med att ladda tvConfig:",
+  "displayOneTimeview.loadError": "Misslyckades med att ladda tvConfig:",
+  "timeviews.prefetchError": "Förhämtning av tvConfig misslyckades"
 }

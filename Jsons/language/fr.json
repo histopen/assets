@@ -145,7 +145,7 @@
   "cal_persian_usage": "Utilisation : 1,5 % (civil/culturel) - Calendrier officiel en Iran (~89 millions) et en Afghanistan (~41 millions).",
   "cal_balinese_usage": "Utilisation : 1,5 % (civil) - Officiel en Éthiopie (~126 millions) et utilisé en Érythrée.",
   "cal_hebrew_usage": "Utilisation : 0,2 % (religieux) - Utilisé par les communautés juives (~16 millions de personnes) à des fins religieuses.",
-  "cal_ethiopian_usage": "Usage : <0,1 % (culturel) - Principalement utilisé à Bali (Indonésie), par environ 4,5 millions de personnes.",
+  "cal_ethiopian_usage": "Usage : <0,1 % (culturel) - Principalement utilisé à Bali (Indonésie), environ 4,5 millions de personnes.",
   "cal_creationist_usage": "Utilisation : <0,01 % (niche) - Utilisé par quelques communautés chrétiennes fondamentalistes.",
   "settings_source_academy": "Académie",
   "settings_parameters": "Paramètres",
@@ -177,5 +177,13 @@
   "time_bar_mode_adapted": "Adaptatif",
   "time_view_mode": "Timeview",
   "time_view_display": "Afficher",
-  "time_view_customize": "Personnaliser"
+  "time_view_customize": "Personnaliser",
+  "customizeTimeviews.loading": "Chargement de la configuration de Timeview...",
+  "customizeTimeviews.empty": "Aucune Timeview disponible",
+  "customizeTimeviews.customizeButton": "Personnaliser",
+  "customizeTimeviews.customizeMessage": "Créez vos propres boutons Timeview - pas encore disponible",
+  "customizeTimeviews.closeButton": "Fermer",
+  "customizeTimeviews.loadError": "Échec du chargement de tvConfig :",
+  "displayOneTimeview.loadError": "Échec du chargement de tvConfig :",
+  "timeviews.prefetchError": "Échec de la prélecture de tvConfig"
 }
