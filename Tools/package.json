@@ -7,8 +7,8 @@
   "scripts": {
     "loc": "(node jsontools/toolloc.js && git -C .. add -f Jsons/language && git -C .. commit -m \"update loc\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "loc-n": "node jsontools/toolloc.js",
-    "tv": "(node jsontools/tooltv.js && git -C .. add -f Jsons/tvConfig.json && git -C .. commit -m \"update tv\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "tv-n": "node jsontools/tooltv.js",
+    "tv": "(node jsontools/tooltv2.js && git -C .. add -f Jsons/tvConfig2.json && git -C .. commit -m \"update tv\" && git -C .. push && echo \"success\") || echo \"failure\"",
+    "tv-n": "node jsontools/tooltv2.js",
     "dbtm": "(node jsontools/tooldbtm.js && git -C .. add -f Jsons/dbtm.json && git -C .. commit -m \"update dbtm\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "dbtm-n": "node jsontools/tooldbtm.js",
     "cosmos": "(node jsontools/toolcosmos.js && git -C .. add -f Jsons/cosmos.json && git -C .. commit -m \"update cosmos\" && git -C .. push && echo \"success\") || echo \"failure\"",

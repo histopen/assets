@@ -28,15 +28,15 @@ async function toolloc() {
   const argLang = process.argv[2];
   const languages = argLang ? [argLang] : allLanguages;
 
+  const pathname = "C:/code/wikit/client/src/locales";
+
   for (const lang of languages) {
+    const filename = `${lang}.json`;
     try {
       const data = await getSheetData(`${webappUrl}?lang=${lang}`);
-      const pathname = "../../../Jsons/language"
-      const filename = `${lang}.json`;
-
       saveJsonToFile(pathname, filename, data);
     } catch (err) {
-    console.error(`Error ${pathname}/${filename}`, err.message);
+      console.error(`Error ${pathname}/${filename}`, err.message);
     }
   }
 }
