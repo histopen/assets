@@ -1305,7 +1305,7 @@
     "Decades": [
       {
         "caption": "1850s",
-        "startYear": "1 850",
+        "startYear": 1850,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1316,7 +1316,7 @@
       },
       {
         "caption": "1860s",
-        "startYear": "1 860",
+        "startYear": 1860,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1327,7 +1327,7 @@
       },
       {
         "caption": "1870s",
-        "startYear": "1 870",
+        "startYear": 1870,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1338,7 +1338,7 @@
       },
       {
         "caption": "1880s",
-        "startYear": "1 880",
+        "startYear": 1880,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1349,7 +1349,7 @@
       },
       {
         "caption": "1890s",
-        "startYear": "1 890",
+        "startYear": 1890,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1360,7 +1360,7 @@
       },
       {
         "caption": "1900s",
-        "startYear": "1 900",
+        "startYear": 1900,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1371,7 +1371,7 @@
       },
       {
         "caption": "1910s",
-        "startYear": "1 910",
+        "startYear": 1910,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1382,7 +1382,7 @@
       },
       {
         "caption": "1920s",
-        "startYear": "1 920",
+        "startYear": 1920,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1393,7 +1393,7 @@
       },
       {
         "caption": "1930s",
-        "startYear": "1 930",
+        "startYear": 1930,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1404,7 +1404,7 @@
       },
       {
         "caption": "1940s",
-        "startYear": "1 940",
+        "startYear": 1940,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1415,7 +1415,7 @@
       },
       {
         "caption": "1950s",
-        "startYear": "1 950",
+        "startYear": 1950,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1426,7 +1426,7 @@
       },
       {
         "caption": "1960s",
-        "startYear": "1 960",
+        "startYear": 1960,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1437,7 +1437,7 @@
       },
       {
         "caption": "1970s",
-        "startYear": "1 970",
+        "startYear": 1970,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1448,7 +1448,7 @@
       },
       {
         "caption": "1980s",
-        "startYear": "1 980",
+        "startYear": 1980,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1459,7 +1459,7 @@
       },
       {
         "caption": "1990s",
-        "startYear": "1 990",
+        "startYear": 1990,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1470,7 +1470,7 @@
       },
       {
         "caption": "2000s",
-        "startYear": "2 000",
+        "startYear": 2000,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
@@ -1481,7 +1481,7 @@
       },
       {
         "caption": "2010s",
-        "startYear": "2 010",
+        "startYear": 2010,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "797979",
@@ -1492,7 +1492,7 @@
       },
       {
         "caption": "2020s",
-        "startYear": "2 020",
+        "startYear": 2020,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "999999",
