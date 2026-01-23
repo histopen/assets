@@ -1502,5 +1502,1000 @@
         "fragment": ""
       }
     ]
+  },
+  "CAL": {
+    "Islamic": [
+      {
+        "caption": "Pre-Islamic Arabia",
+        "startYear": "-   3 000",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Pre-Islamic_Arabia",
+        "fragment": ""
+      },
+      {
+        "caption": "Jahiliyyah (Ignorance)",
+        "startYear": 500,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "A0522D",
+        "textColor": "ffffff",
+        "width": "18",
+        "url": "Jahiliyyah",
+        "fragment": ""
+      },
+      {
+        "caption": "Prophetic Era",
+        "startYear": 610,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "12",
+        "url": "Muhammad_in_Medina",
+        "fragment": ""
+      },
+      {
+        "caption": "Rashidun Caliphate",
+        "startYear": 632,
+        "startMonth": 6,
+        "startDay": 8,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "16",
+        "url": "Rashidun_Caliphate",
+        "fragment": ""
+      },
+      {
+        "caption": "Umayyad Caliphate",
+        "startYear": 661,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "Umayyad_Caliphate",
+        "fragment": ""
+      },
+      {
+        "caption": "Abbasid Caliphate",
+        "startYear": 750,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "800080",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "Abbasid_Caliphate",
+        "fragment": ""
+      },
+      {
+        "caption": "Post-Mongol Fragmentation",
+        "startYear": "1 258",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B0000",
+        "textColor": "ffffff",
+        "width": "22",
+        "url": "History_of_Islam",
+        "fragment": "Post-Mongol"
+      },
+      {
+        "caption": "Ottoman Era",
+        "startYear": "1 517",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "11",
+        "url": "Ottoman_Caliphate",
+        "fragment": ""
+      },
+      {
+        "caption": "Modern Era",
+        "startYear": "1 924",
+        "startMonth": 3,
+        "startDay": 3,
+        "bgColor": "00CED1",
+        "textColor": "000000",
+        "width": "10",
+        "url": "Islam_by_country",
+        "fragment": ""
+      }
+    ],
+    "Chinese": [
+      {
+        "caption": "Mythological Era",
+        "startYear": "-   2 700",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFFACD",
+        "textColor": "000000",
+        "width": "15",
+        "url": "Three_Sovereigns_and_Five_Emperors",
+        "fragment": ""
+      },
+      {
+        "caption": "Xia Dynasty",
+        "startYear": "-   2 070",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "F5DEB3",
+        "textColor": "000000",
+        "width": "11",
+        "url": "Xia_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Shang Dynasty",
+        "startYear": "-   1 600",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DEB887",
+        "textColor": "000000",
+        "width": "12",
+        "url": "Shang_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Zhou Dynasty",
+        "startYear": "-   1 046",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "CD853F",
+        "textColor": "000000",
+        "width": "11",
+        "url": "Zhou_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Warring States",
+        "startYear": -475,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Warring_States_period",
+        "fragment": ""
+      },
+      {
+        "caption": "Qin Dynasty",
+        "startYear": -221,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": "10",
+        "url": "Qin_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Han Dynasty",
+        "startYear": -206,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "10",
+        "url": "Han_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Six Dynasties",
+        "startYear": 220,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "9370DB",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Six_Dynasties",
+        "fragment": ""
+      },
+      {
+        "caption": "Sui Dynasty",
+        "startYear": 581,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4682B4",
+        "textColor": "ffffff",
+        "width": "10",
+        "url": "Sui_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Tang Dynasty",
+        "startYear": 618,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "11",
+        "url": "Tang_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Five Dynasties",
+        "startYear": 907,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "708090",
+        "textColor": "ffffff",
+        "width": "13",
+        "url": "Five_Dynasties_and_Ten_Kingdoms_period",
+        "fragment": ""
+      },
+      {
+        "caption": "Song Dynasty",
+        "startYear": 960,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "87CEEB",
+        "textColor": "000000",
+        "width": "11",
+        "url": "Song_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Yuan Dynasty",
+        "startYear": "1 279",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "11",
+        "url": "Yuan_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Ming Dynasty",
+        "startYear": "1 368",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B0000",
+        "textColor": "ffffff",
+        "width": "11",
+        "url": "Ming_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Qing Dynasty",
+        "startYear": "1 644",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "11",
+        "url": "Qing_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Republic Era",
+        "startYear": "1 912",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Republic_of_China_(1912–1949)",
+        "fragment": ""
+      },
+      {
+        "caption": "People's Republic",
+        "startYear": "1 949",
+        "startMonth": 10,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "16",
+        "url": "History_of_the_People%27s_Republic_of_China",
+        "fragment": ""
+      }
+    ],
+    "Persian": [
+      {
+        "caption": "Proto-Elamite",
+        "startYear": "-   3 200",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Proto-Elamite",
+        "fragment": ""
+      },
+      {
+        "caption": "Elamite",
+        "startYear": "-   2 700",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "A0522D",
+        "textColor": "ffffff",
+        "width": "7",
+        "url": "Elam",
+        "fragment": ""
+      },
+      {
+        "caption": "Achaemenid Empire",
+        "startYear": -550,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "16",
+        "url": "Achaemenid_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Hellenistic Period",
+        "startYear": -330,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "87CEEB",
+        "textColor": "000000",
+        "width": "17",
+        "url": "Seleucid_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Parthian Empire",
+        "startYear": -247,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Parthian_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Sasanian Empire",
+        "startYear": 224,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "800080",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Sasanian_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Islamic Conquest",
+        "startYear": 651,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Muslim_conquest_of_Persia",
+        "fragment": ""
+      },
+      {
+        "caption": "Tahirid-Samanid",
+        "startYear": 821,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4682B4",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Samanid_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Seljuk-Khwarazmian",
+        "startYear": "1 037",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": "16",
+        "url": "Seljuk_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Mongol-Ilkhanate",
+        "startYear": "1 220",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "696969",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "Ilkhanate",
+        "fragment": ""
+      },
+      {
+        "caption": "Timurid",
+        "startYear": "1 370",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "9370DB",
+        "textColor": "ffffff",
+        "width": "7",
+        "url": "Timurid_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Safavid Empire",
+        "startYear": "1 501",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "13",
+        "url": "Safavid_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Afsharid-Zand",
+        "startYear": "1 736",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "CD853F",
+        "textColor": "000000",
+        "width": "12",
+        "url": "Afsharid_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Qajar Dynasty",
+        "startYear": "1 796",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DEB887",
+        "textColor": "000000",
+        "width": "12",
+        "url": "Qajar_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Pahlavi Dynasty",
+        "startYear": "1 925",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Pahlavi_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Islamic Republic",
+        "startYear": "1 979",
+        "startMonth": 2,
+        "startDay": 11,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "History_of_the_Islamic_Republic_of_Iran",
+        "fragment": ""
+      }
+    ],
+    "Balinese": [
+      {
+        "caption": "Prehistoric Bali",
+        "startYear": "-   2 000",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Prehistoric_Indonesia",
+        "fragment": ""
+      },
+      {
+        "caption": "Early Kingdoms",
+        "startYear": 100,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "A0522D",
+        "textColor": "ffffff",
+        "width": "13",
+        "url": "Bali_Kingdom",
+        "fragment": ""
+      },
+      {
+        "caption": "Warmadewa Dynasty",
+        "startYear": 914,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "16",
+        "url": "Bali_Kingdom",
+        "fragment": "Warmadewa"
+      },
+      {
+        "caption": "Javanese Influence",
+        "startYear": "1 080",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DAA520",
+        "textColor": "000000",
+        "width": "16",
+        "url": "Majapahit",
+        "fragment": "Bali"
+      },
+      {
+        "caption": "Majapahit Era",
+        "startYear": "1 293",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "12",
+        "url": "Majapahit",
+        "fragment": ""
+      },
+      {
+        "caption": "Gelgel Kingdom",
+        "startYear": "1 500",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "13",
+        "url": "Gelgel",
+        "fragment": ""
+      },
+      {
+        "caption": "Klungkung Kingdom",
+        "startYear": "1 651",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "800080",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "Klungkung_Kingdom",
+        "fragment": ""
+      },
+      {
+        "caption": "Dutch Colonial",
+        "startYear": "1 849",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Dutch_East_Indies",
+        "fragment": "Bali"
+      },
+      {
+        "caption": "Japanese Occupation",
+        "startYear": "1 942",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": "18",
+        "url": "Japanese_occupation_of_the_Dutch_East_Indies",
+        "fragment": ""
+      },
+      {
+        "caption": "Indonesian Independence",
+        "startYear": "1 945",
+        "startMonth": 8,
+        "startDay": 17,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "21",
+        "url": "Bali",
+        "fragment": "History"
+      }
+    ],
+    "Hebrew": [
+      {
+        "caption": "Patriarchal Era",
+        "startYear": "-   1 800",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFFACD",
+        "textColor": "000000",
+        "width": "13",
+        "url": "Patriarchs_(Bible)",
+        "fragment": ""
+      },
+      {
+        "caption": "Egyptian Bondage",
+        "startYear": "-   1 400",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "CD853F",
+        "textColor": "000000",
+        "width": "14",
+        "url": "The_Exodus",
+        "fragment": ""
+      },
+      {
+        "caption": "Exodus and Conquest",
+        "startYear": "-   1 250",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DEB887",
+        "textColor": "000000",
+        "width": "17",
+        "url": "Book_of_Joshua",
+        "fragment": ""
+      },
+      {
+        "caption": "Judges Period",
+        "startYear": "-   1 020",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "A0522D",
+        "textColor": "ffffff",
+        "width": "13",
+        "url": "Book_of_Judges",
+        "fragment": ""
+      },
+      {
+        "caption": "United Monarchy",
+        "startYear": "-   1 000",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "14",
+        "url": "Kingdom_of_Israel_(united_monarchy)",
+        "fragment": ""
+      },
+      {
+        "caption": "Divided Kingdom",
+        "startYear": -930,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Kingdom_of_Judah",
+        "fragment": ""
+      },
+      {
+        "caption": "Babylonian Exile",
+        "startYear": -586,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "Babylonian_captivity",
+        "fragment": ""
+      },
+      {
+        "caption": "Second Temple",
+        "startYear": -516,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Second_Temple_period",
+        "fragment": ""
+      },
+      {
+        "caption": "Roman Judea",
+        "startYear": -63,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "10",
+        "url": "Judaea_(Roman_province)",
+        "fragment": ""
+      },
+      {
+        "caption": "Diaspora",
+        "startYear": 135,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "8",
+        "url": "Jewish_diaspora",
+        "fragment": ""
+      },
+      {
+        "caption": "Modern Israel",
+        "startYear": "1 948",
+        "startMonth": 5,
+        "startDay": 14,
+        "bgColor": "87CEEB",
+        "textColor": "000000",
+        "width": "12",
+        "url": "History_of_Israel",
+        "fragment": ""
+      }
+    ],
+    "Ethiopian": [
+      {
+        "caption": "D'mt Kingdom",
+        "startYear": -980,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": "10",
+        "url": "D%27mt",
+        "fragment": ""
+      },
+      {
+        "caption": "Aksumite Empire",
+        "startYear": 100,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "14",
+        "url": "Kingdom_of_Aksum",
+        "fragment": ""
+      },
+      {
+        "caption": "Zagwe Dynasty",
+        "startYear": 900,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Zagwe_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Solomonic Restoration",
+        "startYear": "1 270",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "800080",
+        "textColor": "ffffff",
+        "width": "19",
+        "url": "Solomonic_dynasty",
+        "fragment": ""
+      },
+      {
+        "caption": "Muslim Wars Era",
+        "startYear": "1 529",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Ethiopian–Adal_war",
+        "fragment": ""
+      },
+      {
+        "caption": "Gondarine Period",
+        "startYear": "1 632",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "15",
+        "url": "Gondar",
+        "fragment": ""
+      },
+      {
+        "caption": "Zemene Mesafint",
+        "startYear": "1 769",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "696969",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Zemene_Mesafint",
+        "fragment": ""
+      },
+      {
+        "caption": "Imperial Unification",
+        "startYear": "1 855",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "17",
+        "url": "Ethiopian_Empire",
+        "fragment": ""
+      },
+      {
+        "caption": "Italian Occupation",
+        "startYear": "1 936",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": "16",
+        "url": "Italian_East_Africa",
+        "fragment": ""
+      },
+      {
+        "caption": "Haile Selassie Era",
+        "startYear": "1 941",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "16",
+        "url": "Haile_Selassie",
+        "fragment": ""
+      },
+      {
+        "caption": "Derg Regime",
+        "startYear": "1 974",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B0000",
+        "textColor": "ffffff",
+        "width": "10",
+        "url": "Derg",
+        "fragment": ""
+      },
+      {
+        "caption": "Federal Republic",
+        "startYear": "1 991",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "00CED1",
+        "textColor": "000000",
+        "width": "14",
+        "url": "History_of_Ethiopia",
+        "fragment": ""
+      }
+    ],
+    "Creationist": [
+      {
+        "caption": "Creation Week",
+        "startYear": "-   4 004",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFFFFF",
+        "textColor": "000000",
+        "width": "13",
+        "url": "Ussher_chronology",
+        "fragment": ""
+      },
+      {
+        "caption": "Antediluvian",
+        "startYear": "-   4 004",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFFACD",
+        "textColor": "000000",
+        "width": "11",
+        "url": "Antediluvian",
+        "fragment": ""
+      },
+      {
+        "caption": "The Flood",
+        "startYear": "-   2 348",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4682B4",
+        "textColor": "ffffff",
+        "width": "9",
+        "url": "Genesis_flood_narrative",
+        "fragment": ""
+      },
+      {
+        "caption": "Post-Flood Dispersion",
+        "startYear": "-   2 347",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DEB887",
+        "textColor": "000000",
+        "width": "18",
+        "url": "Tower_of_Babel",
+        "fragment": ""
+      },
+      {
+        "caption": "Patriarchal Era",
+        "startYear": "-   2 000",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "CD853F",
+        "textColor": "000000",
+        "width": "13",
+        "url": "Patriarchs_(Bible)",
+        "fragment": ""
+      },
+      {
+        "caption": "Egyptian Sojourn",
+        "startYear": "-   1 876",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DAA520",
+        "textColor": "000000",
+        "width": "15",
+        "url": "Israelites_in_Egypt",
+        "fragment": ""
+      },
+      {
+        "caption": "Exodus",
+        "startYear": "-   1 446",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": "6",
+        "url": "The_Exodus",
+        "fragment": ""
+      },
+      {
+        "caption": "Conquest of Canaan",
+        "startYear": "-   1 406",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": "16",
+        "url": "Book_of_Joshua",
+        "fragment": ""
+      },
+      {
+        "caption": "Judges",
+        "startYear": "-   1 375",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "A0522D",
+        "textColor": "ffffff",
+        "width": "6",
+        "url": "Book_of_Judges",
+        "fragment": ""
+      },
+      {
+        "caption": "United Kingdom",
+        "startYear": "-   1 050",
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": "14",
+        "url": "Kingdom_of_Israel_(united_monarchy)",
+        "fragment": ""
+      },
+      {
+        "caption": "Divided Kingdom",
+        "startYear": -930,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": "14",
+        "url": "Books_of_Kings",
+        "fragment": ""
+      },
+      {
+        "caption": "Exile",
+        "startYear": -586,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": "5",
+        "url": "Babylonian_captivity",
+        "fragment": ""
+      },
+      {
+        "caption": "Second Temple",
+        "startYear": -516,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": "12",
+        "url": "Second_Temple_period",
+        "fragment": ""
+      },
+      {
+        "caption": "Church Age",
+        "startYear": 33,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "9370DB",
+        "textColor": "ffffff",
+        "width": "9",
+        "url": "Christianity",
+        "fragment": ""
+      }
+    ]
   }
 }
