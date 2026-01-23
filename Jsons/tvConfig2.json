@@ -483,238 +483,172 @@
         "fragment": ""
       }
     ],
-    "Western Art": [
+    "Energy": [
       {
-        "caption": "Ancient",
-        "startYear": -30000,
+        "caption": "Muscle Power",
+        "startYear": -300000,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "8B4513",
         "textColor": "ffffff",
-        "width": 7,
-        "url": "Ancient_art",
+        "width": 12,
+        "url": "Animal_power",
         "fragment": ""
       },
       {
-        "caption": "Classical",
-        "startYear": -500,
+        "caption": "Wood and Biomass",
+        "startYear": -10000,
         "startMonth": 1,
         "startDay": 1,
-        "bgColor": "DAA520",
+        "bgColor": "228B22",
         "textColor": "ffffff",
-        "width": 9,
-        "url": "Classical_antiquity",
+        "width": 16,
+        "url": "Biomass_(energy)",
         "fragment": ""
       },
       {
-        "caption": "Byzantine",
-        "startYear": 330,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "800080",
-        "textColor": "ffffff",
-        "width": 9,
-        "url": "Byzantine_art",
-        "fragment": ""
-      },
-      {
-        "caption": "Romanesque",
-        "startYear": 1000,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "A0522D",
-        "textColor": "ffffff",
-        "width": 10,
-        "url": "Romanesque_art",
-        "fragment": ""
-      },
-      {
-        "caption": "Gothic",
-        "startYear": 1140,
+        "caption": "Coal",
+        "startYear": 1700,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "2F4F4F",
         "textColor": "ffffff",
-        "width": 6,
-        "url": "Gothic_art",
+        "width": 4,
+        "url": "Coal",
+        "fragment": "History"
+      },
+      {
+        "caption": "Oil",
+        "startYear": 1859,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "000000",
+        "textColor": "ffffff",
+        "width": 3,
+        "url": "Petroleum",
+        "fragment": "History"
+      },
+      {
+        "caption": "Electricity",
+        "startYear": 1882,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": 11,
+        "url": "Electricity",
+        "fragment": "History"
+      },
+      {
+        "caption": "Nuclear",
+        "startYear": 1954,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "32CD32",
+        "textColor": "000000",
+        "width": 7,
+        "url": "Nuclear_power",
+        "fragment": "History"
+      },
+      {
+        "caption": "Renewables",
+        "startYear": 1990,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "00CED1",
+        "textColor": "ffffff",
+        "width": 10,
+        "url": "Renewable_energy",
+        "fragment": "History"
+      }
+    ],
+    "Economies": [
+      {
+        "caption": "Hunter-Gatherer",
+        "startYear": -300000,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": 15,
+        "url": "Hunter-gatherer",
         "fragment": ""
       },
       {
-        "caption": "Renaissance",
-        "startYear": 1400,
+        "caption": "Agricultural",
+        "startYear": -10000,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "9ACD32",
+        "textColor": "000000",
+        "width": 12,
+        "url": "Neolithic_Revolution",
+        "fragment": ""
+      },
+      {
+        "caption": "Feudal",
+        "startYear": 500,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": 6,
+        "url": "Feudalism",
+        "fragment": ""
+      },
+      {
+        "caption": "Mercantile",
+        "startYear": 1500,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": 10,
+        "url": "Mercantilism",
+        "fragment": ""
+      },
+      {
+        "caption": "Industrial Capitalist",
+        "startYear": 1760,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "696969",
+        "textColor": "ffffff",
+        "width": 21,
+        "url": "Industrial_capitalism",
+        "fragment": ""
+      },
+      {
+        "caption": "Welfare State",
+        "startYear": 1945,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": 13,
+        "url": "Welfare_state",
+        "fragment": ""
+      },
+      {
+        "caption": "Neoliberal",
+        "startYear": 1980,
         "startMonth": 1,
         "startDay": 1,
         "bgColor": "DC143C",
         "textColor": "ffffff",
-        "width": 11,
-        "url": "Renaissance_art",
+        "width": 10,
+        "url": "Neoliberalism",
         "fragment": ""
       },
       {
-        "caption": "Baroque",
-        "startYear": 1600,
+        "caption": "Platform Economy",
+        "startYear": 2008,
         "startMonth": 1,
         "startDay": 1,
-        "bgColor": "8B008B",
+        "bgColor": "9370DB",
         "textColor": "ffffff",
-        "width": 7,
-        "url": "Baroque",
-        "fragment": ""
-      },
-      {
-        "caption": "Rococo",
-        "startYear": 1720,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FF69B4",
-        "textColor": "000000",
-        "width": 6,
-        "url": "Rococo",
-        "fragment": ""
-      },
-      {
-        "caption": "Neoclassical",
-        "startYear": 1760,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "F0E68C",
-        "textColor": "000000",
-        "width": 12,
-        "url": "Neoclassicism",
-        "fragment": ""
-      },
-      {
-        "caption": "Romantic",
-        "startYear": 1800,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "B22222",
-        "textColor": "ffffff",
-        "width": 8,
-        "url": "Romanticism",
-        "fragment": ""
-      },
-      {
-        "caption": "Impressionist",
-        "startYear": 1860,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "87CEEB",
-        "textColor": "000000",
-        "width": 13,
-        "url": "Impressionism",
-        "fragment": ""
-      },
-      {
-        "caption": "Modern",
-        "startYear": 1860,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FF4500",
-        "textColor": "000000",
-        "width": 6,
-        "url": "Modern_art",
-        "fragment": ""
-      },
-      {
-        "caption": "Contemporary",
-        "startYear": 1970,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "00FA9A",
-        "textColor": "000000",
-        "width": 12,
-        "url": "Contemporary_art",
-        "fragment": ""
-      }
-    ],
-    "Musical Eras": [
-      {
-        "caption": "Medieval",
-        "startYear": 500,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "8B0000",
-        "textColor": "ffffff",
-        "width": 8,
-        "url": "Medieval_music",
-        "fragment": ""
-      },
-      {
-        "caption": "Renaissance",
-        "startYear": 1400,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "CD853F",
-        "textColor": "000000",
-        "width": 11,
-        "url": "Renaissance_music",
-        "fragment": ""
-      },
-      {
-        "caption": "Baroque",
-        "startYear": 1600,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "DAA520",
-        "textColor": "000000",
-        "width": 7,
-        "url": "Baroque_music",
-        "fragment": ""
-      },
-      {
-        "caption": "Classical",
-        "startYear": 1750,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "F0E68C",
-        "textColor": "000000",
-        "width": 9,
-        "url": "Classical_period_(music)",
-        "fragment": ""
-      },
-      {
-        "caption": "Romantic",
-        "startYear": 1800,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "B22222",
-        "textColor": "ffffff",
-        "width": 8,
-        "url": "Romantic_music",
-        "fragment": ""
-      },
-      {
-        "caption": "Impressionist",
-        "startYear": 1875,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "87CEEB",
-        "textColor": "000000",
-        "width": 13,
-        "url": "Impressionism_in_music",
-        "fragment": ""
-      },
-      {
-        "caption": "Modern",
-        "startYear": 1900,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FF4500",
-        "textColor": "000000",
-        "width": 6,
-        "url": "Modernism_(music)",
-        "fragment": ""
-      },
-      {
-        "caption": "Contemporary",
-        "startYear": 1975,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "00FA9A",
-        "textColor": "000000",
-        "width": 12,
-        "url": "Contemporary_classical_music",
+        "width": 16,
+        "url": "Platform_economy",
         "fragment": ""
       }
     ],
@@ -841,219 +775,6 @@
         "fragment": "History"
       }
     ],
-    "Economies": [
-      {
-        "caption": "Hunter-Gatherer",
-        "startYear": -300000,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "228B22",
-        "textColor": "ffffff",
-        "width": 15,
-        "url": "Hunter-gatherer",
-        "fragment": ""
-      },
-      {
-        "caption": "Agricultural",
-        "startYear": -10000,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "9ACD32",
-        "textColor": "000000",
-        "width": 12,
-        "url": "Neolithic_Revolution",
-        "fragment": ""
-      },
-      {
-        "caption": "Feudal",
-        "startYear": 500,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "8B4513",
-        "textColor": "ffffff",
-        "width": 6,
-        "url": "Feudalism",
-        "fragment": ""
-      },
-      {
-        "caption": "Mercantile",
-        "startYear": 1500,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FFD700",
-        "textColor": "000000",
-        "width": 10,
-        "url": "Mercantilism",
-        "fragment": ""
-      },
-      {
-        "caption": "Industrial Capitalist",
-        "startYear": 1760,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "696969",
-        "textColor": "ffffff",
-        "width": 21,
-        "url": "Industrial_capitalism",
-        "fragment": ""
-      },
-      {
-        "caption": "Welfare State",
-        "startYear": 1945,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "4169E1",
-        "textColor": "ffffff",
-        "width": 13,
-        "url": "Welfare_state",
-        "fragment": ""
-      },
-      {
-        "caption": "Neoliberal",
-        "startYear": 1980,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "DC143C",
-        "textColor": "ffffff",
-        "width": 10,
-        "url": "Neoliberalism",
-        "fragment": ""
-      },
-      {
-        "caption": "Platform Economy",
-        "startYear": 2008,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "9370DB",
-        "textColor": "ffffff",
-        "width": 16,
-        "url": "Platform_economy",
-        "fragment": ""
-      }
-    ],
-    "Philosophy": [
-      {
-        "caption": "Pre-Socratic",
-        "startYear": -600,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "8B4513",
-        "textColor": "ffffff",
-        "width": 12,
-        "url": "Pre-Socratic_philosophy",
-        "fragment": ""
-      },
-      {
-        "caption": "Classical Greek",
-        "startYear": -450,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "DAA520",
-        "textColor": "ffffff",
-        "width": 15,
-        "url": "Ancient_Greek_philosophy",
-        "fragment": "Classical_Greek_philosophy"
-      },
-      {
-        "caption": "Hellenistic",
-        "startYear": -300,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "CD853F",
-        "textColor": "ffffff",
-        "width": 11,
-        "url": "Hellenistic_philosophy",
-        "fragment": ""
-      },
-      {
-        "caption": "Medieval Scholastic",
-        "startYear": 1100,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "8B0000",
-        "textColor": "ffffff",
-        "width": 19,
-        "url": "Scholasticism",
-        "fragment": ""
-      },
-      {
-        "caption": "Renaissance Humanism",
-        "startYear": 1400,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "DC143C",
-        "textColor": "ffffff",
-        "width": 20,
-        "url": "Renaissance_humanism",
-        "fragment": ""
-      },
-      {
-        "caption": "Rationalist",
-        "startYear": 1600,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "4169E1",
-        "textColor": "ffffff",
-        "width": 11,
-        "url": "Rationalism",
-        "fragment": ""
-      },
-      {
-        "caption": "Empiricist",
-        "startYear": 1600,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "228B22",
-        "textColor": "ffffff",
-        "width": 10,
-        "url": "Empiricism",
-        "fragment": ""
-      },
-      {
-        "caption": "Idealist",
-        "startYear": 1780,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "9370DB",
-        "textColor": "ffffff",
-        "width": 8,
-        "url": "German_idealism",
-        "fragment": ""
-      },
-      {
-        "caption": "Existentialist",
-        "startYear": 1840,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "2F4F4F",
-        "textColor": "ffffff",
-        "width": 14,
-        "url": "Existentialism",
-        "fragment": ""
-      },
-      {
-        "caption": "Analytic",
-        "startYear": 1900,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "00CED1",
-        "textColor": "ffffff",
-        "width": 8,
-        "url": "Analytic_philosophy",
-        "fragment": ""
-      },
-      {
-        "caption": "Postmodern",
-        "startYear": 1960,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FF4500",
-        "textColor": "ffffff",
-        "width": 10,
-        "url": "Postmodern_philosophy",
-        "fragment": ""
-      }
-    ],
     "Politics": [
       {
         "caption": "Bands",
@@ -1141,164 +862,6 @@
         "textColor": "ffffff",
         "width": 19,
         "url": "Supranational_union",
-        "fragment": ""
-      }
-    ],
-    "Energy": [
-      {
-        "caption": "Muscle Power",
-        "startYear": -300000,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "8B4513",
-        "textColor": "ffffff",
-        "width": 12,
-        "url": "Animal_power",
-        "fragment": ""
-      },
-      {
-        "caption": "Wood and Biomass",
-        "startYear": -10000,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "228B22",
-        "textColor": "ffffff",
-        "width": 16,
-        "url": "Biomass_(energy)",
-        "fragment": ""
-      },
-      {
-        "caption": "Coal",
-        "startYear": 1700,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "2F4F4F",
-        "textColor": "ffffff",
-        "width": 4,
-        "url": "Coal",
-        "fragment": "History"
-      },
-      {
-        "caption": "Oil",
-        "startYear": 1859,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "000000",
-        "textColor": "ffffff",
-        "width": 3,
-        "url": "Petroleum",
-        "fragment": "History"
-      },
-      {
-        "caption": "Electricity",
-        "startYear": 1882,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FFD700",
-        "textColor": "000000",
-        "width": 11,
-        "url": "Electricity",
-        "fragment": "History"
-      },
-      {
-        "caption": "Nuclear",
-        "startYear": 1954,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "32CD32",
-        "textColor": "000000",
-        "width": 7,
-        "url": "Nuclear_power",
-        "fragment": "History"
-      },
-      {
-        "caption": "Renewables",
-        "startYear": 1990,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "00CED1",
-        "textColor": "ffffff",
-        "width": 10,
-        "url": "Renewable_energy",
-        "fragment": "History"
-      }
-    ],
-    "Communication": [
-      {
-        "caption": "Oral",
-        "startYear": -300000,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "8B4513",
-        "textColor": "ffffff",
-        "width": 4,
-        "url": "Oral_tradition",
-        "fragment": ""
-      },
-      {
-        "caption": "Manuscript",
-        "startYear": -3200,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "D2691E",
-        "textColor": "ffffff",
-        "width": 10,
-        "url": "Manuscript",
-        "fragment": ""
-      },
-      {
-        "caption": "Print",
-        "startYear": 1450,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "DAA520",
-        "textColor": "ffffff",
-        "width": 5,
-        "url": "Printing_press",
-        "fragment": ""
-      },
-      {
-        "caption": "Telegraph",
-        "startYear": 1837,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "FFD700",
-        "textColor": "000000",
-        "width": 9,
-        "url": "Electrical_telegraph",
-        "fragment": ""
-      },
-      {
-        "caption": "Broadcast",
-        "startYear": 1895,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "4169E1",
-        "textColor": "ffffff",
-        "width": 9,
-        "url": "Broadcasting",
-        "fragment": ""
-      },
-      {
-        "caption": "Digital",
-        "startYear": 1970,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "00CED1",
-        "textColor": "000000",
-        "width": 7,
-        "url": "Digital_Revolution",
-        "fragment": ""
-      },
-      {
-        "caption": "Networked Social",
-        "startYear": 2004,
-        "startMonth": 1,
-        "startDay": 1,
-        "bgColor": "9370DB",
-        "textColor": "ffffff",
-        "width": 16,
-        "url": "Social_media",
         "fragment": ""
       }
     ],
@@ -1499,6 +1062,443 @@
         "textColor": "000000",
         "width": 5,
         "url": "2020s",
+        "fragment": ""
+      }
+    ],
+    "Musical Eras": [
+      {
+        "caption": "Medieval",
+        "startYear": 500,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B0000",
+        "textColor": "ffffff",
+        "width": 8,
+        "url": "Medieval_music",
+        "fragment": ""
+      },
+      {
+        "caption": "Renaissance",
+        "startYear": 1400,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "CD853F",
+        "textColor": "000000",
+        "width": 11,
+        "url": "Renaissance_music",
+        "fragment": ""
+      },
+      {
+        "caption": "Baroque",
+        "startYear": 1600,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DAA520",
+        "textColor": "000000",
+        "width": 7,
+        "url": "Baroque_music",
+        "fragment": ""
+      },
+      {
+        "caption": "Classical",
+        "startYear": 1750,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "F0E68C",
+        "textColor": "000000",
+        "width": 9,
+        "url": "Classical_period_(music)",
+        "fragment": ""
+      },
+      {
+        "caption": "Romantic",
+        "startYear": 1800,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": 8,
+        "url": "Romantic_music",
+        "fragment": ""
+      },
+      {
+        "caption": "Impressionist",
+        "startYear": 1875,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "87CEEB",
+        "textColor": "000000",
+        "width": 13,
+        "url": "Impressionism_in_music",
+        "fragment": ""
+      },
+      {
+        "caption": "Modern",
+        "startYear": 1900,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FF4500",
+        "textColor": "000000",
+        "width": 6,
+        "url": "Modernism_(music)",
+        "fragment": ""
+      },
+      {
+        "caption": "Contemporary",
+        "startYear": 1975,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "00FA9A",
+        "textColor": "000000",
+        "width": 12,
+        "url": "Contemporary_classical_music",
+        "fragment": ""
+      }
+    ],
+    "Philosophy": [
+      {
+        "caption": "Pre-Socratic",
+        "startYear": -600,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": 12,
+        "url": "Pre-Socratic_philosophy",
+        "fragment": ""
+      },
+      {
+        "caption": "Classical Greek",
+        "startYear": -450,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DAA520",
+        "textColor": "ffffff",
+        "width": 15,
+        "url": "Ancient_Greek_philosophy",
+        "fragment": "Classical_Greek_philosophy"
+      },
+      {
+        "caption": "Hellenistic",
+        "startYear": -300,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "CD853F",
+        "textColor": "ffffff",
+        "width": 11,
+        "url": "Hellenistic_philosophy",
+        "fragment": ""
+      },
+      {
+        "caption": "Medieval Scholastic",
+        "startYear": 1100,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B0000",
+        "textColor": "ffffff",
+        "width": 19,
+        "url": "Scholasticism",
+        "fragment": ""
+      },
+      {
+        "caption": "Renaissance Humanism",
+        "startYear": 1400,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": 20,
+        "url": "Renaissance_humanism",
+        "fragment": ""
+      },
+      {
+        "caption": "Rationalist",
+        "startYear": 1600,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": 11,
+        "url": "Rationalism",
+        "fragment": ""
+      },
+      {
+        "caption": "Empiricist",
+        "startYear": 1600,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "228B22",
+        "textColor": "ffffff",
+        "width": 10,
+        "url": "Empiricism",
+        "fragment": ""
+      },
+      {
+        "caption": "Idealist",
+        "startYear": 1780,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "9370DB",
+        "textColor": "ffffff",
+        "width": 8,
+        "url": "German_idealism",
+        "fragment": ""
+      },
+      {
+        "caption": "Existentialist",
+        "startYear": 1840,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": 14,
+        "url": "Existentialism",
+        "fragment": ""
+      },
+      {
+        "caption": "Analytic",
+        "startYear": 1900,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "00CED1",
+        "textColor": "ffffff",
+        "width": 8,
+        "url": "Analytic_philosophy",
+        "fragment": ""
+      },
+      {
+        "caption": "Postmodern",
+        "startYear": 1960,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FF4500",
+        "textColor": "ffffff",
+        "width": 10,
+        "url": "Postmodern_philosophy",
+        "fragment": ""
+      }
+    ],
+    "Communication": [
+      {
+        "caption": "Oral",
+        "startYear": -300000,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": 4,
+        "url": "Oral_tradition",
+        "fragment": ""
+      },
+      {
+        "caption": "Manuscript",
+        "startYear": -3200,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "D2691E",
+        "textColor": "ffffff",
+        "width": 10,
+        "url": "Manuscript",
+        "fragment": ""
+      },
+      {
+        "caption": "Print",
+        "startYear": 1450,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DAA520",
+        "textColor": "ffffff",
+        "width": 5,
+        "url": "Printing_press",
+        "fragment": ""
+      },
+      {
+        "caption": "Telegraph",
+        "startYear": 1837,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FFD700",
+        "textColor": "000000",
+        "width": 9,
+        "url": "Electrical_telegraph",
+        "fragment": ""
+      },
+      {
+        "caption": "Broadcast",
+        "startYear": 1895,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "4169E1",
+        "textColor": "ffffff",
+        "width": 9,
+        "url": "Broadcasting",
+        "fragment": ""
+      },
+      {
+        "caption": "Digital",
+        "startYear": 1970,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "00CED1",
+        "textColor": "000000",
+        "width": 7,
+        "url": "Digital_Revolution",
+        "fragment": ""
+      },
+      {
+        "caption": "Networked Social",
+        "startYear": 2004,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "9370DB",
+        "textColor": "ffffff",
+        "width": 16,
+        "url": "Social_media",
+        "fragment": ""
+      }
+    ],
+    "Western Art": [
+      {
+        "caption": "Ancient",
+        "startYear": -30000,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B4513",
+        "textColor": "ffffff",
+        "width": 7,
+        "url": "Ancient_art",
+        "fragment": ""
+      },
+      {
+        "caption": "Classical",
+        "startYear": -500,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DAA520",
+        "textColor": "ffffff",
+        "width": 9,
+        "url": "Classical_antiquity",
+        "fragment": ""
+      },
+      {
+        "caption": "Byzantine",
+        "startYear": 330,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "800080",
+        "textColor": "ffffff",
+        "width": 9,
+        "url": "Byzantine_art",
+        "fragment": ""
+      },
+      {
+        "caption": "Romanesque",
+        "startYear": 1000,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "A0522D",
+        "textColor": "ffffff",
+        "width": 10,
+        "url": "Romanesque_art",
+        "fragment": ""
+      },
+      {
+        "caption": "Gothic",
+        "startYear": 1140,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "2F4F4F",
+        "textColor": "ffffff",
+        "width": 6,
+        "url": "Gothic_art",
+        "fragment": ""
+      },
+      {
+        "caption": "Renaissance",
+        "startYear": 1400,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "DC143C",
+        "textColor": "ffffff",
+        "width": 11,
+        "url": "Renaissance_art",
+        "fragment": ""
+      },
+      {
+        "caption": "Baroque",
+        "startYear": 1600,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "8B008B",
+        "textColor": "ffffff",
+        "width": 7,
+        "url": "Baroque",
+        "fragment": ""
+      },
+      {
+        "caption": "Rococo",
+        "startYear": 1720,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FF69B4",
+        "textColor": "000000",
+        "width": 6,
+        "url": "Rococo",
+        "fragment": ""
+      },
+      {
+        "caption": "Neoclassical",
+        "startYear": 1760,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "F0E68C",
+        "textColor": "000000",
+        "width": 12,
+        "url": "Neoclassicism",
+        "fragment": ""
+      },
+      {
+        "caption": "Romantic",
+        "startYear": 1800,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "B22222",
+        "textColor": "ffffff",
+        "width": 8,
+        "url": "Romanticism",
+        "fragment": ""
+      },
+      {
+        "caption": "Impressionist",
+        "startYear": 1860,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "87CEEB",
+        "textColor": "000000",
+        "width": 13,
+        "url": "Impressionism",
+        "fragment": ""
+      },
+      {
+        "caption": "Modern",
+        "startYear": 1860,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "FF4500",
+        "textColor": "000000",
+        "width": 6,
+        "url": "Modern_art",
+        "fragment": ""
+      },
+      {
+        "caption": "Contemporary",
+        "startYear": 1970,
+        "startMonth": 1,
+        "startDay": 1,
+        "bgColor": "00FA9A",
+        "textColor": "000000",
+        "width": 12,
+        "url": "Contemporary_art",
         "fragment": ""
       }
     ]
