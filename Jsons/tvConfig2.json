@@ -1313,11 +1313,7 @@
         "width": 5,
         "url": "1850s",
         "fragment": ""
-      }
-    ]
-  },
-  "": {
-    "": [
+      },
       {
         "caption": "1860s",
         "startYear": "1 860",
@@ -1503,28 +1499,6 @@
         "textColor": "000000",
         "width": 5,
         "url": "2020s",
-        "fragment": ""
-      },
-      {
-        "caption": "",
-        "startYear": "",
-        "startMonth": "",
-        "startDay": "",
-        "bgColor": "",
-        "textColor": "",
-        "width": 0,
-        "url": "",
-        "fragment": ""
-      },
-      {
-        "caption": "",
-        "startYear": "",
-        "startMonth": "",
-        "startDay": "",
-        "bgColor": "",
-        "textColor": "",
-        "width": 0,
-        "url": "",
         "fragment": ""
       }
     ]
