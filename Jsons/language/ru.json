@@ -184,7 +184,7 @@
   "customizeTimeviews.loading": "Загрузка настроек просмотра времени...",
   "customizeTimeviews.empty": "Просмотры по времени недоступны",
   "customizeTimeviews.customizeButton": "Настроить",
-  "customizeTimeviews.customizeMessage": "Создать собственные кнопки просмотра времени — пока недоступно.",
+  "customizeTimeviews.customizeMessage": "Создайте собственные кнопки просмотра времени — пока недоступно.",
   "customizeTimeviews.closeButton": "Закрывать",
   "customizeTimeviews.loadError": "Не удалось загрузить tvConfig:",
   "displayOneTimeview.loadError": "Не удалось загрузить tvConfig:",

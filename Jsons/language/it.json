@@ -181,7 +181,7 @@
   "settings.fonts.sectionTitle": "Caratteri",
   "settings.fonts.uiFont": "Interfaccia",
   "settings.fonts.canvasFont": "Cronologia",
-  "customizeTimeviews.loading": "Caricamento della configurazione di Timeview...",
+  "customizeTimeviews.loading": "Caricamento della configurazione di TimeView...",
   "customizeTimeviews.empty": "Nessuna visualizzazione temporale disponibile",
   "customizeTimeviews.customizeButton": "Personalizza",
   "customizeTimeviews.customizeMessage": "crea i tuoi pulsanti Timeview - non ancora disponibili",

@@ -30,7 +30,7 @@
   "timeview_save": "Zeitansicht speichern",
   "catalogs_show": "Kataloge",
   "database_show": "Datenbank anzeigen",
-  "load": "Lastverteiler und -kästen",
+  "load": "Lastpaneele und -kästen",
   "cosmos_show": "Hintergrund umschalten",
   "cat_b": "Sein",
   "cat_c": "Kultur",
@@ -188,5 +188,5 @@
   "customizeTimeviews.closeButton": "Schließen",
   "customizeTimeviews.loadError": "tvConfig konnte nicht geladen werden:",
   "displayOneTimeview.loadError": "tvConfig konnte nicht geladen werden:",
-  "timeviews.prefetchError": "Prefetch tvConfig fehlgeschlagen"
+  "timeviews.prefetchError": "tvConfig-Vorabruf fehlgeschlagen"
 }
