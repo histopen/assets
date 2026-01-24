@@ -28,16 +28,38 @@ async function toolloc() {
   const argLang = process.argv[2];
   const languages = argLang ? [argLang] : allLanguages;
 
-  const pathname = "C:/code/wikit/client/src/locales";
+  const clientPath = "C:/code/wikit/client/src/locales";
+  const assetsPath = "C:/code/wikit/ghp/assets/Jsons/language";
+
+  let hasErrors = false;
 
   for (const lang of languages) {
     const filename = `${lang}.json`;
     try {
       const data = await getSheetData(`${webappUrl}?lang=${lang}`);
-      saveJsonToFile(pathname, filename, data);
+
+      // Try to save to both locations
+      try {
+        saveJsonToFile(clientPath, filename, data);
+      } catch (err) {
+        console.error(`Error updating client ${filename}: ${err.message}`);
+        hasErrors = true;
+      }
+
+      try {
+        saveJsonToFile(assetsPath, filename, data);
+      } catch (err) {
+        console.error(`Error updating assets ${filename}: ${err.message}`);
+        hasErrors = true;
+      }
     } catch (err) {
-      console.error(`Error ${pathname}/${filename}`, err.message);
+      console.error(`Error fetching ${filename}: ${err.message}`);
+      hasErrors = true;
     }
+  }
+
+  if (hasErrors) {
+    process.exit(1);
   }
 }
 

@@ -8,6 +8,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export function saveJsonToFile(pathname, filename, jsonobj) {
-  const outputPath = path.resolve(__dirname, pathname, filename);
-  fs.writeFileSync(outputPath, JSON.stringify(jsonobj, null, 2), 'utf-8');
+  const outputPath = path.isAbsolute(pathname)
+    ? path.join(pathname, filename)
+    : path.resolve(__dirname, pathname, filename);
+
+  try {
+    fs.writeFileSync(outputPath, JSON.stringify(jsonobj, null, 2), 'utf-8');
+  } catch (error) {
+    throw new Error(`Failed to write ${outputPath}: ${error.message}`);
+  }
 }
