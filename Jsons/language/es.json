@@ -178,12 +178,15 @@
   "time_view_mode": "Vista del tiempo",
   "time_view_display": "Mostrar",
   "time_view_customize": "Personalizar",
+  "settings.fonts.sectionTitle": "Fuentes",
+  "settings.fonts.uiFont": "Interfaz",
+  "settings.fonts.canvasFont": "Cronología",
   "customizeTimeviews.loading": "Cargando configuración de vista de tiempo...",
   "customizeTimeviews.empty": "No hay vistas de tiempo disponibles",
   "customizeTimeviews.customizeButton": "Personalizar",
   "customizeTimeviews.customizeMessage": "Crea tus propios botones de vista de tiempo (aún no disponible)",
   "customizeTimeviews.closeButton": "Cerca",
-  "customizeTimeviews.loadError": "#VALUE!",
-  "displayOneTimeview.loadError": "#VALUE!",
+  "customizeTimeviews.loadError": "No se pudo cargar tvConfig:",
+  "displayOneTimeview.loadError": "No se pudo cargar tvConfig:",
   "timeviews.prefetchError": "Falló la precarga de tvConfig"
 }
