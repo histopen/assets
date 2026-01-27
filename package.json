@@ -2,7 +2,6 @@
   "name": "assets",
   "scripts": {
     "loc": "npm --prefix Tools run loc",
-    "btn": "npm --prefix Tools run btn",
     "tv": "npm --prefix Tools run tv",
     "dbtm": "npm --prefix Tools run dbtm",
     "cosmos": "npm --prefix Tools run cosmos",

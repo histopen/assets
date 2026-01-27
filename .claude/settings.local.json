@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash",
+      "WebFetch(domain:*)",
+      "WebSearch",
+      "Glob",
+      "Grep",
+      "Task",
+      "TodoWrite",
+      "NotebookEdit",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:histopen.github.io)",
+      "Bash(node -e:*)",
+      "Bash(cmd.exe //C \"npm run tmconvert\")"
+    ],
+    "defaultMode": "bypassPermissions",
+    "dangerouslySkipPermissions": true
+  }
+}
