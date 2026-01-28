@@ -1,0 +1,46 @@
+[
+  [0, {"timeContainerCaption": "timepanel", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 1},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 3},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 4},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 5},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 6},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 7},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 8},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 1},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 3},
+      {"TOType": "timeContainer", "Database": "dbUserAccount", "DatabaseKey": 2},
+      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 3}
+    ]}],
+  [1, {"timeContainerCaption": "Eugène, Mélanie", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 1}
+    ]}],
+  [2, {"timeContainerCaption": "Ella, Einstein", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 3}
+    ]}],
+  [3, {"timeContainerCaption": "Roland + Family", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 3},
+      {"TOType": "timeContainer", "Database": "dbUserAccount", "DatabaseKey": 1}
+    ]}],
+  [4, {"timeContainerCaption": "Family & Events", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
+      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 2}
+    ]}],
+  [5, {"timeContainerCaption": "User+Academy TC", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbUserAccount", "DatabaseKey": 1},
+      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 1}
+    ]}],
+  [6, {"timeContainerCaption": "timepanel", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 1},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 3}
+    ]}]
+]
