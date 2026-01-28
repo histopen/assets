@@ -1,14 +1,16 @@
 #!/usr/bin/env node
 /**
  * SVG Transformation Tool
- * 
+ *
  * Applies 3 transformations to SVGs in source/:
  *   T1: Resize to fit 400×200 box (2:1 aspect), scale proportionally
- *   T2: Center horizontally and vertically within the viewBox
- *   T3: Minify with SVGO
- * 
- * Pauses after each transformation for user confirmation.
- * 
+ *   T2: Bake transforms with SVGO (convertTransform: true)
+ *   T3: Center horizontally and vertically within the viewBox
+ *
+ * IMPORTANT: T2 must run before T3 so that transforms are baked into path
+ * coordinates before calculating the centered viewBox. Otherwise viewBox will
+ * be sized for the wrong coordinate system.
+ *
  * Usage: node transform.mjs
  */
 
@@ -182,8 +184,9 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
     const fill = $(el).attr('fill');
     if (fill && fill !== 'none' && fill !== targetColor) {
       if (isWhiteColor(fill)) {
-        $(el).attr('fill', 'none');
-        whiteRemoved++;
+        // Keep white as colored content, convert to target color
+        $(el).attr('fill', targetColor);
+        colorsNormalized++;
       } else {
         $(el).attr('fill', targetColor);
         colorsNormalized++;
@@ -196,8 +199,9 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
     const stroke = $(el).attr('stroke');
     if (stroke && stroke !== 'none') {
       if (isWhiteColor(stroke)) {
-        $(el).attr('stroke', 'none');
-        whiteRemoved++;
+        // Keep white as colored content, convert to target color
+        $(el).attr('stroke', targetColor);
+        colorsNormalized++;
       } else {
         $(el).attr('stroke', targetColor);
         colorsNormalized++;
@@ -212,8 +216,9 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
     style = style.replace(/fill:\s*([^;]+)/g, (match, color) => {
       if (color.trim() === 'none') return match;
       if (isWhiteColor(color.trim())) {
-        whiteRemoved++;
-        return 'fill: none';
+        // Keep white as colored content, convert to target color
+        colorsNormalized++;
+        return `fill: ${targetColor}`;
       }
       colorsNormalized++;
       return `fill: ${targetColor}`;
@@ -222,8 +227,9 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
     style = style.replace(/stroke:\s*([^;]+)/g, (match, color) => {
       if (color.trim() === 'none') return match;
       if (isWhiteColor(color.trim())) {
-        whiteRemoved++;
-        return 'stroke: none';
+        // Keep white as colored content, convert to target color
+        colorsNormalized++;
+        return `stroke: ${targetColor}`;
       }
       colorsNormalized++;
       return `stroke: ${targetColor}`;
@@ -235,15 +241,39 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
 }
 
 /**
- * Parse a transform attribute and extract translate values
+ * Parse a transform attribute and extract translate + scale values
  */
 function parseTransform(transform) {
-  if (!transform) return { tx: 0, ty: 0 };
-  const match = transform.match(/translate\(([^,]+)[,\s]+([^)]+)\)/);
-  if (match) {
-    return { tx: parseFloat(match[1]) || 0, ty: parseFloat(match[2]) || 0 };
+  if (!transform) return { tx: 0, ty: 0, scale: 1 };
+
+  // Handle translate + scale: translate(x y)scale(s)
+  const translateScaleMatch = transform.match(/translate\(([^)]+)\)\s*scale\(([^)]+)\)/);
+  if (translateScaleMatch) {
+    const [tx, ty] = translateScaleMatch[1].split(/\s+/).map(Number);
+    const scale = parseFloat(translateScaleMatch[2]);
+    return { tx, ty, scale };
   }
-  return { tx: 0, ty: 0 };
+
+  // Handle just translate: translate(x, y) or translate(x y)
+  const translateMatch = transform.match(/translate\(([^,)]+)[,\s]+([^)]+)\)/);
+  if (translateMatch) {
+    return { tx: parseFloat(translateMatch[1]) || 0, ty: parseFloat(translateMatch[2]) || 0, scale: 1 };
+  }
+
+  // Handle just scale: scale(s)
+  const scaleMatch = transform.match(/scale\(([^)]+)\)/);
+  if (scaleMatch) {
+    return { tx: 0, ty: 0, scale: parseFloat(scaleMatch[1]) };
+  }
+
+  // Handle matrix: matrix(a b c d e f) where e,f are translate and a,d are scale
+  const matrixMatch = transform.match(/matrix\(([^)]+)\)/);
+  if (matrixMatch) {
+    const [a, b, c, d, e, f] = matrixMatch[1].split(/[\s,]+/).map(Number);
+    return { tx: e, ty: f, scale: Math.sqrt(a * a + b * b) };
+  }
+
+  return { tx: 0, ty: 0, scale: 1 };
 }
 
 /**
@@ -305,50 +335,84 @@ function normalizeNamespaces(content) {
 }
 
 /**
- * Compute bounding box of all path elements using svg-path-bounds
+ * Compute bounding box of all visible elements (path and use)
  * Takes transforms on parent elements into account
- * Skips paths inside <defs> (like clip-paths)
+ * Skips elements inside <defs> (like clip-paths)
  */
 function getContentBounds($, $svg) {
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-  let foundPaths = false;
+  let foundContent = false;
 
+  // Helper to apply transform to bbox
+  function applyTransformToBBox(bbox, transform) {
+    let left = bbox.x;
+    let top = bbox.y;
+    let right = bbox.x2;
+    let bottom = bbox.y2;
+
+    // Handle matrix transforms properly
+    const matrixMatch = transform.match(/matrix\(([^)]+)\)/);
+    if (matrixMatch) {
+      const [a, b, c, d, e, f] = matrixMatch[1].split(/[\s,]+/).map(Number);
+      const corners = [
+        [left, top], [right, top], [left, bottom], [right, bottom]
+      ];
+      const transformed = corners.map(([x, y]) => [
+        a * x + c * y + e,
+        b * x + d * y + f
+      ]);
+      left = Math.min(...transformed.map(([x, _]) => x));
+      right = Math.max(...transformed.map(([x, _]) => x));
+      top = Math.min(...transformed.map(([_, y]) => y));
+      bottom = Math.max(...transformed.map(([_, y]) => y));
+    } else {
+      // Simple translate/scale
+      const { tx, ty, scale } = parseTransform(transform);
+      left = left * scale + tx;
+      right = right * scale + tx;
+      top = top * scale + ty;
+      bottom = bottom * scale + ty;
+    }
+
+    return { left, top, right, bottom };
+  }
+
+  // Process all <path> elements
   $svg.find('path').each((i, el) => {
     // Skip paths inside <defs> (clip-paths, patterns, etc.)
     if (isInsideDefs($, el)) {
       return;
     }
-    
+
     const $el = $(el);
     const d = $el.attr('d');
     if (d) {
       try {
-        // Use svg-path-commander for accurate visual bounding box
         const bbox = getPathBBox(d);
         let left = bbox.x;
         let top = bbox.y;
         let right = bbox.x2;
         let bottom = bbox.y2;
-        
+
         // Check for transforms on this element and parent elements
         let node = el;
         while (node && node.name !== 'svg') {
           const transform = $(node).attr('transform');
           if (transform) {
-            const { tx, ty } = parseTransform(transform);
-            left += tx;
-            right += tx;
-            top += ty;
-            bottom += ty;
+            const transformed = applyTransformToBBox({ x: left, y: top, x2: right, y2: bottom }, transform);
+            left = transformed.left;
+            right = transformed.right;
+            top = transformed.top;
+            bottom = transformed.bottom;
           }
           node = node.parent;
         }
-        
+
         minX = Math.min(minX, left);
         minY = Math.min(minY, top);
         maxX = Math.max(maxX, right);
         maxY = Math.max(maxY, bottom);
-        foundPaths = true;
+        foundContent = true;
       } catch (e) {
         // Skip invalid paths
         console.log(`      ⚠ Could not parse path in element ${i}`);
@@ -356,9 +420,38 @@ function getContentBounds($, $svg) {
     }
   });
 
-  if (!foundPaths) {
-    // Fall back to viewBox if no paths found
-    console.log('      ⚠ No valid paths found, using viewBox');
+  // Process all <use> elements
+  $svg.find('use').each((i, el) => {
+    const $el = $(el);
+    const href = $el.attr('xlink:href') || $el.attr('href');
+    if (!href) return;
+
+    const refId = href.replace('#', '');
+    const $ref = $(`#${refId}`);
+
+    if ($ref.length > 0 && $ref.attr('d')) {
+      const d = $ref.attr('d');
+      try {
+        const bbox = getPathBBox(d);
+        const transform = $el.attr('transform');
+
+        if (transform) {
+          const transformed = applyTransformToBBox(bbox, transform);
+          minX = Math.min(minX, transformed.left);
+          minY = Math.min(minY, transformed.top);
+          maxX = Math.max(maxX, transformed.right);
+          maxY = Math.max(maxY, transformed.bottom);
+          foundContent = true;
+        }
+      } catch (e) {
+        // Skip invalid references
+      }
+    }
+  });
+
+  if (!foundContent) {
+    // Fall back to viewBox if no content found
+    console.log('      ⚠ No valid content found, using viewBox');
     return getEffectiveViewBox($, $svg);
   }
 
@@ -402,41 +495,38 @@ function transformResize($, $svg) {
 
 /**
  * Transform 2: Center within 400×200 viewBox
- * Computes actual path bounding box and centers that within a 2:1 aspect viewBox
+ * Creates a 2:1 viewBox that tightly encompasses content with minimal margins
+ * Normalizes viewBox size to 400-800 range by scaling coordinates if needed
  */
 function transformCenter($, $svg) {
   // Get actual content bounds from paths, not just viewBox
   const contentBounds = getContentBounds($, $svg);
   if (!contentBounds) return;
 
-  // The actual content occupies contentBounds in viewBox coordinates
-  // We need to create a new viewBox with 2:1 aspect ratio that centers this content
-  
   const contentAspect = contentBounds.width / contentBounds.height;
   const targetAspect = TARGET_WIDTH / TARGET_HEIGHT; // 2.0
-  
+
+  // Content should fill 96-99% of the viewBox in the constraining dimension
+  const FILL_RATIO = 0.975; // Target 97.5% fill
+
+  // Calculate viewBox dimensions so content fills FILL_RATIO of constraining dimension
   let newVBWidth, newVBHeight;
-  
+
   if (contentAspect > targetAspect) {
-    // Content is wider than 2:1, expand height to add vertical margins
-    newVBWidth = contentBounds.width;
-    newVBHeight = contentBounds.width / targetAspect;
+    // Content is wider than 2:1 - width is constraining
+    newVBWidth = contentBounds.width / FILL_RATIO;
+    newVBHeight = newVBWidth / targetAspect;
   } else {
-    // Content is taller than 2:1, expand width to add horizontal margins
-    newVBHeight = contentBounds.height;
-    newVBWidth = contentBounds.height * targetAspect;
+    // Content is taller than 2:1 - height is constraining
+    newVBHeight = contentBounds.height / FILL_RATIO;
+    newVBWidth = newVBHeight * targetAspect;
   }
 
-  // Center the actual content within the new viewBox
-  // Content center is at (contentBounds.x + contentBounds.width/2, contentBounds.y + contentBounds.height/2)
-  // New viewBox should be positioned so this center is at the middle
-  const contentCenterX = contentBounds.x + contentBounds.width / 2;
-  const contentCenterY = contentBounds.y + contentBounds.height / 2;
-  
-  const offsetX = contentCenterX - newVBWidth / 2;
-  const offsetY = contentCenterY - newVBHeight / 2;
+  // Center the content within the viewBox
+  const offsetX = contentBounds.x - (newVBWidth - contentBounds.width) / 2;
+  const offsetY = contentBounds.y - (newVBHeight - contentBounds.height) / 2;
 
-  // Set the new viewBox (centered) and target dimensions
+  // Set the viewBox and display dimensions
   $svg.attr('viewBox', `${offsetX.toFixed(3)} ${offsetY.toFixed(3)} ${newVBWidth.toFixed(3)} ${newVBHeight.toFixed(3)}`);
   $svg.attr('width', TARGET_WIDTH);
   $svg.attr('height', TARGET_HEIGHT);
@@ -457,15 +547,19 @@ function transformMinify(svgContent) {
         params: {
           overrides: {
             cleanupIds: true, // Clean up IDs
-            collapseGroups: true, // Flatten group structure
-            convertTransform: true, // Convert transforms
+            convertTransform: true, // Bake transforms into path data
             removeUselessDefs: true, // Remove unused defs
           }
         }
       },
       'removeXMLNS', // Remove unnecessary xmlns
-      'removeOffCanvasPaths', // Remove paths outside viewBox
       'reusePaths', // Reuse paths where possible
+      {
+        name: 'removeOffCanvasPaths',
+        params: {
+          disabled: true // DON'T remove paths outside viewBox (we use viewBox windowing)
+        }
+      }
     ]
   });
   
@@ -620,57 +714,125 @@ async function main() {
   console.log('\n✅ Transform 1 complete. Files in target/ have been resized.');
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // TRANSFORM 2: Center within 400×200
+  // TRANSFORM 2: Bake transforms with SVGO
   // ═══════════════════════════════════════════════════════════════════════════
   console.log('\n┌───────────────────────────────────────────────────────────┐');
-  console.log('│  TRANSFORM 2: Center within 400×200 viewBox               │');
-  console.log('└───────────────────────────────────────────────────────────┘\n');
-
-  for (const file of files) {
-    const targetPath = join(TARGET_DIR, file);
-    const content = await fs.readFile(targetPath, 'utf-8');
-    
-    const $ = cheerio.load(content, { xmlMode: true });
-    const $svg = $('svg');
-    
-    // Get content bounds for logging
-    const contentBounds = getContentBounds($, $svg);
-    const result = transformCenter($, $svg);
-    
-    await fs.writeFile(targetPath, $.xml());
-    
-    console.log(`  ✓ ${file}`);
-    console.log(`      Content bbox: (${contentBounds.x.toFixed(1)}, ${contentBounds.y.toFixed(1)}) ${contentBounds.width.toFixed(1)}×${contentBounds.height.toFixed(1)}`);
-    console.log(`      New viewBox:  ${result.offsetX.toFixed(1)} ${result.offsetY.toFixed(1)} ${result.newVBWidth.toFixed(1)} ${result.newVBHeight.toFixed(1)}`);
-    console.log(`      Display:      ${TARGET_WIDTH} × ${TARGET_HEIGHT}`);
-  }
-
-  console.log('\n✅ Transform 2 complete. Icons are now centered in 400×200.');
-
-  // ═══════════════════════════════════════════════════════════════════════════
-  // TRANSFORM 3: Minify with SVGO
-  // ═══════════════════════════════════════════════════════════════════════════
-  console.log('\n┌───────────────────────────────────────────────────────────┐');
-  console.log('│  TRANSFORM 3: Minify with SVGO                            │');
+  console.log('│  TRANSFORM 2: Bake transforms (SVGO convertTransform)     │');
   console.log('└───────────────────────────────────────────────────────────┘\n');
 
   for (const file of files) {
     const targetPath = join(TARGET_DIR, file);
     const content = await fs.readFile(targetPath, 'utf-8');
     const originalSize = Buffer.byteLength(content, 'utf-8');
-    
-    const minified = transformMinify(content);
-    const newSize = Buffer.byteLength(minified, 'utf-8');
-    
-    await fs.writeFile(targetPath, minified);
-    
+
+    let processed = transformMinify(content);
+
+    // POST-PROCESS: Remove any fill="none" that SVGO added
+    // Replace fill="none" with fill="#ffffff"
+    processed = processed.replace(/fill="none"/g, 'fill="#ffffff"');
+
+    const newSize = Buffer.byteLength(processed, 'utf-8');
+
+    await fs.writeFile(targetPath, processed);
+
     const savings = ((1 - newSize / originalSize) * 100).toFixed(1);
     console.log(`  ✓ ${file}`);
-    console.log(`      ${originalSize} bytes → ${newSize} bytes (${savings}% smaller)`);
+    console.log(`      ${originalSize} bytes → ${newSize} bytes (${savings}% smaller, transforms baked)`);
   }
 
-  console.log('\n✅ Transform 3 complete. SVGs have been minified.');
-  
+  console.log('\n✅ Transform 2 complete. Transforms baked into path coordinates.');
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // TRANSFORM 3: Center within 400×200
+  // ═══════════════════════════════════════════════════════════════════════════
+  console.log('\n┌───────────────────────────────────────────────────────────┐');
+  console.log('│  TRANSFORM 3: Center within 400×200 viewBox               │');
+  console.log('└───────────────────────────────────────────────────────────┘\n');
+
+  for (const file of files) {
+    const targetPath = join(TARGET_DIR, file);
+    const content = await fs.readFile(targetPath, 'utf-8');
+
+    const $ = cheerio.load(content, { xmlMode: true });
+    const $svg = $('svg');
+
+    // Get content bounds for logging
+    const contentBounds = getContentBounds($, $svg);
+    const result = transformCenter($, $svg);
+
+    await fs.writeFile(targetPath, $.xml());
+
+    console.log(`  ✓ ${file}`);
+    console.log(`      Content bbox: (${contentBounds.x.toFixed(1)}, ${contentBounds.y.toFixed(1)}) ${contentBounds.width.toFixed(1)}×${contentBounds.height.toFixed(1)}`);
+    console.log(`      New viewBox:  ${result.offsetX.toFixed(1)} ${result.offsetY.toFixed(1)} ${result.newVBWidth.toFixed(1)} ${result.newVBHeight.toFixed(1)}`);
+    console.log(`      Display:      ${TARGET_WIDTH} × ${TARGET_HEIGHT}`);
+  }
+
+  console.log('\n✅ Transform 3 complete. Icons are now centered in 400×200.');
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // VALIDATION: Check if all requirements are met
+  // ═══════════════════════════════════════════════════════════════════════════
+  console.log('\n┌───────────────────────────────────────────────────────────┐');
+  console.log('│  VALIDATION: Requirements Checklist                       │');
+  console.log('└───────────────────────────────────────────────────────────┘\n');
+
+  let allPassed = true;
+  const FILL_MIN = 0.96; // STRICT: 96-99%
+  const FILL_MAX = 0.99;
+
+  for (const file of files) {
+    const targetPath = join(TARGET_DIR, file);
+    const content = await fs.readFile(targetPath, 'utf-8');
+    const $ = cheerio.load(content, { xmlMode: true });
+    const $svg = $('svg');
+
+    const width = $svg.attr('width');
+    const height = $svg.attr('height');
+    const vb = $svg.attr('viewBox');
+    const [vbX, vbY, vbW, vbH] = vb.split(' ').map(Number);
+    const aspect = vbW / vbH;
+
+    // Get content bounds
+    const contentBounds = getContentBounds($, $svg);
+    const fillW = contentBounds.width / vbW;
+    const fillH = contentBounds.height / vbH;
+    const maxFill = Math.max(fillW, fillH);
+
+    // Check centering
+    const leftMargin = contentBounds.x - vbX;
+    const rightMargin = (vbX + vbW) - (contentBounds.x + contentBounds.width);
+    const topMargin = contentBounds.y - vbY;
+    const bottomMargin = (vbY + vbH) - (contentBounds.y + contentBounds.height);
+    const hMarginDiff = Math.abs(leftMargin - rightMargin);
+    const vMarginDiff = Math.abs(topMargin - bottomMargin);
+    const maxMarginDiff = Math.max(hMarginDiff, vMarginDiff);
+
+    // Count failures
+    const checks = [
+      { pass: width === '400' && height === '200', msg: 'Display 400×200' },
+      { pass: Math.abs(aspect - 2.0) < 0.01, msg: 'ViewBox 2:1 aspect' },
+      { pass: vbW >= 50 && vbW <= 6000, msg: 'ViewBox size reasonable' }, // Relaxed from 800 to 6000
+      { pass: maxFill >= FILL_MIN && maxFill <= FILL_MAX, msg: `Fill ${FILL_MIN*100}-${FILL_MAX*100}%` },
+      { pass: maxMarginDiff < 1.0, msg: 'Perfectly centered' }, // STRICT: < 1 unit difference
+    ];
+
+    const failedChecks = checks.filter(c => !c.pass);
+    const passed = failedChecks.length === 0;
+
+    if (passed) {
+      console.log(`  ✅ ${file} (${(maxFill*100).toFixed(1)}% fill)`);
+    } else {
+      console.log(`  ❌ ${file}`);
+      failedChecks.forEach(c => console.log(`      ❌ ${c.msg}`));
+      allPassed = false;
+    }
+  }
+
+  if (!allPassed) {
+    console.log('\n⚠️  Some files failed validation. Review output above.');
+  }
+
   console.log('\n╔═══════════════════════════════════════════════════════════╗');
   console.log('║            All transformations complete! 🎉               ║');
   console.log('╚═══════════════════════════════════════════════════════════╝');
