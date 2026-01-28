@@ -29,7 +29,7 @@ async function toolloc() {
   const languages = argLang ? [argLang] : allLanguages;
 
   const clientPath = "C:/code/wikit/client/src/locales";
-  const assetsPath = "C:/code/wikit/ghp/assets/Jsons/language";
+  const assetsPath = "C:/code/wikit/assets/Jsons/language";
 
   let hasErrors = false;
 

@@ -55,7 +55,7 @@ const CONFIG = {
   // Atlas dimensions (will be auto-calculated if 0)
   atlasWidth: 0,
   atlasHeight: 0,
-  // Paths (relative to ghp/assets/)
+  // Paths (relative to assets/)
   assetsDir: join(__dirname, '..', '..'),
   svgDir: 'Icons_TimeMarks/TM_Icons',
   iconMapPath: 'Icons_TimeMarks/Atlas/tMIconMap.json',
