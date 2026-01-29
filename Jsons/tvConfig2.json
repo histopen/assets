@@ -2036,7 +2036,7 @@
     ],
     "Chinese": [
       {
-        "caption": "Mythological Era",
+        "caption": "Mythology",
         "startYear": -2700,
         "startMonth": 1,
         "startDay": 1,
@@ -2050,7 +2050,7 @@
         "fragment": ""
       },
       {
-        "caption": "Xia Dynasty",
+        "caption": "Xia",
         "startYear": -2070,
         "startMonth": 1,
         "startDay": 1,
@@ -2064,7 +2064,7 @@
         "fragment": ""
       },
       {
-        "caption": "Shang Dynasty",
+        "caption": "Shang",
         "startYear": -1600,
         "startMonth": 1,
         "startDay": 1,
@@ -2078,7 +2078,7 @@
         "fragment": ""
       },
       {
-        "caption": "Zhou Dynasty",
+        "caption": "Zhou",
         "startYear": -1046,
         "startMonth": 1,
         "startDay": 1,
@@ -2106,7 +2106,7 @@
         "fragment": ""
       },
       {
-        "caption": "Qin Dynasty",
+        "caption": "Qin",
         "startYear": -221,
         "startMonth": 1,
         "startDay": 1,
@@ -2120,7 +2120,7 @@
         "fragment": ""
       },
       {
-        "caption": "Han Dynasty",
+        "caption": "Han",
         "startYear": -206,
         "startMonth": 1,
         "startDay": 1,
@@ -2134,7 +2134,7 @@
         "fragment": ""
       },
       {
-        "caption": "Six Dynasties",
+        "caption": "6 Dynasties",
         "startYear": 220,
         "startMonth": 1,
         "startDay": 1,
@@ -2148,7 +2148,7 @@
         "fragment": ""
       },
       {
-        "caption": "Sui Dynasty",
+        "caption": "Sui",
         "startYear": 581,
         "startMonth": 1,
         "startDay": 1,
@@ -2162,7 +2162,7 @@
         "fragment": ""
       },
       {
-        "caption": "Tang Dynasty",
+        "caption": "Tang",
         "startYear": 618,
         "startMonth": 1,
         "startDay": 1,
@@ -2176,7 +2176,7 @@
         "fragment": ""
       },
       {
-        "caption": "Five Dynasties",
+        "caption": "5 Dynasties",
         "startYear": 907,
         "startMonth": 1,
         "startDay": 1,
@@ -2190,7 +2190,7 @@
         "fragment": ""
       },
       {
-        "caption": "Song Dynasty",
+        "caption": "Song",
         "startYear": 960,
         "startMonth": 1,
         "startDay": 1,
@@ -2204,7 +2204,7 @@
         "fragment": ""
       },
       {
-        "caption": "Yuan Dynasty",
+        "caption": "Yuan",
         "startYear": 1279,
         "startMonth": 1,
         "startDay": 1,
@@ -2218,7 +2218,7 @@
         "fragment": ""
       },
       {
-        "caption": "Ming Dynasty",
+        "caption": "Ming",
         "startYear": 1368,
         "startMonth": 1,
         "startDay": 1,
@@ -2232,7 +2232,7 @@
         "fragment": ""
       },
       {
-        "caption": "Qing Dynasty",
+        "caption": "Qing",
         "startYear": 1644,
         "startMonth": 1,
         "startDay": 1,
@@ -2246,7 +2246,7 @@
         "fragment": ""
       },
       {
-        "caption": "Republic Era",
+        "caption": "Republic",
         "startYear": 1912,
         "startMonth": 1,
         "startDay": 1,
