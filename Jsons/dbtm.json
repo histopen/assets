@@ -667,7 +667,8 @@
       "startYear": 1519,
       "endDay": 20,
       "endMonth": 9,
-      "endYear": 1522
+      "endYear": 1522,
+      "categories": "p, t"
     },
     {
       "rank": 62,
@@ -677,7 +678,8 @@
       "url": "Caravel",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 1450
+      "startYear": 1450,
+      "categories": "p, c, t"
     },
     {
       "rank": 63,
@@ -685,7 +687,8 @@
       "caption": "Coins",
       "tooltip": "Coins Invention (Lydia)",
       "url": "Coin",
-      "startYear": -602
+      "startYear": -602,
+      "categories": "t"
     },
     {
       "rank": 64,
@@ -695,7 +698,8 @@
       "url": "Voyages_of_Christopher_Columbus",
       "startDay": 12,
       "startMonth": 10,
-      "startYear": 1492
+      "startYear": 1492,
+      "categories": "p, t"
     },
     {
       "rank": 65,
@@ -705,7 +709,8 @@
       "url": "Constantinople",
       "startDay": 11,
       "startMonth": 5,
-      "startYear": 330
+      "startYear": 330,
+      "categories": "c"
     },
     {
       "rank": 66,
@@ -715,7 +720,8 @@
       "url": "Copyright",
       "startDay": 25,
       "startMonth": 9,
-      "startYear": 1789
+      "startYear": 1789,
+      "categories": "t"
     },
     {
       "rank": 67,
@@ -725,7 +731,8 @@
       "url": "Elizabeth_I",
       "startDay": 17,
       "startMonth": 11,
-      "startYear": 1558
+      "startYear": 1558,
+      "categories": "p, c"
     },
     {
       "rank": 68,
@@ -760,7 +767,8 @@
       "url": "2020_Beirut_explosion",
       "startDay": 4,
       "startMonth": 8,
-      "startYear": 2020
+      "startYear": 2020,
+      "categories": "c, p"
     },
     {
       "rank": 71,
@@ -770,7 +778,8 @@
       "url": "Wall_Street_Crash_of_1929",
       "startDay": 29,
       "startMonth": 10,
-      "startYear": 1929
+      "startYear": 1929,
+      "categories": "t"
     },
     {
       "rank": 72,
@@ -780,7 +789,8 @@
       "url": "Gunpowder",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 850
+      "startYear": 850,
+      "categories": "t"
     },
     {
       "rank": 73,
@@ -790,7 +800,8 @@
       "url": "Hamlet",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 1600
+      "startYear": 1600,
+      "categories": "c"
     },
     {
       "rank": 74,
@@ -799,7 +810,8 @@
       "tooltip": "Homer (estimated lifetime)",
       "url": "Homer",
       "startYear": -802,
-      "endYear": -702
+      "endYear": -702,
+      "categories": "c"
     },
     {
       "rank": 75,
@@ -809,7 +821,8 @@
       "url": "ITER",
       "startDay": 1,
       "startMonth": 6,
-      "startYear": 1985
+      "startYear": 1985,
+      "categories": "s, t"
     },
     {
       "rank": 76,
@@ -919,7 +932,8 @@
       "url": "Yuan_dynasty",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 1271
+      "startYear": 1271,
+      "categories": "p"
     },
     {
       "rank": 85,
@@ -929,7 +943,8 @@
       "url": "Palio_di_Siena",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 1260
+      "startYear": 1260,
+      "categories": "c"
     },
     {
       "rank": 86,
@@ -939,7 +954,8 @@
       "url": "Paper",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 105
+      "startYear": 105,
+      "categories": "s, c"
     },
     {
       "rank": 87,
@@ -948,7 +964,8 @@
       "tooltip": "Parthenon Construction",
       "url": "Parthenon",
       "startYear": -449,
-      "endYear": -434
+      "endYear": -434,
+      "categories": "c"
     },
     {
       "rank": 88,
@@ -958,7 +975,8 @@
       "url": "General_relativity",
       "startDay": 25,
       "startMonth": 11,
-      "startYear": 1915
+      "startYear": 1915,
+      "categories": "s"
     },
     {
       "rank": 89,
@@ -971,7 +989,8 @@
       "startYear": 1455,
       "endDay": 16,
       "endMonth": 8,
-      "endYear": 1487
+      "endYear": 1487,
+      "categories": "p"
     },
     {
       "rank": 90,
@@ -981,7 +1000,8 @@
       "url": "St._Bartholomew%27s_Day_massacre",
       "startDay": 24,
       "startMonth": 8,
-      "startYear": 1572
+      "startYear": 1572,
+      "categories": "p, b"
     },
     {
       "rank": 91,
@@ -993,6 +1013,7 @@
       "startDay": 22,
       "startMonth": 2,
       "startYear": 1727,
+      "categories": "p",
       "countries": "Saudi Arabia"
     },
     {
@@ -1004,6 +1025,7 @@
       "startDay": 1,
       "startMonth": 1,
       "startYear": 132,
+      "categories": "s",
       "countries": "China"
     },
     {
@@ -1026,6 +1048,7 @@
       "startDay": 27,
       "startMonth": 5,
       "startYear": 1703,
+      "categories": "p",
       "countries": "Russia"
     },
     {
@@ -1036,7 +1059,8 @@
       "url": "COVID-19_vaccine",
       "startDay": 8,
       "startMonth": 12,
-      "startYear": 2020
+      "startYear": 2020,
+      "categories": "s, p"
     },
     {
       "rank": 96,
@@ -1071,7 +1095,8 @@
       "url": "Elizabeth_II",
       "startDay": 8,
       "startMonth": 9,
-      "startYear": 2022
+      "startYear": 2022,
+      "categories": "c, p"
     },
     {
       "rank": 99,
@@ -1081,7 +1106,8 @@
       "url": "Twitter",
       "startDay": 21,
       "startMonth": 3,
-      "startYear": 2006
+      "startYear": 2006,
+      "categories": "t, c"
     },
     {
       "rank": 100,
@@ -1103,7 +1129,8 @@
       "url": "2022_Russian_invasion_of_Ukraine",
       "startDay": 24,
       "startMonth": 2,
-      "startYear": 2022
+      "startYear": 2022,
+      "categories": "p"
     },
     {
       "rank": 102,
@@ -1113,7 +1140,8 @@
       "url": "Refugees_of_the_Syrian_civil_war",
       "startDay": 16,
       "startMonth": 6,
-      "startYear": 2022
+      "startYear": 2022,
+      "categories": "p"
     },
     {
       "rank": 103,
@@ -1123,7 +1151,8 @@
       "url": "Queen_Victoria",
       "startDay": 20,
       "startMonth": 6,
-      "startYear": 1837
+      "startYear": 1837,
+      "categories": "p"
     },
     {
       "rank": 104,
@@ -1228,7 +1257,8 @@
       "tooltip": "Plato (lifetime)",
       "url": "Plato",
       "startYear": -430,
-      "endYear": -350
+      "endYear": -350,
+      "categories": "b, c"
     },
     {
       "rank": 113,
@@ -1286,7 +1316,8 @@
       "url": "Otto_I,_Holy_Roman_Emperor",
       "startDay": 2,
       "startMonth": 2,
-      "startYear": 962
+      "startYear": 962,
+      "categories": "p"
     },
     {
       "rank": 117,
@@ -1368,7 +1399,8 @@
       "url": "Sugar",
       "startDay": 1,
       "startMonth": 1,
-      "startYear": 1747
+      "startYear": 1747,
+      "categories": "s, c"
     },
     {
       "rank": 123,
@@ -1429,7 +1461,8 @@
       "startYear": 1876,
       "endDay": 25,
       "endMonth": 6,
-      "endYear": 1876
+      "endYear": 1876,
+      "categories": "p"
     },
     {
       "rank": 127,
@@ -2430,7 +2463,8 @@
       "url": "Pacific_War",
       "startDay": 7,
       "startMonth": 12,
-      "startYear": 1941
+      "startYear": 1941,
+      "categories": "p"
     },
     {
       "rank": 202,
@@ -2754,7 +2788,8 @@
       "url": "Burkina_Faso",
       "startDay": 5,
       "startMonth": 8,
-      "startYear": 1960
+      "startYear": 1960,
+      "categories": "p"
     },
     {
       "rank": 226,
@@ -2764,7 +2799,8 @@
       "url": "The_Beatles",
       "startDay": 1,
       "startMonth": 2,
-      "startYear": 1960
+      "startYear": 1960,
+      "categories": "c"
     },
     {
       "rank": 227,
@@ -2845,7 +2881,8 @@
       "url": "Apollo_11",
       "startDay": 20,
       "startMonth": 7,
-      "startYear": 1969
+      "startYear": 1969,
+      "categories": "s, p, c"
     },
     {
       "rank": 233,
