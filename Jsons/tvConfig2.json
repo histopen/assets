@@ -504,7 +504,7 @@
         "startYear": -13787000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": -13799000000,
+        "endYear": -13786000000,
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "FFFF00",
@@ -3149,24 +3149,6 @@
         "textColor": "000000",
         "width": 9,
         "url": "Christianity",
-        "fragment": ""
-      }
-    ]
-  },
-  "": {
-    "": [
-      {
-        "caption": "",
-        "startYear": -13787000000,
-        "startMonth": "",
-        "startDay": "",
-        "endYear": "",
-        "endMonth": "",
-        "endDay": "",
-        "bgColor": "",
-        "textColor": "",
-        "width": "",
-        "url": "",
         "fragment": ""
       }
     ]
