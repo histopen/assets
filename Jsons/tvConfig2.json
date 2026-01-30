@@ -500,7 +500,7 @@
     ],
     "Cosmology": [
       {
-        "caption": "Radiation Era",
+        "caption": "Radiation",
         "startYear": -13787000000,
         "startMonth": 1,
         "startDay": 1,
@@ -509,12 +509,12 @@
         "endDay": 31,
         "bgColor": "FFFF00",
         "textColor": "000000",
-        "width": 13,
+        "width": 9,
         "url": "Radiation-dominated_era",
         "fragment": ""
       },
       {
-        "caption": "Matter Era",
+        "caption": "Matter",
         "startYear": -13786000000,
         "startMonth": 1,
         "startDay": 1,
@@ -523,12 +523,12 @@
         "endDay": 31,
         "bgColor": "81ECEC",
         "textColor": "000000",
-        "width": 10,
+        "width": 6,
         "url": "Matter-dominated_era",
         "fragment": ""
       },
       {
-        "caption": "First Stars",
+        "caption": "Stars",
         "startYear": -13600000000,
         "startMonth": 1,
         "startDay": 1,
@@ -537,12 +537,12 @@
         "endDay": 31,
         "bgColor": "74B9FF",
         "textColor": "000000",
-        "width": 11,
+        "width": 5,
         "url": "Population_III_star",
         "fragment": ""
       },
       {
-        "caption": "Galaxy Formation",
+        "caption": "Galaxies",
         "startYear": -13500000000,
         "startMonth": 1,
         "startDay": 1,
@@ -551,7 +551,7 @@
         "endDay": 31,
         "bgColor": "FD79A8",
         "textColor": "000000",
-        "width": 16,
+        "width": 8,
         "url": "Galaxy_formation_and_evolution",
         "fragment": ""
       },
@@ -570,7 +570,7 @@
         "fragment": ""
       },
       {
-        "caption": "Solar System Formation",
+        "caption": "Solar System",
         "startYear": -4600000000,
         "startMonth": 1,
         "startDay": 1,
@@ -579,12 +579,12 @@
         "endDay": 31,
         "bgColor": "E0C3FC",
         "textColor": "000000",
-        "width": 22,
+        "width": 12,
         "url": "Formation_and_evolution_of_the_Solar_System",
         "fragment": ""
       },
       {
-        "caption": "Present Expansion",
+        "caption": "Expansion",
         "startYear": -5000000000,
         "startMonth": 1,
         "startDay": 1,
@@ -593,7 +593,7 @@
         "endDay": 2,
         "bgColor": "B4A7D6",
         "textColor": "000000",
-        "width": 17,
+        "width": 9,
         "url": "Accelerating_expansion_of_the_universe",
         "fragment": ""
       }
@@ -614,7 +614,7 @@
         "fragment": ""
       },
       {
-        "caption": "Wood and Biomass",
+        "caption": "Biomass",
         "startYear": -10000,
         "startMonth": 1,
         "startDay": 1,
@@ -623,7 +623,7 @@
         "endDay": 31,
         "bgColor": "E74C3C",
         "textColor": "000000",
-        "width": 16,
+        "width": 7,
         "url": "Biomass_(energy)",
         "fragment": ""
       },
@@ -756,7 +756,7 @@
         "fragment": ""
       },
       {
-        "caption": "Industrial Capitalist",
+        "caption": "Capitalism",
         "startYear": 1760,
         "startMonth": 1,
         "startDay": 1,
@@ -765,7 +765,7 @@
         "endDay": 31,
         "bgColor": "5DADE2",
         "textColor": "000000",
-        "width": 21,
+        "width": 10,
         "url": "Industrial_capitalism",
         "fragment": ""
       },
@@ -798,7 +798,7 @@
         "fragment": ""
       },
       {
-        "caption": "Platform Economy",
+        "caption": "Platforms",
         "startYear": 2008,
         "startMonth": 1,
         "startDay": 1,
@@ -807,7 +807,7 @@
         "endDay": 2,
         "bgColor": "1DD1A1",
         "textColor": "000000",
-        "width": 16,
+        "width": 9,
         "url": "Platform_economy",
         "fragment": ""
       }
@@ -1040,7 +1040,7 @@
         "fragment": ""
       },
       {
-        "caption": "Feudal Kingdoms",
+        "caption": "Kingdoms",
         "startYear": 500,
         "startMonth": 1,
         "startDay": 1,
@@ -1049,12 +1049,12 @@
         "endDay": 31,
         "bgColor": "97C1FF",
         "textColor": "000000",
-        "width": 15,
+        "width": 8,
         "url": "Feudalism",
         "fragment": ""
       },
       {
-        "caption": "Nation-States",
+        "caption": "Nations",
         "startYear": 1648,
         "startMonth": 1,
         "startDay": 1,
@@ -1063,12 +1063,12 @@
         "endDay": 2,
         "bgColor": "F8A5C2",
         "textColor": "000000",
-        "width": 13,
+        "width": 7,
         "url": "Nation_state",
         "fragment": ""
       },
       {
-        "caption": "Supranational Blocs",
+        "caption": "Supranational",
         "startYear": 1945,
         "startMonth": 1,
         "startDay": 1,
@@ -1077,7 +1077,7 @@
         "endDay": 2,
         "bgColor": "CDB4DB",
         "textColor": "000000",
-        "width": 19,
+        "width": 13,
         "url": "Supranational_union",
         "fragment": ""
       }
@@ -1466,7 +1466,7 @@
         "fragment": ""
       },
       {
-        "caption": "Classical Greek",
+        "caption": "Classical",
         "startYear": -450,
         "startMonth": 1,
         "startDay": 1,
@@ -1475,7 +1475,7 @@
         "endDay": 31,
         "bgColor": "CE93D8",
         "textColor": "000000",
-        "width": 15,
+        "width": 9,
         "url": "Ancient_Greek_philosophy",
         "fragment": "Classical_Greek_philosophy"
       },
@@ -1536,7 +1536,7 @@
         "fragment": ""
       },
       {
-        "caption": "Rationalist/Empiricist",
+        "caption": "Rationalist",
         "startYear": 1600,
         "startMonth": 1,
         "startDay": 1,
@@ -1545,7 +1545,7 @@
         "endDay": 31,
         "bgColor": "F3A683",
         "textColor": "000000",
-        "width": 22,
+        "width": 11,
         "url": "Empiricism",
         "fragment": ""
       },
@@ -1692,7 +1692,7 @@
         "fragment": ""
       },
       {
-        "caption": "Networked Social",
+        "caption": "Networks",
         "startYear": 2004,
         "startMonth": 1,
         "startDay": 1,
@@ -1701,7 +1701,7 @@
         "endDay": 2,
         "bgColor": "E57373",
         "textColor": "000000",
-        "width": 16,
+        "width": 8,
         "url": "Social_media",
         "fragment": ""
       }
@@ -1894,7 +1894,7 @@
   "CAL": {
     "Islamic": [
       {
-        "caption": "Pre-Islamic Arabia",
+        "caption": "Pre-Islamic",
         "startYear": -3000,
         "startMonth": 1,
         "startDay": 1,
@@ -1908,7 +1908,7 @@
         "fragment": ""
       },
       {
-        "caption": "Jahiliyyah (Ignorance)",
+        "caption": "Jahiliyyah",
         "startYear": 500,
         "startMonth": 1,
         "startDay": 1,
@@ -1922,7 +1922,7 @@
         "fragment": ""
       },
       {
-        "caption": "Prophetic Era",
+        "caption": "Prophet",
         "startYear": 610,
         "startMonth": 1,
         "startDay": 1,
@@ -1936,7 +1936,7 @@
         "fragment": ""
       },
       {
-        "caption": "Rashidun Caliphate",
+        "caption": "Rashidun",
         "startYear": 632,
         "startMonth": 6,
         "startDay": 8,
@@ -1950,7 +1950,7 @@
         "fragment": ""
       },
       {
-        "caption": "Umayyad Caliphate",
+        "caption": "Umayyad",
         "startYear": 661,
         "startMonth": 1,
         "startDay": 1,
@@ -1964,7 +1964,7 @@
         "fragment": ""
       },
       {
-        "caption": "Abbasid Caliphate",
+        "caption": "Abbasid",
         "startYear": 750,
         "startMonth": 1,
         "startDay": 1,
@@ -1978,7 +1978,7 @@
         "fragment": ""
       },
       {
-        "caption": "Post-Mongol Fragmentation",
+        "caption": "Post-Mongol",
         "startYear": 1258,
         "startMonth": 1,
         "startDay": 1,
@@ -1992,7 +1992,7 @@
         "fragment": "Post-Mongol"
       },
       {
-        "caption": "Ottoman Era",
+        "caption": "Ottoman",
         "startYear": 1517,
         "startMonth": 1,
         "startDay": 1,
@@ -2006,7 +2006,7 @@
         "fragment": ""
       },
       {
-        "caption": "Modern Era",
+        "caption": "Modern",
         "startYear": 1924,
         "startMonth": 3,
         "startDay": 3,
@@ -2078,7 +2078,7 @@
         "fragment": ""
       },
       {
-        "caption": "Warring States",
+        "caption": "States",
         "startYear": -475,
         "startMonth": 1,
         "startDay": 1,
@@ -2262,7 +2262,7 @@
     ],
     "Persian": [
       {
-        "caption": "Proto-Elamite",
+        "caption": "Early",
         "startYear": -3200,
         "startMonth": 1,
         "startDay": 1,
@@ -2290,7 +2290,7 @@
         "fragment": ""
       },
       {
-        "caption": "Achaemenid Empire",
+        "caption": "Achaemenid",
         "startYear": -550,
         "startMonth": 1,
         "startDay": 1,
@@ -2304,7 +2304,7 @@
         "fragment": ""
       },
       {
-        "caption": "Hellenistic Period",
+        "caption": "Hellenistic",
         "startYear": -330,
         "startMonth": 1,
         "startDay": 1,
@@ -2318,7 +2318,7 @@
         "fragment": ""
       },
       {
-        "caption": "Parthian Empire",
+        "caption": "Parthian",
         "startYear": -247,
         "startMonth": 1,
         "startDay": 1,
@@ -2332,7 +2332,7 @@
         "fragment": ""
       },
       {
-        "caption": "Sasanian Empire",
+        "caption": "Sasanian",
         "startYear": 224,
         "startMonth": 1,
         "startDay": 1,
@@ -2346,7 +2346,7 @@
         "fragment": ""
       },
       {
-        "caption": "Islamic Conquest",
+        "caption": "Islam",
         "startYear": 651,
         "startMonth": 1,
         "startDay": 1,
@@ -2360,7 +2360,7 @@
         "fragment": ""
       },
       {
-        "caption": "Tahirid-Samanid",
+        "caption": "Tahirid",
         "startYear": 821,
         "startMonth": 1,
         "startDay": 1,
@@ -2374,7 +2374,7 @@
         "fragment": ""
       },
       {
-        "caption": "Seljuk-Khwarazmian",
+        "caption": "Seljuk",
         "startYear": 1037,
         "startMonth": 1,
         "startDay": 1,
@@ -2388,7 +2388,7 @@
         "fragment": ""
       },
       {
-        "caption": "Mongol-Ilkhanate",
+        "caption": "Mongol",
         "startYear": 1220,
         "startMonth": 1,
         "startDay": 1,
@@ -2416,7 +2416,7 @@
         "fragment": ""
       },
       {
-        "caption": "Safavid Empire",
+        "caption": "Safavid",
         "startYear": 1501,
         "startMonth": 1,
         "startDay": 1,
@@ -2430,7 +2430,7 @@
         "fragment": ""
       },
       {
-        "caption": "Afsharid-Zand",
+        "caption": "Afsharid",
         "startYear": 1736,
         "startMonth": 1,
         "startDay": 1,
@@ -2444,7 +2444,7 @@
         "fragment": ""
       },
       {
-        "caption": "Qajar Dynasty",
+        "caption": "Qajar",
         "startYear": 1796,
         "startMonth": 1,
         "startDay": 1,
@@ -2458,7 +2458,7 @@
         "fragment": ""
       },
       {
-        "caption": "Pahlavi Dynasty",
+        "caption": "Pahlavi",
         "startYear": 1925,
         "startMonth": 1,
         "startDay": 1,
@@ -2472,7 +2472,7 @@
         "fragment": ""
       },
       {
-        "caption": "Islamic Republic",
+        "caption": "Republic",
         "startYear": 1979,
         "startMonth": 2,
         "startDay": 11,
@@ -2488,7 +2488,7 @@
     ],
     "Balinese": [
       {
-        "caption": "Prehistoric Bali",
+        "caption": "Prehistory",
         "startYear": -2000,
         "startMonth": 1,
         "startDay": 1,
@@ -2502,7 +2502,7 @@
         "fragment": ""
       },
       {
-        "caption": "Early Kingdoms",
+        "caption": "Early",
         "startYear": 100,
         "startMonth": 1,
         "startDay": 1,
@@ -2516,7 +2516,7 @@
         "fragment": ""
       },
       {
-        "caption": "Warmadewa Dynasty",
+        "caption": "Warmadewa",
         "startYear": 914,
         "startMonth": 1,
         "startDay": 1,
@@ -2530,7 +2530,7 @@
         "fragment": "Warmadewa"
       },
       {
-        "caption": "Javanese Influence",
+        "caption": "Javanese",
         "startYear": 1080,
         "startMonth": 1,
         "startDay": 1,
@@ -2544,7 +2544,7 @@
         "fragment": "Bali"
       },
       {
-        "caption": "Majapahit Era",
+        "caption": "Majapahit",
         "startYear": 1293,
         "startMonth": 1,
         "startDay": 1,
@@ -2558,7 +2558,7 @@
         "fragment": ""
       },
       {
-        "caption": "Gelgel Kingdom",
+        "caption": "Gelgel",
         "startYear": 1500,
         "startMonth": 1,
         "startDay": 1,
@@ -2572,7 +2572,7 @@
         "fragment": ""
       },
       {
-        "caption": "Klungkung Kingdom",
+        "caption": "Klungkung",
         "startYear": 1651,
         "startMonth": 1,
         "startDay": 1,
@@ -2586,7 +2586,7 @@
         "fragment": ""
       },
       {
-        "caption": "Dutch Colonial",
+        "caption": "Dutch",
         "startYear": 1849,
         "startMonth": 1,
         "startDay": 1,
@@ -2600,7 +2600,7 @@
         "fragment": "Bali"
       },
       {
-        "caption": "Japanese Occupation",
+        "caption": "Japanese",
         "startYear": 1942,
         "startMonth": 1,
         "startDay": 1,
@@ -2614,7 +2614,7 @@
         "fragment": ""
       },
       {
-        "caption": "Indonesian Independence",
+        "caption": "Independence",
         "startYear": 1945,
         "startMonth": 8,
         "startDay": 17,
@@ -2630,7 +2630,7 @@
     ],
     "Hebrew": [
       {
-        "caption": "Patriarchal Era",
+        "caption": "Patriarch",
         "startYear": -1800,
         "startMonth": 1,
         "startDay": 1,
@@ -2644,7 +2644,7 @@
         "fragment": ""
       },
       {
-        "caption": "Egyptian Bondage",
+        "caption": "Egypt",
         "startYear": -1400,
         "startMonth": 1,
         "startDay": 1,
@@ -2658,7 +2658,7 @@
         "fragment": ""
       },
       {
-        "caption": "Exodus and Conquest",
+        "caption": "Exodus",
         "startYear": -1250,
         "startMonth": 1,
         "startDay": 1,
@@ -2672,7 +2672,7 @@
         "fragment": ""
       },
       {
-        "caption": "Judges Period",
+        "caption": "Judges",
         "startYear": -1020,
         "startMonth": 1,
         "startDay": 1,
@@ -2686,7 +2686,7 @@
         "fragment": ""
       },
       {
-        "caption": "United Monarchy",
+        "caption": "Union",
         "startYear": -1000,
         "startMonth": 1,
         "startDay": 1,
@@ -2700,7 +2700,7 @@
         "fragment": ""
       },
       {
-        "caption": "Divided Kingdom",
+        "caption": "Division",
         "startYear": -930,
         "startMonth": 1,
         "startDay": 1,
@@ -2714,7 +2714,7 @@
         "fragment": ""
       },
       {
-        "caption": "Babylonian Exile",
+        "caption": "Babylon",
         "startYear": -586,
         "startMonth": 1,
         "startDay": 1,
@@ -2728,7 +2728,7 @@
         "fragment": ""
       },
       {
-        "caption": "Second Temple",
+        "caption": "2nd Temple",
         "startYear": -516,
         "startMonth": 1,
         "startDay": 1,
@@ -2742,7 +2742,7 @@
         "fragment": ""
       },
       {
-        "caption": "Roman Judea",
+        "caption": "Rome",
         "startYear": -63,
         "startMonth": 1,
         "startDay": 1,
@@ -2770,7 +2770,7 @@
         "fragment": ""
       },
       {
-        "caption": "Modern Israel",
+        "caption": "Israel",
         "startYear": 1948,
         "startMonth": 5,
         "startDay": 14,
@@ -2786,7 +2786,7 @@
     ],
     "Ethiopian": [
       {
-        "caption": "D'mt Kingdom",
+        "caption": "D'mt",
         "startYear": -980,
         "startMonth": 1,
         "startDay": 1,
@@ -2800,7 +2800,7 @@
         "fragment": ""
       },
       {
-        "caption": "Aksumite Empire",
+        "caption": "Aksumite",
         "startYear": 100,
         "startMonth": 1,
         "startDay": 1,
@@ -2814,7 +2814,7 @@
         "fragment": ""
       },
       {
-        "caption": "Zagwe Dynasty",
+        "caption": "Zagwe",
         "startYear": 900,
         "startMonth": 1,
         "startDay": 1,
@@ -2828,7 +2828,7 @@
         "fragment": ""
       },
       {
-        "caption": "Solomonic Restoration",
+        "caption": "Solomon",
         "startYear": 1270,
         "startMonth": 1,
         "startDay": 1,
@@ -2842,7 +2842,7 @@
         "fragment": ""
       },
       {
-        "caption": "Muslim Wars Era",
+        "caption": "Muslim Wars",
         "startYear": 1529,
         "startMonth": 1,
         "startDay": 1,
@@ -2856,7 +2856,7 @@
         "fragment": ""
       },
       {
-        "caption": "Gondarine Period",
+        "caption": "Gondarine",
         "startYear": 1632,
         "startMonth": 1,
         "startDay": 1,
@@ -2870,7 +2870,7 @@
         "fragment": ""
       },
       {
-        "caption": "Zemene Mesafint",
+        "caption": "Zemene",
         "startYear": 1769,
         "startMonth": 1,
         "startDay": 1,
@@ -2884,7 +2884,7 @@
         "fragment": ""
       },
       {
-        "caption": "Imperial Unification",
+        "caption": "Unification",
         "startYear": 1855,
         "startMonth": 1,
         "startDay": 1,
@@ -2898,7 +2898,7 @@
         "fragment": ""
       },
       {
-        "caption": "Italian Occupation",
+        "caption": "Italian",
         "startYear": 1936,
         "startMonth": 1,
         "startDay": 1,
@@ -2912,7 +2912,7 @@
         "fragment": ""
       },
       {
-        "caption": "Haile Selassie Era",
+        "caption": "Haile Selassie",
         "startYear": 1941,
         "startMonth": 1,
         "startDay": 1,
@@ -2926,7 +2926,7 @@
         "fragment": ""
       },
       {
-        "caption": "Derg Regime",
+        "caption": "Derg",
         "startYear": 1974,
         "startMonth": 1,
         "startDay": 1,
@@ -2940,7 +2940,7 @@
         "fragment": ""
       },
       {
-        "caption": "Federal Republic",
+        "caption": "Republic",
         "startYear": 1991,
         "startMonth": 1,
         "startDay": 1,
@@ -2955,20 +2955,6 @@
       }
     ],
     "Creationist": [
-      {
-        "caption": "Creation Week",
-        "startYear": -4004,
-        "startMonth": 1,
-        "startDay": 1,
-        "endYear": -4004,
-        "endMonth": 1,
-        "endDay": 1,
-        "bgColor": "B2EBF2",
-        "textColor": "000000",
-        "width": 13,
-        "url": "Ussher_chronology",
-        "fragment": ""
-      },
       {
         "caption": "Antediluvian",
         "startYear": -4004,
@@ -2998,7 +2984,7 @@
         "fragment": ""
       },
       {
-        "caption": "Post-Flood Dispersion",
+        "caption": "Post-Flood",
         "startYear": -2347,
         "startMonth": 1,
         "startDay": 1,
@@ -3012,7 +2998,7 @@
         "fragment": ""
       },
       {
-        "caption": "Patriarchal Era",
+        "caption": "Patriarch",
         "startYear": -2000,
         "startMonth": 1,
         "startDay": 1,
@@ -3026,7 +3012,7 @@
         "fragment": ""
       },
       {
-        "caption": "Egyptian Sojourn",
+        "caption": "Egypt",
         "startYear": -1876,
         "startMonth": 1,
         "startDay": 1,
@@ -3054,7 +3040,7 @@
         "fragment": ""
       },
       {
-        "caption": "Conquest of Canaan",
+        "caption": "Canaan",
         "startYear": -1406,
         "startMonth": 1,
         "startDay": 1,
@@ -3082,7 +3068,7 @@
         "fragment": ""
       },
       {
-        "caption": "United Kingdom",
+        "caption": "Union",
         "startYear": -1050,
         "startMonth": 1,
         "startDay": 1,
@@ -3096,7 +3082,7 @@
         "fragment": ""
       },
       {
-        "caption": "Divided Kingdom",
+        "caption": "Division",
         "startYear": -930,
         "startMonth": 1,
         "startDay": 1,
