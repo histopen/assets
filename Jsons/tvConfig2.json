@@ -500,28 +500,14 @@
     ],
     "Cosmology": [
       {
-        "caption": "Big Bang",
-        "startYear": -13800000000,
-        "startMonth": 1,
-        "startDay": 1,
-        "endYear": -13800000000,
-        "endMonth": 12,
-        "endDay": 31,
-        "bgColor": "A29BFE",
-        "textColor": "000000",
-        "width": 8,
-        "url": "Big_Bang",
-        "fragment": ""
-      },
-      {
         "caption": "Radiation Era",
-        "startYear": -13800000000,
+        "startYear": -13787000000,
         "startMonth": 1,
         "startDay": 1,
         "endYear": -13799000000,
         "endMonth": 12,
         "endDay": 31,
-        "bgColor": "DFE6E9",
+        "bgColor": "FFFF00",
         "textColor": "000000",
         "width": 13,
         "url": "Radiation-dominated_era",
@@ -529,7 +515,7 @@
       },
       {
         "caption": "Matter Era",
-        "startYear": -13799000000,
+        "startYear": -13786000000,
         "startMonth": 1,
         "startDay": 1,
         "endYear": -9800000000,
@@ -3163,6 +3149,24 @@
         "textColor": "000000",
         "width": 9,
         "url": "Christianity",
+        "fragment": ""
+      }
+    ]
+  },
+  "": {
+    "": [
+      {
+        "caption": "",
+        "startYear": -13787000000,
+        "startMonth": "",
+        "startDay": "",
+        "endYear": "",
+        "endMonth": "",
+        "endDay": "",
+        "bgColor": "",
+        "textColor": "",
+        "width": "",
+        "url": "",
         "fragment": ""
       }
     ]
