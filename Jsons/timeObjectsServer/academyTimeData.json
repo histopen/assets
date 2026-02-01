@@ -1,46 +1,46 @@
 [
   [0, {"timeDataCaption": "Mozart", "timeDataUrl": "Wolfgang_Amadeus_Mozart", "timeDataDate": {
-      "sDay": 27, "sMonth":  1, "sYear": 1756, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay":  5, "eMonth": 12, "eYear": 1791, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 27, "startMonth":  1, "startYear": 1756, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay":  5, "endMonth": 12, "endYear": 1791, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [1, {"timeDataCaption": "Roosevelt", "timeDataUrl": "Franklin_D._Roosevelt", "timeDataDate": {
-      "sDay": 30, "sMonth":  1, "sYear": 1882, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay": 12, "eMonth":  4, "eYear": 1945, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 30, "startMonth":  1, "startYear": 1882, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay": 12, "endMonth":  4, "endYear": 1945, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [2, {"timeDataCaption": "Al-Rashid", "timeDataUrl": "Al-Rashid_of_Morocco", "timeDataDate": {
-      "sDay":  1, "sMonth":  1, "sYear": 1631, "sCirca": 1, "sCircaUnit": "Y",
-      "eDay":  9, "eMonth":  4, "eYear": 1672, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay":  1, "startMonth":  1, "startYear": 1631, "startCirca": 1, "startCircaUnit": "Y",
+      "endDay":  9, "endMonth":  4, "endYear": 1672, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [3, {"timeDataCaption": "Einstein", "timeDataUrl": "Albert_Einstein", "timeDataDate": {
-      "sDay": 14, "sMonth":  3, "sYear": 1879, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay": 18, "eMonth":  4, "eYear": 1955, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 14, "startMonth":  3, "startYear": 1879, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay": 18, "endMonth":  4, "endYear": 1955, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [4, {"timeDataCaption": "Camus", "timeDataUrl": "Albert_Camus", "timeDataDate": {
-      "sDay":  7, "sMonth": 11, "sYear": 1913, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay":  4, "eMonth":  1, "eYear": 1960, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay":  7, "startMonth": 11, "startYear": 1913, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay":  4, "endMonth":  1, "endYear": 1960, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [5, {"timeDataCaption": "Spinoza", "timeDataUrl": "Baruch_Spinoza", "timeDataDate": {
-      "sDay": 24, "sMonth": 11, "sYear": 1632, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay": 21, "eMonth":  2, "eYear": 1677, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 24, "startMonth": 11, "startYear": 1632, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay": 21, "endMonth":  2, "endYear": 1677, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [6, {"timeDataCaption": "Kant", "timeDataUrl": "Immanuel_Kant", "timeDataDate": {
-      "sDay": 22, "sMonth":  4, "sYear": 1724, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay": 12, "eMonth":  2, "eYear": 1804, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 22, "startMonth":  4, "startYear": 1724, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay": 12, "endMonth":  2, "endYear": 1804, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [7, {"timeDataCaption": "Schopenhauer", "timeDataUrl": "Arthur_Schopenhauer", "timeDataDate": {
-      "sDay": 22, "sMonth":  2, "sYear": 1788, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay": 21, "eMonth":  9, "eYear": 1860, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 22, "startMonth":  2, "startYear": 1788, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay": 21, "endMonth":  9, "endYear": 1860, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [8, {"timeDataCaption": "da Vinci", "timeDataUrl": "Leonardo_da_Vinci", "timeDataDate": {
-      "sDay": 15, "sMonth":  4, "sYear": 1452, "sCirca": 0, "sCircaUnit": "Y",
-      "eDay":  2, "eMonth":  5, "eYear": 1519, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay": 15, "startMonth":  4, "startYear": 1452, "startCirca": 0, "startCircaUnit": "Y",
+      "endDay":  2, "endMonth":  5, "endYear": 1519, "endCirca": 0, "endCircaUnit": "Y"
     }}],
   [9, {"timeDataCaption": "Genghis Khan", "timeDataUrl": "Genghis_Khan", "timeDataDate": {
-      "sDay":  1, "sMonth":  1, "sYear": 1206, "sCirca": 1, "sCircaUnit": "Y",
-      "eDay": 31, "eMonth": 12, "eYear": 1227, "eCirca": 7, "eCircaUnit": "Y"
+      "startDay":  1, "startMonth":  1, "startYear": 1206, "startCirca": 1, "startCircaUnit": "Y",
+      "endDay": 31, "endMonth": 12, "endYear": 1227, "endCirca": 7, "endCircaUnit": "Y"
     }}],
   [10, {"timeDataCaption": "William Wallace", "timeDataUrl": "William_Wallace", "timeDataDate": {
-      "sDay":  1, "sMonth":  1, "sYear": 1270, "sCirca": 1, "sCircaUnit": "Y",
-      "eDay": 23, "eMonth":  8, "eYear": 1305, "eCirca": 0, "eCircaUnit": "Y"
+      "startDay":  1, "startMonth":  1, "startYear": 1270, "startCirca": 1, "startCircaUnit": "Y",
+      "endDay": 23, "endMonth":  8, "endYear": 1305, "endCirca": 0, "endCircaUnit": "Y"
     }}]
 ]
