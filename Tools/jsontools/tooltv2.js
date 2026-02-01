@@ -18,6 +18,44 @@ import { saveJsonToFile } from './more/saveJsonToFile.js';
 //    deploymentID: AKfycbzzPOjUtB7mrshmto7Y1062pHCUokQiHy2zU3SbXla3QTJ4al3PjqmH47jW5sue4CnQTA
 //    Webapp: https://script.google.com/macros/s/AKfycbzzPOjUtB7mrshmto7Y1062pHCUokQiHy2zU3SbXla3QTJ4al3PjqmH47jW5sue4CnQTA/exec
 
+// Validate that start date <= end date for each entry
+function validateTimeviewDates(data) {
+  const warnings = [];
+
+  // Iterate through cultures
+  for (const [culture, timeviews] of Object.entries(data)) {
+    // Iterate through timeview titles
+    for (const [title, entries] of Object.entries(timeviews)) {
+      // Iterate through entries
+      entries.forEach((entry, index) => {
+        const { caption, startYear, startMonth, startDay, endYear, endMonth, endDay } = entry;
+
+        // Skip validation if end date is missing (ongoing events)
+        if (endYear === null || endYear === undefined) {
+          return;
+        }
+
+        // Create comparable date values (YYYYMMDD format)
+        const startDate = startYear * 10000 + (startMonth || 0) * 100 + (startDay || 0);
+        const endDate = endYear * 10000 + (endMonth || 0) * 100 + (endDay || 0);
+
+        if (startDate > endDate) {
+          warnings.push({
+            culture,
+            title,
+            index: index + 1,
+            caption: caption || '(no caption)',
+            startDate: `${startYear}/${startMonth || '?'}/${startDay || '?'}`,
+            endDate: `${endYear}/${endMonth || '?'}/${endDay || '?'}`
+          });
+        }
+      });
+    }
+  }
+
+  return warnings;
+}
+
 // npm run tv ==> updates Jsons/tvConfig2.json
 async function tooltv2() {
   const webappUrl = "https://script.google.com/macros/s/AKfycbzzPOjUtB7mrshmto7Y1062pHCUokQiHy2zU3SbXla3QTJ4al3PjqmH47jW5sue4CnQTA/exec?sheet=Timeviews";
@@ -27,6 +65,19 @@ async function tooltv2() {
 
   try {
     const data = await getSheetData(webappUrl);
+
+    // Validate dates before saving
+    const warnings = validateTimeviewDates(data);
+
+    if (warnings.length > 0) {
+      console.log('\n\x1b[33m⚠ WARNING: Date validation issues found:\x1b[0m');
+      warnings.forEach(w => {
+        console.log(`\x1b[33m  • ${w.culture}/${w.title} #${w.index}: "${w.caption}"\x1b[0m`);
+        console.log(`\x1b[33m    Start (${w.startDate}) > End (${w.endDate})\x1b[0m`);
+      });
+      console.log('\n');
+    }
+
     saveJsonToFile(pathname, filename, data);
   } catch (err) {
     console.error(`Error saving ${pathname}/${filename}:`, err.message);
