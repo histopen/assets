@@ -6,7 +6,7 @@
         "startYear": -13787000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": 4242,
+        "endYear": -4000000000,
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "bbbbbb",
@@ -34,7 +34,7 @@
         "startYear": -230000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": 4242,
+        "endYear": -20000000,
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "FF9999",
@@ -48,7 +48,7 @@
         "startYear": -20000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": 4242,
+        "endYear": -3500000,
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "81BB59",
@@ -150,7 +150,7 @@
         "startYear": -13787000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": -4000000001,
+        "endYear": -4000000000,
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "bbbbbb",
@@ -178,7 +178,7 @@
         "startYear": -230000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": -20000001,
+        "endYear": -20000000,
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "FF9999",
@@ -192,7 +192,7 @@
         "startYear": -20000000,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": -3500001,
+        "endYear": -3500000,
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "81BB59",
@@ -1480,7 +1480,7 @@
         "fragment": "Classical_Greek_philosophy"
       },
       {
-        "caption": "Hellenistic",
+        "caption": "Hellenism",
         "startYear": -300,
         "startMonth": 1,
         "startDay": 1,
@@ -1489,7 +1489,7 @@
         "endDay": 31,
         "bgColor": "F48FB1",
         "textColor": "000000",
-        "width": 11,
+        "width": 9,
         "url": "Hellenistic_philosophy",
         "fragment": ""
       },
@@ -1536,7 +1536,7 @@
         "fragment": ""
       },
       {
-        "caption": "Rationalist",
+        "caption": "Rationalism",
         "startYear": 1600,
         "startMonth": 1,
         "startDay": 1,
@@ -1550,7 +1550,7 @@
         "fragment": ""
       },
       {
-        "caption": "Idealist",
+        "caption": "Idealism",
         "startYear": 1780,
         "startMonth": 1,
         "startDay": 1,
@@ -1564,7 +1564,7 @@
         "fragment": ""
       },
       {
-        "caption": "Existentialist",
+        "caption": "Existentialism",
         "startYear": 1850,
         "startMonth": 1,
         "startDay": 1,
