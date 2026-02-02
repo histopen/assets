@@ -367,9 +367,9 @@
       "iconId": 36,
       "caption": "Dog Pet",
       "tooltip": "Domestication of the dog in Siberia.",
-      "url": "Timeline_of_historic_inventions",
-      "fragment": ":~:text=7000%20BC%3A%20Sled%20dog%20and%20Dog%20sled%2C%20in%20Siberia.%5B117%5D",
-      "startYear": -23000,
+      "url": "Domestication_of_the_dog",
+      "fragment": "Dog_domestication:~:text=gatherers%20more%20than-,17%2C000%20years%20ago,-.%5B11",
+      "startYear": -17000,
       "categories": "c",
       "countries": "Russia"
     },
