@@ -170,8 +170,8 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
   // Always process: white → transparent, non-white → currentColor
   let fillsAdded = 0;
 
-  // Add fill to paths that don't have one (SVG default is black, but we want explicit currentColor)
-  $svg.find('path').each((i, el) => {
+  // Add fill to shape elements that don't have one (SVG default is black, but we want explicit white)
+  $svg.find('path, circle, rect, ellipse, polygon, polyline, line').each((i, el) => {
     const $el = $(el);
     if (!$el.attr('fill') && !$el.attr('style')?.includes('fill')) {
       $el.attr('fill', targetColor);
