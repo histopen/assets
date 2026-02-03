@@ -16,7 +16,9 @@
     "tmconvert": "(node \"svg scripts/recenteresizeformat/transform.mjs\" && echo \"success\") || echo \"failure\"",
     "uisprites": "(node \"svg scripts/buildUiSprite.mjs\" && echo \"success\") || echo \"failure\"",
     "atlas": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\""
+    "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\"",
+    "atlas:all": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
+    "atlas:all-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all"
   },
   "devDependencies": {
     "svg-path-commander": "^2.1.11",

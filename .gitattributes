@@ -1,0 +1,2 @@
+# Force LF line endings for JSON files in Atlas directory
+Icons_TimeMarks/Atlas/*.json text eol=lf

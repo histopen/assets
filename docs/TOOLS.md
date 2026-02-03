@@ -13,7 +13,7 @@
 | dbtm | `npm run dbtm` | [sheet](https://docs.google.com/spreadsheets/d/1OGOFf6rSTcJCxB9-EVVoeDD6fp9_ZVbqdN9mx2IeUzo) | json | database of timeMarks<br>(dbtm) | Jsons/dbtm.json |
 |||||||
 | tmconvert | `npm run tmconvert` | N/A | svg | timeMarks SVG tool | Icons_TimeMarks/target/*.svg |
-| atlas | `npm run atlas` | N/A | svg | timeline icons atlas | Icons_TimeMarks/Atlas/ *.json<br>Icons_TimeMarks/Atlas/ *.png |
+| atlas | `npm run atlas`<br>`npm run atlas:all` | N/A | svg | timeline icons atlas<br>(default: 128x64)<br>(all: 128x64, 96x48, 64x32, 32x16) | Icons_TimeMarks/Atlas/ *.json<br>Icons_TimeMarks/Atlas/ *.png |
 |||||||
 | sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
 
@@ -44,10 +44,12 @@ A) prepare icon
 
 B) prepare atlas
 1. move icon in `Icons_TimeMarks/target/`
-2.  `npm run atlas`  
-   what it does:  
-   a. generates** `Icons_TimeMarks/Atlas/tMIconMap.json` from SVG files
-   b. from SVG icons in `Icons_TimeMarks/TM_Icons/` creates PIXI.js texture atlases (4096x4096 atlas grid with 4px padding):     `Icons_TimeMarks/Atlas/`: `timeline-atlas-{size}.png` + `timeline-atlas-{size}.json` (PIXI spritesheet metadata) at 4 sizes: 128x64, 96x48, 64x32, 32x16
+2.  `npm run atlas` (or `npm run atlas:all` for all sizes)
+   what it does:
+   a. generates `Icons_TimeMarks/Atlas/tMIconMap.json` from SVG files
+   b. from SVG icons in `Icons_TimeMarks/TM_Icons/` creates PIXI.js texture atlases (dynamic atlas grid with 1px padding):
+      - `npm run atlas` (default): generates only `timeline-atlas-128.png` + `timeline-atlas-128.json` (128x64)
+      - `npm run atlas:all`: generates all 4 sizes: 128x64, 96x48, 64x32, 32x16
 
 ---
 

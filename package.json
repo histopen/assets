@@ -8,6 +8,7 @@
     "cosmos": "npm --prefix Tools run cosmos",
     "tm": "npm --prefix Tools run tm",
     "sprite": "npm --prefix Tools run sprite",
-    "atlas": "npm --prefix Tools run atlas"
+    "atlas": "npm --prefix Tools run atlas",
+    "atlas:all": "npm --prefix Tools run atlas:all"
   }
 }
