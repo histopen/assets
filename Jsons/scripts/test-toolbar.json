@@ -1,0 +1,38 @@
+{
+  "name": "Toolbar Test",
+  "description": "Test toolbar orientation and percentage commands",
+  "commands": [
+    {"command": "comment", "params": {"text": "=== Testing Toolbar Commands ==="}},
+
+    {"command": "comment", "params": {"text": "Step 1: Switch to horizontal layout"}},
+    {"command": "toolbarOrientation", "params": {"orientation": "horizontal"}},
+    {"command": "delay", "params": {"ms": 2000}},
+
+    {"command": "comment", "params": {"text": "Step 2: Adjust horizontal workspace height to 80%"}},
+    {"command": "toolbarHorizontalPct", "params": {"percent": 80}},
+    {"command": "delay", "params": {"ms": 2000}},
+
+    {"command": "comment", "params": {"text": "Step 3: Adjust to 60% (smaller workspace)"}},
+    {"command": "toolbarHorizontalPct", "params": {"percent": 60}},
+    {"command": "delay", "params": {"ms": 2000}},
+
+    {"command": "comment", "params": {"text": "Step 4: Switch to vertical layout"}},
+    {"command": "toolbarOrientation", "params": {"orientation": "vertical"}},
+    {"command": "delay", "params": {"ms": 2000}},
+
+    {"command": "comment", "params": {"text": "Step 5: Adjust vertical workspace width to 75%"}},
+    {"command": "toolbarVerticalPct", "params": {"percent": 75}},
+    {"command": "delay", "params": {"ms": 2000}},
+
+    {"command": "comment", "params": {"text": "Step 6: Adjust to 85% (wider workspace)"}},
+    {"command": "toolbarVerticalPct", "params": {"percent": 85}},
+    {"command": "delay", "params": {"ms": 2000}},
+
+    {"command": "comment", "params": {"text": "Step 7: Reset to default horizontal"}},
+    {"command": "toolbarOrientation", "params": {"orientation": "horizontal"}},
+    {"command": "toolbarHorizontalPct", "params": {"percent": 75}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Test complete! Toolbar commands working."}}
+  ]
+}

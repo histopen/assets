@@ -1,0 +1,64 @@
+{
+  "name": "Combined Demo",
+  "description": "Full workflow: navigate, add from Wikipedia, edit panel line",
+  "commands": [
+    {"command": "comment", "params": {"text": "=== Combined Workflow Demo ==="}},
+    {"command": "comment", "params": {"text": "Step 1: Jump to French Revolution era"}},
+    {"command": "jumpToEra", "params": {"start": "1789/7/14", "end": "1799/11/9"}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Step 2: Set TimeShadow with French Revolution data"}},
+    {"command": "setTimeShadow", "params": {
+      "timeObject": {
+        "Database": "dbAcademy",
+        "DatabaseKey": 1,
+        "TOType": "timeData",
+        "timeDataCaption": "French Revolution",
+        "timeDataUrl": "https://en.wikipedia.org/wiki/French_Revolution",
+        "timeDataDate": {
+          "startYear": 1789,
+          "startMonth": 7,
+          "startDay": 14,
+          "startCirca": 0,
+          "startCircaUnit": "Y",
+          "endYear": 1799,
+          "endMonth": 11,
+          "endDay": 9,
+          "endCirca": 0,
+          "endCircaUnit": "Y"
+        }
+      }
+    }},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "Step 3: Add to panel (OK button simulation)"}},
+    {"command": "addPanelLine", "params": {}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "Step 4: Navigate to World War II era"}},
+    {"command": "jumpToEra", "params": {"start": "1939/9/1", "end": "1945/9/2"}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Step 5: Zoom in to see details"}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
+    {"command": "delay", "params": {"ms": 800}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Step 6: Select and edit a panel line"}},
+    {"command": "selectPanelLine", "params": {"id": 2}},
+    {"command": "delay", "params": {"ms": 500}},
+    {"command": "editPanelLine", "params": {"id": 2, "updates": {"caption": "Updated via Script"}}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "Step 7: Demonstrate undo"}},
+    {"command": "undo", "params": {}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Step 8: Return to present"}},
+    {"command": "jumpToDate", "params": {"year": 2024}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Demo complete! Workflow showcased navigation, TimeShadow, panel editing, and undo/redo."}}
+  ]
+}

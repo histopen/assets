@@ -1,0 +1,37 @@
+{
+  "name": "Navigation Demo",
+  "description": "Demonstrates pan, zoom, and jump commands",
+  "commands": [
+    {"command": "comment", "params": {"text": "=== Navigation Commands Demo ==="}},
+
+    {"command": "comment", "params": {"text": "1. Jump to current year"}},
+    {"command": "jumpToDate", "params": {"year": 2024}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "2. Zoom in 3 times"}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
+    {"command": "delay", "params": {"ms": 800}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
+    {"command": "delay", "params": {"ms": 800}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "3. Pan right (to past)"}},
+    {"command": "pan", "params": {"deltaX": 300, "animated": true}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "4. Pan left (to future)"}},
+    {"command": "pan", "params": {"deltaX": -300, "animated": true}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "5. Jump to specific zoom level"}},
+    {"command": "jumpToZoomScale", "params": {"zoomScaleId": 27}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "6. Jump to era (French Revolution)"}},
+    {"command": "jumpToEra", "params": {"start": "1789/7/14", "end": "1799/11/9"}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Demo complete!"}}
+  ]
+}
