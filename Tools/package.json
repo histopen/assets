@@ -15,6 +15,8 @@
     "cosmos-n": "node jsontools/toolcosmos.js",
     "tmconvert": "(node \"svg scripts/recenteresizeformat/transform.mjs\" && echo \"success\") || echo \"failure\"",
     "uisprites": "(node \"svg scripts/buildUiSprite.mjs\" && echo \"success\") || echo \"failure\"",
+    "ui": "(node \"svg scripts/buildUiSprite.mjs\" && git -C .. add -f Icons_UI/UI_Toolbar && git -C .. commit -m \"update ui sprite\" && git -C .. push && echo \"success\") || echo \"failure\"",
+    "ui-n": "node \"svg scripts/buildUiSprite.mjs\"",
     "atlas": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\"",
     "atlas:all": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",

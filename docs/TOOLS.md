@@ -2,11 +2,11 @@
 
 ## Scripts Summary
 
-`npm run` : atlas - sprite - tmconvert - loc - loc en - btn - tv - cosmos - dbtm
+`npm run` : atlas - ui - tmconvert - loc - loc en - btn - tv - cosmos - dbtm
 
 | Category | npm run command | Google Sheet | Type | Description | File Output |
 |----------|-----------------|--------------|------|-------------|-------------|
-| btn | `npm run btn` | [sheet](https://docs.google.com/spreadsheets/d/1q7X86GjY9ULTf3P8AH4fdjl6nPc0JADQaWQWlP798sc) | svg+json | UI buttons (runs <br> script 'sprite' first) | sprites-ui.svg<br>buttonsConfig.json |
+| btn | `npm run btn` | [sheet](https://docs.google.com/spreadsheets/d/1q7X86GjY9ULTf3P8AH4fdjl6nPc0JADQaWQWlP798sc) | svg+json | UI buttons (runs <br> script 'ui' first) | sprites-ui.svg<br>buttonsConfig.json |
 | loc | `npm run loc`<br>`npm run loc en` | [sheet](https://docs.google.com/spreadsheets/d/122F4RZYbeBNl10tjWZYjimDzUazSMN1jyQaatOtxSR8) | json | localization strings | Jsons/language/en.json, etc. |
 | tv | `npm run tv` | [sheet](https://docs.google.com/spreadsheets/d/1-aKx4qxKP-cK0Tq5XyMW0G4fa_BBc8go6cWh8kyYydI) | json | timeview buttons | Jsons/tvConfig.json |
 | cosmos | `npm run cosmos` | [sheet](https://docs.google.com/spreadsheets/d/1pWIrnNb7jKis5M0ftDJ9CvAgVUytXaKW41-dquWfS5I) | json | space levels | Jsons/cosmos.json |
@@ -15,7 +15,7 @@
 | tmconvert | `npm run tmconvert` | N/A | svg | timeMarks SVG tool | Icons_TimeMarks/target/*.svg |
 | atlas | `npm run atlas`<br>`npm run atlas:all` | N/A | svg | timeline icons atlas<br>(default: 128x64)<br>(all: 128x64, 96x48, 64x32, 32x16) | Icons_TimeMarks/Atlas/ *.json<br>Icons_TimeMarks/Atlas/ *.png |
 |||||||
-| sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
+| ui | `npm run ui` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
 
 
 ---
@@ -56,7 +56,7 @@ B) prepare atlas
 ## Add a new UI icon
 
 1. Add SVG to any `Icons_UI/UI_*/` folder
-2. Run `npm run sprite` (or `npm run btn` which runs sprite first)
+2. Run `npm run ui` (or `npm run btn` which runs ui first)
 
 ### Process
 1. Auto-discovers all `UI_*` folders in `Icons_UI/`
@@ -74,7 +74,7 @@ B) prepare atlas
 2. `npm run btn`
 
 ### Process
-1. Runs `npm run sprite` to rebuild UI sprite
+1. Runs `npm run ui` to rebuild UI sprite
 2. Fetches button config from [Google Sheet](https://docs.google.com/spreadsheets/d/1q7X86GjY9ULTf3P8AH4fdjl6nPc0JADQaWQWlP798sc)
 3. Saves to `Jsons/buttonsConfig.json`
 4. Commits and pushes both `sprites-ui.svg` and `buttonsConfig.json`
