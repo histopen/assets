@@ -2,12 +2,12 @@
   "name": "Combined Demo",
   "description": "Full workflow: navigate, add from Wikipedia, edit panel line",
   "commands": [
-    {"command": "comment", "params": {"text": "=== Combined Workflow Demo ==="}},
-    {"command": "comment", "params": {"text": "Step 1: Jump to French Revolution era"}},
-    {"command": "jumpToEra", "params": {"start": "1789/7/14", "end": "1799/11/9"}},
-    {"command": "delay", "params": {"ms": 1000}},
 
-    {"command": "comment", "params": {"text": "Step 2: Set TimeShadow with French Revolution data"}},
+    {"command": "jumpToEra", "params": {"start": "1789/7/14", "end": "1799/11/9"}},      {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "can i remove circa?"}},
+    {"command": "comment", "params": {"text": "is shoudn't be able to change dbAcademy, only dbUserAccount"}},
+    {"command": "comment", "params": {"text": "what if i set only year, no month/day?"}},
     {"command": "setTimeShadow", "params": {
       "timeObject": {
         "Database": "dbAcademy",
@@ -28,37 +28,16 @@
           "endCircaUnit": "Y"
         }
       }
-    }},
-    {"command": "delay", "params": {"ms": 1500}},
+    }},                                                                                              {"command": "delay", "params": {"ms": 1500}},
 
-    {"command": "comment", "params": {"text": "Step 3: Add to panel (OK button simulation)"}},
-    {"command": "addPanelLine", "params": {}},
-    {"command": "delay", "params": {"ms": 1500}},
+    {"command": "addPanelLine", "params": {}},                                                       {"command": "delay", "params": {"ms": 1500}},
+    {"command": "jumpToEra", "params": {"start": "1939/9/1", "end": "1945/9/2"}},                    {"command": "delay", "params": {"ms": 1000}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},                              {"command": "delay", "params": {"ms": 800}},
+    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},                              {"command": "delay", "params": {"ms": 1000}},
+    {"command": "selectPanelLine", "params": {"id": 2}},                                             {"command": "delay", "params": {"ms": 500}},
+    {"command": "editPanelLine", "params": {"id": 2, "updates": {"caption": "Script Update"}}},      {"command": "delay", "params": {"ms": 1500}},
+    {"command": "undo", "params": {}},                                                               {"command": "delay", "params": {"ms": 1000}},
+    {"command": "jumpToDate", "params": {"year": 2024}},                                             {"command": "delay", "params": {"ms": 1000}}
 
-    {"command": "comment", "params": {"text": "Step 4: Navigate to World War II era"}},
-    {"command": "jumpToEra", "params": {"start": "1939/9/1", "end": "1945/9/2"}},
-    {"command": "delay", "params": {"ms": 1000}},
-
-    {"command": "comment", "params": {"text": "Step 5: Zoom in to see details"}},
-    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
-    {"command": "delay", "params": {"ms": 800}},
-    {"command": "zoom", "params": {"direction": "in", "centerX": 500}},
-    {"command": "delay", "params": {"ms": 1000}},
-
-    {"command": "comment", "params": {"text": "Step 6: Select and edit a panel line"}},
-    {"command": "selectPanelLine", "params": {"id": 2}},
-    {"command": "delay", "params": {"ms": 500}},
-    {"command": "editPanelLine", "params": {"id": 2, "updates": {"caption": "Updated via Script"}}},
-    {"command": "delay", "params": {"ms": 1500}},
-
-    {"command": "comment", "params": {"text": "Step 7: Demonstrate undo"}},
-    {"command": "undo", "params": {}},
-    {"command": "delay", "params": {"ms": 1000}},
-
-    {"command": "comment", "params": {"text": "Step 8: Return to present"}},
-    {"command": "jumpToDate", "params": {"year": 2024}},
-    {"command": "delay", "params": {"ms": 1000}},
-
-    {"command": "comment", "params": {"text": "Demo complete! Workflow showcased navigation, TimeShadow, panel editing, and undo/redo."}}
   ]
 }
