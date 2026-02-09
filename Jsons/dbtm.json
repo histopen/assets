@@ -48,6 +48,18 @@
       "countries": "World"
     },
     {
+      "rank": 334,
+      "iconId": 216,
+      "caption": "Ibn Khaldūn's Muqaddimah",
+      "tooltip": "The Muqaddimah, written by Ibn Khaldūn, is a foundational work in sociology, history, and political theory. It analyzes how societies form, grow, and decline.",
+      "url": "Ibn_Khaldun",
+      "startCirca": 2,
+      "startCircaUnit": "y",
+      "startYear": 1377,
+      "categories": "c, p",
+      "countries": "Spain, Egypt, Tunisia"
+    },
+    {
       "rank": 6,
       "iconId": 5,
       "caption": "Moon walking",
@@ -2974,7 +2986,7 @@
       "iconId": 19,
       "caption": "Lucy",
       "tooltip": "Discovery of \"Lucy\" (Australopithecus afarensis) in Tanzania's Olduvai Gorge.",
-      "url": "Lucy_(Australopithecus)",
+      "url": "Lucy_(hominid)",
       "startCirca": 1,
       "startCircaUnit": "y",
       "startDay": 1,
