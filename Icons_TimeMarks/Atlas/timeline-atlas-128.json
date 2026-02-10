@@ -4339,6 +4339,26 @@
         "w": 130,
         "h": 66
       }
+    },
+    "0218": {
+      "frame": {
+        "x": 0,
+        "y": 462,
+        "w": 130,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 66
+      }
     }
   },
   "meta": {
