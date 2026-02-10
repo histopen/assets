@@ -355,15 +355,13 @@
     },
     {
       "rank": 37,
-      "caption": "Buddha",
+      "iconId": 218,
+      "caption": "birth of Buddha",
       "tooltip": "Siddhartha Gautama, the Buddha ('the awakened one'), was a wandering ascetic and religious teacher who lived in the eastern Indo-Gangetic Plains and founded Buddhism.",
       "url": "The_Buddha",
       "startCirca": 83,
       "startCircaUnit": "y",
       "startYear": -563,
-      "endCirca": 83,
-      "endCircaUnit": "y",
-      "endYear": 483,
       "categories": "b, c",
       "countries": "Nepal"
     },
