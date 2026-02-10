@@ -354,6 +354,20 @@
       "countries": "Israel"
     },
     {
+      "rank": 37,
+      "caption": "Buddha",
+      "tooltip": "Siddhartha Gautama, the Buddha ('the awakened one'), was a wandering ascetic and religious teacher who lived in the eastern Indo-Gangetic Plains and founded Buddhism.",
+      "url": "The_Buddha",
+      "startCirca": 83,
+      "startCircaUnit": "y",
+      "startYear": -563,
+      "endCirca": 83,
+      "endCircaUnit": "y",
+      "endYear": 483,
+      "categories": "b, c",
+      "countries": "Nepal"
+    },
+    {
       "rank": 36,
       "iconId": 34,
       "caption": "Crucifixion of Jesus",
@@ -655,7 +669,8 @@
       "iconId": 50,
       "caption": "Beethoven's 9th",
       "tooltip": "Beethoven's 9th Symphony Premiere",
-      "url": "Symphony_No.9(Beethoven)",
+      "url": "Ludwig_van_Beethoven",
+      "fragment": ":~:text=No.%209%2C%20the%20first%20major%20example%20of%20a%20choral%20symphony%2C%20between%201822%20and%201824",
       "startDay": 7,
       "startMonth": 5,
       "startYear": 1824,
