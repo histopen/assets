@@ -4299,6 +4299,46 @@
         "w": 130,
         "h": 66
       }
+    },
+    "0216": {
+      "frame": {
+        "x": 3770,
+        "y": 396,
+        "w": 130,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 66
+      }
+    },
+    "0217": {
+      "frame": {
+        "x": 3900,
+        "y": 396,
+        "w": 130,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 66
+      }
     }
   },
   "meta": {
