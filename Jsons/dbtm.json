@@ -1056,6 +1056,18 @@
       "countries": "France"
     },
     {
+      "rank": 93,
+      "iconId": 217,
+      "caption": "Louis XIV, Sun King, dies",
+      "tooltip": "King of France for 72 years. His legacy includes French colonial expansion, the conclusion of the Thirty Years' War, influence on fine arts and architecture (including the Palace of Versailles).",
+      "url": "Louis_XIV",
+      "startDay": 1,
+      "startMonth": 9,
+      "startYear": 1715,
+      "categories": "p, c",
+      "countries": "France"
+    },
+    {
       "rank": 91,
       "iconId": 94,
       "caption": "Saudi Arabia",
