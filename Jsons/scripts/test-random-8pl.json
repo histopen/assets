@@ -1,0 +1,338 @@
+{
+  "name": "8 Random Panel Lines",
+  "description": "Adds 8 randomly selected panel lines from academy and user account data",
+  "commands": [
+    {
+      "command": "comment",
+      "params": {
+        "text": "=== Add 8 Random Panel Lines ==="
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 0,
+          "TOType": "timeData",
+          "timeDataCaption": "Camus",
+          "timeDataUrl": "Albert_Camus",
+          "timeDataDate": {
+            "startDay": 7,
+            "startMonth": 11,
+            "startYear": 1913,
+            "startCirca": 0,
+            "startCircaUnit": "Y",
+            "endDay": 4,
+            "endMonth": 1,
+            "endYear": 1960,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 1,
+          "TOType": "timeData",
+          "timeDataCaption": "Roland d'Athis",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startDay": 30,
+            "startMonth": 9,
+            "startYear": 1908,
+            "startCirca": 0,
+            "startCircaUnit": "Y",
+            "endDay": 18,
+            "endMonth": 2,
+            "endYear": 1978,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 2,
+          "TOType": "timeData",
+          "timeDataCaption": "Al-Rashid",
+          "timeDataUrl": "Al-Rashid_of_Morocco",
+          "timeDataDate": {
+            "startDay": 1,
+            "startMonth": 1,
+            "startYear": 1631,
+            "startCirca": 1,
+            "startCircaUnit": "Y",
+            "endDay": 9,
+            "endMonth": 4,
+            "endYear": 1672,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 3,
+          "TOType": "timeData",
+          "timeDataCaption": "Mélanie Dumas",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startDay": 2,
+            "startMonth": 3,
+            "startYear": 1915,
+            "startCirca": 0,
+            "startCircaUnit": "Y",
+            "endDay": 10,
+            "endMonth": 12,
+            "endYear": 1990,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 4,
+          "TOType": "timeData",
+          "timeDataCaption": "Einstein",
+          "timeDataUrl": "Albert_Einstein",
+          "timeDataDate": {
+            "startDay": 14,
+            "startMonth": 3,
+            "startYear": 1879,
+            "startCirca": 0,
+            "startCircaUnit": "Y",
+            "endDay": 18,
+            "endMonth": 4,
+            "endYear": 1955,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 5,
+          "TOType": "timeData",
+          "timeDataCaption": "Eugène Dumas",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startDay": 15,
+            "startMonth": 5,
+            "startYear": 1910,
+            "startCirca": 0,
+            "startCircaUnit": "Y",
+            "endDay": 20,
+            "endMonth": 8,
+            "endYear": 1985,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 6,
+          "TOType": "timeData",
+          "timeDataCaption": "Roosevelt",
+          "timeDataUrl": "Franklin_D._Roosevelt",
+          "timeDataDate": {
+            "startDay": 30,
+            "startMonth": 1,
+            "startYear": 1882,
+            "startCirca": 0,
+            "startCircaUnit": "Y",
+            "endDay": 12,
+            "endMonth": 4,
+            "endYear": 1945,
+            "endCirca": 0,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 7,
+          "TOType": "timeData",
+          "timeDataCaption": "Genghis Khan",
+          "timeDataUrl": "Genghis_Khan",
+          "timeDataDate": {
+            "startDay": 1,
+            "startMonth": 1,
+            "startYear": 1206,
+            "startCirca": 1,
+            "startCircaUnit": "Y",
+            "endDay": 31,
+            "endMonth": 12,
+            "endYear": 1227,
+            "endCirca": 7,
+            "endCircaUnit": "Y"
+          }
+        }
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 300
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "All 8 random panel lines added!"
+      }
+    }
+  ]
+}
