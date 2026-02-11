@@ -4359,6 +4359,66 @@
         "w": 130,
         "h": 66
       }
+    },
+    "0219": {
+      "frame": {
+        "x": 130,
+        "y": 462,
+        "w": 130,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 66
+      }
+    },
+    "0220": {
+      "frame": {
+        "x": 260,
+        "y": 462,
+        "w": 130,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 66
+      }
+    },
+    "0221": {
+      "frame": {
+        "x": 390,
+        "y": 462,
+        "w": 130,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 66
+      }
     }
   },
   "meta": {
