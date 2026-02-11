@@ -7,7 +7,8 @@ function doGet() {
   var objects = [];
   var namedRangesToExport = [
     'zoomscale', 'endZoomscale', 'iconId',
-    'caption', 'tooltip', 'url', 'fragment',
+    'caption', //'tooltip', 
+    'url', 'fragment',
     'startCirca', 'startCircaUnit', 'startDay', 'startMonth', 'startYear',
     'endCirca', 'endCircaUnit', 'endDay', 'endMonth', 'endYear',
     'categories', 'countries'

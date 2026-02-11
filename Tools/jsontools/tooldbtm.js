@@ -15,12 +15,12 @@ import { saveJsonToFile } from './more/saveJsonToFile.js';
 //apps script: https://script.google.com/u/0/home/projects/132Joze39ToD7x8mix2jAbQzIIf9l7exsug2IJ-T4DE2d2D2yE8W2ugyR/edit
 
 //5) Deploy > New deployment > type: Web app > execute as "Me (pierre@wikitime.org)", access "anyone"
-//deploymentID: AKfycbzLSxd1elesf9GBV3Sxhb3RtFV-qYsq4WocjKBgMGT3-Dc85EbQ3RORvQFxFBeRVV_N
-//Webapp: https://script.google.com/macros/s/AKfycbzLSxd1elesf9GBV3Sxhb3RtFV-qYsq4WocjKBgMGT3-Dc85EbQ3RORvQFxFBeRVV_N/exec
+//deploymentID: AKfycbxyUeL-27JxnCn6FJDzQm-bVnMeiac0za3MxBqh75xv0n_uZVOajsXaPWJQuIpyh4va
+//Webapp: https://script.google.com/macros/s/AKfycbxyUeL-27JxnCn6FJDzQm-bVnMeiac0za3MxBqh75xv0n_uZVOajsXaPWJQuIpyh4va/exec
 
 //npm run dbtm    ==> updates public/database/dbtm.json
 async function tooldbtm() {
-  const webappUrl = "https://script.google.com/macros/s/AKfycbzLSxd1elesf9GBV3Sxhb3RtFV-qYsq4WocjKBgMGT3-Dc85EbQ3RORvQFxFBeRVV_N/exec";
+  const webappUrl = "https://script.google.com/macros/s/AKfycbxyUeL-27JxnCn6FJDzQm-bVnMeiac0za3MxBqh75xv0n_uZVOajsXaPWJQuIpyh4va/exec";
 
   try {
     const data = await getSheetData(webappUrl);
