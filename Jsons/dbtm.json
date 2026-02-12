@@ -520,24 +520,6 @@
     },
     {
       "rank": 53,
-      "iconId": 47,
-      "caption": "French Revolution",
-      "url": "French_Revolution",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1789,
-      "endCirca": 1,
-      "endCircaUnit": "y",
-      "endDay": 31,
-      "endMonth": 12,
-      "endYear": 1799,
-      "categories": "p",
-      "countries": "France"
-    },
-    {
-      "rank": 54,
       "iconId": 48,
       "caption": "American Revolution",
       "url": "American_Revolution",
@@ -553,6 +535,24 @@
       "endYear": 1783,
       "categories": "p",
       "countries": "USA, United Kingdom"
+    },
+    {
+      "rank": 54,
+      "iconId": 47,
+      "caption": "French Revolution",
+      "url": "French_Revolution",
+      "startCirca": 1,
+      "startCircaUnit": "y",
+      "startDay": 1,
+      "startMonth": 1,
+      "startYear": 1789,
+      "endCirca": 1,
+      "endCircaUnit": "y",
+      "endDay": 31,
+      "endMonth": 12,
+      "endYear": 1799,
+      "categories": "p",
+      "countries": "France"
     },
     {
       "rank": 55,
@@ -1005,7 +1005,7 @@
     {
       "rank": 94,
       "iconId": 219,
-      "caption": "Louis XIV, 'Sun king', dies",
+      "caption": "death of Louis XIV",
       "url": "Louis_XIV",
       "startDay": 1,
       "startMonth": 9,
@@ -1504,7 +1504,7 @@
     },
     {
       "rank": 135,
-      "iconId": 189,
+      "iconId": 221,
       "caption": "Van Gogh",
       "url": "Vincent_van_Gogh",
       "startCirca": 1,
@@ -2503,7 +2503,7 @@
     },
     {
       "rank": 215,
-      "iconId": 106,
+      "iconId": 221,
       "caption": "Leningrad liberated",
       "url": "Siege_of_Leningrad",
       "startDay": 27,
