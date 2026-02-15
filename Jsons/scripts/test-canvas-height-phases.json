@@ -1,0 +1,510 @@
+{
+  "name": "Canvas Height Phases Test",
+  "description": "Tests the 4-phase canvas height algorithm (Perfect → TLPL → TLTP → Worst) by gradually adding panel lines and watching phase transitions in DebugSize panel",
+  "commands": [
+    {
+      "command": "comment",
+      "params": {
+        "text": "=== Canvas Height Phases Test ==="
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "Watch the DebugSize panel (Settings > Debug > CanvasParts)"
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "CP1 Phase should show: PERFECT → TLPL → TLTP → WORST"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "--- Phase 1: PERFECT (few panel lines, generous margins) ---"
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 0,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 1",
+          "timeDataUrl": "Albert_Camus",
+          "timeDataDate": {
+            "startYear": 1900,
+            "endYear": 1950
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 1,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 2",
+          "timeDataUrl": "Albert_Einstein",
+          "timeDataDate": {
+            "startYear": 1879,
+            "endYear": 1955
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 2,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 3",
+          "timeDataUrl": "Franklin_D._Roosevelt",
+          "timeDataDate": {
+            "startYear": 1882,
+            "endYear": 1945
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "Current phase should be PERFECT (3 lines, plenty of space)"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "--- Adding more lines... watch for TLPL phase ---"
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 3,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 4",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1920,
+            "endYear": 1980
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 4,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 5",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1930,
+            "endYear": 1990
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 5,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 6",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1940,
+            "endYear": 2000
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 6,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 7",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1950,
+            "endYear": 2010
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "Phase might be TLPL now (margins gone, TL/PL shrinking)"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "--- Adding even more lines... watch for TLTP phase (scrolling) ---"
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 7,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 8",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1960,
+            "endYear": 2015
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 8,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 9",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1970,
+            "endYear": 2020
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 800
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 9,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 10",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1980,
+            "endYear": 2025
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "With 10+ lines, you might see TLTP phase"
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "Check 'Visible PL' - should show (scroll) indicator if not all visible"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "--- Adding more to force TLTP/WORST ---"
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 10,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 11",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1985,
+            "endYear": 2030
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 600
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 11,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 12",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1990,
+            "endYear": 2035
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 600
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 12,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 13",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 1995,
+            "endYear": 2040
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 600
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 13,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 14",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 2000,
+            "endYear": 2045
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 600
+      }
+    },
+    {
+      "command": "setTimeShadow",
+      "params": {
+        "timeObject": {
+          "Database": "dbUserAccount",
+          "DatabaseKey": 14,
+          "TOType": "timeData",
+          "timeDataCaption": "Panel Line 15",
+          "timeDataUrl": "",
+          "timeDataDate": {
+            "startYear": 2005,
+            "endYear": 2050
+          }
+        }
+      }
+    },
+    {
+      "command": "addPanelLine",
+      "params": {}
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "=== Test Complete ==="
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "With 15 panel lines, you should see TLTP or WORST phase"
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "Try scrolling with mouse drag in the timepanel!"
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "Try resizing the window to see phase transitions"
+      }
+    }
+  ]
+}
