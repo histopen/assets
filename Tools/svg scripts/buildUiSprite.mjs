@@ -92,13 +92,21 @@ async function buildSprite() {
         // in the sprite — no need to manually namespace ids in source SVGs.
         inner = prefixIds(inner, id);
 
-        // Hoist <defs> to top-level sprite defs so gradients/clips are in the
-        // light DOM and reliably resolved when referenced via <use> shadow DOM.
+        // Hoist gradient/pattern defs to top-level sprite <defs> so they are in
+        // the light DOM and reliably resolved when referenced via <use> shadow DOM.
+        // ClipPaths are NOT hoisted — they use absolute userSpaceOnUse coordinates
+        // from the design tool export and would clip incorrectly in symbol space.
+        // Instead, clip-path attributes are stripped: the SVG viewBox already clips
+        // the icon to its bounds, making these design-tool clips redundant.
         const defsMatches = [...inner.matchAll(/<defs[^>]*>([\s\S]*?)<\/defs>/g)];
-        if (defsMatches.length > 0) {
-          globalDefs += defsMatches.map(m => m[1]).join('');
+        for (const m of defsMatches) {
+          const gradients = [...m[1].matchAll(/<(?:linearGradient|radialGradient|pattern)[\s\S]*?<\/(?:linearGradient|radialGradient|pattern)>/g)];
+          globalDefs += gradients.map(g => g[0]).join('');
         }
-        const innerWithoutDefs = inner.replace(/<defs[^>]*>[\s\S]*?<\/defs>/g, '').trim();
+        const innerWithoutDefs = inner
+          .replace(/<defs[^>]*>[\s\S]*?<\/defs>/g, '')
+          .replace(/\s*clip-path="[^"]*"/g, '')
+          .trim();
 
         // Wrap inner content (without defs) in a <g> and translate by PADDING/2
         symbols += `  <symbol id="${id}" viewBox="${paddedViewBox}"><g transform="translate(${PADDING/2},${PADDING/2})">${innerWithoutDefs}</g></symbol>\n`;
