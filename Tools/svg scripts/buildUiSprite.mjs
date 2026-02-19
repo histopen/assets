@@ -28,6 +28,26 @@ async function buildSprite() {
   let globalDefs = '';
   let count = 0;
 
+  // Prefix all id="X" definitions and their references (url(#X), href="#X")
+  // with the icon name to guarantee uniqueness across all icons in the sprite.
+  function prefixIds(content, prefix) {
+    const ids = new Set();
+    const idPattern = /\bid="([^"]+)"/g;
+    let m;
+    while ((m = idPattern.exec(content)) !== null) ids.add(m[1]);
+    let result = content;
+    for (const localId of ids) {
+      const newId = `${prefix}-${localId}`;
+      const esc = localId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      result = result
+        .replace(new RegExp(`\\bid="${esc}"`, 'g'), `id="${newId}"`)
+        .replace(new RegExp(`url\\(#${esc}\\)`, 'g'), `url(#${newId})`)
+        .replace(new RegExp(`href="#${esc}"`, 'g'), `href="#${newId}"`)
+        .replace(new RegExp(`xlink:href="#${esc}"`, 'g'), `xlink:href="#${newId}"`);
+    }
+    return result;
+  }
+
   for (const folder of UI_FOLDERS) {
     const folderPath = join(ICONS_DIR, folder);
     try {
@@ -61,12 +81,16 @@ async function buildSprite() {
         const PADDING = 4;
         const paddedViewBox = `0 0 ${w + PADDING} ${h + PADDING}`;
         // Extract inner content (remove <svg> wrapper and XML declaration)
-        const inner = content
+        let inner = content
           .replace(/<\?xml[^>]*\?>/g, '')
           .replace(/<!DOCTYPE[^>]*>/gi, '')
           .replace(/<svg[^>]*>/, '')
           .replace(/<\/svg>\s*$/, '')
           .trim();
+
+        // Auto-prefix all IDs with the icon name so each icon's ids are unique
+        // in the sprite — no need to manually namespace ids in source SVGs.
+        inner = prefixIds(inner, id);
 
         // Hoist <defs> to top-level sprite defs so gradients/clips are in the
         // light DOM and reliably resolved when referenced via <use> shadow DOM.
