@@ -25,6 +25,7 @@ async function buildSprite() {
   console.log('Building UI sprite...\n');
 
   let symbols = '';
+  let globalDefs = '';
   let count = 0;
 
   for (const folder of UI_FOLDERS) {
@@ -67,8 +68,16 @@ async function buildSprite() {
           .replace(/<\/svg>\s*$/, '')
           .trim();
 
-        // Wrap inner content in a <g> and translate by PADDING/2
-        symbols += `  <symbol id="${id}" viewBox="${paddedViewBox}"><g transform="translate(${PADDING/2},${PADDING/2})">${inner}</g></symbol>\n`;
+        // Hoist <defs> to top-level sprite defs so gradients/clips are in the
+        // light DOM and reliably resolved when referenced via <use> shadow DOM.
+        const defsMatches = [...inner.matchAll(/<defs[^>]*>([\s\S]*?)<\/defs>/g)];
+        if (defsMatches.length > 0) {
+          globalDefs += defsMatches.map(m => m[1]).join('');
+        }
+        const innerWithoutDefs = inner.replace(/<defs[^>]*>[\s\S]*?<\/defs>/g, '').trim();
+
+        // Wrap inner content (without defs) in a <g> and translate by PADDING/2
+        symbols += `  <symbol id="${id}" viewBox="${paddedViewBox}"><g transform="translate(${PADDING/2},${PADDING/2})">${innerWithoutDefs}</g></symbol>\n`;
         count++;
       }
 
@@ -78,7 +87,8 @@ async function buildSprite() {
     }
   }
 
-  const sprite = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">\n${symbols}</svg>`;
+  const defsBlock = globalDefs ? `<defs>${globalDefs}</defs>\n` : '';
+  const sprite = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">\n${defsBlock}${symbols}</svg>`;
 
   // Write unoptimized first to verify content
   await fs.writeFile(OUTPUT_FILE, sprite);
