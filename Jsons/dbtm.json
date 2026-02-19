@@ -1038,7 +1038,7 @@
     },
     {
       "rank": 97,
-      "iconId": 95,
+      "iconId": 241,
       "caption": "Seismometer",
       "url": "Seismometer",
       "startDay": 1,
@@ -1091,19 +1091,6 @@
       "countries": "Germany, Netherlands"
     },
     {
-      "rank": 102,
-      "iconId": 100,
-      "caption": "The Beatles",
-      "url": "The_Beatles",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1960,
-      "categories": "c",
-      "countries": "United Kingdom"
-    },
-    {
       "rank": 103,
       "iconId": 219,
       "caption": "Elizabeth II",
@@ -1127,7 +1114,7 @@
     },
     {
       "rank": 105,
-      "iconId": 103,
+      "iconId": 841,
       "caption": "Ukrainian-Soviet war begins.",
       "url": "Ukrainian–Soviet_War",
       "startDay": 14,
@@ -1138,7 +1125,7 @@
     },
     {
       "rank": 106,
-      "iconId": 103,
+      "iconId": 841,
       "caption": "Ukraine Invasion",
       "url": "2022_Russian_invasion_of_Ukraine",
       "startDay": 24,
@@ -1959,8 +1946,8 @@
     },
     {
       "rank": 171,
-      "iconId": 159,
-      "caption": "Gandhi",
+      "iconId": 197,
+      "caption": "Gandhi assassinated",
       "url": "Assassination_of_Mahatma_Gandhi",
       "startCirca": 1,
       "startCircaUnit": "y",
@@ -2486,7 +2473,7 @@
       "startMonth": 8,
       "startYear": 1944,
       "categories": "p",
-      "countries": "USA, Germany, France, China"
+      "countries": "USA, Germany, France"
     },
     {
       "rank": 214,
@@ -2833,7 +2820,7 @@
     },
     {
       "rank": 241,
-      "iconId": 145,
+      "iconId": 6,
       "caption": "Star Wars",
       "url": "Star_Wars",
       "startCirca": 1,
@@ -5793,7 +5780,7 @@
     },
     {
       "rank": 485,
-      "iconId": 261,
+      "iconId": 157,
       "caption": "Israel Independence Decalaration",
       "url": "Israeli_Declaration_of_Independence",
       "startDay": 14,
@@ -7069,7 +7056,7 @@
     },
     {
       "rank": 601,
-      "iconId": 250,
+      "iconId": 161,
       "caption": "Mercury thermometer",
       "url": "Mercury_thermometer",
       "startDay": 1,
@@ -9919,7 +9906,7 @@
     {
       "rank": 860,
       "iconId": 197,
-      "caption": "Gandhi",
+      "caption": "Movie 'Gandhi'",
       "url": "Gandhi_(film)",
       "startDay": 17,
       "startMonth": 12,
@@ -10062,7 +10049,7 @@
     {
       "rank": 873,
       "iconId": 53,
-      "caption": 1917,
+      "caption": "1917",
       "url": "1917_(2019_film)",
       "startDay": 31,
       "startMonth": 5,
