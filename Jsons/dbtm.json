@@ -629,6 +629,19 @@
       "countries": "Germany"
     },
     {
+      "rank": 72,
+      "iconId": 69,
+      "caption": "Darwin's theory",
+      "url": "Darwinism",
+      "startCirca": 1,
+      "startCircaUnit": "y",
+      "startDay": 1,
+      "startMonth": 1,
+      "startYear": 1859,
+      "categories": "s",
+      "countries": "United Kingdom"
+    },
+    {
       "rank": 61,
       "iconId": 50,
       "caption": "Beethoven's 9th",
@@ -750,19 +763,6 @@
       "startYear": 1905,
       "categories": "s",
       "countries": "Germany, Switzerland"
-    },
-    {
-      "rank": 72,
-      "iconId": 69,
-      "caption": "Darwin's theory",
-      "url": "Darwinism",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1859,
-      "categories": "s",
-      "countries": "United Kingdom"
     },
     {
       "rank": 73,
@@ -2704,13 +2704,13 @@
     },
     {
       "rank": 232,
-      "iconId": 59,
+      "iconId": 77,
       "caption": "I have a dream",
       "url": "I_Have_a_Dream",
       "startCirca": 1,
       "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
+      "startDay": 28,
+      "startMonth": 8,
       "startYear": 1963,
       "categories": "b, p",
       "countries": "USA"
@@ -6165,7 +6165,7 @@
     },
     {
       "rank": 520,
-      "iconId": 148,
+      "iconId": 277,
       "caption": "Madrid train bombings",
       "url": "2004_Madrid_train_bombings",
       "startDay": 11,
@@ -6264,7 +6264,7 @@
     },
     {
       "rank": 529,
-      "iconId": 254,
+      "iconId": 87,
       "caption": "US Independence Declaration",
       "url": "United_States_Declaration_of_Independence",
       "startDay": 4,
@@ -9070,10 +9070,10 @@
     {
       "rank": 784,
       "iconId": 832,
-      "caption": "Putin President of Russia",
+      "caption": "Putin Prime Minister",
       "url": "Vladimir_Putin",
-      "startDay": 31,
-      "startMonth": 12,
+      "startDay": 16,
+      "startMonth": 8,
       "startYear": 1999,
       "categories": "p",
       "countries": "Russia"
@@ -9608,7 +9608,7 @@
     },
     {
       "rank": 833,
-      "iconId": 838,
+      "iconId": 77,
       "caption": "Tear down this wall",
       "url": "Tear_down_this_wall%21",
       "startDay": 12,
@@ -9658,17 +9658,6 @@
       "startDay": 9,
       "startMonth": 8,
       "startYear": 1974,
-      "categories": "p",
-      "countries": "USA"
-    },
-    {
-      "rank": 838,
-      "iconId": 838,
-      "caption": "I Have a Dream",
-      "url": "I_Have_a_Dream",
-      "startDay": 28,
-      "startMonth": 8,
-      "startYear": 1963,
       "categories": "p",
       "countries": "USA"
     },
@@ -9894,7 +9883,7 @@
     },
     {
       "rank": 859,
-      "iconId": 59,
+      "iconId": 77,
       "caption": "The King's Speech",
       "url": "The_King%27s_Speech",
       "startDay": 1,
