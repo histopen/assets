@@ -1,39 +1,39 @@
 [
   [0, {"timeDataCaption": "Mozart", "timeDataUrl": "Wolfgang_Amadeus_Mozart", "timeDataDate": {
-      "startDay": 27, "startMonth":  1, "startYear": 1756, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay":  5, "endMonth": 12, "endYear": 1791, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 27, "startMonth":  1, "startYear": 1756,
+      "endDay":  5, "endMonth": 12, "endYear": 1791
     }}],
   [1, {"timeDataCaption": "Roosevelt", "timeDataUrl": "Franklin_D._Roosevelt", "timeDataDate": {
-      "startDay": 30, "startMonth":  1, "startYear": 1882, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 12, "endMonth":  4, "endYear": 1945, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 30, "startMonth":  1, "startYear": 1882,
+      "endDay": 12, "endMonth":  4, "endYear": 1945
     }}],
   [2, {"timeDataCaption": "Al-Rashid", "timeDataUrl": "Al-Rashid_of_Morocco", "timeDataDate": {
       "startDay":  1, "startMonth":  1, "startYear": 1631, "startCirca": 1, "startCircaUnit": "Y",
-      "endDay":  9, "endMonth":  4, "endYear": 1672, "endCirca": 0, "endCircaUnit": "Y"
+      "endDay":  9, "endMonth":  4, "endYear": 1672
     }}],
   [3, {"timeDataCaption": "Einstein", "timeDataUrl": "Albert_Einstein", "timeDataDate": {
-      "startDay": 14, "startMonth":  3, "startYear": 1879, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 18, "endMonth":  4, "endYear": 1955, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 14, "startMonth":  3, "startYear": 1879,
+      "endDay": 18, "endMonth":  4, "endYear": 1955
     }}],
   [4, {"timeDataCaption": "Camus", "timeDataUrl": "Albert_Camus", "timeDataDate": {
-      "startDay":  7, "startMonth": 11, "startYear": 1913, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay":  4, "endMonth":  1, "endYear": 1960, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay":  7, "startMonth": 11, "startYear": 1913,
+      "endDay":  4, "endMonth":  1, "endYear": 1960
     }}],
   [5, {"timeDataCaption": "Spinoza", "timeDataUrl": "Baruch_Spinoza", "timeDataDate": {
-      "startDay": 24, "startMonth": 11, "startYear": 1632, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 21, "endMonth":  2, "endYear": 1677, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 24, "startMonth": 11, "startYear": 1632,
+      "endDay": 21, "endMonth":  2, "endYear": 1677
     }}],
   [6, {"timeDataCaption": "Kant", "timeDataUrl": "Immanuel_Kant", "timeDataDate": {
-      "startDay": 22, "startMonth":  4, "startYear": 1724, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 12, "endMonth":  2, "endYear": 1804, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 22, "startMonth":  4, "startYear": 1724,
+      "endDay": 12, "endMonth":  2, "endYear": 1804
     }}],
   [7, {"timeDataCaption": "Schopenhauer", "timeDataUrl": "Arthur_Schopenhauer", "timeDataDate": {
-      "startDay": 22, "startMonth":  2, "startYear": 1788, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 21, "endMonth":  9, "endYear": 1860, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 22, "startMonth":  2, "startYear": 1788,
+      "endDay": 21, "endMonth":  9, "endYear": 1860
     }}],
   [8, {"timeDataCaption": "da Vinci", "timeDataUrl": "Leonardo_da_Vinci", "timeDataDate": {
-      "startDay": 15, "startMonth":  4, "startYear": 1452, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay":  2, "endMonth":  5, "endYear": 1519, "endCirca": 0, "endCircaUnit": "Y"
+      "startDay": 15, "startMonth":  4, "startYear": 1452,
+      "endDay":  2, "endMonth":  5, "endYear": 1519
     }}],
   [9, {"timeDataCaption": "Genghis Khan", "timeDataUrl": "Genghis_Khan", "timeDataDate": {
       "startDay":  1, "startMonth":  1, "startYear": 1206, "startCirca": 1, "startCircaUnit": "Y",
@@ -41,6 +41,186 @@
     }}],
   [10, {"timeDataCaption": "William Wallace", "timeDataUrl": "William_Wallace", "timeDataDate": {
       "startDay":  1, "startMonth":  1, "startYear": 1270, "startCirca": 1, "startCircaUnit": "Y",
-      "endDay": 23, "endMonth":  8, "endYear": 1305, "endCirca": 0, "endCircaUnit": "Y"
+      "endDay": 23, "endMonth":  8, "endYear": 1305
+    }}],
+  [11, {"timeDataCaption": "Washington", "timeDataUrl": "George_Washington", "timeDataDate": {
+      "startDay": 22, "startMonth":  2, "startYear": 1732,
+      "endDay": 14, "endMonth": 12, "endYear": 1799
+    }}],
+  [12, {"timeDataCaption": "J. Adams", "timeDataUrl": "John_Adams", "timeDataDate": {
+      "startDay": 30, "startMonth": 10, "startYear": 1735,
+      "endDay":  4, "endMonth":  7, "endYear": 1826
+    }}],
+  [13, {"timeDataCaption": "Jefferson", "timeDataUrl": "Thomas_Jefferson", "timeDataDate": {
+      "startDay": 13, "startMonth":  4, "startYear": 1743,
+      "endDay":  4, "endMonth":  7, "endYear": 1826
+    }}],
+  [14, {"timeDataCaption": "Madison", "timeDataUrl": "James_Madison", "timeDataDate": {
+      "startDay": 16, "startMonth":  3, "startYear": 1751,
+      "endDay": 28, "endMonth":  6, "endYear": 1836
+    }}],
+  [15, {"timeDataCaption": "Monroe", "timeDataUrl": "James_Monroe", "timeDataDate": {
+      "startDay": 28, "startMonth":  4, "startYear": 1758,
+      "endDay":  4, "endMonth":  7, "endYear": 1831
+    }}],
+  [16, {"timeDataCaption": "JQ Adams", "timeDataUrl": "John_Quincy_Adams", "timeDataDate": {
+      "startDay": 11, "startMonth":  7, "startYear": 1767,
+      "endDay": 23, "endMonth":  2, "endYear": 1848
+    }}],
+  [17, {"timeDataCaption": "Jackson", "timeDataUrl": "Andrew_Jackson", "timeDataDate": {
+      "startDay": 15, "startMonth":  3, "startYear": 1767,
+      "endDay":  8, "endMonth":  6, "endYear": 1845
+    }}],
+  [18, {"timeDataCaption": "Van Buren", "timeDataUrl": "Martin_Van_Buren", "timeDataDate": {
+      "startDay":  5, "startMonth": 12, "startYear": 1782,
+      "endDay": 24, "endMonth":  7, "endYear": 1862
+    }}],
+  [19, {"timeDataCaption": "WH Harrison", "timeDataUrl": "William_Henry_Harrison", "timeDataDate": {
+      "startDay":  9, "startMonth":  2, "startYear": 1773,
+      "endDay":  4, "endMonth":  4, "endYear": 1841
+    }}],
+  [20, {"timeDataCaption": "Tyler", "timeDataUrl": "John_Tyler", "timeDataDate": {
+      "startDay": 29, "startMonth":  3, "startYear": 1790,
+      "endDay": 18, "endMonth":  1, "endYear": 1862
+    }}],
+  [21, {"timeDataCaption": "Polk", "timeDataUrl": "James_K._Polk", "timeDataDate": {
+      "startDay":  2, "startMonth": 11, "startYear": 1795,
+      "endDay": 15, "endMonth":  6, "endYear": 1849
+    }}],
+  [22, {"timeDataCaption": "Taylor", "timeDataUrl": "Zachary_Taylor", "timeDataDate": {
+      "startDay": 24, "startMonth": 11, "startYear": 1784,
+      "endDay":  9, "endMonth":  7, "endYear": 1850
+    }}],
+  [23, {"timeDataCaption": "Fillmore", "timeDataUrl": "Millard_Fillmore", "timeDataDate": {
+      "startDay":  7, "startMonth":  1, "startYear": 1800,
+      "endDay":  8, "endMonth":  3, "endYear": 1874
+    }}],
+  [24, {"timeDataCaption": "Pierce", "timeDataUrl": "Franklin_Pierce", "timeDataDate": {
+      "startDay": 23, "startMonth": 11, "startYear": 1804,
+      "endDay":  8, "endMonth": 10, "endYear": 1869
+    }}],
+  [25, {"timeDataCaption": "Buchanan", "timeDataUrl": "James_Buchanan", "timeDataDate": {
+      "startDay": 23, "startMonth":  4, "startYear": 1791,
+      "endDay":  1, "endMonth":  6, "endYear": 1868
+    }}],
+  [26, {"timeDataCaption": "Lincoln", "timeDataUrl": "Abraham_Lincoln", "timeDataDate": {
+      "startDay": 12, "startMonth":  2, "startYear": 1809,
+      "endDay": 15, "endMonth":  4, "endYear": 1865
+    }}],
+  [27, {"timeDataCaption": "AJ Johnson", "timeDataUrl": "Andrew_Johnson", "timeDataDate": {
+      "startDay": 29, "startMonth": 12, "startYear": 1808,
+      "endDay": 31, "endMonth":  7, "endYear": 1875
+    }}],
+  [28, {"timeDataCaption": "Grant", "timeDataUrl": "Ulysses_S._Grant", "timeDataDate": {
+      "startDay": 27, "startMonth":  4, "startYear": 1822,
+      "endDay": 23, "endMonth":  7, "endYear": 1885
+    }}],
+  [29, {"timeDataCaption": "Hayes", "timeDataUrl": "Rutherford_B._Hayes", "timeDataDate": {
+      "startDay":  4, "startMonth": 10, "startYear": 1822,
+      "endDay": 17, "endMonth":  1, "endYear": 1893
+    }}],
+  [30, {"timeDataCaption": "Garfield", "timeDataUrl": "James_A._Garfield", "timeDataDate": {
+      "startDay": 19, "startMonth": 11, "startYear": 1831,
+      "endDay": 19, "endMonth":  9, "endYear": 1881
+    }}],
+  [31, {"timeDataCaption": "Arthur", "timeDataUrl": "Chester_A._Arthur", "timeDataDate": {
+      "startDay":  5, "startMonth": 10, "startYear": 1829,
+      "endDay": 18, "endMonth": 11, "endYear": 1886
+    }}],
+  [32, {"timeDataCaption": "Cleveland", "timeDataUrl": "Grover_Cleveland", "timeDataDate": {
+      "startDay": 18, "startMonth":  3, "startYear": 1837,
+      "endDay": 24, "endMonth":  6, "endYear": 1908
+    }}],
+  [33, {"timeDataCaption": "B. Harrison", "timeDataUrl": "Benjamin_Harrison", "timeDataDate": {
+      "startDay": 20, "startMonth":  8, "startYear": 1833,
+      "endDay": 13, "endMonth":  3, "endYear": 1901
+    }}],
+  [34, {"timeDataCaption": "McKinley", "timeDataUrl": "William_McKinley", "timeDataDate": {
+      "startDay": 29, "startMonth":  1, "startYear": 1843,
+      "endDay": 14, "endMonth":  9, "endYear": 1901
+    }}],
+  [35, {"timeDataCaption": "T. Roosevelt", "timeDataUrl": "Theodore_Roosevelt", "timeDataDate": {
+      "startDay": 27, "startMonth": 10, "startYear": 1858,
+      "endDay":  6, "endMonth":  1, "endYear": 1919
+    }}],
+  [36, {"timeDataCaption": "Taft", "timeDataUrl": "William_Howard_Taft", "timeDataDate": {
+      "startDay": 15, "startMonth":  9, "startYear": 1857,
+      "endDay":  8, "endMonth":  3, "endYear": 1930
+    }}],
+  [37, {"timeDataCaption": "Wilson", "timeDataUrl": "Woodrow_Wilson", "timeDataDate": {
+      "startDay": 28, "startMonth": 12, "startYear": 1856,
+      "endDay":  3, "endMonth":  2, "endYear": 1924
+    }}],
+  [38, {"timeDataCaption": "Harding", "timeDataUrl": "Warren_G._Harding", "timeDataDate": {
+      "startDay":  2, "startMonth": 11, "startYear": 1865,
+      "endDay":  2, "endMonth":  8, "endYear": 1923
+    }}],
+  [39, {"timeDataCaption": "Coolidge", "timeDataUrl": "Calvin_Coolidge", "timeDataDate": {
+      "startDay":  4, "startMonth":  7, "startYear": 1872,
+      "endDay":  5, "endMonth":  1, "endYear": 1933
+    }}],
+  [40, {"timeDataCaption": "Hoover", "timeDataUrl": "Herbert_Hoover", "timeDataDate": {
+      "startDay": 10, "startMonth":  8, "startYear": 1874,
+      "endDay": 20, "endMonth": 10, "endYear": 1964
+    }}],
+  [41, {"timeDataCaption": "FD Roosevelt", "timeDataUrl": "Franklin_D._Roosevelt", "timeDataDate": {
+      "startDay": 30, "startMonth":  1, "startYear": 1882,
+      "endDay": 12, "endMonth":  4, "endYear": 1945
+    }}],
+  [42, {"timeDataCaption": "Truman", "timeDataUrl": "Harry_S._Truman", "timeDataDate": {
+      "startDay":  8, "startMonth":  5, "startYear": 1884,
+      "endDay": 26, "endMonth": 12, "endYear": 1972
+    }}],
+  [43, {"timeDataCaption": "Eisenhower", "timeDataUrl": "Dwight_D._Eisenhower", "timeDataDate": {
+      "startDay": 14, "startMonth": 10, "startYear": 1890,
+      "endDay": 28, "endMonth":  3, "endYear": 1969
+    }}],
+  [44, {"timeDataCaption": "Kennedy", "timeDataUrl": "John_F._Kennedy", "timeDataDate": {
+      "startDay": 29, "startMonth":  5, "startYear": 1917,
+      "endDay": 22, "endMonth": 11, "endYear": 1963
+    }}],
+  [45, {"timeDataCaption": "LB Johnson", "timeDataUrl": "Lyndon_B._Johnson", "timeDataDate": {
+      "startDay": 27, "startMonth":  8, "startYear": 1908,
+      "endDay": 22, "endMonth":  1, "endYear": 1973
+    }}],
+  [46, {"timeDataCaption": "Nixon", "timeDataUrl": "Richard_Nixon", "timeDataDate": {
+      "startDay":  9, "startMonth":  1, "startYear": 1913,
+      "endDay": 22, "endMonth":  4, "endYear": 1994
+    }}],
+  [47, {"timeDataCaption": "Ford", "timeDataUrl": "Gerald_Ford", "timeDataDate": {
+      "startDay": 14, "startMonth":  7, "startYear": 1913,
+      "endDay": 26, "endMonth": 12, "endYear": 2006
+    }}],
+  [48, {"timeDataCaption": "Carter", "timeDataUrl": "Jimmy_Carter", "timeDataDate": {
+      "startDay":  1, "startMonth": 10, "startYear": 1924,
+      "endDay": 29, "endMonth": 12, "endYear": 2024
+    }}],
+  [49, {"timeDataCaption": "Reagan", "timeDataUrl": "Ronald_Reagan", "timeDataDate": {
+      "startDay":  6, "startMonth":  2, "startYear": 1911,
+      "endDay":  5, "endMonth":  6, "endYear": 2004
+    }}],
+  [50, {"timeDataCaption": "GH Bush", "timeDataUrl": "George_H._W._Bush", "timeDataDate": {
+      "startDay": 12, "startMonth":  6, "startYear": 1924,
+      "endDay": 30, "endMonth": 11, "endYear": 2018
+    }}],
+  [51, {"timeDataCaption": "Clinton", "timeDataUrl": "Bill_Clinton", "timeDataDate": {
+      "startDay": 19, "startMonth":  8, "startYear": 1946,
+      "endDay":  2, "endMonth":  4, "endYear": 4242
+    }}],
+  [52, {"timeDataCaption": "GW Bush", "timeDataUrl": "George_W._Bush", "timeDataDate": {
+      "startDay":  6, "startMonth":  7, "startYear": 1946,
+      "endDay":  2, "endMonth":  4, "endYear": 4242
+    }}],
+  [53, {"timeDataCaption": "Obama", "timeDataUrl": "Barack_Obama", "timeDataDate": {
+      "startDay":  4, "startMonth":  8, "startYear": 1961,
+      "endDay":  2, "endMonth":  4, "endYear": 4242
+    }}],
+  [54, {"timeDataCaption": "Trump", "timeDataUrl": "Donald_Trump", "timeDataDate": {
+      "startDay": 14, "startMonth":  6, "startYear": 1946,
+      "endDay":  2, "endMonth":  4, "endYear": 4242
+    }}],
+  [55, {"timeDataCaption": "Biden", "timeDataUrl": "Joe_Biden", "timeDataDate": {
+      "startDay": 20, "startMonth": 11, "startYear": 1942,
+      "endDay":  2, "endMonth":  4, "endYear": 4242
     }}]
 ]
