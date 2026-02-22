@@ -698,7 +698,7 @@
         "fragment": "History"
       }
     ],
-    "Economies": [
+    "Economy": [
       {
         "caption": "Hunter-Gatherer",
         "startYear": -300000,
@@ -885,7 +885,7 @@
       },
       {
         "caption": "Age of Sail",
-        "startYear": 1500,
+        "startYear": 1492,
         "startMonth": 1,
         "startDay": 1,
         "endYear": 1850,
