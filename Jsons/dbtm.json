@@ -1110,18 +1110,6 @@
       "countries": "Panama"
     },
     {
-      "wtId": 91,
-      "rank": 146,
-      "iconId": 145,
-      "caption": "Special relativity",
-      "url": "Special_relativity",
-      "startDay": 30,
-      "startMonth": 6,
-      "startYear": 1905,
-      "categories": "s",
-      "countries": "Germany"
-    },
-    {
       "wtId": 92,
       "rank": 148,
       "iconId": 106,
@@ -1263,20 +1251,6 @@
       "startYear": 1947,
       "categories": "s",
       "countries": "USA"
-    },
-    {
-      "wtId": 103,
-      "rank": 171,
-      "iconId": 197,
-      "caption": "Gandhi assassinated",
-      "url": "Assassination_of_Mahatma_Gandhi",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1948,
-      "categories": "p",
-      "countries": "India"
     },
     {
       "wtId": 104,
@@ -1704,20 +1678,6 @@
       "countries": "USA"
     },
     {
-      "wtId": 135,
-      "rank": 253,
-      "iconId": 167,
-      "caption": "Putin President",
-      "url": "Vladimir_Putin",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 2000,
-      "categories": "p",
-      "countries": "Russia"
-    },
-    {
       "wtId": 136,
       "rank": 200,
       "iconId": 182,
@@ -1854,7 +1814,7 @@
     {
       "wtId": 146,
       "rank": 150,
-      "iconId": 59,
+      "iconId": 280,
       "caption": "Radio",
       "url": "Radio",
       "startCirca": 1,
@@ -1979,18 +1939,6 @@
       "countries": "Germany, France"
     },
     {
-      "wtId": 155,
-      "rank": 159,
-      "iconId": 203,
-      "caption": "Ferdinand Assassination",
-      "url": "Archduke_Franz_Ferdinand_of_Austria",
-      "startDay": 28,
-      "startMonth": 6,
-      "startYear": 1914,
-      "categories": "p",
-      "countries": "Europe, World"
-    },
-    {
       "wtId": 156,
       "rank": 160,
       "iconId": 192,
@@ -2025,18 +1973,6 @@
       "startYear": 1915,
       "categories": "p",
       "countries": "Italy"
-    },
-    {
-      "wtId": 159,
-      "rank": 163,
-      "iconId": 145,
-      "caption": "General relativity",
-      "url": "General_relativity",
-      "startDay": 25,
-      "startMonth": 11,
-      "startYear": 1915,
-      "categories": "s",
-      "countries": "Germany"
     },
     {
       "wtId": 160,
@@ -2952,18 +2888,6 @@
       "countries": "France"
     },
     {
-      "wtId": 232,
-      "rank": 108,
-      "iconId": 219,
-      "caption": "Victoria",
-      "url": "Queen_Victoria",
-      "startDay": 20,
-      "startMonth": 6,
-      "startYear": 1837,
-      "categories": "p",
-      "countries": "United Kingdom"
-    },
-    {
       "wtId": 233,
       "rank": 131,
       "iconId": 56,
@@ -3281,18 +3205,6 @@
       "endYear": 1938,
       "categories": "c",
       "countries": "World"
-    },
-    {
-      "wtId": 255,
-      "rank": 206,
-      "iconId": 61,
-      "caption": "Pacific Battles",
-      "url": "Pacific_War",
-      "startDay": 7,
-      "startMonth": 12,
-      "startYear": 1941,
-      "categories": "p",
-      "countries": "USA, Japan"
     },
     {
       "wtId": 256,
@@ -4419,6 +4331,21 @@
     },
     {
       "wtId": 334,
+      "rank": 300,
+      "iconId": 83,
+      "caption": "Salt Lake City 2034",
+      "url": "2034_Winter_Olympics",
+      "startDay": 10,
+      "startMonth": 2,
+      "startYear": 2034,
+      "endDay": 26,
+      "endMonth": 2,
+      "endYear": 2034,
+      "categories": "c",
+      "countries": "World"
+    },
+    {
+      "wtId": 334,
       "rank": 44,
       "iconId": 191,
       "caption": "Trump 2",
@@ -4445,21 +4372,6 @@
       "startYear": 1377,
       "categories": "c, p",
       "countries": "Spain, Egypt, Tunisia"
-    },
-    {
-      "wtId": 334,
-      "rank": 300,
-      "iconId": 83,
-      "caption": "Salt Lake City 2034",
-      "url": "2034_Winter_Olympics",
-      "startDay": 10,
-      "startMonth": 2,
-      "startYear": 2034,
-      "endDay": 26,
-      "endMonth": 2,
-      "endYear": 2034,
-      "categories": "c",
-      "countries": "World"
     },
     {
       "wtId": 335,
@@ -4532,30 +4444,6 @@
       "startYear": 2020,
       "categories": "c",
       "countries": "Argentina"
-    },
-    {
-      "wtId": 402,
-      "rank": 342,
-      "iconId": 71,
-      "caption": "Messi: FIFA World Cup",
-      "url": "2022_FIFA_World_Cup_Final",
-      "startDay": 18,
-      "startMonth": 12,
-      "startYear": 2022,
-      "categories": "c",
-      "countries": "Argentina"
-    },
-    {
-      "wtId": 403,
-      "rank": 343,
-      "iconId": 71,
-      "caption": "Brazil FIFA World Cup win",
-      "url": "1994_FIFA_World_Cup_Final",
-      "startDay": 17,
-      "startMonth": 7,
-      "startYear": 1994,
-      "categories": "c",
-      "countries": "Brazil"
     },
     {
       "wtId": 404,
@@ -4676,18 +4564,6 @@
       "startYear": 2011,
       "categories": "c",
       "countries": "Serbia"
-    },
-    {
-      "wtId": 414,
-      "rank": 354,
-      "iconId": 71,
-      "caption": "Spain FIFA World Cup win",
-      "url": "2010_FIFA_World_Cup_Final",
-      "startDay": 11,
-      "startMonth": 7,
-      "startYear": 2010,
-      "categories": "c",
-      "countries": "Spain"
     },
     {
       "wtId": 415,
@@ -5065,7 +4941,7 @@
       "wtId": 446,
       "rank": 386,
       "iconId": 71,
-      "caption": "FIFA Women's World Cup win",
+      "caption": "FIFA Women's World Cup",
       "url": "2019_FIFA_Women%27s_World_Cup",
       "startDay": 7,
       "startMonth": 7,
@@ -5794,18 +5670,6 @@
       "countries": "United Kingdom, India"
     },
     {
-      "wtId": 507,
-      "rank": 447,
-      "iconId": 254,
-      "caption": "Battle of Waterloo",
-      "url": "Battle_of_Waterloo",
-      "startDay": 18,
-      "startMonth": 6,
-      "startYear": 1815,
-      "categories": "p",
-      "countries": "United Kingdom, Germany, France"
-    },
-    {
       "wtId": 508,
       "rank": 448,
       "iconId": 261,
@@ -5950,18 +5814,6 @@
       "countries": "Europe"
     },
     {
-      "wtId": 520,
-      "rank": 460,
-      "iconId": 273,
-      "caption": "First Crusade begins",
-      "url": "First_Crusade",
-      "startDay": 15,
-      "startMonth": 8,
-      "startYear": 1096,
-      "categories": "p",
-      "countries": "Europe, Holy Land"
-    },
-    {
       "wtId": 521,
       "rank": 461,
       "iconId": 70,
@@ -5970,18 +5822,6 @@
       "startDay": 13,
       "startMonth": 11,
       "startYear": 2015,
-      "categories": "p",
-      "countries": "France"
-    },
-    {
-      "wtId": 522,
-      "rank": 462,
-      "iconId": 254,
-      "caption": "Storming of the Bastille",
-      "url": "Storming_of_the_Bastille",
-      "startDay": 14,
-      "startMonth": 7,
-      "startYear": 1789,
       "categories": "p",
       "countries": "France"
     },
@@ -6094,30 +5934,6 @@
       "countries": "Germany"
     },
     {
-      "wtId": 532,
-      "rank": 472,
-      "iconId": 211,
-      "caption": "Hitler's death",
-      "url": "Death_of_Adolf_Hitler",
-      "startDay": 30,
-      "startMonth": 4,
-      "startYear": 1945,
-      "categories": "p",
-      "countries": "Germany"
-    },
-    {
-      "wtId": 533,
-      "rank": 473,
-      "iconId": 211,
-      "caption": "Operation Barbarossa",
-      "url": "Operation_Barbarossa",
-      "startDay": 22,
-      "startMonth": 6,
-      "startYear": 1941,
-      "categories": "p",
-      "countries": "Germany, Russia"
-    },
-    {
       "wtId": 534,
       "rank": 474,
       "iconId": 211,
@@ -6178,18 +5994,6 @@
       "countries": "Hungary, Russia"
     },
     {
-      "wtId": 539,
-      "rank": 479,
-      "iconId": 196,
-      "caption": "India independence",
-      "url": "Partition_of_India",
-      "startDay": 15,
-      "startMonth": 8,
-      "startYear": 1947,
-      "categories": "p",
-      "countries": "India, Pakistan, United Kingdom"
-    },
-    {
       "wtId": 540,
       "rank": 480,
       "iconId": 211,
@@ -6246,18 +6050,6 @@
       "startDay": 5,
       "startMonth": 6,
       "startYear": 1967,
-      "categories": "p",
-      "countries": "Israel, Arab States"
-    },
-    {
-      "wtId": 545,
-      "rank": 485,
-      "iconId": 157,
-      "caption": "Israel Independence Decalaration",
-      "url": "Israeli_Declaration_of_Independence",
-      "startDay": 14,
-      "startMonth": 5,
-      "startYear": 1948,
       "categories": "p",
       "countries": "Israel, Arab States"
     },
@@ -6368,18 +6160,6 @@
       "startYear": 1905,
       "categories": "p",
       "countries": "Japan, Russia"
-    },
-    {
-      "wtId": 555,
-      "rank": 495,
-      "iconId": 261,
-      "caption": "Japan surrenders",
-      "url": "Surrender_of_Japan",
-      "startDay": 2,
-      "startMonth": 9,
-      "startYear": 1945,
-      "categories": "p",
-      "countries": "Japan, USA"
     },
     {
       "wtId": 556,
@@ -6982,30 +6762,6 @@
       "countries": "USA, Iraq"
     },
     {
-      "wtId": 606,
-      "rank": 546,
-      "iconId": 193,
-      "caption": "Hiroshima bomb",
-      "url": "Atomic_bombings_of_Hiroshima_and_Nagasaki",
-      "startDay": 6,
-      "startMonth": 8,
-      "startYear": 1945,
-      "categories": "p",
-      "countries": "USA, Japan"
-    },
-    {
-      "wtId": 607,
-      "rank": 547,
-      "iconId": 148,
-      "caption": "Battle of Midway",
-      "url": "Battle_of_Midway",
-      "startDay": 4,
-      "startMonth": 6,
-      "startYear": 1942,
-      "categories": "p",
-      "countries": "USA, Japan"
-    },
-    {
       "wtId": 608,
       "rank": 548,
       "iconId": 261,
@@ -7126,18 +6882,6 @@
       "countries": "USA, Spain"
     },
     {
-      "wtId": 618,
-      "rank": 558,
-      "iconId": 261,
-      "caption": "D-Day Normandy landings",
-      "url": "Normandy_landings",
-      "startDay": 6,
-      "startMonth": 6,
-      "startYear": 1944,
-      "categories": "p",
-      "countries": "USA, United Kingdom, Germany"
-    },
-    {
       "wtId": 619,
       "rank": 559,
       "iconId": 54,
@@ -7188,7 +6932,7 @@
     {
       "wtId": 623,
       "rank": 563,
-      "iconId": 190,
+      "iconId": 268,
       "caption": "Insulin discovery",
       "url": "Insulin",
       "startDay": 27,
@@ -7428,7 +7172,7 @@
     {
       "wtId": 643,
       "rank": 583,
-      "iconId": 280,
+      "iconId": 282,
       "caption": "Electric motor",
       "url": "Michael_Faraday",
       "startDay": 22,
@@ -7798,18 +7542,6 @@
       "countries": "Poland"
     },
     {
-      "wtId": 674,
-      "rank": 614,
-      "iconId": 226,
-      "caption": "Radium discovery",
-      "url": "Marie_Curie",
-      "startDay": 26,
-      "startMonth": 12,
-      "startYear": 1898,
-      "categories": "s",
-      "countries": "Poland, France"
-    },
-    {
       "wtId": 675,
       "rank": 615,
       "iconId": 251,
@@ -8058,18 +7790,6 @@
       "startDay": 1,
       "startMonth": 2,
       "startYear": 2002,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
-      "wtId": 696,
-      "rank": 636,
-      "iconId": 282,
-      "caption": "Solar cell invention",
-      "url": "Solar_cell",
-      "startDay": 25,
-      "startMonth": 4,
-      "startYear": 1954,
       "categories": "s",
       "countries": "USA"
     },
@@ -8458,18 +8178,6 @@
       "countries": "USA"
     },
     {
-      "wtId": 729,
-      "rank": 669,
-      "iconId": 148,
-      "caption": "Powered airplane flight",
-      "url": "Wright_brothers",
-      "startDay": 17,
-      "startMonth": 12,
-      "startYear": 1903,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
       "wtId": 730,
       "rank": 670,
       "iconId": 42,
@@ -8646,18 +8354,6 @@
       "startDay": 10,
       "startMonth": 2,
       "startYear": 1996,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
-      "wtId": 745,
-      "rank": 685,
-      "iconId": 235,
-      "caption": "ENIAC",
-      "url": "ENIAC",
-      "startDay": 14,
-      "startMonth": 2,
-      "startYear": 1946,
       "categories": "s",
       "countries": "USA"
     },
@@ -8912,18 +8608,6 @@
       "startYear": 2014,
       "categories": "s",
       "countries": "USA, France"
-    },
-    {
-      "wtId": 767,
-      "rank": 707,
-      "iconId": 98,
-      "caption": "COVID-19 mRNA vaccine",
-      "url": "Pfizer%E2%80%93BioNTech_COVID-19_vaccine",
-      "startDay": 8,
-      "startMonth": 12,
-      "startYear": 2020,
-      "categories": "s",
-      "countries": "USA, Germany"
     },
     {
       "wtId": 768,
@@ -9360,7 +9044,7 @@
     {
       "wtId": 804,
       "rank": 744,
-      "iconId": 812,
+      "iconId": 219,
       "caption": "Sun King",
       "url": "Louis_XIV",
       "startDay": 14,
@@ -9510,18 +9194,6 @@
       "startDay": 1,
       "startMonth": 1,
       "startYear": 1929,
-      "categories": "p",
-      "countries": "India"
-    },
-    {
-      "wtId": 817,
-      "rank": 757,
-      "iconId": 197,
-      "caption": "Assassination",
-      "url": "Assassination_of_Mahatma_Gandhi",
-      "startDay": 30,
-      "startMonth": 1,
-      "startYear": 1948,
       "categories": "p",
       "countries": "India"
     },
@@ -9822,18 +9494,6 @@
       "startDay": 19,
       "startMonth": 8,
       "startYear": 1991,
-      "categories": "p",
-      "countries": "Russia"
-    },
-    {
-      "wtId": 843,
-      "rank": 783,
-      "iconId": 832,
-      "caption": "Bolshevik Revolution",
-      "url": "Vladimir_Lenin",
-      "startDay": 7,
-      "startMonth": 11,
-      "startYear": 1917,
       "categories": "p",
       "countries": "Russia"
     },
@@ -10434,18 +10094,6 @@
       "startDay": 28,
       "startMonth": 6,
       "startYear": 1919,
-      "categories": "p",
-      "countries": "USA"
-    },
-    {
-      "wtId": 895,
-      "rank": 835,
-      "iconId": 838,
-      "caption": "Declaration of Independence",
-      "url": "Thomas_Jefferson",
-      "startDay": 4,
-      "startMonth": 7,
-      "startYear": 1776,
       "categories": "p",
       "countries": "USA"
     },
@@ -11736,7 +11384,7 @@
     {
       "wtId": 1003,
       "rank": 944,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Drake",
       "url": "God%27s_Plan",
       "startDay": 19,
@@ -11748,7 +11396,7 @@
     {
       "wtId": 1004,
       "rank": 945,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Celine Dion",
       "url": "Falling_into_You",
       "startDay": 13,
@@ -11760,7 +11408,7 @@
     {
       "wtId": 1005,
       "rank": 946,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "The Weeknd",
       "url": "Blinding_Lights",
       "startDay": 28,
@@ -11772,7 +11420,7 @@
     {
       "wtId": 1006,
       "rank": 947,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "The Weeknd",
       "url": "Beauty_Behind_the_Madness",
       "startDay": 2,
@@ -11784,7 +11432,7 @@
     {
       "wtId": 1007,
       "rank": 948,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Shania Twain",
       "url": "Come_On_Over",
       "startDay": 9,
@@ -11832,7 +11480,7 @@
     {
       "wtId": 1011,
       "rank": 952,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Adele",
       "url": "21_(Adele_album)",
       "startDay": 23,
@@ -12000,7 +11648,7 @@
     {
       "wtId": 1025,
       "rank": 966,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Reputation_(Taylor_Swift_album)",
       "startDay": 8,
@@ -12012,7 +11660,7 @@
     {
       "wtId": 1026,
       "rank": 967,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Taylor Swift",
       "url": "The_Eras_Tour",
       "startDay": 29,
@@ -12024,7 +11672,7 @@
     {
       "wtId": 1027,
       "rank": 968,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Midnights",
       "startDay": 21,
@@ -12036,7 +11684,7 @@
     {
       "wtId": 1028,
       "rank": 969,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Taylor_Swift_(album)",
       "startDay": 24,
@@ -12048,7 +11696,7 @@
     {
       "wtId": 1029,
       "rank": 970,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Speak_Now",
       "startDay": 22,
@@ -12060,7 +11708,7 @@
     {
       "wtId": 1030,
       "rank": 971,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Norah Jones",
       "url": "Come_Away_with_Me",
       "startDay": 29,
@@ -12072,7 +11720,7 @@
     {
       "wtId": 1031,
       "rank": 972,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Ray Charles",
       "url": "Ray_Charles",
       "startDay": 3,
@@ -12084,7 +11732,7 @@
     {
       "wtId": 1032,
       "rank": 973,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Louis Armstrong",
       "url": "Louis_Armstrong",
       "startDay": 22,
@@ -12096,7 +11744,7 @@
     {
       "wtId": 1033,
       "rank": 974,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "James Brown",
       "url": "James_Brown",
       "startDay": 1,
@@ -12108,7 +11756,7 @@
     {
       "wtId": 1034,
       "rank": 975,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Blondie",
       "url": "Blondie_(band)",
       "startDay": 1,
@@ -12120,7 +11768,7 @@
     {
       "wtId": 1035,
       "rank": 976,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Sly Stone",
       "url": "Sly_and_the_Family_Stone",
       "startDay": 13,
@@ -12132,7 +11780,7 @@
     {
       "wtId": 1036,
       "rank": 977,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Beyonce",
       "url": "Lemonade_(Beyonc%C3%A9_album)",
       "startDay": 6,
@@ -12144,7 +11792,7 @@
     {
       "wtId": 1037,
       "rank": 978,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Kanye West",
       "url": "Late_Registration",
       "startDay": 8,
@@ -12156,7 +11804,7 @@
     {
       "wtId": 1038,
       "rank": 979,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Lauryn Hill",
       "url": "The_Miseducation_of_Lauryn_Hill",
       "startDay": 23,
@@ -12168,7 +11816,7 @@
     {
       "wtId": 1039,
       "rank": 980,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Justin Timberlake",
       "url": "The_20/20_Experience",
       "startDay": 5,
@@ -12180,7 +11828,7 @@
     {
       "wtId": 1040,
       "rank": 981,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Billie Eilish",
       "url": "When_We_All_Fall_Asleep,_Where_Do_We_Go%3F",
       "startDay": 5,
@@ -12192,7 +11840,7 @@
     {
       "wtId": 1041,
       "rank": 982,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Beyonce",
       "url": "Cowboy_Carter",
       "startDay": 8,
@@ -12204,7 +11852,7 @@
     {
       "wtId": 1042,
       "rank": 983,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Frank Sinatra",
       "url": "Frank_Sinatra",
       "startDay": 18,
@@ -12216,7 +11864,7 @@
     {
       "wtId": 1043,
       "rank": 984,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "The Beach Boys",
       "url": "Pet_Sounds",
       "startDay": 16,
@@ -12228,7 +11876,7 @@
     {
       "wtId": 1044,
       "rank": 985,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Eminem",
       "url": "The_Marshall_Mathers_LP",
       "startDay": 23,
@@ -12240,7 +11888,7 @@
     {
       "wtId": 1045,
       "rank": 986,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Usher",
       "url": "Yeah!_(Usher_song)",
       "startDay": 8,
@@ -12252,7 +11900,7 @@
     {
       "wtId": 1046,
       "rank": 987,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Marvin Gaye",
       "url": "What%27s_Going_On_(Marvin_Gaye_album)",
       "startDay": 16,
@@ -12264,7 +11912,7 @@
     {
       "wtId": 1047,
       "rank": 988,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Kendrick Lamar",
       "url": "To_Pimp_a_Butterfly",
       "startDay": 16,
@@ -12276,7 +11924,7 @@
     {
       "wtId": 1048,
       "rank": 989,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Donna Summer",
       "url": "Donna_Summer",
       "startDay": 28,
@@ -12288,7 +11936,7 @@
     {
       "wtId": 1049,
       "rank": 990,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Patsy Cline",
       "url": "Patsy_Cline",
       "startDay": 30,
@@ -12300,7 +11948,7 @@
     {
       "wtId": 1050,
       "rank": 991,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "N.W.A",
       "url": "Straight_Outta_Compton_(album)",
       "startDay": 1,
@@ -12312,7 +11960,7 @@
     {
       "wtId": 1051,
       "rank": 992,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Michael Jackson",
       "url": "Off_the_Wall",
       "startDay": 1,
@@ -12324,7 +11972,7 @@
     {
       "wtId": 1052,
       "rank": 993,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Bessie Smith",
       "url": "Bessie_Smith",
       "startDay": 2,
@@ -12336,7 +11984,7 @@
     {
       "wtId": 1053,
       "rank": 994,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "The Sugarhill Gang",
       "url": "Rapper%27s_Delight",
       "startDay": 16,
@@ -12348,7 +11996,7 @@
     {
       "wtId": 1054,
       "rank": 995,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Run-DMC",
       "url": "Walk_This_Way_(Run-DMC_song)",
       "startDay": 20,
@@ -12360,7 +12008,7 @@
     {
       "wtId": 1055,
       "rank": 996,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Frank Ocean",
       "url": "Channel_Orange",
       "startDay": 5,
@@ -12372,7 +12020,7 @@
     {
       "wtId": 1056,
       "rank": 997,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Marvin Gaye",
       "url": "Marvin_Gaye",
       "startDay": 22,
@@ -12384,7 +12032,7 @@
     {
       "wtId": 1057,
       "rank": 998,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Beyonce",
       "url": "Renaissance_(Beyonc%C3%A9_album)",
       "startDay": 4,
@@ -12396,7 +12044,7 @@
     {
       "wtId": 1058,
       "rank": 999,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Jay-Z",
       "url": "The_Blueprint",
       "startDay": 13,
@@ -12408,7 +12056,7 @@
     {
       "wtId": 1059,
       "rank": 1000,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Beyonce",
       "url": "Crazy_in_Love",
       "startDay": 16,
@@ -12420,7 +12068,7 @@
     {
       "wtId": 1060,
       "rank": 1001,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "The Notorious B.I.G.",
       "url": "Life_After_Death",
       "startDay": 18,
@@ -12432,7 +12080,7 @@
     {
       "wtId": 1061,
       "rank": 1002,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Madonna",
       "url": "Like_a_Virgin_(album)",
       "startDay": 28,
@@ -12444,7 +12092,7 @@
     {
       "wtId": 1062,
       "rank": 1003,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "2Pac",
       "url": "All_Eyez_on_Me",
       "startDay": 29,
@@ -12456,7 +12104,7 @@
     {
       "wtId": 1064,
       "rank": 1005,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Whitney Houston",
       "url": "I_Will_Always_Love_You_(Whitney_Houston_song)",
       "startDay": 8,
@@ -12468,7 +12116,7 @@
     {
       "wtId": 1065,
       "rank": 1006,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Beyonce",
       "url": "Beyonc%C3%A9_(album)",
       "startDay": 13,
@@ -12610,18 +12258,6 @@
       "countries": "USA"
     },
     {
-      "wtId": 1077,
-      "rank": 1018,
-      "iconId": 229,
-      "caption": "Elvis Presley",
-      "url": "Heartbreak_Hotel",
-      "startDay": 16,
-      "startMonth": 5,
-      "startYear": 1956,
-      "categories": "c",
-      "countries": "USA"
-    },
-    {
       "wtId": 1078,
       "rank": 1019,
       "iconId": 229,
@@ -12661,7 +12297,7 @@
       "wtId": 1081,
       "rank": 1022,
       "iconId": 229,
-      "caption": "Elvis Presley",
+      "caption": "Elvis Presley debut single",
       "url": "Elvis_Presley",
       "startDay": 5,
       "startMonth": 7,
@@ -12733,7 +12369,7 @@
       "wtId": 1087,
       "rank": 1028,
       "iconId": 229,
-      "caption": "Elvis Presley",
+      "caption": "Elvis Presley debut album",
       "url": "Elvis_Presley_(album)",
       "startDay": 1,
       "startMonth": 9,
@@ -12828,7 +12464,7 @@
     {
       "wtId": 1095,
       "rank": 1036,
-      "iconId": 59,
+      "iconId": 256,
       "caption": "Live Aid",
       "url": "Live_Aid",
       "startDay": 13,
@@ -13858,18 +13494,6 @@
       "countries": "Australia, USA"
     },
     {
-      "wtId": 1181,
-      "rank": 1122,
-      "iconId": 190,
-      "caption": "Laws of inheritance",
-      "url": "Gregor_Mendel",
-      "startDay": 13,
-      "startMonth": 7,
-      "startYear": 1865,
-      "categories": "s",
-      "countries": "Austria"
-    },
-    {
       "wtId": 1182,
       "rank": 1123,
       "iconId": 226,
@@ -13880,18 +13504,6 @@
       "startYear": 1926,
       "categories": "s",
       "countries": "Austria"
-    },
-    {
-      "wtId": 1183,
-      "rank": 1124,
-      "iconId": 190,
-      "caption": "Insulin discovery",
-      "url": "Insulin",
-      "startDay": 27,
-      "startMonth": 7,
-      "startYear": 1921,
-      "categories": "s",
-      "countries": "Canada"
     },
     {
       "wtId": 1184,
@@ -13914,18 +13526,6 @@
       "startDay": 1,
       "startMonth": 11,
       "startYear": 1913,
-      "categories": "s",
-      "countries": "Denmark"
-    },
-    {
-      "wtId": 1186,
-      "rank": 1127,
-      "iconId": 280,
-      "caption": "Electromagnetism",
-      "url": "Hans_Christian_%C3%98rsted",
-      "startDay": 21,
-      "startMonth": 4,
-      "startYear": 1820,
       "categories": "s",
       "countries": "Denmark"
     },
@@ -13966,18 +13566,6 @@
       "countries": "England"
     },
     {
-      "wtId": 1191,
-      "rank": 1132,
-      "iconId": 282,
-      "caption": "Electromagnetic rotation",
-      "url": "Michael_Faraday",
-      "startDay": 22,
-      "startMonth": 9,
-      "startYear": 1821,
-      "categories": "s",
-      "countries": "England"
-    },
-    {
       "wtId": 1192,
       "rank": 1133,
       "iconId": 99,
@@ -13986,18 +13574,6 @@
       "startDay": 5,
       "startMonth": 7,
       "startYear": 1687,
-      "categories": "s",
-      "countries": "England"
-    },
-    {
-      "wtId": 1193,
-      "rank": 1134,
-      "iconId": 98,
-      "caption": "Smallpox vaccination",
-      "url": "Edward_Jenner",
-      "startDay": 14,
-      "startMonth": 5,
-      "startYear": 1796,
       "categories": "s",
       "countries": "England"
     },
@@ -14098,18 +13674,6 @@
       "countries": "France"
     },
     {
-      "wtId": 1202,
-      "rank": 1143,
-      "iconId": 282,
-      "caption": "Discovery of radio waves",
-      "url": "Heinrich_Hertz",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1887,
-      "categories": "s",
-      "countries": "Germany"
-    },
-    {
       "wtId": 1203,
       "rank": 1144,
       "iconId": 99,
@@ -14118,18 +13682,6 @@
       "startDay": 1,
       "startMonth": 1,
       "startYear": 1610,
-      "categories": "s",
-      "countries": "Germany"
-    },
-    {
-      "wtId": 1204,
-      "rank": 1145,
-      "iconId": 226,
-      "caption": "Aspirin synthesis",
-      "url": "Felix_Hoffmann",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1899,
       "categories": "s",
       "countries": "Germany"
     },
@@ -14158,18 +13710,6 @@
       "countries": "Germany"
     },
     {
-      "wtId": 1207,
-      "rank": 1148,
-      "iconId": 226,
-      "caption": "Quantum theory",
-      "url": "Max_Planck",
-      "startDay": 14,
-      "startMonth": 12,
-      "startYear": 1900,
-      "categories": "s",
-      "countries": "Germany"
-    },
-    {
       "wtId": 1208,
       "rank": 1149,
       "iconId": 226,
@@ -14194,18 +13734,6 @@
       "countries": "Hungary, Austria"
     },
     {
-      "wtId": 1210,
-      "rank": 1151,
-      "iconId": 98,
-      "caption": "mRNA vaccine",
-      "url": "Katalin_Karik%C3%B3",
-      "startDay": 8,
-      "startMonth": 12,
-      "startYear": 2020,
-      "categories": "s",
-      "countries": "Hungary, USA"
-    },
-    {
       "wtId": 1211,
       "rank": 1152,
       "iconId": 99,
@@ -14216,18 +13744,6 @@
       "startYear": 2019,
       "categories": "s",
       "countries": "world"
-    },
-    {
-      "wtId": 1212,
-      "rank": 1153,
-      "iconId": 282,
-      "caption": "Voltaic pile (first battery)",
-      "url": "Alessandro_Volta",
-      "startDay": 20,
-      "startMonth": 3,
-      "startYear": 1800,
-      "categories": "s",
-      "countries": "Italy"
     },
     {
       "wtId": 1213,
@@ -14338,18 +13854,6 @@
       "countries": "Poland, France"
     },
     {
-      "wtId": 1222,
-      "rank": 1163,
-      "iconId": 226,
-      "caption": "Periodic Table",
-      "url": "Dmitri_Mendeleev",
-      "startDay": 6,
-      "startMonth": 3,
-      "startYear": 1869,
-      "categories": "s",
-      "countries": "Russia"
-    },
-    {
       "wtId": 1223,
       "rank": 1164,
       "iconId": 226,
@@ -14372,30 +13876,6 @@
       "startYear": 1873,
       "categories": "s",
       "countries": "Scotland"
-    },
-    {
-      "wtId": 1225,
-      "rank": 1166,
-      "iconId": 98,
-      "caption": "Penicillin",
-      "url": "Alexander_Fleming",
-      "startDay": 28,
-      "startMonth": 9,
-      "startYear": 1928,
-      "categories": "s",
-      "countries": "Scotland"
-    },
-    {
-      "wtId": 1226,
-      "rank": 1167,
-      "iconId": 226,
-      "caption": "Higgs boson confirmed",
-      "url": "Higgs_boson",
-      "startDay": 4,
-      "startMonth": 7,
-      "startYear": 2012,
-      "categories": "s",
-      "countries": "Switzerland"
     },
     {
       "wtId": 1227,
@@ -14578,18 +14058,6 @@
       "countries": "USA"
     },
     {
-      "wtId": 1242,
-      "rank": 1183,
-      "iconId": 148,
-      "caption": "Powered airplane flight",
-      "url": "Wright_brothers",
-      "startDay": 17,
-      "startMonth": 12,
-      "startYear": 1903,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
       "wtId": 1243,
       "rank": 1184,
       "iconId": 99,
@@ -14646,30 +14114,6 @@
       "startDay": 1,
       "startMonth": 1,
       "startYear": 1980,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
-      "wtId": 1248,
-      "rank": 1189,
-      "iconId": 99,
-      "caption": "Gravitational waves",
-      "url": "First_observation_of_gravitational_waves",
-      "startDay": 11,
-      "startMonth": 2,
-      "startYear": 2015,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
-      "wtId": 1249,
-      "rank": 1190,
-      "iconId": 98,
-      "caption": "Polio vaccine",
-      "url": "Jonas_Salk",
-      "startDay": 1,
-      "startMonth": 11,
-      "startYear": 1955,
       "categories": "s",
       "countries": "USA"
     },
@@ -14746,18 +14190,6 @@
       "countries": "USA"
     },
     {
-      "wtId": 1256,
-      "rank": 1197,
-      "iconId": 226,
-      "caption": "First working laser",
-      "url": "Theodore_Maiman",
-      "startDay": 16,
-      "startMonth": 5,
-      "startYear": 1960,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
       "wtId": 1257,
       "rank": 1198,
       "iconId": 235,
@@ -14766,30 +14198,6 @@
       "startDay": 14,
       "startMonth": 2,
       "startYear": 1946,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
-      "wtId": 1258,
-      "rank": 1199,
-      "iconId": 235,
-      "caption": "Moore's Law",
-      "url": "Gordon_Moore",
-      "startDay": 19,
-      "startMonth": 4,
-      "startYear": 1965,
-      "categories": "s",
-      "countries": "USA"
-    },
-    {
-      "wtId": 1259,
-      "rank": 1200,
-      "iconId": 238,
-      "caption": "Structure of Scientific Revolutions",
-      "url": "The_Structure_of_Scientific_Revolutions",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1962,
       "categories": "s",
       "countries": "USA"
     },
@@ -14840,30 +14248,6 @@
       "startYear": 2008,
       "categories": "s",
       "countries": "USA, France"
-    },
-    {
-      "wtId": 1264,
-      "rank": 1205,
-      "iconId": 190,
-      "caption": "Human Genome Project draft",
-      "url": "Human_Genome_Project",
-      "startDay": 12,
-      "startMonth": 2,
-      "startYear": 2000,
-      "categories": "s",
-      "countries": "USA, United Kingdom"
-    },
-    {
-      "wtId": 1265,
-      "rank": 1206,
-      "iconId": 190,
-      "caption": "DNA double helix",
-      "url": "Nucleic_acid_double_helix",
-      "startDay": 25,
-      "startMonth": 4,
-      "startYear": 1953,
-      "categories": "s",
-      "countries": "USA, United Kingdom"
     },
     {
       "wtId": 1266,
