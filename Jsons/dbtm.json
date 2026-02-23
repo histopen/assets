@@ -216,6 +216,16 @@
       "countries": "World"
     },
     {
+      "wtId": 1410,
+      "rank": 21,
+      "iconId": 95,
+      "caption": "Spinosaurus Mirabilis",
+      "url": "Spinosaurus_mirabilis",
+      "startYear": -95000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
       "wtId": 22,
       "rank": 22,
       "iconId": 21,
