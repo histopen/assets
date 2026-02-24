@@ -17,6 +17,8 @@
 import * as cheerio from 'cheerio';
 import { promises as fs } from 'fs';
 import { dirname, join } from 'path';
+import potrace from 'potrace';
+import sharp from 'sharp';
 import { getPathBBox } from 'svg-path-commander';
 import { optimize } from 'svgo';
 import { fileURLToPath } from 'url';
@@ -68,6 +70,13 @@ function normalizeColor(color) {
   if (rgbMatch) {
     const toHex = n => parseInt(n).toString(16).padStart(2, '0');
     return '#' + toHex(rgbMatch[1]) + toHex(rgbMatch[2]) + toHex(rgbMatch[3]);
+  }
+
+  // rgba(r, g, b, a) — strip alpha, treat as solid color
+  const rgbaMatch = c.match(/rgba\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*[\d.]+\s*\)/);
+  if (rgbaMatch) {
+    const toHex = n => parseInt(n).toString(16).padStart(2, '0');
+    return '#' + toHex(rgbaMatch[1]) + toHex(rgbaMatch[2]) + toHex(rgbaMatch[3]);
   }
 
   // Return as-is if unrecognized
@@ -166,6 +175,20 @@ function transformNormalizeColors($, $svg, targetColor = TARGET_COLOR) {
   });
 
   const uniqueColors = [...colors];
+
+  // Strip opacity attributes — flatten all transparency to solid
+  $svg.find('[opacity], [fill-opacity], [stroke-opacity]').each((i, el) => {
+    $(el).removeAttr('opacity');
+    $(el).removeAttr('fill-opacity');
+    $(el).removeAttr('stroke-opacity');
+  });
+
+  // Strip opacity from inline styles
+  $svg.find('[style]').each((i, el) => {
+    let style = $(el).attr('style');
+    style = style.replace(/\b(opacity|fill-opacity|stroke-opacity)\s*:\s*[\d.]+\s*;?/g, '');
+    $(el).attr('style', style);
+  });
 
   // Always process: white → transparent, non-white → currentColor
   let fillsAdded = 0;
@@ -335,7 +358,7 @@ function normalizeNamespaces(content) {
 }
 
 /**
- * Compute bounding box of all visible elements (path and use)
+ * Compute bounding box of all visible elements (path, circle, rect, ellipse, polygon, polyline, use)
  * Takes transforms on parent elements into account
  * Skips elements inside <defs> (like clip-paths)
  */
@@ -377,6 +400,25 @@ function getContentBounds($, $svg) {
     return { left, top, right, bottom };
   }
 
+  // Helper to accumulate a raw bbox {x, y, x2, y2} accounting for ancestor transforms
+  function accumulateBBox(el, rawBBox) {
+    let left = rawBBox.x, top = rawBBox.y, right = rawBBox.x2, bottom = rawBBox.y2;
+    let node = el;
+    while (node && node.name !== 'svg') {
+      const transform = $(node).attr('transform');
+      if (transform) {
+        const t = applyTransformToBBox({ x: left, y: top, x2: right, y2: bottom }, transform);
+        left = t.left; right = t.right; top = t.top; bottom = t.bottom;
+      }
+      node = node.parent;
+    }
+    minX = Math.min(minX, left);
+    minY = Math.min(minY, top);
+    maxX = Math.max(maxX, right);
+    maxY = Math.max(maxY, bottom);
+    foundContent = true;
+  }
+
   // Process all <path> elements
   $svg.find('path').each((i, el) => {
     // Skip paths inside <defs> (clip-paths, patterns, etc.)
@@ -389,35 +431,59 @@ function getContentBounds($, $svg) {
     if (d) {
       try {
         const bbox = getPathBBox(d);
-        let left = bbox.x;
-        let top = bbox.y;
-        let right = bbox.x2;
-        let bottom = bbox.y2;
-
-        // Check for transforms on this element and parent elements
-        let node = el;
-        while (node && node.name !== 'svg') {
-          const transform = $(node).attr('transform');
-          if (transform) {
-            const transformed = applyTransformToBBox({ x: left, y: top, x2: right, y2: bottom }, transform);
-            left = transformed.left;
-            right = transformed.right;
-            top = transformed.top;
-            bottom = transformed.bottom;
-          }
-          node = node.parent;
-        }
-
-        minX = Math.min(minX, left);
-        minY = Math.min(minY, top);
-        maxX = Math.max(maxX, right);
-        maxY = Math.max(maxY, bottom);
-        foundContent = true;
+        accumulateBBox(el, { x: bbox.x, y: bbox.y, x2: bbox.x2, y2: bbox.y2 });
       } catch (e) {
         // Skip invalid paths
         console.log(`      ⚠ Could not parse path in element ${i}`);
       }
     }
+  });
+
+  // Process <circle> elements
+  $svg.find('circle').each((i, el) => {
+    if (isInsideDefs($, el)) return;
+    const $el = $(el);
+    const cx = parseFloat($el.attr('cx')) || 0;
+    const cy = parseFloat($el.attr('cy')) || 0;
+    const r = parseFloat($el.attr('r')) || 0;
+    accumulateBBox(el, { x: cx - r, y: cy - r, x2: cx + r, y2: cy + r });
+  });
+
+  // Process <ellipse> elements
+  $svg.find('ellipse').each((i, el) => {
+    if (isInsideDefs($, el)) return;
+    const $el = $(el);
+    const cx = parseFloat($el.attr('cx')) || 0;
+    const cy = parseFloat($el.attr('cy')) || 0;
+    const rx = parseFloat($el.attr('rx')) || 0;
+    const ry = parseFloat($el.attr('ry')) || 0;
+    accumulateBBox(el, { x: cx - rx, y: cy - ry, x2: cx + rx, y2: cy + ry });
+  });
+
+  // Process <rect> elements
+  $svg.find('rect').each((i, el) => {
+    if (isInsideDefs($, el)) return;
+    const $el = $(el);
+    const x = parseFloat($el.attr('x')) || 0;
+    const y = parseFloat($el.attr('y')) || 0;
+    const w = parseFloat($el.attr('width')) || 0;
+    const h = parseFloat($el.attr('height')) || 0;
+    accumulateBBox(el, { x, y, x2: x + w, y2: y + h });
+  });
+
+  // Process <polygon> and <polyline> elements
+  $svg.find('polygon, polyline').each((i, el) => {
+    if (isInsideDefs($, el)) return;
+    const points = ($(el).attr('points') || '').trim().split(/[\s,]+/).map(Number);
+    if (points.length < 2) return;
+    let pMinX = Infinity, pMinY = Infinity, pMaxX = -Infinity, pMaxY = -Infinity;
+    for (let j = 0; j < points.length - 1; j += 2) {
+      pMinX = Math.min(pMinX, points[j]);
+      pMaxX = Math.max(pMaxX, points[j]);
+      pMinY = Math.min(pMinY, points[j + 1]);
+      pMaxY = Math.max(pMaxY, points[j + 1]);
+    }
+    accumulateBBox(el, { x: pMinX, y: pMinY, x2: pMaxX, y2: pMaxY });
   });
 
   // Process all <use> elements
@@ -433,16 +499,7 @@ function getContentBounds($, $svg) {
       const d = $ref.attr('d');
       try {
         const bbox = getPathBBox(d);
-        const transform = $el.attr('transform');
-
-        if (transform) {
-          const transformed = applyTransformToBBox(bbox, transform);
-          minX = Math.min(minX, transformed.left);
-          minY = Math.min(minY, transformed.top);
-          maxX = Math.max(maxX, transformed.right);
-          maxY = Math.max(maxY, transformed.bottom);
-          foundContent = true;
-        }
+        accumulateBBox(el, { x: bbox.x, y: bbox.y, x2: bbox.x2, y2: bbox.y2 });
       } catch (e) {
         // Skip invalid references
       }
@@ -586,6 +643,38 @@ async function processSvg(filename, transformFn, description) {
 }
 
 /**
+ * Convert a transparent PNG to an SVG by tracing the alpha channel with potrace.
+ * Opaque pixels become the traced shape; transparent pixels become background.
+ * Returns SVG string.
+ */
+async function convertPngToSvg(pngPath) {
+  const metadata = await sharp(pngPath).metadata();
+  if (!metadata.hasAlpha) {
+    throw new Error(`PNG has no alpha channel (not transparent)`);
+  }
+
+  // Extract alpha channel as grayscale, then negate:
+  // opaque (alpha=255) → dark (0) — potrace traces dark areas as shape
+  // transparent (alpha=0) → light (255) — becomes background
+  const alphaBuffer = await sharp(pngPath)
+    .extractChannel('alpha')
+    .negate()
+    .png()
+    .toBuffer();
+
+  return new Promise((resolve, reject) => {
+    potrace.trace(alphaBuffer, {
+      threshold: 128,
+      color: TARGET_COLOR,
+      background: 'transparent',
+    }, (err, svg) => {
+      if (err) reject(err);
+      else resolve(svg);
+    });
+  });
+}
+
+/**
  * Main entry point
  */
 async function main() {
@@ -596,22 +685,68 @@ async function main() {
   // Ensure target directory exists
   await fs.mkdir(TARGET_DIR, { recursive: true });
 
-  // Get list of SVG files from source
-  const files = (await fs.readdir(SOURCE_DIR)).filter(f => f.endsWith('.svg'));
-  
-  if (files.length === 0) {
-    console.log('No SVG files found in source/');
+  // Get list of SVG and PNG files from source
+  const allSourceFiles = await fs.readdir(SOURCE_DIR);
+  const svgSourceFiles = allSourceFiles.filter(f => f.toLowerCase().endsWith('.svg'));
+  const pngSourceFiles = allSourceFiles.filter(f => f.toLowerCase().endsWith('.png'));
+
+  if (svgSourceFiles.length === 0 && pngSourceFiles.length === 0) {
+    console.log('No SVG or PNG files found in source/');
     return;
   }
 
-  console.log(`Found ${files.length} SVG file(s) in source/:\n`);
-  for (const f of files) {
-    console.log(`  • ${f}`);
+  // ═══════════════════════════════════════════════════════════════════════════
+  // PRE-STEP: Convert PNGs to SVGs
+  // ═══════════════════════════════════════════════════════════════════════════
+  const convertedFromPng = [];
+
+  if (pngSourceFiles.length > 0) {
+    console.log('\n┌───────────────────────────────────────────────────────────┐');
+    console.log('│  PRE-STEP: Convert transparent PNGs to SVG (potrace)      │');
+    console.log('└───────────────────────────────────────────────────────────┘\n');
+
+    for (const pngFile of pngSourceFiles) {
+      const pngPath = join(SOURCE_DIR, pngFile);
+      const svgName = pngFile.replace(/\.png$/i, '.svg');
+      const metadata = await sharp(pngPath).metadata();
+
+      if (!metadata.hasAlpha) {
+        console.log(`  ⚠ Skipping ${pngFile} (no transparent background)`);
+        continue;
+      }
+
+      process.stdout.write(`  • ${pngFile} (${metadata.width}×${metadata.height}) → ${svgName} ... `);
+      try {
+        const svgContent = await convertPngToSvg(pngPath);
+        await fs.writeFile(join(TARGET_DIR, svgName), svgContent);
+        convertedFromPng.push(svgName);
+        console.log('✓');
+      } catch (err) {
+        console.log(`❌ ${err.message}`);
+      }
+    }
+
+    console.log(`\n✅ PNG pre-step complete. ${convertedFromPng.length} PNG(s) converted.`);
   }
 
-  // Copy files to target first (normalize namespaces during copy)
-  console.log('\n📁 Copying files to target/...\n');
-  for (const file of files) {
+  // All files to process: original SVGs + SVGs converted from PNG
+  const files = [...svgSourceFiles, ...convertedFromPng];
+
+  if (files.length === 0) {
+    console.log('No processable files found.');
+    return;
+  }
+
+  console.log(`\nFound ${files.length} file(s) to process:\n`);
+  for (const f of files) {
+    const tag = convertedFromPng.includes(f) ? ' (from PNG)' : '';
+    console.log(`  • ${f}${tag}`);
+  }
+
+  // Copy SVG source files to target (normalize namespaces during copy)
+  // PNG-converted files are already in target/
+  console.log('\n📁 Copying SVG files to target/...\n');
+  for (const file of svgSourceFiles) {
     let content = await fs.readFile(join(SOURCE_DIR, file), 'utf-8');
     // Normalize namespace prefixes (ns0:svg -> svg, etc.)
     content = normalizeNamespaces(content);

@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-
   "scripts": {
     "loc": "(node jsontools/toolloc.js && git -C .. add -f Jsons/language && git -C .. commit -m \"update loc\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "loc-n": "node jsontools/toolloc.js",
@@ -29,6 +28,7 @@
   "dependencies": {
     "@resvg/resvg-js": "^2.6.0",
     "cheerio": "^1.0.0-rc.12",
+    "potrace": "^2.1.8",
     "sharp": "^0.33.0",
     "svg-path-bounds": "^1.0.2",
     "svgpath": "^2.6.0",
