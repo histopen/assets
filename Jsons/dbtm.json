@@ -144,6 +144,16 @@
       "countries": "World"
     },
     {
+      "wtId": 1291,
+      "rank": 21,
+      "iconId": 95,
+      "caption": "Spinosaurus Mirabilis",
+      "url": "Spinosaurus_mirabilis",
+      "startYear": -95000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
       "wtId": 19,
       "rank": 15,
       "iconId": 14,
@@ -206,22 +216,14 @@
       "countries": "World"
     },
     {
-      "wtId": 1291,
-      "rank": 21,
-      "iconId": 95,
-      "caption": "Spinosaurus Mirabilis",
-      "url": "Spinosaurus_mirabilis",
-      "startYear": -95000000,
-      "categories": "s",
-      "countries": "World"
-    },
-    {
       "wtId": 24,
       "rank": 22,
       "iconId": 20,
       "caption": "Tyrannosaurus",
       "url": "Tyrannosaurus",
-      "startYear": -67000000,
+      "startCirca": 3000000,
+      "startCircaUnit": "y",
+      "startYear": -69000000,
       "categories": "s",
       "countries": "World"
     },
@@ -425,8 +427,22 @@
       "countries": "Middle East"
     },
     {
-      "wtId": 198,
+      "wtId": 325,
       "rank": 41,
+      "iconId": 218,
+      "caption": "Birth of Buddha",
+      "url": "The_Buddha",
+      "startCirca": 83,
+      "startCircaUnit": "y",
+      "startDay": 8,
+      "startMonth": 4,
+      "startYear": -563,
+      "categories": "b, c",
+      "countries": "Nepal"
+    },
+    {
+      "wtId": 198,
+      "rank": 42,
       "iconId": 34,
       "caption": "Crucifixion of Jesus",
       "url": "Crucifixion_of_Jesus",
@@ -439,7 +455,7 @@
     },
     {
       "wtId": 199,
-      "rank": 42,
+      "rank": 43,
       "iconId": 34,
       "caption": "Birth of Jesus",
       "url": "Jesus",
@@ -449,7 +465,7 @@
     },
     {
       "wtId": 326,
-      "rank": 43,
+      "rank": 44,
       "iconId": 158,
       "caption": "Death of Muhammad",
       "url": "Muhammad",
@@ -458,18 +474,6 @@
       "startYear": 632,
       "categories": "p, c, b",
       "countries": "Saudi Arabia"
-    },
-    {
-      "wtId": 325,
-      "rank": 44,
-      "iconId": 218,
-      "caption": "Birth of Buddha",
-      "url": "The_Buddha",
-      "startCirca": 83,
-      "startCircaUnit": "y",
-      "startYear": -563,
-      "categories": "b, c",
-      "countries": "Nepal"
     },
     {
       "wtId": 36,
@@ -5471,7 +5475,7 @@
       "wtId": 414,
       "rank": 419,
       "iconId": 241,
-      "caption": "526 Antioch earthquake",
+      "caption": "Antioch earthquake",
       "url": "526_Antioch_earthquake",
       "startDay": 20,
       "startMonth": 5,
@@ -5686,7 +5690,7 @@
     {
       "wtId": 432,
       "rank": 437,
-      "iconId": 261,
+      "iconId": 86,
       "caption": "Light Brigade Charge",
       "url": "Charge_of_the_Light_Brigade",
       "startDay": 25,
@@ -6814,7 +6818,7 @@
     {
       "wtId": 526,
       "rank": 531,
-      "iconId": 261,
+      "iconId": 111,
       "caption": "Mexican-American War",
       "url": "Mexican%E2%80%93American_War",
       "startDay": 8,
@@ -8940,7 +8944,7 @@
     {
       "wtId": 704,
       "rank": 708,
-      "iconId": 807,
+      "iconId": 808,
       "caption": "Congo independence",
       "url": "Patrice_Lumumba",
       "startDay": 30,
@@ -9108,7 +9112,7 @@
     {
       "wtId": 718,
       "rank": 722,
-      "iconId": 812,
+      "iconId": 46,
       "caption": "Charlemagne King of Franks",
       "url": "Charlemagne",
       "startDay": 9,
@@ -13150,18 +13154,6 @@
       "countries": "Martinique, France"
     },
     {
-      "wtId": 1056,
-      "rank": 1059,
-      "iconId": 238,
-      "caption": "Four Noble Truths",
-      "url": "Gautama_Buddha",
-      "startDay": 8,
-      "startMonth": 4,
-      "startYear": -563,
-      "categories": "c, b",
-      "countries": "Nepal, India"
-    },
-    {
       "wtId": 1057,
       "rank": 1060,
       "iconId": 238,
@@ -16074,7 +16066,7 @@
       "startMonth": 1,
       "startYear": 1649,
       "categories": "p",
-      "countries": "England"
+      "countries": "United Kingdom"
     },
     {
       "wtId": 1307,
@@ -16086,7 +16078,7 @@
       "startMonth": 6,
       "startYear": 1651,
       "categories": "c, b",
-      "countries": "England"
+      "countries": "United Kingdom"
     },
     {
       "wtId": 1308,
@@ -16098,7 +16090,7 @@
       "startMonth": 12,
       "startYear": 1653,
       "categories": "p",
-      "countries": "England"
+      "countries": "United Kingdom"
     },
     {
       "wtId": 1309,
@@ -16158,7 +16150,7 @@
       "startMonth": 10,
       "startYear": 1829,
       "categories": "t",
-      "countries": "England"
+      "countries": "United Kingdom"
     },
     {
       "wtId": 1314,
