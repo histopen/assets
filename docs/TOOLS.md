@@ -2,10 +2,11 @@
 
 ## Scripts Summary
 
-`npm run` : atlas - ui - tmconvert - loc - loc en - btn - tv - cosmos - dbtm
+`npm run` : **tl** - atlas - ui - tmconvert - loc - loc en - btn - tv - cosmos - dbtm
 
 | Category | npm run command | Google Sheet | Type | Description | File Output |
 |----------|-----------------|--------------|------|-------------|-------------|
+| **tl** | **`npm run tl`** | N/A | pipeline | **Full TL pipeline** (see below) | dbtm.json + TM_Icons + Atlas |
 | btn | `npm run btn` | [sheet](https://docs.google.com/spreadsheets/d/1q7X86GjY9ULTf3P8AH4fdjl6nPc0JADQaWQWlP798sc) | svg+json | UI buttons (runs <br> script 'ui' first) | sprites-ui.svg<br>buttonsConfig.json |
 | loc | `npm run loc`<br>`npm run loc en` | [sheet](https://docs.google.com/spreadsheets/d/122F4RZYbeBNl10tjWZYjimDzUazSMN1jyQaatOtxSR8) | json | localization strings | Jsons/language/en.json, etc. |
 | tv | `npm run tv` | [sheet](https://docs.google.com/spreadsheets/d/1-aKx4qxKP-cK0Tq5XyMW0G4fa_BBc8go6cWh8kyYydI) | json | timeview buttons | Jsons/tvConfig.json |
@@ -17,6 +18,27 @@
 |||||||
 | ui | `npm run ui` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
 
+
+---
+
+## TL Pipeline (`npm run tl`)
+
+Fast update of timeline elements in one command. Replaces running dbtm + tmconvert + atlas separately.
+
+### Steps
+1. **dbtm** — fetches timemarks DB from Google Sheet → `Jsons/dbtm.json`
+2. **tmconvert** *(if SVG/PNG files are in `source/`)* — normalizes, resizes, centers icons
+3. If tmconvert succeeds:
+   - **Backup** — moves source files to `Icons_TimeMarks/BACKUP tm_icons/YYYY-MM-DD/`
+   - **Update TM_Icons** — removes any existing icon with the same 4-digit prefix (conflict or rename), moves converted icons from `target/` to `TM_Icons/`
+   - **atlas** — rebuilds texture atlas from all icons in `TM_Icons/`
+4. **Single git commit + push** — `update dbtm` or `update dbtm + N TM icon(s)`
+
+### Notes
+- Uses `-n` (no-commit) variants of dbtm and atlas internally; does one combined commit at the end
+- If no SVG/PNG in `source/`, steps 2-3 are skipped (dbtm only)
+- If tmconvert fails, icon steps are skipped but dbtm is still committed
+- `leave.me.here` and other non-SVG/PNG files in `source/` are ignored
 
 ---
 ## Do NOT edit json files => a) Edit Sheet b) run npm script

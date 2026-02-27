@@ -19,7 +19,8 @@
     "atlas": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\"",
     "atlas:all": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "atlas:all-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all"
+    "atlas:all-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all",
+    "tl": "node jsontools/tooltl.mjs"
   },
   "devDependencies": {
     "svg-path-commander": "^2.1.11",
