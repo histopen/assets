@@ -110,8 +110,8 @@
   "109": "0109-homo-longi.svg",
   "110": "0110-homo-heidelbergensis.svg",
   "111": "0111-weapon-machine-gun.svg",
-  "112": "0112-bike.svg",
-  "113": "0113-bomb.svg",
+  "112": "0112-phoenician-alphabet.svg",
+  "113": "0113-engine.svg",
   "114": "0114-book.svg",
   "115": "0115-candle.svg",
   "116": "0116-cat.svg",
@@ -322,5 +322,6 @@
   "838": "0838-countries-map.svg",
   "839": "0839-countries-venezuela.svg",
   "840": "0840-countries-vietnam.svg",
-  "841": "0841-ukraine.svg"
+  "841": "0841-countries-ukraine.svg",
+  "842": "0842-countries-mali.svg"
 }
