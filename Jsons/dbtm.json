@@ -116,6 +116,7 @@
     {
       "wtId": 12,
       "rank": 12,
+      "iconId": 117,
       "caption": "Days of 18 hours",
       "url": "Earth%27s_rotation",
       "startYear": -1100000000,
@@ -125,6 +126,7 @@
     {
       "wtId": 13,
       "rank": 13,
+      "iconId": 115,
       "caption": "Sexual Reproduction",
       "url": "Sexual_reproduction",
       "startYear": -1000000000,
@@ -134,6 +136,7 @@
     {
       "wtId": 14,
       "rank": 14,
+      "iconId": 117,
       "caption": "Supercontinent Rodinia",
       "url": "Rodiniaa",
       "startYear": -900000000,
@@ -143,6 +146,7 @@
     {
       "wtId": 15,
       "rank": 15,
+      "iconId": 215,
       "caption": "Microbial Land Colonization",
       "url": "Soil_microbiology",
       "startYear": -800000000,
@@ -557,7 +561,7 @@
     {
       "wtId": 53,
       "rank": 53,
-      "iconId": 106,
+      "iconId": 116,
       "caption": "Code of  Hammurabi",
       "url": "Code_of_Hammurabi",
       "startCirca": 4,
