@@ -116,10 +116,10 @@
     {
       "wtId": 12,
       "rank": 12,
-      "iconId": 117,
-      "caption": "Days of 18 hours",
+      "iconId": 2,
+      "caption": "Days of 19 hours",
       "url": "Earth%27s_rotation",
-      "startYear": -1100000000,
+      "startYear": -1300000000,
       "categories": "s",
       "countries": "World"
     },
@@ -184,8 +184,18 @@
       "countries": "World"
     },
     {
-      "wtId": 19,
+      "wtId": 25,
       "rank": 19,
+      "iconId": 95,
+      "caption": "Spinosaurus Mirabilis",
+      "url": "Spinosaurus_mirabilis",
+      "startYear": -95000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 19,
+      "rank": 20,
       "iconId": 14,
       "caption": "Argentinosaurus",
       "url": "Argentinosaurus",
@@ -195,7 +205,7 @@
     },
     {
       "wtId": 20,
-      "rank": 20,
+      "rank": 21,
       "iconId": 15,
       "caption": "Pterodactylus",
       "url": "Pterodactylus",
@@ -205,7 +215,7 @@
     },
     {
       "wtId": 21,
-      "rank": 21,
+      "rank": 22,
       "iconId": 16,
       "caption": "Ceratops",
       "url": "Ceratops",
@@ -215,7 +225,7 @@
     },
     {
       "wtId": 22,
-      "rank": 22,
+      "rank": 23,
       "iconId": 17,
       "caption": "Velociraptor",
       "url": "Velociraptor",
@@ -225,7 +235,7 @@
     },
     {
       "wtId": 23,
-      "rank": 23,
+      "rank": 24,
       "iconId": 19,
       "caption": "Australopithecus",
       "url": "Australopithecus",
@@ -235,23 +245,13 @@
     },
     {
       "wtId": 24,
-      "rank": 24,
+      "rank": 25,
       "iconId": 18,
       "caption": "Afropithecus",
       "url": "Afropithecus",
       "startCirca": 2000000,
       "startCircaUnit": "y",
       "startYear": -16000000,
-      "categories": "s",
-      "countries": "World"
-    },
-    {
-      "wtId": 25,
-      "rank": 25,
-      "iconId": 95,
-      "caption": "Spinosaurus Mirabilis",
-      "url": "Spinosaurus_mirabilis",
-      "startYear": -95000000,
       "categories": "s",
       "countries": "World"
     },
@@ -435,6 +435,356 @@
       "countries": "World"
     },
     {
+      "wtId": 1326,
+      "rank": 1326,
+      "iconId": 215,
+      "caption": "First stromatolites",
+      "url": "Stromatolite",
+      "startYear": -2900000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1327,
+      "rank": 1327,
+      "iconId": 117,
+      "caption": "Vaalbara Supercontinent",
+      "url": "Vaalbara",
+      "startYear": -2800000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1328,
+      "rank": 1328,
+      "iconId": 10,
+      "caption": "Banded iron formations",
+      "url": "Banded_iron_formation",
+      "startYear": -2700000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1329,
+      "rank": 1329,
+      "iconId": 215,
+      "caption": "Great Oxidation Event",
+      "url": "Great_Oxidation_Event",
+      "startYear": -2500000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1330,
+      "rank": 1330,
+      "iconId": 117,
+      "caption": "Rodinia Breakup",
+      "url": "Rodinia",
+      "startYear": -750000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1331,
+      "rank": 1331,
+      "iconId": 269,
+      "caption": "Sturtian Ice Age",
+      "url": "Sturtian_glaciation",
+      "startYear": -720000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1332,
+      "rank": 1332,
+      "iconId": 269,
+      "caption": "end of Marinoan Ice Age",
+      "url": "Marinoan_glaciation",
+      "startYear": -635000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1333,
+      "rank": 1333,
+      "iconId": 9,
+      "caption": "Ediacaran multicellular life",
+      "url": "Ediacaran_biota",
+      "startYear": -600000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1334,
+      "rank": 1334,
+      "iconId": 9,
+      "caption": "Cambrian",
+      "url": "Cambrian_explosion",
+      "startYear": -555000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1335,
+      "rank": 1335,
+      "iconId": 119,
+      "caption": "Cambrian Explosion peaks",
+      "url": "Cambrian_explosion",
+      "startYear": -500000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1336,
+      "rank": 1336,
+      "iconId": 119,
+      "caption": "Ordovician",
+      "url": "Ordovician",
+      "startYear": -488000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1337,
+      "rank": 1337,
+      "iconId": 207,
+      "caption": "Biodiversification",
+      "url": "Great_Ordovician_Biodiversification_Event",
+      "startYear": -470000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1338,
+      "rank": 1338,
+      "iconId": 221,
+      "caption": "Mass extinction",
+      "url": "Late_Ordovician_mass_extinction",
+      "startYear": -450000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1339,
+      "rank": 1339,
+      "iconId": 56,
+      "caption": "Vascular plants on land",
+      "url": "Silurian",
+      "startYear": -430000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1340,
+      "rank": 1340,
+      "iconId": 106,
+      "caption": "Jawed vertebrates",
+      "url": "Jawed_fish",
+      "startYear": -420000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1341,
+      "rank": 1341,
+      "iconId": 221,
+      "caption": "Devonian mass extinction",
+      "url": "Late_Devonian_extinction",
+      "startYear": -385000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1342,
+      "rank": 1342,
+      "iconId": 163,
+      "caption": "Fish walks onto land",
+      "url": "Tiktaalik",
+      "startYear": -375000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1343,
+      "rank": 1343,
+      "iconId": 56,
+      "caption": "Coal forests",
+      "url": "Carboniferous",
+      "startYear": -360000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1344,
+      "rank": 1344,
+      "iconId": 117,
+      "caption": "Assembly of Pangaea",
+      "url": "Pangaea",
+      "startYear": -300000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1345,
+      "rank": 1345,
+      "iconId": 221,
+      "caption": "The Great Dying",
+      "url": "Permian%E2%80%93Triassic_extinction_event",
+      "startYear": -252000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1346,
+      "rank": 1346,
+      "iconId": 221,
+      "caption": "Extinction",
+      "url": "Triassic%E2%80%93Jurassic_extinction_event",
+      "startYear": -200000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1347,
+      "rank": 1347,
+      "iconId": 117,
+      "caption": "Pangaea splits",
+      "url": "Jurassic",
+      "startYear": -180000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1348,
+      "rank": 1348,
+      "iconId": 192,
+      "caption": "Birds from dinosaurs",
+      "url": "Evolution_of_birds",
+      "startYear": -165000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1349,
+      "rank": 1349,
+      "iconId": 12,
+      "caption": "Flowering plants",
+      "url": "Flowering_plant",
+      "startYear": -120000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1350,
+      "rank": 1350,
+      "iconId": 161,
+      "caption": "Hothouse climate",
+      "url": "Cretaceous_Thermal_Maximum",
+      "startYear": -110000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1351,
+      "rank": 1351,
+      "iconId": 221,
+      "caption": "Oceanic Anoxic",
+      "url": "Cenomanian-Turonian_boundary_event",
+      "startYear": -100000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1352,
+      "rank": 1352,
+      "iconId": 161,
+      "caption": "Thermal Maximum",
+      "url": "Paleocene%E2%80%93Eocene_Thermal_Maximum",
+      "startYear": -60000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1353,
+      "rank": 1353,
+      "iconId": 13,
+      "caption": "Mammal diversification",
+      "url": "Evolution_of_mammals",
+      "startYear": -55000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1354,
+      "rank": 1354,
+      "iconId": 117,
+      "caption": "India collides with Asia",
+      "url": "India%E2%80%93Asia_collision",
+      "startYear": -50000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1355,
+      "rank": 1355,
+      "iconId": 118,
+      "caption": "Whales return to the sea",
+      "url": "Cetacea",
+      "startYear": -45000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1356,
+      "rank": 1356,
+      "iconId": 269,
+      "caption": "Antarctic ice sheet",
+      "url": "Antarctic_ice_sheet",
+      "startYear": -40000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1357,
+      "rank": 1357,
+      "iconId": 161,
+      "caption": "Global cooling",
+      "url": "Eocene%E2%80%93Oligocene_extinction_event",
+      "startYear": -35000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1358,
+      "rank": 1358,
+      "iconId": 56,
+      "caption": "Grasslands and grazing mammals",
+      "url": "Perissodactyla",
+      "startYear": -30000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1359,
+      "rank": 1359,
+      "iconId": 18,
+      "caption": "Miocene",
+      "url": "Miocene",
+      "startYear": -23000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
+      "wtId": 1360,
+      "rank": 1360,
+      "iconId": 56,
+      "caption": "Kelp forest ecosystems",
+      "url": "Kelp_forest",
+      "startYear": -20000000,
+      "categories": "s",
+      "countries": "World"
+    },
+    {
       "wtId": 42,
       "rank": 42,
       "iconId": 31,
@@ -522,7 +872,7 @@
       "caption": "Agriculture",
       "url": "Agriculture",
       "startYear": -10000,
-      "categories": "t, c, p, b",
+      "categories": "t, c",
       "countries": "World"
     },
     {
@@ -2964,7 +3314,7 @@
     {
       "wtId": 234,
       "rank": 234,
-      "iconId": 80,
+      "iconId": 5,
       "caption": "Moon Landing",
       "url": "Apollo_11",
       "startDay": 20,
@@ -9717,7 +10067,7 @@
       "wtId": 773,
       "rank": 773,
       "iconId": 837,
-      "caption": "Recep Tayyip Erdogan",
+      "caption": "Erdogan reelected",
       "url": "Recep_Tayyip_Erdo%C4%9Fan",
       "startDay": 14,
       "startMonth": 5,
@@ -16141,7 +16491,7 @@
       "startDay": 1,
       "startMonth": 6,
       "startYear": 1653,
-      "categories": "c, t",
+      "categories": "c, t, b",
       "countries": "India"
     },
     {
