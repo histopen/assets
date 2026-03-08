@@ -106,5 +106,17 @@
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 8},
       {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
       {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 1}
+    ]}],
+  [5, {"timeContainerCaption": "Last10USPotus", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 46},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 47},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 48},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 49},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 50},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 51},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 52},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 53},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 54},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 55}
     ]}]
 ]
