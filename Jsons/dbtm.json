@@ -4015,7 +4015,7 @@
       "wtId": 326,
       "rank": 326,
       "iconId": 243,
-      "caption": "Johnson Player of the Year",
+      "caption": "D. Johnson, player of the Year",
       "url": "Dustin_Johnson",
       "startDay": 1,
       "startMonth": 11,
@@ -5761,18 +5761,6 @@
       "startDay": 29,
       "startMonth": 8,
       "startYear": 1831,
-      "categories": "s",
-      "countries": "England"
-    },
-    {
-      "wtId": 472,
-      "rank": 472,
-      "iconId": 282,
-      "caption": "Electron discovery",
-      "url": "J._J._Thomson",
-      "startDay": 1,
-      "startMonth": 11,
-      "startYear": 1897,
       "categories": "s",
       "countries": "England"
     },
@@ -7676,7 +7664,7 @@
     {
       "wtId": 631,
       "rank": 631,
-      "iconId": 810,
+      "iconId": 219,
       "caption": "Elizabeth I Queen",
       "url": "Elizabeth_I",
       "startDay": 17,
