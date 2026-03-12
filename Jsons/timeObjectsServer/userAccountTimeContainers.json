@@ -74,20 +74,17 @@
       {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
       {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 3}
     ]}],
-  [2, {"timeContainerCaption": "13TD", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 1},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 2},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 3},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 4},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 5},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 6},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 7},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 8},
-      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
-      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 1},
-      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
-      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 3}
+  [2, {"timeContainerCaption": "test", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 100},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 100},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 101},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 101},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 102},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 103},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 104},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 102},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 103},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 104}
     ]}],
   [3, {"timeContainerCaption": "7TD", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
@@ -119,13 +116,19 @@
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 54},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 55}
     ]}],
-  [6, {"timeContainerCaption": "test", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 100},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 100},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 101},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 101},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 102},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 103},
-      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 104}
+  [6, {"timeContainerCaption": "13TD", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 1},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 3},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 4},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 5},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 6},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 7},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 8},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 0},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 1},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 2},
+      {"TOType": "timeData",      "Database": "dbUserAccount", "DatabaseKey": 3}
     ]}]
 ]
