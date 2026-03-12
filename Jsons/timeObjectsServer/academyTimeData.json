@@ -222,5 +222,25 @@
   [55, {"timeDataCaption": "Biden", "timeDataUrl": "Joe_Biden", "timeDataDate": {
       "startDay": 20, "startMonth": 11, "startYear": 1942,
       "endDay":  2, "endMonth":  4, "endYear": 4242
+    }}],
+  [100, {"timeDataCaption": "A", "timeDataUrl": "Bill_Clinton", "timeDataDate": {
+      "startDay": 1, "startMonth": 1, "startYear": 2000,
+      "endDay":  31, "endMonth":  12, "endYear": 2000
+    }}],
+  [101, {"timeDataCaption": "B", "timeDataUrl": "George_W._Bush", "timeDataDate": {
+      "startDay": 1, "startMonth": 1, "startYear": 2001,
+      "endDay":  31, "endMonth":  12, "endYear": 2001
+    }}],
+  [102, {"timeDataCaption": "C", "timeDataUrl": "Barack_Obama", "timeDataDate": {
+      "startDay": 1, "startMonth": 1, "startYear": 2002,
+      "endDay":  31, "endMonth":  12, "endYear": 2002
+    }}],
+  [103, {"timeDataCaption": "D", "timeDataUrl": "Donald_Trump", "timeDataDate": {
+      "startDay": 1, "startMonth": 1, "startYear": 2003,
+      "endDay":  31, "endMonth":  12, "endYear": 2003
+    }}],
+  [104, {"timeDataCaption": "E", "timeDataUrl": "Joe_Biden", "timeDataDate": {
+      "startDay": 1, "startMonth": 1, "startYear": 2004,
+      "endDay":  31, "endMonth":  12, "endYear": 2004
     }}]
 ]

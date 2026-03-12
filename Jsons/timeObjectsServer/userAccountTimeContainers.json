@@ -118,5 +118,12 @@
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 53},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 54},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 55}
+    ]}],
+  [6, {"timeContainerCaption": "test", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 100},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 101},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 102},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 103},
+      {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 104}
     ]}]
 ]
