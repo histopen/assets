@@ -1,0 +1,6 @@
+<svg id="copy" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Back document (hollow outline) -->
+  <path fill-rule="evenodd" d="M172 0H452V330H172V0ZM198 26H426V304H198V26Z"/>
+  <!-- Front document (filled pentagon / page shape) -->
+  <path d="M60 182H264L344 262V512H60V182Z"/>
+</svg>

@@ -616,4 +616,7 @@ c-178 -90 -179 -107 -3 -112 176 -5 716 13 727 24 6 6 6 22 0 45 l-10 36 -122
   </g></g></symbol>
   <symbol id="lg_zh" viewBox="0 0 644 484"><g transform="translate(2,2)"><rect width="640" height="480" fill="#de2910"/>
   <polygon points="120,96 133,144 184,144 142,172 155,220 120,192 85,220 98,172 56,144 107,144" fill="#ffde00"/></g></symbol>
+  <symbol id="copy" viewBox="0 0 512 512"><g><path fill-rule="evenodd" d="M172 0H452V330H172V0ZM198 26H426V304H198V26Z"/><path d="M60 182H264L344 262V512H60V182Z"/></g></symbol>
+  <symbol id="cut" viewBox="0 0 512 512"><g><path d="M16 0H96L256 235H176Z"/><path d="M416 0H496L256 235H336Z"/><path fill-rule="evenodd" d="M56 442A100 100 0 1 0 256 442A100 100 0 1 0 56 442ZM80 442A76 76 0 1 1 232 442A76 76 0 1 1 80 442Z"/><path fill-rule="evenodd" d="M256 442A100 100 0 1 0 456 442A100 100 0 1 0 256 442ZM280 442A76 76 0 1 1 432 442A76 76 0 1 1 280 442Z"/></g></symbol>
+  <symbol id="paste" viewBox="0 0 512 512"><g><path d="M176 0H336V120H176Z"/><path fill-rule="evenodd" d="M60 80H452V512H60V80ZM90 190H422V482H90V190Z"/><path d="M130 250H382V278H130ZM130 322H382V350H130ZM130 394H270V422H130Z"/></g></symbol>
 </svg>

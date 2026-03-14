@@ -1,0 +1,8 @@
+<svg id="paste" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clipboard tab -->
+  <path d="M176 0H336V120H176Z"/>
+  <!-- Clipboard body with paper hollow (evenodd) -->
+  <path fill-rule="evenodd" d="M60 80H452V512H60V80ZM90 190H422V482H90V190Z"/>
+  <!-- Content lines on paper -->
+  <path d="M130 250H382V278H130ZM130 322H382V350H130ZM130 394H270V422H130Z"/>
+</svg>

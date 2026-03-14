@@ -1,0 +1,10 @@
+<svg id="cut" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left blade -->
+  <path d="M16 0H96L256 235H176Z"/>
+  <!-- Right blade -->
+  <path d="M416 0H496L256 235H336Z"/>
+  <!-- Left handle ring -->
+  <path fill-rule="evenodd" d="M56 442A100 100 0 1 0 256 442A100 100 0 1 0 56 442ZM80 442A76 76 0 1 1 232 442A76 76 0 1 1 80 442Z"/>
+  <!-- Right handle ring -->
+  <path fill-rule="evenodd" d="M256 442A100 100 0 1 0 456 442A100 100 0 1 0 256 442ZM280 442A76 76 0 1 1 432 442A76 76 0 1 1 280 442Z"/>
+</svg>
