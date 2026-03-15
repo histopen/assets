@@ -1,6 +1,1 @@
-<svg id="copy" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <!-- Back document (hollow outline) -->
-  <path fill-rule="evenodd" d="M172 0H452V330H172V0ZM198 26H426V304H198V26Z"/>
-  <!-- Front document (filled pentagon / page shape) -->
-  <path d="M60 182H264L344 262V512H60V182Z"/>
-</svg>
+<svg width="469" height="542" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs><clipPath id="clip0"><rect x="1091" y="1135" width="469" height="542"/></clipPath></defs><g clip-path="url(#clip0)" transform="translate(-1091 -1135)"><path d="M1144.79 1207.79 1398.14 1207.79C1427.85 1207.79 1451.93 1231.9 1451.93 1261.64L1451.93 1623.15C1451.93 1652.89 1427.85 1677 1398.14 1677L1144.79 1677C1115.08 1677 1091 1652.89 1091 1623.15L1091 1261.64C1091 1231.9 1115.08 1207.79 1144.79 1207.79ZM1252.86 1135 1506.21 1135C1535.92 1135 1560 1159.11 1560 1188.85L1560 1550.36C1560 1580.1 1535.92 1604.21 1506.21 1604.21L1488.09 1604.21 1488.09 1264.52C1488.09 1216.37 1449.1 1177.34 1401.01 1177.34L1201.39 1177.34 1203.3 1167.89C1211.46 1148.56 1230.58 1135 1252.86 1135Z" fill-rule="evenodd"/></g></svg>
