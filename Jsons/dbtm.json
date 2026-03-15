@@ -3797,7 +3797,7 @@
     {
       "wtId": 308,
       "rank": 308,
-      "iconId": 235,
+      "iconId": 133,
       "caption": "Apple Computer founded",
       "url": "Apple_Inc.",
       "startDay": 1,
@@ -6762,7 +6762,7 @@
     {
       "wtId": 555,
       "rank": 555,
-      "iconId": 55,
+      "iconId": 133,
       "caption": "Macintosh computer",
       "url": "Macintosh",
       "startDay": 24,
@@ -6786,7 +6786,7 @@
     {
       "wtId": 557,
       "rank": 557,
-      "iconId": 55,
+      "iconId": 130,
       "caption": "YouTube launched",
       "url": "YouTube",
       "startDay": 14,
@@ -6798,7 +6798,7 @@
     {
       "wtId": 558,
       "rank": 558,
-      "iconId": 55,
+      "iconId": 102,
       "caption": "Twitter launched",
       "url": "Twitter",
       "startDay": 21,
@@ -6822,7 +6822,7 @@
     {
       "wtId": 560,
       "rank": 560,
-      "iconId": 55,
+      "iconId": 133,
       "caption": "iPad launched",
       "url": "IPad",
       "startDay": 3,
@@ -6846,7 +6846,7 @@
     {
       "wtId": 562,
       "rank": 562,
-      "iconId": 55,
+      "iconId": 133,
       "caption": "Siri AI assistant",
       "url": "Siri",
       "startDay": 5,
@@ -6882,7 +6882,7 @@
     {
       "wtId": 565,
       "rank": 565,
-      "iconId": 140,
+      "iconId": 133,
       "caption": "iPod and iTunes",
       "url": "IPod",
       "startDay": 23,
