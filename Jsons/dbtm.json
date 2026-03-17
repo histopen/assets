@@ -2742,32 +2742,6 @@
       "countries": "China"
     },
     {
-      "wtId": 229,
-      "rank": 229,
-      "iconId": 804,
-      "caption": "Japan invades China",
-      "url": "Japanese_invasion_of_Manchuria",
-      "startDay": 18,
-      "startMonth": 9,
-      "startYear": 1931,
-      "categories": "p",
-      "countries": "China, Jamaica"
-    },
-    {
-      "wtId": 230,
-      "rank": 230,
-      "iconId": 200,
-      "caption": "Neutron discovered",
-      "url": "Neutron",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 1,
-      "startMonth": 1,
-      "startYear": 1932,
-      "categories": "s",
-      "countries": "New Zealand, France, Germany, Sweden"
-    },
-    {
       "wtId": 231,
       "rank": 231,
       "iconId": 167,
@@ -3652,6 +3626,18 @@
     {
       "wtId": 297,
       "rank": 297,
+      "iconId": 237,
+      "caption": "Hurricane Katrina",
+      "url": "Hurricane_Katrina",
+      "startDay": 29,
+      "startMonth": 8,
+      "startYear": 2005,
+      "categories": "c, t",
+      "countries": "USA"
+    },
+    {
+      "wtId": 298,
+      "rank": 298,
       "iconId": 71,
       "caption": "Zidane's Headbutt",
       "url": "2006_FIFA_World_Cup_Final",
@@ -3662,8 +3648,8 @@
       "countries": "France"
     },
     {
-      "wtId": 298,
-      "rank": 298,
+      "wtId": 299,
+      "rank": 299,
       "iconId": 275,
       "caption": "Usain Bolt 9.58",
       "url": "Usain_Bolt",
@@ -3674,8 +3660,8 @@
       "countries": "Jamaica"
     },
     {
-      "wtId": 299,
-      "rank": 299,
+      "wtId": 300,
+      "rank": 300,
       "iconId": 227,
       "caption": "Shohei Ohtani Unanimous MVP",
       "url": "Shohei_Ohtani",
@@ -3686,8 +3672,8 @@
       "countries": "Japan, USA"
     },
     {
-      "wtId": 300,
-      "rank": 300,
+      "wtId": 301,
+      "rank": 301,
       "iconId": 276,
       "caption": "Osaka US Open",
       "url": "Naomi_Osaka",
@@ -3698,8 +3684,8 @@
       "countries": "Japan, USA"
     },
     {
-      "wtId": 301,
-      "rank": 301,
+      "wtId": 302,
+      "rank": 302,
       "iconId": 276,
       "caption": "Djokovic: Wimbledon",
       "url": "Novak_Djokovic",
@@ -3710,8 +3696,8 @@
       "countries": "Serbia"
     },
     {
-      "wtId": 302,
-      "rank": 302,
+      "wtId": 303,
+      "rank": 303,
       "iconId": 243,
       "caption": "Jon Rahm Masters",
       "url": "Jon_Rahm",
@@ -3722,8 +3708,8 @@
       "countries": "Spain"
     },
     {
-      "wtId": 303,
-      "rank": 303,
+      "wtId": 304,
+      "rank": 304,
       "iconId": 243,
       "caption": "Sorenstam LPGA record",
       "url": "Annika_S%C3%B6renstam",
@@ -3734,8 +3720,8 @@
       "countries": "Sweden"
     },
     {
-      "wtId": 304,
-      "rank": 304,
+      "wtId": 305,
+      "rank": 305,
       "iconId": 276,
       "caption": "Federer: 5th Wimbledon",
       "url": "Roger_Federer",
@@ -3746,8 +3732,8 @@
       "countries": "Switzerland"
     },
     {
-      "wtId": 305,
-      "rank": 305,
+      "wtId": 306,
+      "rank": 306,
       "iconId": 276,
       "caption": "Federer World No. 1",
       "url": "Roger_Federer",
@@ -3758,8 +3744,8 @@
       "countries": "Switzerland"
     },
     {
-      "wtId": 306,
-      "rank": 306,
+      "wtId": 307,
+      "rank": 307,
       "iconId": 190,
       "caption": "Gene-edited human babies",
       "url": "He_Jiankui_affair",
@@ -3770,8 +3756,8 @@
       "countries": "China"
     },
     {
-      "wtId": 307,
-      "rank": 307,
+      "wtId": 308,
+      "rank": 308,
       "iconId": 134,
       "caption": "Wikipedia",
       "url": "History_of_Wikipedia",
@@ -3782,8 +3768,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 308,
-      "rank": 308,
+      "wtId": 309,
+      "rank": 309,
       "iconId": 813,
       "caption": "Hitler Chancellor",
       "url": "Adolf_Hitler",
@@ -3794,8 +3780,8 @@
       "countries": "Austria, Germany"
     },
     {
-      "wtId": 309,
-      "rank": 309,
+      "wtId": 310,
+      "rank": 310,
       "iconId": 804,
       "caption": "Great Wall construction",
       "url": "Qin_Shi_Huang",
@@ -3806,20 +3792,20 @@
       "countries": "China"
     },
     {
-      "wtId": 310,
-      "rank": 310,
+      "wtId": 311,
+      "rank": 311,
       "iconId": 129,
       "caption": "Microsoft founded",
       "url": "Microsoft",
       "startDay": 4,
       "startMonth": 4,
       "startYear": 1975,
-      "categories": "s",
+      "categories": "t",
       "countries": "USA"
     },
     {
-      "wtId": 311,
-      "rank": 311,
+      "wtId": 312,
+      "rank": 312,
       "iconId": 122,
       "caption": "Amazon founded",
       "url": "Amazon_(company)",
@@ -3830,20 +3816,20 @@
       "countries": "USA"
     },
     {
-      "wtId": 312,
-      "rank": 312,
+      "wtId": 313,
+      "rank": 313,
       "iconId": 37,
       "caption": "Google founded",
       "url": "Google",
       "startDay": 4,
       "startMonth": 9,
       "startYear": 1998,
-      "categories": "s",
+      "categories": "t",
       "countries": "USA"
     },
     {
-      "wtId": 313,
-      "rank": 313,
+      "wtId": 314,
+      "rank": 314,
       "iconId": 82,
       "caption": "James Webb Space Telescope",
       "url": "James_Webb_Space_Telescope",
@@ -3854,8 +3840,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 314,
-      "rank": 314,
+      "wtId": 315,
+      "rank": 315,
       "iconId": 147,
       "caption": "Deep Blue defeats Kasparov",
       "url": "Deep_Blue_(chess_computer)",
@@ -3866,8 +3852,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 315,
-      "rank": 315,
+      "wtId": 316,
+      "rank": 316,
       "iconId": 133,
       "caption": "Apple Computer founded",
       "url": "Apple_Inc.",
@@ -3878,8 +3864,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 316,
-      "rank": 316,
+      "wtId": 317,
+      "rank": 317,
       "iconId": 235,
       "caption": "Windows 95",
       "url": "Windows_95",
@@ -3890,8 +3876,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 317,
-      "rank": 317,
+      "wtId": 318,
+      "rank": 318,
       "iconId": 280,
       "caption": "Morse Code",
       "url": "Samuel_Morse",
@@ -3902,8 +3888,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 318,
-      "rank": 318,
+      "wtId": 319,
+      "rank": 319,
       "iconId": 190,
       "caption": "Human genome sequenced",
       "url": "Human_Genome_Project",
@@ -3914,8 +3900,8 @@
       "countries": "USA, United Kingdom"
     },
     {
-      "wtId": 319,
-      "rank": 319,
+      "wtId": 320,
+      "rank": 320,
       "iconId": 804,
       "caption": "Ming Dynasty",
       "url": "Hongwu_Emperor",
@@ -3926,8 +3912,8 @@
       "countries": "China"
     },
     {
-      "wtId": 320,
-      "rank": 320,
+      "wtId": 321,
+      "rank": 321,
       "iconId": 237,
       "caption": "Bhola cyclone (500,000 dead)",
       "url": "1970_Bhola_cyclone",
@@ -3938,8 +3924,8 @@
       "countries": "Bangladesh"
     },
     {
-      "wtId": 321,
-      "rank": 321,
+      "wtId": 322,
+      "rank": 322,
       "iconId": 207,
       "caption": "China floods (1-4 million dead)",
       "url": "1931_China_floods",
@@ -3950,8 +3936,8 @@
       "countries": "China"
     },
     {
-      "wtId": 322,
-      "rank": 322,
+      "wtId": 323,
+      "rank": 323,
       "iconId": 241,
       "caption": "Shaanxi earthquake (830,000 dead)",
       "url": "1556_Shaanxi_earthquake",
@@ -3962,8 +3948,8 @@
       "countries": "China"
     },
     {
-      "wtId": 323,
-      "rank": 323,
+      "wtId": 324,
+      "rank": 324,
       "iconId": 241,
       "caption": "Tangshan earthquake (242,000 dead)",
       "url": "1976_Tangshan_earthquake",
@@ -3974,8 +3960,8 @@
       "countries": "China"
     },
     {
-      "wtId": 324,
-      "rank": 324,
+      "wtId": 325,
+      "rank": 325,
       "iconId": 215,
       "caption": "Black Death",
       "url": "Black_Death",
@@ -3986,8 +3972,8 @@
       "countries": "Europe"
     },
     {
-      "wtId": 325,
-      "rank": 325,
+      "wtId": 326,
+      "rank": 326,
       "iconId": 241,
       "caption": "Haiti earthquake (316,000 dead)",
       "url": "2010_Haiti_earthquake",
@@ -3998,8 +3984,8 @@
       "countries": "Haiti"
     },
     {
-      "wtId": 326,
-      "rank": 326,
+      "wtId": 327,
+      "rank": 327,
       "iconId": 241,
       "caption": "Indian Ocean earthquake",
       "url": "2004_Indian_Ocean_earthquake_and_tsunami",
@@ -4010,8 +3996,8 @@
       "countries": "Indonesia"
     },
     {
-      "wtId": 327,
-      "rank": 327,
+      "wtId": 328,
+      "rank": 328,
       "iconId": 279,
       "caption": "Mount Tambora eruption",
       "url": "1815_eruption_of_Mount_Tambora",
@@ -4022,8 +4008,8 @@
       "countries": "Indonesia"
     },
     {
-      "wtId": 328,
-      "rank": 328,
+      "wtId": 329,
+      "rank": 329,
       "iconId": 279,
       "caption": "Krakatoa eruption",
       "url": "1883_eruption_of_Krakatoa",
@@ -4034,8 +4020,8 @@
       "countries": "Indonesia"
     },
     {
-      "wtId": 329,
-      "rank": 329,
+      "wtId": 330,
+      "rank": 330,
       "iconId": 279,
       "caption": "Mount Vesuvius eruption",
       "url": "Eruption_of_Mount_Vesuvius_in_79_AD",
@@ -4046,8 +4032,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 330,
-      "rank": 330,
+      "wtId": 331,
+      "rank": 331,
       "iconId": 241,
       "caption": "Tohoku earthquake",
       "url": "2011_T%C5%8Dhoku_earthquake_and_tsunami",
@@ -4058,8 +4044,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 331,
-      "rank": 331,
+      "wtId": 332,
+      "rank": 332,
       "iconId": 241,
       "caption": "Lisbon earthquake",
       "url": "1755_Lisbon_earthquake",
@@ -4070,8 +4056,8 @@
       "countries": "Portugal"
     },
     {
-      "wtId": 332,
-      "rank": 332,
+      "wtId": 333,
+      "rank": 333,
       "iconId": 193,
       "caption": "Chernobyl disaster",
       "url": "Chernobyl_disaster",
@@ -4082,8 +4068,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 333,
-      "rank": 333,
+      "wtId": 334,
+      "rank": 334,
       "iconId": 241,
       "caption": "Antioch earthquake",
       "url": "526_Antioch_earthquake",
@@ -4094,8 +4080,8 @@
       "countries": "Turkey, Syria"
     },
     {
-      "wtId": 334,
-      "rank": 334,
+      "wtId": 335,
+      "rank": 335,
       "iconId": 27,
       "caption": "Great Chicago Fire",
       "url": "Great_Chicago_Fire",
@@ -4106,8 +4092,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 335,
-      "rank": 335,
+      "wtId": 336,
+      "rank": 336,
       "iconId": 237,
       "caption": "Galveston hurricane (8,000+ dead)",
       "url": "Galveston_hurricane",
@@ -4118,8 +4104,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 336,
-      "rank": 336,
+      "wtId": 337,
+      "rank": 337,
       "iconId": 241,
       "caption": "San Francisco earthquake",
       "url": "1906_San_Francisco_earthquake",
@@ -4130,8 +4116,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 337,
-      "rank": 337,
+      "wtId": 338,
+      "rank": 338,
       "iconId": 261,
       "caption": "Fall of Kabul",
       "url": "Fall_of_Kabul",
@@ -4142,8 +4128,8 @@
       "countries": "Afghanistan, USA"
     },
     {
-      "wtId": 338,
-      "rank": 338,
+      "wtId": 339,
+      "rank": 339,
       "iconId": 263,
       "caption": "Falklands War",
       "url": "Falklands_War",
@@ -4154,8 +4140,8 @@
       "countries": "Argentina, United Kingdom"
     },
     {
-      "wtId": 339,
-      "rank": 339,
+      "wtId": 340,
+      "rank": 340,
       "iconId": 203,
       "caption": "Franz Ferdinand assassination",
       "url": "Assassination_of_Archduke_Franz_Ferdinand",
@@ -4166,8 +4152,8 @@
       "countries": "Austria, Serbia"
     },
     {
-      "wtId": 340,
-      "rank": 340,
+      "wtId": 341,
+      "rank": 341,
       "iconId": 261,
       "caption": "Srebrenica massacre",
       "url": "Srebrenica_massacre",
@@ -4178,8 +4164,8 @@
       "countries": "Bosnia, Serbia"
     },
     {
-      "wtId": 341,
-      "rank": 341,
+      "wtId": 342,
+      "rank": 342,
       "iconId": 261,
       "caption": "Siege of Sarajevo begins",
       "url": "Siege_of_Sarajevo",
@@ -4190,8 +4176,8 @@
       "countries": "Bosnia, Serbia"
     },
     {
-      "wtId": 342,
-      "rank": 342,
+      "wtId": 343,
+      "rank": 343,
       "iconId": 234,
       "caption": "Battle of the Nile",
       "url": "Battle_of_the_Nile",
@@ -4202,8 +4188,8 @@
       "countries": "United Kingdom, France"
     },
     {
-      "wtId": 343,
-      "rank": 343,
+      "wtId": 344,
+      "rank": 344,
       "iconId": 254,
       "caption": "Plains of Abraham Battle",
       "url": "Battle_of_the_Plains_of_Abraham",
@@ -4214,8 +4200,8 @@
       "countries": "United Kingdom, France"
     },
     {
-      "wtId": 344,
-      "rank": 344,
+      "wtId": 345,
+      "rank": 345,
       "iconId": 261,
       "caption": "Battle of the Somme",
       "url": "Battle_of_the_Somme",
@@ -4226,8 +4212,8 @@
       "countries": "United Kingdom, France, Germany"
     },
     {
-      "wtId": 345,
-      "rank": 345,
+      "wtId": 346,
+      "rank": 346,
       "iconId": 261,
       "caption": "Dunkirk evacuation",
       "url": "Dunkirk_evacuation",
@@ -4238,8 +4224,8 @@
       "countries": "United Kingdom, France, Germany"
     },
     {
-      "wtId": 346,
-      "rank": 346,
+      "wtId": 347,
+      "rank": 347,
       "iconId": 234,
       "caption": "Battle of Trafalgar",
       "url": "Battle_of_Trafalgar",
@@ -4250,8 +4236,8 @@
       "countries": "United Kingdom, France, Spain"
     },
     {
-      "wtId": 347,
-      "rank": 347,
+      "wtId": 348,
+      "rank": 348,
       "iconId": 211,
       "caption": "Battle of El Alamein",
       "url": "Second_Battle_of_El_Alamein",
@@ -4262,8 +4248,8 @@
       "countries": "United Kingdom, Germany"
     },
     {
-      "wtId": 348,
-      "rank": 348,
+      "wtId": 349,
+      "rank": 349,
       "iconId": 254,
       "caption": "Battle of Plassey",
       "url": "Battle_of_Plassey",
@@ -4274,8 +4260,8 @@
       "countries": "United Kingdom, India"
     },
     {
-      "wtId": 349,
-      "rank": 349,
+      "wtId": 350,
+      "rank": 350,
       "iconId": 86,
       "caption": "Light Brigade Charge",
       "url": "Charge_of_the_Light_Brigade",
@@ -4286,8 +4272,8 @@
       "countries": "United Kingdom, Russia"
     },
     {
-      "wtId": 350,
-      "rank": 350,
+      "wtId": 351,
+      "rank": 351,
       "iconId": 282,
       "caption": "Incandescent light bulb",
       "url": "Incandescent_light_bulb",
@@ -4298,8 +4284,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 351,
-      "rank": 351,
+      "wtId": 352,
+      "rank": 352,
       "iconId": 270,
       "caption": "Anglo-Zulu War",
       "url": "Battle_of_Isandlwana",
@@ -4310,8 +4296,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 352,
-      "rank": 352,
+      "wtId": 353,
+      "rank": 353,
       "iconId": 273,
       "caption": "Battle of Cannae",
       "url": "Battle_of_Cannae",
@@ -4322,8 +4308,8 @@
       "countries": "Tunisia, Italy"
     },
     {
-      "wtId": 353,
-      "rank": 353,
+      "wtId": 354,
+      "rank": 354,
       "iconId": 211,
       "caption": "Tiananmen massacre",
       "url": "1989_Tiananmen_Square_protests",
@@ -4334,8 +4320,8 @@
       "countries": "China"
     },
     {
-      "wtId": 354,
-      "rank": 354,
+      "wtId": 355,
+      "rank": 355,
       "iconId": 70,
       "caption": "7/7 London bombings",
       "url": "7_July_2005_London_bombings",
@@ -4344,18 +4330,6 @@
       "startYear": 2005,
       "categories": "p",
       "countries": "United Kingdom"
-    },
-    {
-      "wtId": 355,
-      "rank": 355,
-      "iconId": 237,
-      "caption": "Hurricane Katrina",
-      "url": "Hurricane_Katrina",
-      "startDay": 29,
-      "startMonth": 8,
-      "startYear": 2005,
-      "categories": "c, t",
-      "countries": "USA"
     },
     {
       "wtId": 356,
@@ -5556,7 +5530,7 @@
       "startDay": 4,
       "startMonth": 2,
       "startYear": 2004,
-      "categories": "s",
+      "categories": "t",
       "countries": "USA"
     },
     {
@@ -7310,7 +7284,7 @@
       "startDay": 17,
       "startMonth": 1,
       "startYear": 2009,
-      "categories": "s",
+      "categories": "s, t",
       "countries": "USA"
     },
     {
@@ -8463,18 +8437,6 @@
       "startDay": 4,
       "startMonth": 5,
       "startYear": 1979,
-      "categories": "p",
-      "countries": "United Kingdom"
-    },
-    {
-      "wtId": 698,
-      "rank": 698,
-      "iconId": 810,
-      "caption": "Winston Churchill",
-      "url": "Winston_Churchill",
-      "startDay": 10,
-      "startMonth": 5,
-      "startYear": 1940,
       "categories": "p",
       "countries": "United Kingdom"
     },
@@ -12171,18 +12133,6 @@
       "startDay": 1,
       "startMonth": 7,
       "startYear": 1842,
-      "categories": "s",
-      "countries": "England"
-    },
-    {
-      "wtId": 1007,
-      "rank": 1007,
-      "iconId": 282,
-      "caption": "Discovery of the neutron",
-      "url": "James_Chadwick",
-      "startDay": 1,
-      "startMonth": 9,
-      "startYear": 1932,
       "categories": "s",
       "countries": "England"
     },
