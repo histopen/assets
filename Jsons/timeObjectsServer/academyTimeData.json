@@ -61,7 +61,7 @@
 [101, {"timeDataCaption": "GW Bush", "timeDataUrl": "George_W._Bush", "timeDataDate": {"startDay":  6, "startMonth":  7, "startYear": 1946,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
 [102, {"timeDataCaption": "Obama", "timeDataUrl": "Barack_Obama", "timeDataDate": {"startDay":  4, "startMonth":  8, "startYear": 1961,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
 [103, {"timeDataCaption": "Trump", "timeDataUrl": "Donald_Trump", "timeDataDate": {"startDay": 14, "startMonth":  6, "startYear": 1946,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
-[104, {"timeDataCaption": "Dagobert III", "timeDataUrl": "Dagobert_III", "timeDataDate": {"startYear": 711, "endYear": 715}}],
+[104, {"timeDataCaption": "Hugh Scott", "timeDataUrl": "Hugh_Scott", "timeDataDate": {"startDay": 11, "startMonth": 11, "startYear": 1900,"endDay": 21, "endMonth": 7, "endYear": 1994}}],
 
 [200, {"timeDataCaption": "Clovis I", "timeDataUrl": "Clovis_I", "timeDataDate": {"startYear": 481, "endYear": 511}}],
 [201, {"timeDataCaption": "Childebert I", "timeDataUrl": "Childebert_I", "timeDataDate": {"startYear": 511, "endYear": 558}}],
