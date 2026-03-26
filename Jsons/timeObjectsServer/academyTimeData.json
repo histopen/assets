@@ -57,11 +57,11 @@
 [54, {"timeDataCaption": "Trump", "timeDataUrl": "Donald_Trump", "timeDataDate": {"startDay": 14, "startMonth":  6, "startYear": 1946,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
 [55, {"timeDataCaption": "Biden", "timeDataUrl": "Joe_Biden", "timeDataDate": {"startDay": 20, "startMonth": 11, "startYear": 1942,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
 
-[100, {"timeDataCaption": "Clinton", "timeDataUrl": "Bill_Clinton", "timeDataDate": {"startDay": 1, "startMonth": 1, "startYear": 2000,"endDay":  31, "endMonth":  12, "endYear": 2000}}],
-[101, {"timeDataCaption": "GW Bush", "timeDataUrl": "George_W._Bush", "timeDataDate": {"startDay": 1, "startMonth": 1, "startYear": 2001,"endDay":  31, "endMonth":  12, "endYear": 2001}}],
-[102, {"timeDataCaption": "Obama", "timeDataUrl": "Barack_Obama", "timeDataDate": {"startDay": 1, "startMonth": 1, "startYear": 2002,"endDay":  31, "endMonth":  12, "endYear": 2002}}],
-[103, {"timeDataCaption": "Trump", "timeDataUrl": "Donald_Trump", "timeDataDate": {"startDay": 1, "startMonth": 1, "startYear": 2003,"endDay":  31, "endMonth":  12, "endYear": 2003}}],
-[104, {"timeDataCaption": "Biden", "timeDataUrl": "Joe_Biden", "timeDataDate": {"startDay": 1, "startMonth": 1, "startYear": 2004,"endDay":  31, "endMonth":  12, "endYear": 2004}}],
+[100, {"timeDataCaption": "Clinton", "timeDataUrl": "Bill_Clinton", "timeDataDate": {"startDay": 19, "startMonth":  8, "startYear": 1946,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
+[101, {"timeDataCaption": "GW Bush", "timeDataUrl": "George_W._Bush", "timeDataDate": {"startDay":  6, "startMonth":  7, "startYear": 1946,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
+[102, {"timeDataCaption": "Obama", "timeDataUrl": "Barack_Obama", "timeDataDate": {"startDay":  4, "startMonth":  8, "startYear": 1961,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
+[103, {"timeDataCaption": "Trump", "timeDataUrl": "Donald_Trump", "timeDataDate": {"startDay": 14, "startMonth":  6, "startYear": 1946,"endDay":  2, "endMonth":  4, "endYear": 4242}}],
+[104, {"timeDataCaption": "Dagobert III", "timeDataUrl": "Dagobert_III", "timeDataDate": {"startYear": 711, "endYear": 715}}],
 
 [200, {"timeDataCaption": "Clovis I", "timeDataUrl": "Clovis_I", "timeDataDate": {"startYear": 481, "endYear": 511}}],
 [201, {"timeDataCaption": "Childebert I", "timeDataUrl": "Childebert_I", "timeDataDate": {"startYear": 511, "endYear": 558}}],
