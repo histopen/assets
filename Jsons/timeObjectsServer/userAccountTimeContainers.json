@@ -98,10 +98,11 @@
   [4, {"timeContainerCaption": "5TD+2TC", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 0},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 1},
+      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 0},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 2},
+      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 0},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 7},
       {"TOType": "timeData",      "Database": "dbAcademy",     "DatabaseKey": 8},
-      {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 0},
       {"TOType": "timeContainer", "Database": "dbAcademy",     "DatabaseKey": 1}
     ]}],
   [5, {"timeContainerCaption": "Last10Potus", "timeObjectRefServerList": [
