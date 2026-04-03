@@ -322,7 +322,7 @@
       "iconId": 19,
       "caption": "Australopithecus",
       "url": "Australopithecus",
-      "startYear": -4200000,
+      "startYear": -4500000,
       "categories": "s",
       "countries": "World"
     },
@@ -1233,6 +1233,25 @@
     {
       "wtId": 114,
       "rank": 114,
+      "iconId": 54,
+      "caption": "Vietnam War",
+      "url": "Vietnam_War",
+      "startCirca": 1,
+      "startCircaUnit": "y",
+      "startDay": 2,
+      "startMonth": 8,
+      "startYear": 1955,
+      "endCirca": 1,
+      "endCircaUnit": "y",
+      "endDay": 31,
+      "endMonth": 12,
+      "endYear": 1975,
+      "categories": "p",
+      "countries": "USA, Vietnam"
+    },
+    {
+      "wtId": 115,
+      "rank": 115,
       "iconId": 157,
       "caption": "Auschwitz liberated",
       "url": "The_Holocaust",
@@ -1245,8 +1264,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 115,
-      "rank": 115,
+      "wtId": 116,
+      "rank": 116,
       "iconId": 50,
       "caption": "Beethoven's 9th",
       "url": "Ludwig_van_Beethoven",
@@ -1258,8 +1277,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 116,
-      "rank": 116,
+      "wtId": 117,
+      "rank": 117,
       "iconId": 52,
       "caption": "Smartphone",
       "url": "IPhone",
@@ -1270,8 +1289,8 @@
       "countries": "World"
     },
     {
-      "wtId": 117,
-      "rank": 117,
+      "wtId": 118,
+      "rank": 118,
       "iconId": 58,
       "caption": "Magellan",
       "url": "Magellan_expedition",
@@ -1285,8 +1304,8 @@
       "countries": "Portugal"
     },
     {
-      "wtId": 118,
-      "rank": 118,
+      "wtId": 119,
+      "rank": 119,
       "iconId": 60,
       "caption": "Caravels",
       "url": "Caravel",
@@ -1297,8 +1316,8 @@
       "countries": "World"
     },
     {
-      "wtId": 119,
-      "rank": 119,
+      "wtId": 120,
+      "rank": 120,
       "iconId": 62,
       "caption": "Coins",
       "url": "Coin",
@@ -1307,8 +1326,8 @@
       "countries": "China"
     },
     {
-      "wtId": 120,
-      "rank": 120,
+      "wtId": 121,
+      "rank": 121,
       "iconId": 63,
       "caption": "Columbus",
       "url": "Voyages_of_Christopher_Columbus",
@@ -1319,8 +1338,8 @@
       "countries": "Spain"
     },
     {
-      "wtId": 121,
-      "rank": 121,
+      "wtId": 122,
+      "rank": 122,
       "iconId": 64,
       "caption": "Constantinople",
       "url": "Constantinople",
@@ -1331,8 +1350,8 @@
       "countries": "Turkey"
     },
     {
-      "wtId": 122,
-      "rank": 122,
+      "wtId": 123,
+      "rank": 123,
       "iconId": 65,
       "caption": "Bill of Rights",
       "url": "Copyright",
@@ -1343,8 +1362,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 123,
-      "rank": 123,
+      "wtId": 124,
+      "rank": 124,
       "iconId": 90,
       "caption": "Special Relativity",
       "url": "Special_relativity",
@@ -1355,8 +1374,8 @@
       "countries": "Germany, Switzerland"
     },
     {
-      "wtId": 124,
-      "rank": 124,
+      "wtId": 125,
+      "rank": 125,
       "iconId": 69,
       "caption": "Darwin's theory",
       "url": "Darwinism",
@@ -1369,8 +1388,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 125,
-      "rank": 125,
+      "wtId": 126,
+      "rank": 126,
       "iconId": 190,
       "caption": "CRISPR gene editing",
       "url": "CRISPR",
@@ -1381,8 +1400,8 @@
       "countries": "USA, France"
     },
     {
-      "wtId": 126,
-      "rank": 126,
+      "wtId": 127,
+      "rank": 127,
       "iconId": 72,
       "caption": "Great Depression",
       "url": "Wall_Street_Crash_of_1929",
@@ -1393,8 +1412,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 127,
-      "rank": 127,
+      "wtId": 128,
+      "rank": 128,
       "iconId": 73,
       "caption": "Gunpowder",
       "url": "Gunpowder",
@@ -1405,8 +1424,8 @@
       "countries": "China"
     },
     {
-      "wtId": 128,
-      "rank": 128,
+      "wtId": 129,
+      "rank": 129,
       "iconId": 74,
       "caption": "Shakespeare's Hamlet",
       "url": "Hamlet",
@@ -1417,8 +1436,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 129,
-      "rank": 129,
+      "wtId": 130,
+      "rank": 130,
       "iconId": 75,
       "caption": "birth of Homer",
       "url": "Homer",
@@ -1429,8 +1448,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 130,
-      "rank": 130,
+      "wtId": 131,
+      "rank": 131,
       "iconId": 186,
       "caption": "AIDS",
       "url": "History_of_HIV/AIDS",
@@ -1444,8 +1463,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 131,
-      "rank": 131,
+      "wtId": 132,
+      "rank": 132,
       "iconId": 79,
       "caption": "Mayflower",
       "url": "Mayflower",
@@ -1458,8 +1477,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 132,
-      "rank": 132,
+      "wtId": 133,
+      "rank": 133,
       "iconId": 81,
       "caption": "Napoleonic Wars",
       "url": "Napoleonic_Wars",
@@ -1472,8 +1491,8 @@
       "countries": "France, United Kingdom"
     },
     {
-      "wtId": 133,
-      "rank": 133,
+      "wtId": 134,
+      "rank": 134,
       "iconId": 81,
       "caption": "Napoleon's death",
       "url": "Napoleon",
@@ -1486,8 +1505,8 @@
       "countries": "France"
     },
     {
-      "wtId": 134,
-      "rank": 134,
+      "wtId": 135,
+      "rank": 135,
       "iconId": 81,
       "caption": "Napoleon emperor",
       "url": "Napoleon",
@@ -1498,8 +1517,8 @@
       "countries": "France"
     },
     {
-      "wtId": 135,
-      "rank": 135,
+      "wtId": 136,
+      "rank": 136,
       "iconId": 51,
       "caption": "ESA",
       "url": "European_Space_Agency",
@@ -1510,8 +1529,8 @@
       "countries": "Europe"
     },
     {
-      "wtId": 136,
-      "rank": 136,
+      "wtId": 137,
+      "rank": 137,
       "iconId": 91,
       "caption": "Roman Apogee",
       "url": "Roman_Empire",
@@ -1520,8 +1539,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 137,
-      "rank": 137,
+      "wtId": 138,
+      "rank": 138,
       "iconId": 82,
       "caption": "NASA",
       "url": "NASA",
@@ -1532,8 +1551,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 138,
-      "rank": 138,
+      "wtId": 139,
+      "rank": 139,
       "iconId": 216,
       "caption": "Muqaddimah",
       "url": "Ibn_Khaldun",
@@ -1545,8 +1564,8 @@
       "countries": "Spain, Egypt, Tunisia"
     },
     {
-      "wtId": 139,
-      "rank": 139,
+      "wtId": 140,
+      "rank": 140,
       "iconId": 84,
       "caption": "ChatGPT",
       "url": "ChatGPT",
@@ -1557,8 +1576,8 @@
       "countries": "World"
     },
     {
-      "wtId": 140,
-      "rank": 140,
+      "wtId": 141,
+      "rank": 141,
       "iconId": 108,
       "caption": "Yuan Dynasty",
       "url": "Yuan_dynasty",
@@ -1569,8 +1588,8 @@
       "countries": "China"
     },
     {
-      "wtId": 141,
-      "rank": 141,
+      "wtId": 142,
+      "rank": 142,
       "iconId": 86,
       "caption": "Palio di Siena",
       "url": "Palio_di_Siena",
@@ -1581,8 +1600,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 142,
-      "rank": 142,
+      "wtId": 143,
+      "rank": 143,
       "iconId": 88,
       "caption": "Parthenon",
       "url": "Parthenon",
@@ -1592,8 +1611,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 143,
-      "rank": 143,
+      "wtId": 144,
+      "rank": 144,
       "iconId": 90,
       "caption": "General Relativity",
       "url": "General_relativity",
@@ -1604,8 +1623,8 @@
       "countries": "Germany, Switzerland"
     },
     {
-      "wtId": 144,
-      "rank": 144,
+      "wtId": 145,
+      "rank": 145,
       "iconId": 92,
       "caption": "Roses",
       "url": "Wars_of_the_Roses",
@@ -1619,8 +1638,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 145,
-      "rank": 145,
+      "wtId": 146,
+      "rank": 146,
       "iconId": 93,
       "caption": "St. Bartholomew",
       "url": "St._Bartholomew%27s_Day_massacre",
@@ -1631,8 +1650,8 @@
       "countries": "France"
     },
     {
-      "wtId": 146,
-      "rank": 146,
+      "wtId": 147,
+      "rank": 147,
       "iconId": 219,
       "caption": "death of Louis XIV",
       "url": "Louis_XIV",
@@ -1643,8 +1662,8 @@
       "countries": "France"
     },
     {
-      "wtId": 147,
-      "rank": 147,
+      "wtId": 148,
+      "rank": 148,
       "iconId": 94,
       "caption": "Saudi Arabia",
       "url": "Saudi_Arabia",
@@ -1656,8 +1675,8 @@
       "countries": "Saudi Arabia"
     },
     {
-      "wtId": 148,
-      "rank": 148,
+      "wtId": 149,
+      "rank": 149,
       "iconId": 147,
       "caption": "Chess",
       "url": "Chess",
@@ -1667,8 +1686,8 @@
       "countries": "Iran"
     },
     {
-      "wtId": 149,
-      "rank": 149,
+      "wtId": 150,
+      "rank": 150,
       "iconId": 241,
       "caption": "Seismometer",
       "url": "Seismometer",
@@ -1679,8 +1698,8 @@
       "countries": "China"
     },
     {
-      "wtId": 150,
-      "rank": 150,
+      "wtId": 151,
+      "rank": 151,
       "iconId": 96,
       "caption": "Spinoza Ethics",
       "url": "Baruch_Spinoza",
@@ -1690,8 +1709,8 @@
       "countries": "Netherlands"
     },
     {
-      "wtId": 151,
-      "rank": 151,
+      "wtId": 152,
+      "rank": 152,
       "iconId": 97,
       "caption": "St. Petersburg",
       "url": "Saint_Petersburg",
@@ -1702,8 +1721,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 152,
-      "rank": 152,
+      "wtId": 153,
+      "rank": 153,
       "iconId": 150,
       "caption": "COVID Vaccine",
       "url": "COVID-19_vaccine",
@@ -1714,8 +1733,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 153,
-      "rank": 153,
+      "wtId": 154,
+      "rank": 154,
       "iconId": 99,
       "caption": "Telescope",
       "url": "Telescope",
@@ -1726,8 +1745,8 @@
       "countries": "Germany, Netherlands"
     },
     {
-      "wtId": 154,
-      "rank": 154,
+      "wtId": 155,
+      "rank": 155,
       "iconId": 219,
       "caption": "Elizabeth II",
       "url": "Elizabeth_II",
@@ -1738,8 +1757,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 155,
-      "rank": 155,
+      "wtId": 156,
+      "rank": 156,
       "iconId": 841,
       "caption": "Ukrainian-Soviet war begins.",
       "url": "Ukrainian–Soviet_War",
@@ -1750,8 +1769,8 @@
       "countries": "Russia, Ukraine"
     },
     {
-      "wtId": 156,
-      "rank": 156,
+      "wtId": 157,
+      "rank": 157,
       "iconId": 70,
       "caption": "Beirut Explosion",
       "url": "2020_Beirut_explosion",
@@ -1762,8 +1781,8 @@
       "countries": "Lebanon"
     },
     {
-      "wtId": 157,
-      "rank": 157,
+      "wtId": 158,
+      "rank": 158,
       "iconId": 104,
       "caption": "100 Million Refugees",
       "url": "Refugees_of_the_Syrian_civil_war",
@@ -1774,8 +1793,8 @@
       "countries": "World"
     },
     {
-      "wtId": 158,
-      "rank": 158,
+      "wtId": 159,
+      "rank": 159,
       "iconId": 145,
       "caption": "Common Era",
       "url": "Common_Era",
@@ -1784,8 +1803,8 @@
       "countries": "World"
     },
     {
-      "wtId": 159,
-      "rank": 159,
+      "wtId": 160,
+      "rank": 160,
       "iconId": 171,
       "caption": "5 million Humans",
       "url": "World_population_estimates",
@@ -1796,8 +1815,8 @@
       "countries": "World"
     },
     {
-      "wtId": 160,
-      "rank": 160,
+      "wtId": 161,
+      "rank": 161,
       "iconId": 145,
       "caption": "Laschamp event",
       "url": "Laschamp_event",
@@ -1808,8 +1827,8 @@
       "countries": "World"
     },
     {
-      "wtId": 161,
-      "rank": 161,
+      "wtId": 162,
+      "rank": 162,
       "iconId": 206,
       "caption": "Pottery",
       "url": "Xianren_Cave",
@@ -1820,8 +1839,8 @@
       "countries": "China"
     },
     {
-      "wtId": 162,
-      "rank": 162,
+      "wtId": 163,
+      "rank": 163,
       "iconId": 161,
       "caption": "Holocene global warming",
       "url": "Global_warming",
@@ -1830,8 +1849,8 @@
       "countries": "World"
     },
     {
-      "wtId": 163,
-      "rank": 163,
+      "wtId": 164,
+      "rank": 164,
       "iconId": 171,
       "caption": "40 million Humans",
       "url": "World_population_estimates",
@@ -1842,8 +1861,8 @@
       "countries": "World"
     },
     {
-      "wtId": 164,
-      "rank": 164,
+      "wtId": 165,
+      "rank": 165,
       "iconId": 171,
       "caption": "100 million Humans",
       "url": "World_population_estimates",
@@ -1856,8 +1875,8 @@
       "countries": "World"
     },
     {
-      "wtId": 165,
-      "rank": 165,
+      "wtId": 166,
+      "rank": 166,
       "iconId": 88,
       "caption": "Aeschylus",
       "url": "Aeschylus",
@@ -1870,8 +1889,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 166,
-      "rank": 166,
+      "wtId": 167,
+      "rank": 167,
       "iconId": 173,
       "caption": "Eiffel Tower",
       "url": "Eiffel_Tower",
@@ -1884,8 +1903,8 @@
       "countries": "France"
     },
     {
-      "wtId": 167,
-      "rank": 167,
+      "wtId": 168,
+      "rank": 168,
       "iconId": 89,
       "caption": "Plato in Syracuse",
       "url": "Plato",
@@ -1899,8 +1918,8 @@
       "countries": "Greece, Italy"
     },
     {
-      "wtId": 168,
-      "rank": 168,
+      "wtId": 169,
+      "rank": 169,
       "iconId": 85,
       "caption": "Otto I",
       "url": "Otto_the_Great",
@@ -1911,8 +1930,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 169,
-      "rank": 169,
+      "wtId": 170,
+      "rank": 170,
       "iconId": 176,
       "caption": "Quebec foundation",
       "url": "Quebec",
@@ -1926,8 +1945,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 170,
-      "rank": 170,
+      "wtId": 171,
+      "rank": 171,
       "iconId": 212,
       "caption": "Pocahontas",
       "url": "Pocahontas",
@@ -1940,8 +1959,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 171,
-      "rank": 171,
+      "wtId": 172,
+      "rank": 172,
       "iconId": 183,
       "caption": "Manhattan",
       "url": "Manhattan",
@@ -1954,8 +1973,8 @@
       "countries": "USA, Netherlands"
     },
     {
-      "wtId": 172,
-      "rank": 172,
+      "wtId": 173,
+      "rank": 173,
       "iconId": 179,
       "caption": "Harvard College",
       "url": "Harvard_University",
@@ -1969,8 +1988,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 173,
-      "rank": 173,
+      "wtId": 174,
+      "rank": 174,
       "iconId": 207,
       "caption": "Mississipi reached",
       "url": "Mississippi",
@@ -1983,8 +2002,8 @@
       "countries": "USA, France"
     },
     {
-      "wtId": 174,
-      "rank": 174,
+      "wtId": 175,
+      "rank": 175,
       "iconId": 67,
       "caption": "Crystal Sugar",
       "url": "Sugar",
@@ -1995,8 +2014,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 175,
-      "rank": 175,
+      "wtId": 176,
+      "rank": 176,
       "iconId": 171,
       "caption": "1 billion Humans",
       "url": "World_population",
@@ -2009,8 +2028,8 @@
       "countries": "World"
     },
     {
-      "wtId": 176,
-      "rank": 176,
+      "wtId": 177,
+      "rank": 177,
       "iconId": 202,
       "caption": "Antarctica Discovery",
       "url": "Antarctica",
@@ -2024,8 +2043,8 @@
       "countries": "Russia, Antartica"
     },
     {
-      "wtId": 177,
-      "rank": 177,
+      "wtId": 178,
+      "rank": 178,
       "iconId": 835,
       "caption": "Spanish Republic",
       "url": "Second_Spanish_Republic",
@@ -2043,8 +2062,8 @@
       "countries": "Spain"
     },
     {
-      "wtId": 178,
-      "rank": 178,
+      "wtId": 179,
+      "rank": 179,
       "iconId": 225,
       "caption": "Little Big Horn",
       "url": "Battle_of_the_Little_Bighorn",
@@ -2058,8 +2077,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 179,
-      "rank": 179,
+      "wtId": 180,
+      "rank": 180,
       "iconId": 106,
       "caption": "Wikitime development",
       "startDay": 1,
@@ -2069,8 +2088,8 @@
       "countries": "France"
     },
     {
-      "wtId": 180,
-      "rank": 180,
+      "wtId": 181,
+      "rank": 181,
       "iconId": 98,
       "caption": "Pasteur",
       "url": "Louis_Pasteur",
@@ -2083,8 +2102,8 @@
       "countries": "France"
     },
     {
-      "wtId": 181,
-      "rank": 181,
+      "wtId": 182,
+      "rank": 182,
       "iconId": 114,
       "caption": "Dr. Jekyll, Mr. Hyde",
       "url": "Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
@@ -2097,8 +2116,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 182,
-      "rank": 182,
+      "wtId": 183,
+      "rank": 183,
       "iconId": 93,
       "caption": "Jack the Ripper",
       "url": "Jack_the_Ripper",
@@ -2111,8 +2130,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 183,
-      "rank": 183,
+      "wtId": 184,
+      "rank": 184,
       "iconId": 174,
       "caption": "Aspirin",
       "url": "Aspirin",
@@ -2126,8 +2145,8 @@
       "countries": "Germany, Iran, Iraq, Kuwait, Egypt, France"
     },
     {
-      "wtId": 184,
-      "rank": 184,
+      "wtId": 185,
+      "rank": 185,
       "iconId": 221,
       "caption": "Van Gogh",
       "url": "Vincent_van_Gogh",
@@ -2140,8 +2159,8 @@
       "countries": "Netherlands, France"
     },
     {
-      "wtId": 185,
-      "rank": 185,
+      "wtId": 186,
+      "rank": 186,
       "iconId": 157,
       "caption": "Dreyfuss Affair",
       "url": "Dreyfus_affair",
@@ -2159,8 +2178,8 @@
       "countries": "France"
     },
     {
-      "wtId": 186,
-      "rank": 186,
+      "wtId": 187,
+      "rank": 187,
       "iconId": 114,
       "caption": "Oscar Wilde",
       "url": "Oscar_Wilde",
@@ -2173,8 +2192,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 187,
-      "rank": 187,
+      "wtId": 188,
+      "rank": 188,
       "iconId": 213,
       "caption": "X-Rays",
       "url": "X-ray",
@@ -2187,8 +2206,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 188,
-      "rank": 188,
+      "wtId": 189,
+      "rank": 189,
       "iconId": 114,
       "caption": "Dracula",
       "url": "Dracula",
@@ -2201,8 +2220,8 @@
       "countries": "Ireland"
     },
     {
-      "wtId": 189,
-      "rank": 189,
+      "wtId": 190,
+      "rank": 190,
       "iconId": 214,
       "caption": "Zeppelin",
       "url": "Zeppelin",
@@ -2215,8 +2234,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 190,
-      "rank": 190,
+      "wtId": 191,
+      "rank": 191,
       "iconId": 195,
       "caption": "Nobel",
       "url": "List_of_Nobel_laureates",
@@ -2229,8 +2248,8 @@
       "countries": "Sweden"
     },
     {
-      "wtId": 191,
-      "rank": 191,
+      "wtId": 192,
+      "rank": 192,
       "iconId": 49,
       "caption": "First Airplane Flight",
       "url": "Wright_brothers",
@@ -2241,8 +2260,8 @@
       "countries": "World"
     },
     {
-      "wtId": 192,
-      "rank": 192,
+      "wtId": 193,
+      "rank": 193,
       "iconId": 184,
       "caption": "Tour de France",
       "url": "Tour_de_France",
@@ -2255,8 +2274,8 @@
       "countries": "France"
     },
     {
-      "wtId": 193,
-      "rank": 193,
+      "wtId": 194,
+      "rank": 194,
       "iconId": 162,
       "caption": "Panama Canal",
       "url": "Panama_Canal",
@@ -2269,8 +2288,8 @@
       "countries": "Panama"
     },
     {
-      "wtId": 194,
-      "rank": 194,
+      "wtId": 195,
+      "rank": 195,
       "iconId": 277,
       "caption": "Trans-Siberian",
       "url": "Trans-Siberian_Railway",
@@ -2283,8 +2302,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 195,
-      "rank": 195,
+      "wtId": 196,
+      "rank": 196,
       "iconId": 157,
       "caption": "Dreyfus Affair",
       "url": "Dreyfus_Affair",
@@ -2297,8 +2316,8 @@
       "countries": "France"
     },
     {
-      "wtId": 196,
-      "rank": 196,
+      "wtId": 197,
+      "rank": 197,
       "iconId": 83,
       "caption": "Athens 1906",
       "url": "1906_Intercalated_Games",
@@ -2312,8 +2331,8 @@
       "countries": "World"
     },
     {
-      "wtId": 197,
-      "rank": 197,
+      "wtId": 198,
+      "rank": 198,
       "iconId": 280,
       "caption": "Radio",
       "url": "Radio",
@@ -2326,8 +2345,8 @@
       "countries": "World"
     },
     {
-      "wtId": 198,
-      "rank": 198,
+      "wtId": 199,
+      "rank": 199,
       "iconId": 177,
       "caption": "Ford",
       "url": "Ford_Motor_Company",
@@ -2340,8 +2359,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 199,
-      "rank": 199,
+      "wtId": 200,
+      "rank": 200,
       "iconId": 70,
       "caption": "Tunguska",
       "url": "Tunguska_impact",
@@ -2354,8 +2373,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 200,
-      "rank": 200,
+      "wtId": 201,
+      "rank": 201,
       "iconId": 824,
       "caption": "Mexican Revolution",
       "url": "Mexican_Revolution",
@@ -2368,8 +2387,8 @@
       "countries": "Mexico"
     },
     {
-      "wtId": 201,
-      "rank": 201,
+      "wtId": 202,
+      "rank": 202,
       "iconId": 187,
       "caption": "America's boy scouts",
       "url": "Boy_Scouts_of_America",
@@ -2382,8 +2401,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 202,
-      "rank": 202,
+      "wtId": 203,
+      "rank": 203,
       "iconId": 160,
       "caption": "Amundsen at South Pole",
       "url": "Roald_Amundsen",
@@ -2396,8 +2415,8 @@
       "countries": "Norway, Antartica"
     },
     {
-      "wtId": 203,
-      "rank": 203,
+      "wtId": 204,
+      "rank": 204,
       "iconId": 167,
       "caption": "Kuomintang",
       "url": "Kuomintang",
@@ -2410,8 +2429,8 @@
       "countries": "China"
     },
     {
-      "wtId": 204,
-      "rank": 204,
+      "wtId": 205,
+      "rank": 205,
       "iconId": 177,
       "caption": "Marne Battle",
       "url": "First_Battle_of_the_Marne",
@@ -2425,8 +2444,8 @@
       "countries": "Germany, France"
     },
     {
-      "wtId": 205,
-      "rank": 205,
+      "wtId": 206,
+      "rank": 206,
       "iconId": 192,
       "caption": "Passenger pigeon",
       "url": "Martha_(passenger_pigeon)",
@@ -2437,8 +2456,8 @@
       "countries": "France, World"
     },
     {
-      "wtId": 206,
-      "rank": 206,
+      "wtId": 207,
+      "rank": 207,
       "iconId": 208,
       "caption": "RMS Lusitania",
       "url": "RMS_Lusitania",
@@ -2449,8 +2468,8 @@
       "countries": "Germany, United Kingdom"
     },
     {
-      "wtId": 207,
-      "rank": 207,
+      "wtId": 208,
+      "rank": 208,
       "iconId": 820,
       "caption": "Italy enters war",
       "url": "Treaty_of_London_(1915)",
@@ -2461,8 +2480,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 208,
-      "rank": 208,
+      "wtId": 209,
+      "rank": 209,
       "iconId": 211,
       "caption": "First use of tanks",
       "url": "Battle_of_Flers%E2%80%93Courcelette",
@@ -2476,8 +2495,8 @@
       "countries": "France, Germany, United Kingdom"
     },
     {
-      "wtId": 209,
-      "rank": 209,
+      "wtId": 210,
+      "rank": 210,
       "iconId": 167,
       "caption": "October Revolution",
       "url": "October_Revolution",
@@ -2488,8 +2507,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 210,
-      "rank": 210,
+      "wtId": 211,
+      "rank": 211,
       "iconId": 53,
       "caption": "USA in WWI",
       "url": "American_entry_into_World_War_I",
@@ -2500,8 +2519,8 @@
       "countries": "World"
     },
     {
-      "wtId": 211,
-      "rank": 211,
+      "wtId": 212,
+      "rank": 212,
       "iconId": 53,
       "caption": "World War  I end",
       "url": "Armistice_of_11_November_1918",
@@ -2512,8 +2531,8 @@
       "countries": "World"
     },
     {
-      "wtId": 212,
-      "rank": 212,
+      "wtId": 213,
+      "rank": 213,
       "iconId": 215,
       "caption": "Spanish flu considered over",
       "url": "Spanish_flu_pandemic",
@@ -2526,8 +2545,8 @@
       "countries": "Europe"
     },
     {
-      "wtId": 213,
-      "rank": 213,
+      "wtId": 214,
+      "rank": 214,
       "iconId": 197,
       "caption": "Gandhi movement",
       "url": "Non-cooperation_movement_(1919%E2%80%931922)",
@@ -2540,8 +2559,8 @@
       "countries": "India"
     },
     {
-      "wtId": 214,
-      "rank": 214,
+      "wtId": 215,
+      "rank": 215,
       "iconId": 173,
       "caption": "League of Nations founded",
       "url": "League_of_Nations",
@@ -2552,8 +2571,8 @@
       "countries": "World"
     },
     {
-      "wtId": 215,
-      "rank": 215,
+      "wtId": 216,
+      "rank": 216,
       "iconId": 170,
       "caption": "Hitler becomes führer",
       "url": "Adolf_Hitler%27s_rise_to_power",
@@ -2566,8 +2585,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 216,
-      "rank": 216,
+      "wtId": 217,
+      "rank": 217,
       "iconId": 41,
       "caption": "Tutankhamen's tomb",
       "url": "Tomb_of_Tutankhamun",
@@ -2580,8 +2599,8 @@
       "countries": "Egypt, United Kingdom"
     },
     {
-      "wtId": 217,
-      "rank": 217,
+      "wtId": 218,
+      "rank": 218,
       "iconId": 818,
       "caption": "Irish Civil War",
       "url": "Irish_Civil_War",
@@ -2594,8 +2613,8 @@
       "countries": "Ireland"
     },
     {
-      "wtId": 218,
-      "rank": 218,
+      "wtId": 219,
+      "rank": 219,
       "iconId": 168,
       "caption": "Walt Disney Company",
       "url": "Walt_Disney_Company",
@@ -2608,8 +2627,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 219,
-      "rank": 219,
+      "wtId": 220,
+      "rank": 220,
       "iconId": 837,
       "caption": "Kemal Atatürk",
       "url": "Mustafa_Kemal_Atat%C3%BCrk",
@@ -2622,8 +2641,8 @@
       "countries": "Turkey"
     },
     {
-      "wtId": 220,
-      "rank": 220,
+      "wtId": 221,
+      "rank": 221,
       "iconId": 140,
       "caption": "Rhapsody In Blue",
       "url": "Rhapsody_In_Blue",
@@ -2636,8 +2655,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 221,
-      "rank": 221,
+      "wtId": 222,
+      "rank": 222,
       "iconId": 170,
       "caption": "Mein Kampf",
       "url": "Mein_Kampf",
@@ -2650,8 +2669,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 222,
-      "rank": 222,
+      "wtId": 223,
+      "rank": 223,
       "iconId": 180,
       "caption": "Hirohito",
       "url": "Hirohito",
@@ -2664,8 +2683,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 223,
-      "rank": 223,
+      "wtId": 224,
+      "rank": 224,
       "iconId": 198,
       "caption": "Mount Rushmore",
       "url": "Mount_Rushmore",
@@ -2678,8 +2697,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 224,
-      "rank": 224,
+      "wtId": 225,
+      "rank": 225,
       "iconId": 171,
       "caption": "2 billion Humans",
       "url": "World_population",
@@ -2692,8 +2711,8 @@
       "countries": "World"
     },
     {
-      "wtId": 225,
-      "rank": 225,
+      "wtId": 226,
+      "rank": 226,
       "iconId": 168,
       "caption": "Mickey Mouse",
       "url": "Mickey_Mouse",
@@ -2706,8 +2725,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 226,
-      "rank": 226,
+      "wtId": 227,
+      "rank": 227,
       "iconId": 205,
       "caption": "Vatican City",
       "url": "Vatican_City",
@@ -2720,8 +2739,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 227,
-      "rank": 227,
+      "wtId": 228,
+      "rank": 228,
       "iconId": 139,
       "caption": "Academy Awards",
       "url": "Academy_Awards",
@@ -2734,8 +2753,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 228,
-      "rank": 228,
+      "wtId": 229,
+      "rank": 229,
       "iconId": 71,
       "caption": "1st FIFA World Cup",
       "url": "1930_FIFA_World_Cup",
@@ -2748,8 +2767,8 @@
       "countries": "Uruguay"
     },
     {
-      "wtId": 229,
-      "rank": 229,
+      "wtId": 230,
+      "rank": 230,
       "iconId": 167,
       "caption": "Mao Zedong",
       "url": "Chinese_Soviet_Republic",
@@ -2762,8 +2781,8 @@
       "countries": "China"
     },
     {
-      "wtId": 230,
-      "rank": 230,
+      "wtId": 231,
+      "rank": 231,
       "iconId": 167,
       "caption": "Long March",
       "url": "Long_March",
@@ -2776,8 +2795,8 @@
       "countries": "China"
     },
     {
-      "wtId": 231,
-      "rank": 231,
+      "wtId": 232,
+      "rank": 232,
       "iconId": 203,
       "caption": "Bonnie and Clyde",
       "url": "Bonnie_and_Clyde",
@@ -2790,8 +2809,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 232,
-      "rank": 232,
+      "wtId": 233,
+      "rank": 233,
       "iconId": 168,
       "caption": "Snow White movie",
       "url": "Snow_White_and_the_Seven_Dwarfs_(1937_film)",
@@ -2804,8 +2823,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 233,
-      "rank": 233,
+      "wtId": 234,
+      "rank": 234,
       "iconId": 170,
       "caption": "Nazi invasion of Poland",
       "url": "Timeline_of_the_1939_invasion_of_Poland",
@@ -2816,8 +2835,8 @@
       "countries": "Germany, Poland"
     },
     {
-      "wtId": 234,
-      "rank": 234,
+      "wtId": 235,
+      "rank": 235,
       "iconId": 196,
       "caption": "Molotov-Ribbentrop Pact",
       "url": "Molotov–Ribbentrop_Pact",
@@ -2828,8 +2847,8 @@
       "countries": "Russia, Germany"
     },
     {
-      "wtId": 235,
-      "rank": 235,
+      "wtId": 236,
+      "rank": 236,
       "iconId": 832,
       "caption": "Soviets attack Finland",
       "url": "Timeline_of_the_Winter_War",
@@ -2840,8 +2859,8 @@
       "countries": "Russia, Finland"
     },
     {
-      "wtId": 236,
-      "rank": 236,
+      "wtId": 237,
+      "rank": 237,
       "iconId": 170,
       "caption": "Nazi invasion of France",
       "url": "Timeline_of_the_Battle_of_France",
@@ -2852,8 +2871,8 @@
       "countries": "Germany, France, Greece"
     },
     {
-      "wtId": 237,
-      "rank": 237,
+      "wtId": 238,
+      "rank": 238,
       "iconId": 182,
       "caption": "Battle of Britain",
       "url": "Battle_of_Britain",
@@ -2867,8 +2886,8 @@
       "countries": "United Kingdom, Germany"
     },
     {
-      "wtId": 238,
-      "rank": 238,
+      "wtId": 239,
+      "rank": 239,
       "iconId": 188,
       "caption": "Churchill Prime Minister",
       "url": "Winston_Churchill",
@@ -2879,8 +2898,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 239,
-      "rank": 239,
+      "wtId": 240,
+      "rank": 240,
       "iconId": 167,
       "caption": "Trotsky assassinated.",
       "url": "Leon_Trotsky",
@@ -2891,8 +2910,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 240,
-      "rank": 240,
+      "wtId": 241,
+      "rank": 241,
       "iconId": 54,
       "caption": "Pearl Harbor",
       "url": "Attack_on_Pearl_Harbor",
@@ -2903,8 +2922,8 @@
       "countries": "USA, Japan"
     },
     {
-      "wtId": 241,
-      "rank": 241,
+      "wtId": 242,
+      "rank": 242,
       "iconId": 172,
       "caption": "London Blitz ends.",
       "url": "The_Blitz",
@@ -2915,8 +2934,8 @@
       "countries": "United Kingdom, Germany"
     },
     {
-      "wtId": 242,
-      "rank": 242,
+      "wtId": 243,
+      "rank": 243,
       "iconId": 170,
       "caption": "Operation Barbarossa starts",
       "url": "Operation_Barbarossa",
@@ -2927,8 +2946,8 @@
       "countries": "Russia, Germany"
     },
     {
-      "wtId": 243,
-      "rank": 243,
+      "wtId": 244,
+      "rank": 244,
       "iconId": 78,
       "caption": "Manhattan Project",
       "url": "Manhattan_Project",
@@ -2939,8 +2958,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 244,
-      "rank": 244,
+      "wtId": 245,
+      "rank": 245,
       "iconId": 167,
       "caption": "Battle of Stalingrad start",
       "url": "Battle_of_Stalingrad",
@@ -2951,8 +2970,8 @@
       "countries": "Germany, Russia"
     },
     {
-      "wtId": 245,
-      "rank": 245,
+      "wtId": 246,
+      "rank": 246,
       "iconId": 181,
       "caption": "Battle of Midway",
       "url": "Battle_of_Midway",
@@ -2966,8 +2985,8 @@
       "countries": "USA, Japan"
     },
     {
-      "wtId": 246,
-      "rank": 246,
+      "wtId": 247,
+      "rank": 247,
       "iconId": 167,
       "caption": "Battle of Stalingrad end",
       "url": "Battle_of_Stalingrad",
@@ -2978,8 +2997,8 @@
       "countries": "Germany, Russia"
     },
     {
-      "wtId": 247,
-      "rank": 247,
+      "wtId": 248,
+      "rank": 248,
       "iconId": 157,
       "caption": "Warsaw Ghetto uprising",
       "url": "Warsaw_Ghetto_uprising",
@@ -2993,8 +3012,8 @@
       "countries": "Germany, Poland"
     },
     {
-      "wtId": 248,
-      "rank": 248,
+      "wtId": 249,
+      "rank": 249,
       "iconId": 173,
       "caption": "Paris liberation",
       "url": "Liberation_of_Paris",
@@ -3005,8 +3024,8 @@
       "countries": "USA, Germany, France"
     },
     {
-      "wtId": 249,
-      "rank": 249,
+      "wtId": 250,
+      "rank": 250,
       "iconId": 126,
       "caption": "Colossus 1st computer",
       "url": "Colossus_computer",
@@ -3019,8 +3038,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 250,
-      "rank": 250,
+      "wtId": 251,
+      "rank": 251,
       "iconId": 209,
       "caption": "D-Day",
       "url": "Normandy_landings",
@@ -3031,8 +3050,8 @@
       "countries": "USA, United Kingdom, France"
     },
     {
-      "wtId": 251,
-      "rank": 251,
+      "wtId": 252,
+      "rank": 252,
       "iconId": 221,
       "caption": "Leningrad liberated",
       "url": "Siege_of_Leningrad",
@@ -3043,8 +3062,8 @@
       "countries": "Germany, Russia"
     },
     {
-      "wtId": 252,
-      "rank": 252,
+      "wtId": 253,
+      "rank": 253,
       "iconId": 209,
       "caption": "Battle of Leyte starts",
       "url": "Battle_of_Leyte",
@@ -3055,8 +3074,8 @@
       "countries": "USA, Philippines"
     },
     {
-      "wtId": 253,
-      "rank": 253,
+      "wtId": 254,
+      "rank": 254,
       "iconId": 193,
       "caption": "Atomic Bombings in Japan",
       "url": "Atomic_bombings_of_Hiroshima_and_Nagasaki",
@@ -3067,8 +3086,8 @@
       "countries": "USA, Japan"
     },
     {
-      "wtId": 254,
-      "rank": 254,
+      "wtId": 255,
+      "rank": 255,
       "iconId": 196,
       "caption": "Yalta Conference",
       "url": "Yalta_Conference",
@@ -3082,8 +3101,8 @@
       "countries": "Russia, United Kingdom, USA, World"
     },
     {
-      "wtId": 255,
-      "rank": 255,
+      "wtId": 256,
+      "rank": 256,
       "iconId": 170,
       "caption": "Death of Adolf Hitler.",
       "url": "Death_of_Adolf_Hitler",
@@ -3094,8 +3113,8 @@
       "countries": "World"
     },
     {
-      "wtId": 256,
-      "rank": 256,
+      "wtId": 257,
+      "rank": 257,
       "iconId": 185,
       "caption": "Potsdam Conference",
       "url": "Potsdam_Conference",
@@ -3109,8 +3128,8 @@
       "countries": "World"
     },
     {
-      "wtId": 257,
-      "rank": 257,
+      "wtId": 258,
+      "rank": 258,
       "iconId": 170,
       "caption": "Nuremberg trials",
       "url": "Nuremberg_trials",
@@ -3123,8 +3142,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 258,
-      "rank": 258,
+      "wtId": 259,
+      "rank": 259,
       "iconId": 3,
       "caption": "Sound barrier",
       "url": "Sound_barrier",
@@ -3137,8 +3156,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 259,
-      "rank": 259,
+      "wtId": 260,
+      "rank": 260,
       "iconId": 169,
       "caption": "NATO",
       "url": "NATO",
@@ -3151,8 +3170,8 @@
       "countries": "USA, Europe"
     },
     {
-      "wtId": 260,
-      "rank": 260,
+      "wtId": 261,
+      "rank": 261,
       "iconId": 70,
       "caption": "Hydrogen bomb",
       "url": "Hydrogen_bomb",
@@ -3165,8 +3184,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 261,
-      "rank": 261,
+      "wtId": 262,
+      "rank": 262,
       "iconId": 199,
       "caption": "Everest",
       "url": "Mount_Everest",
@@ -3177,25 +3196,6 @@
       "startYear": 1953,
       "categories": "c",
       "countries": "Nepal, China"
-    },
-    {
-      "wtId": 262,
-      "rank": 262,
-      "iconId": 54,
-      "caption": "Vietnam War",
-      "url": "Vietnam_War",
-      "startCirca": 1,
-      "startCircaUnit": "y",
-      "startDay": 2,
-      "startMonth": 8,
-      "startYear": 1955,
-      "endCirca": 1,
-      "endCircaUnit": "y",
-      "endDay": 31,
-      "endMonth": 12,
-      "endYear": 1975,
-      "categories": "p",
-      "countries": "USA, Vietnam"
     },
     {
       "wtId": 263,
@@ -8428,18 +8428,6 @@
       "wtId": 694,
       "rank": 694,
       "iconId": 837,
-      "caption": "Mustafa Kemal Ataturk",
-      "url": "Mustafa_Kemal_Atat%C3%BCrk",
-      "startDay": 19,
-      "startMonth": 3,
-      "startYear": 1920,
-      "categories": "p",
-      "countries": "Turkey"
-    },
-    {
-      "wtId": 695,
-      "rank": 695,
-      "iconId": 837,
       "caption": "Erdogan reelected",
       "url": "Recep_Tayyip_Erdo%C4%9Fan",
       "startDay": 14,
@@ -8449,8 +8437,8 @@
       "countries": "Turkey"
     },
     {
-      "wtId": 696,
-      "rank": 696,
+      "wtId": 695,
+      "rank": 695,
       "iconId": 837,
       "caption": "Conquest of Constantinople",
       "url": "Mehmed_II",
@@ -8461,8 +8449,8 @@
       "countries": "Turkey"
     },
     {
-      "wtId": 697,
-      "rank": 697,
+      "wtId": 696,
+      "rank": 696,
       "iconId": 837,
       "caption": "Ottoman Empire founded",
       "url": "Osman_I",
@@ -8473,8 +8461,8 @@
       "countries": "Turkey"
     },
     {
-      "wtId": 698,
-      "rank": 698,
+      "wtId": 697,
+      "rank": 697,
       "iconId": 810,
       "caption": "Good Friday Agreement",
       "url": "Good_Friday_Agreement",
@@ -8485,8 +8473,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 699,
-      "rank": 699,
+      "wtId": 698,
+      "rank": 698,
       "iconId": 810,
       "caption": "Margaret Thatcher",
       "url": "Margaret_Thatcher",
@@ -8497,8 +8485,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 700,
-      "rank": 700,
+      "wtId": 699,
+      "rank": 699,
       "iconId": 810,
       "caption": "Brexit referendum",
       "url": "Brexit",
@@ -8509,8 +8497,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 701,
-      "rank": 701,
+      "wtId": 700,
+      "rank": 700,
       "iconId": 810,
       "caption": "George I",
       "url": "George_I_of_Great_Britain",
@@ -8521,8 +8509,8 @@
       "countries": "United Kingdom, Germany"
     },
     {
-      "wtId": 702,
-      "rank": 702,
+      "wtId": 701,
+      "rank": 701,
       "iconId": 834,
       "caption": "British South Africa expansion",
       "url": "Cecil_Rhodes",
@@ -8533,8 +8521,8 @@
       "countries": "United Kingdom, South Africa"
     },
     {
-      "wtId": 703,
-      "rank": 703,
+      "wtId": 702,
+      "rank": 702,
       "iconId": 841,
       "caption": "Ukraine Maidan revolution",
       "url": "Euromaidan",
@@ -8545,8 +8533,8 @@
       "countries": "Ukraine"
     },
     {
-      "wtId": 704,
-      "rank": 704,
+      "wtId": 703,
+      "rank": 703,
       "iconId": 841,
       "caption": "Ukraine resistance to Russia",
       "url": "Volodymyr_Zelensky",
@@ -8557,8 +8545,8 @@
       "countries": "Ukraine"
     },
     {
-      "wtId": 705,
-      "rank": 705,
+      "wtId": 704,
+      "rank": 704,
       "iconId": 841,
       "caption": "Ukraine independence",
       "url": "Leonid_Kravchuk",
@@ -8569,8 +8557,8 @@
       "countries": "Ukraine"
     },
     {
-      "wtId": 706,
-      "rank": 706,
+      "wtId": 705,
+      "rank": 705,
       "iconId": 838,
       "caption": "Obama Nobel Peace",
       "url": "Barack_Obama",
@@ -8581,8 +8569,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 707,
-      "rank": 707,
+      "wtId": 706,
+      "rank": 706,
       "iconId": 838,
       "caption": "Luther King Nobel Peace",
       "url": "Martin_Luther_King_Jr.",
@@ -8593,8 +8581,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 708,
-      "rank": 708,
+      "wtId": 707,
+      "rank": 707,
       "iconId": 838,
       "caption": "Abraham Lincoln",
       "url": "Emancipation_Proclamation",
@@ -8605,8 +8593,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 709,
-      "rank": 709,
+      "wtId": 708,
+      "rank": 708,
       "iconId": 838,
       "caption": "Benjamin Franklin",
       "url": "Benjamin_Franklin",
@@ -8617,8 +8605,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 710,
-      "rank": 710,
+      "wtId": 709,
+      "rank": 709,
       "iconId": 838,
       "caption": "Eisenhower 34th US President",
       "url": "Dwight_D._Eisenhower",
@@ -8629,8 +8617,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 711,
-      "rank": 711,
+      "wtId": 710,
+      "rank": 710,
       "iconId": 838,
       "caption": "Kennedy 35th US President",
       "url": "John_F._Kennedy",
@@ -8641,8 +8629,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 712,
-      "rank": 712,
+      "wtId": 711,
+      "rank": 711,
       "iconId": 838,
       "caption": "Nixon 37th US President",
       "url": "Richard_Nixon",
@@ -8653,8 +8641,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 713,
-      "rank": 713,
+      "wtId": 712,
+      "rank": 712,
       "iconId": 838,
       "caption": "Reagan 40th US President",
       "url": "Ronald_Reagan",
@@ -8665,8 +8653,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 714,
-      "rank": 714,
+      "wtId": 713,
+      "rank": 713,
       "iconId": 838,
       "caption": "Cklinton 42nd US President",
       "url": "Bill_Clinton",
@@ -8677,8 +8665,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 715,
-      "rank": 715,
+      "wtId": 714,
+      "rank": 714,
       "iconId": 838,
       "caption": "Obama 44th US President",
       "url": "Barack_Obama",
@@ -8689,8 +8677,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 716,
-      "rank": 716,
+      "wtId": 715,
+      "rank": 715,
       "iconId": 838,
       "caption": "Trump 45th US President",
       "url": "Donald_Trump",
@@ -8701,8 +8689,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 717,
-      "rank": 717,
+      "wtId": 716,
+      "rank": 716,
       "iconId": 838,
       "caption": "Biden 46th US President",
       "url": "Joe_Biden",
@@ -8713,8 +8701,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 718,
-      "rank": 718,
+      "wtId": 717,
+      "rank": 717,
       "iconId": 838,
       "caption": "Malcolm X assassination",
       "url": "Malcolm_X",
@@ -8725,8 +8713,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 719,
-      "rank": 719,
+      "wtId": 718,
+      "rank": 718,
       "iconId": 838,
       "caption": "Nixon visits China",
       "url": "Nixon%27s_visit_to_China",
@@ -8737,8 +8725,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 720,
-      "rank": 720,
+      "wtId": 719,
+      "rank": 719,
       "iconId": 838,
       "caption": "Lincoln 16th US President",
       "url": "Abraham_Lincoln",
@@ -8749,8 +8737,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 721,
-      "rank": 721,
+      "wtId": 720,
+      "rank": 720,
       "iconId": 838,
       "caption": "Wilson 28th US President",
       "url": "Woodrow_Wilson",
@@ -8761,8 +8749,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 722,
-      "rank": 722,
+      "wtId": 721,
+      "rank": 721,
       "iconId": 838,
       "caption": "Roosevelt 32nd US President",
       "url": "Franklin_D._Roosevelt",
@@ -8773,8 +8761,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 723,
-      "rank": 723,
+      "wtId": 722,
+      "rank": 722,
       "iconId": 838,
       "caption": "Martin Luther King assassinated",
       "url": "Assassination_of_Martin_Luther_King_Jr.",
@@ -8785,8 +8773,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 724,
-      "rank": 724,
+      "wtId": 723,
+      "rank": 723,
       "iconId": 838,
       "caption": "Civil War ends",
       "url": "Ulysses_S._Grant",
@@ -8797,8 +8785,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 725,
-      "rank": 725,
+      "wtId": 724,
+      "rank": 724,
       "iconId": 838,
       "caption": "First US President",
       "url": "George_Washington",
@@ -8809,8 +8797,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 726,
-      "rank": 726,
+      "wtId": 725,
+      "rank": 725,
       "iconId": 77,
       "caption": "Tear down this wall",
       "url": "Tear_down_this_wall%21",
@@ -8821,8 +8809,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 727,
-      "rank": 727,
+      "wtId": 726,
+      "rank": 726,
       "iconId": 838,
       "caption": "League of Nations",
       "url": "Woodrow_Wilson",
@@ -8833,8 +8821,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 728,
-      "rank": 728,
+      "wtId": 727,
+      "rank": 727,
       "iconId": 838,
       "caption": "Japan opens to Western trade",
       "url": "Matthew_C._Perry",
@@ -8845,8 +8833,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 729,
-      "rank": 729,
+      "wtId": 728,
+      "rank": 728,
       "iconId": 838,
       "caption": "Ford pardons Nixon",
       "url": "Gerald_Ford",
@@ -8857,8 +8845,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 730,
-      "rank": 730,
+      "wtId": 729,
+      "rank": 729,
       "iconId": 838,
       "caption": "Roosevelt 26th US President",
       "url": "Theodore_Roosevelt",
@@ -8869,8 +8857,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 731,
-      "rank": 731,
+      "wtId": 730,
+      "rank": 730,
       "iconId": 838,
       "caption": "Madison Father of Constitution",
       "url": "James_Madison",
@@ -8881,8 +8869,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 732,
-      "rank": 732,
+      "wtId": 731,
+      "rank": 731,
       "iconId": 838,
       "caption": "Camp David Accords",
       "url": "Camp_David_Accords",
@@ -8893,8 +8881,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 733,
-      "rank": 733,
+      "wtId": 732,
+      "rank": 732,
       "iconId": 838,
       "caption": "Rosa Parks",
       "url": "Montgomery_bus_boycott",
@@ -8905,8 +8893,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 734,
-      "rank": 734,
+      "wtId": 733,
+      "rank": 733,
       "iconId": 818,
       "caption": "Saddam Hussein captured",
       "url": "Capture_of_Saddam_Hussein",
@@ -8917,8 +8905,8 @@
       "countries": "USA, Iraq"
     },
     {
-      "wtId": 735,
-      "rank": 735,
+      "wtId": 734,
+      "rank": 734,
       "iconId": 839,
       "caption": "Simon Bolivar",
       "url": "Sim%C3%B3n_Bol%C3%ADvar",
@@ -8929,8 +8917,8 @@
       "countries": "Venezuela"
     },
     {
-      "wtId": 736,
-      "rank": 736,
+      "wtId": 735,
+      "rank": 735,
       "iconId": 840,
       "caption": "Ho Chi Minh",
       "url": "Ho_Chi_Minh",
@@ -8941,8 +8929,8 @@
       "countries": "Vietnam"
     },
     {
-      "wtId": 737,
-      "rank": 737,
+      "wtId": 736,
+      "rank": 736,
       "iconId": 139,
       "caption": "One Flew Over the Cuckoo's Nest",
       "url": "One_Flew_Over_the_Cuckoo%27s_Nest_(film)",
@@ -8953,8 +8941,8 @@
       "countries": "Czech Republic, USA"
     },
     {
-      "wtId": 738,
-      "rank": 738,
+      "wtId": 737,
+      "rank": 737,
       "iconId": 139,
       "caption": "Poor Things",
       "url": "Poor_Things_(film)",
@@ -8965,8 +8953,8 @@
       "countries": "Greece, United Kingdom"
     },
     {
-      "wtId": 739,
-      "rank": 739,
+      "wtId": 738,
+      "rank": 738,
       "iconId": 139,
       "caption": "Seven Samurai",
       "url": "Seven_Samurai",
@@ -8977,8 +8965,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 740,
-      "rank": 740,
+      "wtId": 739,
+      "rank": 739,
       "iconId": 263,
       "caption": "Gravity",
       "url": "Gravity_(2013_film)",
@@ -8989,8 +8977,8 @@
       "countries": "Mexico, United Kingdom, USA"
     },
     {
-      "wtId": 741,
-      "rank": 741,
+      "wtId": 740,
+      "rank": 740,
       "iconId": 139,
       "caption": "Birdman",
       "url": "Birdman_(film)",
@@ -9001,8 +8989,8 @@
       "countries": "Mexico, USA"
     },
     {
-      "wtId": 742,
-      "rank": 742,
+      "wtId": 741,
+      "rank": 741,
       "iconId": 262,
       "caption": "The Lord of the Rings: The Return of the King",
       "url": "The_Lord_of_the_Rings:_The_Return_of_the_King",
@@ -9013,8 +9001,8 @@
       "countries": "New Zealand"
     },
     {
-      "wtId": 743,
-      "rank": 743,
+      "wtId": 742,
+      "rank": 742,
       "iconId": 262,
       "caption": "The Lord of the Rings: The Fellowship of the Ring",
       "url": "The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring",
@@ -9025,8 +9013,8 @@
       "countries": "New Zealand"
     },
     {
-      "wtId": 744,
-      "rank": 744,
+      "wtId": 743,
+      "rank": 743,
       "iconId": 139,
       "caption": "The Power of the Dog",
       "url": "The_Power_of_the_Dog_(film)",
@@ -9037,8 +9025,8 @@
       "countries": "New Zealand, United Kingdom"
     },
     {
-      "wtId": 745,
-      "rank": 745,
+      "wtId": 744,
+      "rank": 744,
       "iconId": 240,
       "caption": "Parasite",
       "url": "Parasite_(2019_film)",
@@ -9049,8 +9037,8 @@
       "countries": "South Korea"
     },
     {
-      "wtId": 746,
-      "rank": 746,
+      "wtId": 745,
+      "rank": 745,
       "iconId": 239,
       "caption": "Lawrence of Arabia",
       "url": "Lawrence_of_Arabia_(film)",
@@ -9061,8 +9049,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 747,
-      "rank": 747,
+      "wtId": 746,
+      "rank": 746,
       "iconId": 77,
       "caption": "The King's Speech",
       "url": "The_King%27s_Speech",
@@ -9073,8 +9061,8 @@
       "countries": "United Kingdom, Australia"
     },
     {
-      "wtId": 748,
-      "rank": 748,
+      "wtId": 747,
+      "rank": 747,
       "iconId": 197,
       "caption": "Movie 'Gandhi'",
       "url": "Gandhi_(film)",
@@ -9085,8 +9073,8 @@
       "countries": "United Kingdom, India"
     },
     {
-      "wtId": 749,
-      "rank": 749,
+      "wtId": 748,
+      "rank": 748,
       "iconId": 203,
       "caption": "The Dark Knight",
       "url": "The_Dark_Knight",
@@ -9097,8 +9085,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 750,
-      "rank": 750,
+      "wtId": 749,
+      "rank": 749,
       "iconId": 203,
       "caption": "The Dark Knight Rises",
       "url": "The_Dark_Knight_Rises",
@@ -9109,8 +9097,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 751,
-      "rank": 751,
+      "wtId": 750,
+      "rank": 750,
       "iconId": 203,
       "caption": "A Clockwork Orange",
       "url": "A_Clockwork_Orange_(film)",
@@ -9121,8 +9109,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 752,
-      "rank": 752,
+      "wtId": 751,
+      "rank": 751,
       "iconId": 203,
       "caption": "Vertigo",
       "url": "Vertigo_(film)",
@@ -9133,8 +9121,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 753,
-      "rank": 753,
+      "wtId": 752,
+      "rank": 752,
       "iconId": 93,
       "caption": "The Shining",
       "url": "The_Shining_(film)",
@@ -9145,8 +9133,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 754,
-      "rank": 754,
+      "wtId": 753,
+      "rank": 753,
       "iconId": 93,
       "caption": "Psycho",
       "url": "Psycho_(1960_film)",
@@ -9157,8 +9145,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 755,
-      "rank": 755,
+      "wtId": 754,
+      "rank": 754,
       "iconId": 139,
       "caption": "Inception",
       "url": "Inception",
@@ -9169,8 +9157,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 756,
-      "rank": 756,
+      "wtId": 755,
+      "rank": 755,
       "iconId": 139,
       "caption": "The Gold Rush",
       "url": "The_Gold_Rush",
@@ -9181,8 +9169,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 757,
-      "rank": 757,
+      "wtId": 756,
+      "rank": 756,
       "iconId": 139,
       "caption": "Modern Times",
       "url": "Modern_Times_(film)",
@@ -9193,8 +9181,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 758,
-      "rank": 758,
+      "wtId": 757,
+      "rank": 757,
       "iconId": 139,
       "caption": "The Great Dictator",
       "url": "The_Great_Dictator",
@@ -9205,8 +9193,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 759,
-      "rank": 759,
+      "wtId": 758,
+      "rank": 758,
       "iconId": 139,
       "caption": "Gladiator",
       "url": "Gladiator_(2000_film)",
@@ -9217,8 +9205,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 760,
-      "rank": 760,
+      "wtId": 759,
+      "rank": 759,
       "iconId": 193,
       "caption": "Oppenheimer",
       "url": "Oppenheimer_(film)",
@@ -9229,8 +9217,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 761,
-      "rank": 761,
+      "wtId": 760,
+      "rank": 760,
       "iconId": 53,
       "caption": "1917",
       "url": "1917_(2019_film)",
@@ -9241,8 +9229,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 762,
-      "rank": 762,
+      "wtId": 761,
+      "rank": 761,
       "iconId": 263,
       "caption": "2001: A Space Odyssey",
       "url": "2001:_A_Space_Odyssey_(film)",
@@ -9253,8 +9241,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 763,
-      "rank": 763,
+      "wtId": 762,
+      "rank": 762,
       "iconId": 263,
       "caption": "The Martian",
       "url": "The_Martian_(film)",
@@ -9265,8 +9253,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 764,
-      "rank": 764,
+      "wtId": 763,
+      "rank": 763,
       "iconId": 131,
       "caption": "E.T. the Extra-Terrestrial",
       "url": "E.T._the_Extra-Terrestrial",
@@ -9277,8 +9265,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 765,
-      "rank": 765,
+      "wtId": 764,
+      "rank": 764,
       "iconId": 114,
       "caption": "Boyhood",
       "url": "Boyhood_(film)",
@@ -9289,8 +9277,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 766,
-      "rank": 766,
+      "wtId": 765,
+      "rank": 765,
       "iconId": 114,
       "caption": "Rebel Without a Cause",
       "url": "Rebel_Without_a_Cause",
@@ -9301,8 +9289,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 767,
-      "rank": 767,
+      "wtId": 766,
+      "rank": 766,
       "iconId": 114,
       "caption": "American Beauty",
       "url": "American_Beauty_(1999_film)",
@@ -9313,8 +9301,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 768,
-      "rank": 768,
+      "wtId": 767,
+      "rank": 767,
       "iconId": 22,
       "caption": "King Kong",
       "url": "King_Kong_(1933_film)",
@@ -9325,8 +9313,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 769,
-      "rank": 769,
+      "wtId": 768,
+      "rank": 768,
       "iconId": 203,
       "caption": "Bonnie and Clyde",
       "url": "Bonnie_and_Clyde_(film)",
@@ -9337,8 +9325,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 770,
-      "rank": 770,
+      "wtId": 769,
+      "rank": 769,
       "iconId": 203,
       "caption": "Pulp Fiction",
       "url": "Pulp_Fiction",
@@ -9349,8 +9337,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 771,
-      "rank": 771,
+      "wtId": 770,
+      "rank": 770,
       "iconId": 203,
       "caption": "Joker",
       "url": "Joker_(2019_film)",
@@ -9361,8 +9349,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 772,
-      "rank": 772,
+      "wtId": 771,
+      "rank": 771,
       "iconId": 203,
       "caption": "The Departed",
       "url": "The_Departed",
@@ -9373,8 +9361,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 773,
-      "rank": 773,
+      "wtId": 772,
+      "rank": 772,
       "iconId": 203,
       "caption": "The Silence of the Lambs",
       "url": "The_Silence_of_the_Lambs_(film)",
@@ -9385,8 +9373,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 774,
-      "rank": 774,
+      "wtId": 773,
+      "rank": 773,
       "iconId": 203,
       "caption": "The Godfather",
       "url": "The_Godfather",
@@ -9397,8 +9385,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 775,
-      "rank": 775,
+      "wtId": 774,
+      "rank": 774,
       "iconId": 203,
       "caption": "Goodfellas",
       "url": "Goodfellas",
@@ -9409,8 +9397,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 776,
-      "rank": 776,
+      "wtId": 775,
+      "rank": 775,
       "iconId": 203,
       "caption": "The Godfather Part II",
       "url": "The_Godfather_Part_II",
@@ -9421,8 +9409,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 777,
-      "rank": 777,
+      "wtId": 776,
+      "rank": 776,
       "iconId": 157,
       "caption": "Schindler's List",
       "url": "Schindler%27s_List",
@@ -9433,8 +9421,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 778,
-      "rank": 778,
+      "wtId": 777,
+      "rank": 777,
       "iconId": 139,
       "caption": "The Exorcist",
       "url": "The_Exorcist_(film)",
@@ -9445,8 +9433,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 779,
-      "rank": 779,
+      "wtId": 778,
+      "rank": 778,
       "iconId": 139,
       "caption": "12 Angry Men",
       "url": "12_Angry_Men_(1957_film)",
@@ -9457,8 +9445,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 780,
-      "rank": 780,
+      "wtId": 779,
+      "rank": 779,
       "iconId": 139,
       "caption": "Rain Man",
       "url": "Rain_Man",
@@ -9469,8 +9457,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 781,
-      "rank": 781,
+      "wtId": 780,
+      "rank": 780,
       "iconId": 139,
       "caption": "Frankenstein",
       "url": "Frankenstein_(1931_film)",
@@ -9481,8 +9469,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 782,
-      "rank": 782,
+      "wtId": 781,
+      "rank": 781,
       "iconId": 139,
       "caption": "The Shape of Water",
       "url": "The_Shape_of_Water",
@@ -9493,8 +9481,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 783,
-      "rank": 783,
+      "wtId": 782,
+      "rank": 782,
       "iconId": 139,
       "caption": "La La Land",
       "url": "La_La_Land",
@@ -9505,8 +9493,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 784,
-      "rank": 784,
+      "wtId": 783,
+      "rank": 783,
       "iconId": 139,
       "caption": "The Revenant",
       "url": "The_Revenant_(2015_film)",
@@ -9517,8 +9505,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 785,
-      "rank": 785,
+      "wtId": 784,
+      "rank": 784,
       "iconId": 139,
       "caption": "The Birth of a Nation",
       "url": "The_Birth_of_a_Nation",
@@ -9529,8 +9517,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 786,
-      "rank": 786,
+      "wtId": 785,
+      "rank": 785,
       "iconId": 139,
       "caption": "Forrest Gump",
       "url": "Forrest_Gump",
@@ -9541,8 +9529,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 787,
-      "rank": 787,
+      "wtId": 786,
+      "rank": 786,
       "iconId": 139,
       "caption": "Once Upon a Time in Hollywood",
       "url": "Once_Upon_a_Time_in_Hollywood",
@@ -9553,8 +9541,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 788,
-      "rank": 788,
+      "wtId": 787,
+      "rank": 787,
       "iconId": 139,
       "caption": "Sunset Boulevard",
       "url": "Sunset_Boulevard_(film)",
@@ -9565,8 +9553,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 789,
-      "rank": 789,
+      "wtId": 788,
+      "rank": 788,
       "iconId": 139,
       "caption": "Toy Story",
       "url": "Toy_Story",
@@ -9577,8 +9565,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 790,
-      "rank": 790,
+      "wtId": 789,
+      "rank": 789,
       "iconId": 139,
       "caption": "Casablanca",
       "url": "Casablanca_(film)",
@@ -9589,8 +9577,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 791,
-      "rank": 791,
+      "wtId": 790,
+      "rank": 790,
       "iconId": 139,
       "caption": "The Deer Hunter",
       "url": "The_Deer_Hunter",
@@ -9601,8 +9589,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 792,
-      "rank": 792,
+      "wtId": 791,
+      "rank": 791,
       "iconId": 139,
       "caption": "Gone with the Wind",
       "url": "Gone_with_the_Wind_(film)",
@@ -9613,8 +9601,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 793,
-      "rank": 793,
+      "wtId": 792,
+      "rank": 792,
       "iconId": 139,
       "caption": "Unforgiven",
       "url": "Unforgiven",
@@ -9625,8 +9613,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 794,
-      "rank": 794,
+      "wtId": 793,
+      "rank": 793,
       "iconId": 139,
       "caption": "Ben-Hur",
       "url": "Ben-Hur_(1959_film)",
@@ -9637,8 +9625,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 795,
-      "rank": 795,
+      "wtId": 794,
+      "rank": 794,
       "iconId": 212,
       "caption": "Dances with Wolves",
       "url": "Dances_with_Wolves",
@@ -9649,8 +9637,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 796,
-      "rank": 796,
+      "wtId": 795,
+      "rank": 795,
       "iconId": 20,
       "caption": "Jurassic Park",
       "url": "Jurassic_Park_(film)",
@@ -9661,8 +9649,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 797,
-      "rank": 797,
+      "wtId": 796,
+      "rank": 796,
       "iconId": 233,
       "caption": "Million Dollar Baby",
       "url": "Million_Dollar_Baby",
@@ -9673,8 +9661,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 798,
-      "rank": 798,
+      "wtId": 797,
+      "rank": 797,
       "iconId": 233,
       "caption": "Rocky",
       "url": "Rocky",
@@ -9685,8 +9673,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 799,
-      "rank": 799,
+      "wtId": 798,
+      "rank": 798,
       "iconId": 239,
       "caption": "No Country for Old Men",
       "url": "No_Country_for_Old_Men_(film)",
@@ -9697,8 +9685,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 800,
-      "rank": 800,
+      "wtId": 799,
+      "rank": 799,
       "iconId": 240,
       "caption": "The Wolf of Wall Street",
       "url": "The_Wolf_of_Wall_Street_(2013_film)",
@@ -9709,8 +9697,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 801,
-      "rank": 801,
+      "wtId": 800,
+      "rank": 800,
       "iconId": 245,
       "caption": "Raiders of the Lost Ark",
       "url": "Raiders_of_the_Lost_Ark",
@@ -9721,8 +9709,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 802,
-      "rank": 802,
+      "wtId": 801,
+      "rank": 801,
       "iconId": 246,
       "caption": "It Happened One Night",
       "url": "It_Happened_One_Night",
@@ -9733,8 +9721,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 803,
-      "rank": 803,
+      "wtId": 802,
+      "rank": 802,
       "iconId": 246,
       "caption": "Annie Hall",
       "url": "Annie_Hall",
@@ -9745,8 +9733,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 804,
-      "rank": 804,
+      "wtId": 803,
+      "rank": 803,
       "iconId": 246,
       "caption": "It's a Wonderful Life",
       "url": "It%27s_a_Wonderful_Life",
@@ -9757,8 +9745,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 805,
-      "rank": 805,
+      "wtId": 804,
+      "rank": 804,
       "iconId": 247,
       "caption": "Apocalypse Now",
       "url": "Apocalypse_Now",
@@ -9769,8 +9757,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 806,
-      "rank": 806,
+      "wtId": 805,
+      "rank": 805,
       "iconId": 255,
       "caption": "Citizen Kane",
       "url": "Citizen_Kane",
@@ -9781,8 +9769,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 807,
-      "rank": 807,
+      "wtId": 806,
+      "rank": 806,
       "iconId": 253,
       "caption": "Easy Rider",
       "url": "Easy_Rider",
@@ -9793,8 +9781,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 808,
-      "rank": 808,
+      "wtId": 807,
+      "rank": 807,
       "iconId": 258,
       "caption": "The Shawshank Redemption",
       "url": "The_Shawshank_Redemption",
@@ -9805,8 +9793,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 809,
-      "rank": 809,
+      "wtId": 808,
+      "rank": 808,
       "iconId": 259,
       "caption": "Back to the Future",
       "url": "Back_to_the_Future",
@@ -9817,8 +9805,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 810,
-      "rank": 810,
+      "wtId": 809,
+      "rank": 809,
       "iconId": 260,
       "caption": "The Wizard of Oz",
       "url": "The_Wizard_of_Oz_(1939_film)",
@@ -9829,8 +9817,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 811,
-      "rank": 811,
+      "wtId": 810,
+      "rank": 810,
       "iconId": 261,
       "caption": "Platoon",
       "url": "Platoon_(film)",
@@ -9841,8 +9829,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 812,
-      "rank": 812,
+      "wtId": 811,
+      "rank": 811,
       "iconId": 261,
       "caption": "Saving Private Ryan",
       "url": "Saving_Private_Ryan",
@@ -9853,8 +9841,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 813,
-      "rank": 813,
+      "wtId": 812,
+      "rank": 812,
       "iconId": 266,
       "caption": "The Jazz Singer",
       "url": "The_Jazz_Singer_(1927_film)",
@@ -9865,8 +9853,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 814,
-      "rank": 814,
+      "wtId": 813,
+      "rank": 813,
       "iconId": 267,
       "caption": "Jaws",
       "url": "Jaws_(film)",
@@ -9877,8 +9865,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 815,
-      "rank": 815,
+      "wtId": 814,
+      "rank": 814,
       "iconId": 271,
       "caption": "Black Panther",
       "url": "Black_Panther_(film)",
@@ -9889,8 +9877,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 816,
-      "rank": 816,
+      "wtId": 815,
+      "rank": 815,
       "iconId": 271,
       "caption": "Avengers: Endgame",
       "url": "Avengers:_Endgame",
@@ -9901,8 +9889,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 817,
-      "rank": 817,
+      "wtId": 816,
+      "rank": 816,
       "iconId": 271,
       "caption": "Spider-Man",
       "url": "Spider-Man_(2002_film)",
@@ -9913,8 +9901,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 818,
-      "rank": 818,
+      "wtId": 817,
+      "rank": 817,
       "iconId": 271,
       "caption": "Wonder Woman",
       "url": "Wonder_Woman_(2017_film)",
@@ -9925,8 +9913,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 819,
-      "rank": 819,
+      "wtId": 818,
+      "rank": 818,
       "iconId": 271,
       "caption": "Black Panther: Wakanda Forever",
       "url": "Black_Panther:_Wakanda_Forever",
@@ -9937,8 +9925,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 820,
-      "rank": 820,
+      "wtId": 819,
+      "rank": 819,
       "iconId": 271,
       "caption": "Spider-Man: No Way Home",
       "url": "Spider-Man:_No_Way_Home",
@@ -9949,8 +9937,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 821,
-      "rank": 821,
+      "wtId": 820,
+      "rank": 820,
       "iconId": 278,
       "caption": "Singin' in the Rain",
       "url": "Singin%27_in_the_Rain",
@@ -9961,8 +9949,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 822,
-      "rank": 822,
+      "wtId": 821,
+      "rank": 821,
       "iconId": 139,
       "caption": "Barbie",
       "url": "Barbie_(film)",
@@ -9973,8 +9961,8 @@
       "countries": "USA, Australia"
     },
     {
-      "wtId": 823,
-      "rank": 823,
+      "wtId": 822,
+      "rank": 822,
       "iconId": 235,
       "caption": "The Matrix",
       "url": "The_Matrix",
@@ -9985,8 +9973,8 @@
       "countries": "USA, Australia"
     },
     {
-      "wtId": 824,
-      "rank": 824,
+      "wtId": 823,
+      "rank": 823,
       "iconId": 139,
       "caption": "The Terminator",
       "url": "The_Terminator",
@@ -9997,8 +9985,8 @@
       "countries": "USA, Canada"
     },
     {
-      "wtId": 825,
-      "rank": 825,
+      "wtId": 824,
+      "rank": 824,
       "iconId": 208,
       "caption": "Titanic",
       "url": "Titanic_(1997_film)",
@@ -10009,8 +9997,8 @@
       "countries": "USA, Canada"
     },
     {
-      "wtId": 826,
-      "rank": 826,
+      "wtId": 825,
+      "rank": 825,
       "iconId": 114,
       "caption": "CODA",
       "url": "CODA_(2021_film)",
@@ -10021,8 +10009,8 @@
       "countries": "USA, France, Canada"
     },
     {
-      "wtId": 827,
-      "rank": 827,
+      "wtId": 826,
+      "rank": 826,
       "iconId": 131,
       "caption": "Independence Day",
       "url": "Independence_Day_(1996_film)",
@@ -10033,8 +10021,8 @@
       "countries": "USA, Germany"
     },
     {
-      "wtId": 828,
-      "rank": 828,
+      "wtId": 827,
+      "rank": 827,
       "iconId": 34,
       "caption": "The Passion of the Christ",
       "url": "The_Passion_of_the_Christ",
@@ -10045,8 +10033,8 @@
       "countries": "USA, Italy"
     },
     {
-      "wtId": 829,
-      "rank": 829,
+      "wtId": 828,
+      "rank": 828,
       "iconId": 139,
       "caption": "Avatar",
       "url": "Avatar_(2009_film)",
@@ -10057,8 +10045,8 @@
       "countries": "USA, United Kingdom"
     },
     {
-      "wtId": 830,
-      "rank": 830,
+      "wtId": 829,
+      "rank": 829,
       "iconId": 229,
       "caption": "AC/DC",
       "url": "Back_in_Black",
@@ -10069,8 +10057,8 @@
       "countries": "Australia"
     },
     {
-      "wtId": 831,
-      "rank": 831,
+      "wtId": 830,
+      "rank": 830,
       "iconId": 256,
       "caption": "Drake",
       "url": "God%27s_Plan",
@@ -10081,8 +10069,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 832,
-      "rank": 832,
+      "wtId": 831,
+      "rank": 831,
       "iconId": 256,
       "caption": "Celine Dion",
       "url": "Falling_into_You",
@@ -10093,8 +10081,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 833,
-      "rank": 833,
+      "wtId": 832,
+      "rank": 832,
       "iconId": 256,
       "caption": "The Weeknd",
       "url": "Blinding_Lights",
@@ -10105,8 +10093,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 834,
-      "rank": 834,
+      "wtId": 833,
+      "rank": 833,
       "iconId": 256,
       "caption": "The Weeknd",
       "url": "Beauty_Behind_the_Madness",
@@ -10117,8 +10105,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 835,
-      "rank": 835,
+      "wtId": 834,
+      "rank": 834,
       "iconId": 256,
       "caption": "Shania Twain",
       "url": "Come_On_Over",
@@ -10129,8 +10117,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 836,
-      "rank": 836,
+      "wtId": 835,
+      "rank": 835,
       "iconId": 229,
       "caption": "Joni Mitchell",
       "url": "Joni_Mitchell",
@@ -10141,8 +10129,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 837,
-      "rank": 837,
+      "wtId": 836,
+      "rank": 836,
       "iconId": 230,
       "caption": "U2",
       "url": "The_Joshua_Tree",
@@ -10153,8 +10141,8 @@
       "countries": "Ireland"
     },
     {
-      "wtId": 838,
-      "rank": 838,
+      "wtId": 837,
+      "rank": 837,
       "iconId": 229,
       "caption": "Bob Marley",
       "url": "Bob_Marley",
@@ -10165,8 +10153,8 @@
       "countries": "Jamaica"
     },
     {
-      "wtId": 839,
-      "rank": 839,
+      "wtId": 838,
+      "rank": 838,
       "iconId": 256,
       "caption": "Adele",
       "url": "21_(Adele_album)",
@@ -10177,8 +10165,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 840,
-      "rank": 840,
+      "wtId": 839,
+      "rank": 839,
       "iconId": 230,
       "caption": "The Police",
       "url": "Roxanne_(The_Police_song)",
@@ -10189,8 +10177,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 841,
-      "rank": 841,
+      "wtId": 840,
+      "rank": 840,
       "iconId": 230,
       "caption": "Radiohead",
       "url": "In_Rainbows",
@@ -10201,8 +10189,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 842,
-      "rank": 842,
+      "wtId": 841,
+      "rank": 841,
       "iconId": 229,
       "caption": "David Bowie",
       "url": "David_Bowie",
@@ -10213,8 +10201,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 843,
-      "rank": 843,
+      "wtId": 842,
+      "rank": 842,
       "iconId": 229,
       "caption": "The Clash",
       "url": "The_Clash_(album)",
@@ -10225,8 +10213,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 844,
-      "rank": 844,
+      "wtId": 843,
+      "rank": 843,
       "iconId": 229,
       "caption": "The Police",
       "url": "The_Police",
@@ -10237,8 +10225,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 845,
-      "rank": 845,
+      "wtId": 844,
+      "rank": 844,
       "iconId": 229,
       "caption": "The Beatles",
       "url": "The_Beatles_on_The_Ed_Sullivan_Show",
@@ -10249,8 +10237,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 846,
-      "rank": 846,
+      "wtId": 845,
+      "rank": 845,
       "iconId": 229,
       "caption": "Pink Floyd",
       "url": "The_Dark_Side_of_the_Moon",
@@ -10261,8 +10249,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 847,
-      "rank": 847,
+      "wtId": 846,
+      "rank": 846,
       "iconId": 229,
       "caption": "The Beatles",
       "url": "Sgt._Pepper%27s_Lonely_Hearts_Club_Band",
@@ -10273,8 +10261,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 848,
-      "rank": 848,
+      "wtId": 847,
+      "rank": 847,
       "iconId": 229,
       "caption": "The Rolling Stones",
       "url": "The_Rolling_Stones",
@@ -10285,8 +10273,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 849,
-      "rank": 849,
+      "wtId": 848,
+      "rank": 848,
       "iconId": 229,
       "caption": "The Rolling Stones",
       "url": "Hackney_Diamonds",
@@ -10297,8 +10285,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 850,
-      "rank": 850,
+      "wtId": 849,
+      "rank": 849,
       "iconId": 229,
       "caption": "Led Zeppelin",
       "url": "Stairway_to_Heaven",
@@ -10309,8 +10297,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 851,
-      "rank": 851,
+      "wtId": 850,
+      "rank": 850,
       "iconId": 229,
       "caption": "Fleetwood Mac",
       "url": "Rumours",
@@ -10321,8 +10309,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 852,
-      "rank": 852,
+      "wtId": 851,
+      "rank": 851,
       "iconId": 229,
       "caption": "Bob Dylan",
       "url": "Bob_Dylan",
@@ -10333,8 +10321,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 853,
-      "rank": 853,
+      "wtId": 852,
+      "rank": 852,
       "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Reputation_(Taylor_Swift_album)",
@@ -10345,8 +10333,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 854,
-      "rank": 854,
+      "wtId": 853,
+      "rank": 853,
       "iconId": 256,
       "caption": "Taylor Swift",
       "url": "The_Eras_Tour",
@@ -10357,8 +10345,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 855,
-      "rank": 855,
+      "wtId": 854,
+      "rank": 854,
       "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Midnights",
@@ -10369,8 +10357,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 856,
-      "rank": 856,
+      "wtId": 855,
+      "rank": 855,
       "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Taylor_Swift_(album)",
@@ -10381,8 +10369,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 857,
-      "rank": 857,
+      "wtId": 856,
+      "rank": 856,
       "iconId": 256,
       "caption": "Taylor Swift",
       "url": "Speak_Now",
@@ -10393,8 +10381,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 858,
-      "rank": 858,
+      "wtId": 857,
+      "rank": 857,
       "iconId": 256,
       "caption": "Norah Jones",
       "url": "Come_Away_with_Me",
@@ -10405,8 +10393,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 859,
-      "rank": 859,
+      "wtId": 858,
+      "rank": 858,
       "iconId": 256,
       "caption": "Ray Charles",
       "url": "Ray_Charles",
@@ -10417,8 +10405,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 860,
-      "rank": 860,
+      "wtId": 859,
+      "rank": 859,
       "iconId": 256,
       "caption": "Louis Armstrong",
       "url": "Louis_Armstrong",
@@ -10429,8 +10417,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 861,
-      "rank": 861,
+      "wtId": 860,
+      "rank": 860,
       "iconId": 256,
       "caption": "James Brown",
       "url": "James_Brown",
@@ -10441,8 +10429,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 862,
-      "rank": 862,
+      "wtId": 861,
+      "rank": 861,
       "iconId": 256,
       "caption": "Sly Stone",
       "url": "Sly_and_the_Family_Stone",
@@ -10453,8 +10441,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 863,
-      "rank": 863,
+      "wtId": 862,
+      "rank": 862,
       "iconId": 256,
       "caption": "Beyonce",
       "url": "Lemonade_(Beyonc%C3%A9_album)",
@@ -10465,8 +10453,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 864,
-      "rank": 864,
+      "wtId": 863,
+      "rank": 863,
       "iconId": 256,
       "caption": "Kanye West",
       "url": "Late_Registration",
@@ -10477,8 +10465,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 865,
-      "rank": 865,
+      "wtId": 864,
+      "rank": 864,
       "iconId": 256,
       "caption": "Lauryn Hill",
       "url": "The_Miseducation_of_Lauryn_Hill",
@@ -10489,8 +10477,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 866,
-      "rank": 866,
+      "wtId": 865,
+      "rank": 865,
       "iconId": 256,
       "caption": "Justin Timberlake",
       "url": "The_20/20_Experience",
@@ -10501,8 +10489,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 867,
-      "rank": 867,
+      "wtId": 866,
+      "rank": 866,
       "iconId": 256,
       "caption": "Billie Eilish",
       "url": "When_We_All_Fall_Asleep,_Where_Do_We_Go%3F",
@@ -10513,8 +10501,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 868,
-      "rank": 868,
+      "wtId": 867,
+      "rank": 867,
       "iconId": 256,
       "caption": "Beyonce",
       "url": "Cowboy_Carter",
@@ -10525,8 +10513,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 869,
-      "rank": 869,
+      "wtId": 868,
+      "rank": 868,
       "iconId": 256,
       "caption": "Frank Sinatra",
       "url": "Frank_Sinatra",
@@ -10537,8 +10525,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 870,
-      "rank": 870,
+      "wtId": 869,
+      "rank": 869,
       "iconId": 256,
       "caption": "The Beach Boys",
       "url": "Pet_Sounds",
@@ -10549,8 +10537,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 871,
-      "rank": 871,
+      "wtId": 870,
+      "rank": 870,
       "iconId": 256,
       "caption": "Eminem",
       "url": "The_Marshall_Mathers_LP",
@@ -10561,8 +10549,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 872,
-      "rank": 872,
+      "wtId": 871,
+      "rank": 871,
       "iconId": 256,
       "caption": "Usher",
       "url": "Yeah!_(Usher_song)",
@@ -10573,8 +10561,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 873,
-      "rank": 873,
+      "wtId": 872,
+      "rank": 872,
       "iconId": 256,
       "caption": "Marvin Gaye",
       "url": "What%27s_Going_On_(Marvin_Gaye_album)",
@@ -10585,8 +10573,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 874,
-      "rank": 874,
+      "wtId": 873,
+      "rank": 873,
       "iconId": 256,
       "caption": "Kendrick Lamar",
       "url": "To_Pimp_a_Butterfly",
@@ -10597,8 +10585,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 875,
-      "rank": 875,
+      "wtId": 874,
+      "rank": 874,
       "iconId": 256,
       "caption": "Donna Summer",
       "url": "Donna_Summer",
@@ -10609,8 +10597,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 876,
-      "rank": 876,
+      "wtId": 875,
+      "rank": 875,
       "iconId": 256,
       "caption": "N.W.A",
       "url": "Straight_Outta_Compton_(album)",
@@ -10621,8 +10609,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 877,
-      "rank": 877,
+      "wtId": 876,
+      "rank": 876,
       "iconId": 256,
       "caption": "Michael Jackson",
       "url": "Off_the_Wall",
@@ -10633,8 +10621,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 878,
-      "rank": 878,
+      "wtId": 877,
+      "rank": 877,
       "iconId": 256,
       "caption": "Bessie Smith",
       "url": "Bessie_Smith",
@@ -10645,8 +10633,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 879,
-      "rank": 879,
+      "wtId": 878,
+      "rank": 878,
       "iconId": 256,
       "caption": "The Sugarhill Gang",
       "url": "Rapper%27s_Delight",
@@ -10657,8 +10645,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 880,
-      "rank": 880,
+      "wtId": 879,
+      "rank": 879,
       "iconId": 256,
       "caption": "Run-DMC",
       "url": "Walk_This_Way_(Run-DMC_song)",
@@ -10669,8 +10657,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 881,
-      "rank": 881,
+      "wtId": 880,
+      "rank": 880,
       "iconId": 256,
       "caption": "Frank Ocean",
       "url": "Channel_Orange",
@@ -10681,8 +10669,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 882,
-      "rank": 882,
+      "wtId": 881,
+      "rank": 881,
       "iconId": 256,
       "caption": "Marvin Gaye",
       "url": "Marvin_Gaye",
@@ -10693,8 +10681,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 883,
-      "rank": 883,
+      "wtId": 882,
+      "rank": 882,
       "iconId": 256,
       "caption": "Beyonce",
       "url": "Renaissance_(Beyonc%C3%A9_album)",
@@ -10705,8 +10693,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 884,
-      "rank": 884,
+      "wtId": 883,
+      "rank": 883,
       "iconId": 256,
       "caption": "Jay-Z",
       "url": "The_Blueprint",
@@ -10717,8 +10705,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 885,
-      "rank": 885,
+      "wtId": 884,
+      "rank": 884,
       "iconId": 256,
       "caption": "Beyonce",
       "url": "Crazy_in_Love",
@@ -10729,8 +10717,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 886,
-      "rank": 886,
+      "wtId": 885,
+      "rank": 885,
       "iconId": 256,
       "caption": "The Notorious B.I.G.",
       "url": "Life_After_Death",
@@ -10741,8 +10729,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 887,
-      "rank": 887,
+      "wtId": 886,
+      "rank": 886,
       "iconId": 256,
       "caption": "Madonna",
       "url": "Like_a_Virgin_(album)",
@@ -10753,8 +10741,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 888,
-      "rank": 888,
+      "wtId": 887,
+      "rank": 887,
       "iconId": 256,
       "caption": "2Pac",
       "url": "All_Eyez_on_Me",
@@ -10765,8 +10753,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 889,
-      "rank": 889,
+      "wtId": 888,
+      "rank": 888,
       "iconId": 256,
       "caption": "Whitney Houston",
       "url": "I_Will_Always_Love_You_(Whitney_Houston_song)",
@@ -10777,8 +10765,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 890,
-      "rank": 890,
+      "wtId": 889,
+      "rank": 889,
       "iconId": 256,
       "caption": "Beyonce",
       "url": "Beyonc%C3%A9_(album)",
@@ -10789,8 +10777,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 891,
-      "rank": 891,
+      "wtId": 890,
+      "rank": 890,
       "iconId": 230,
       "caption": "Eagles",
       "url": "Hotel_California_(Eagles_album)",
@@ -10801,8 +10789,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 892,
-      "rank": 892,
+      "wtId": 891,
+      "rank": 891,
       "iconId": 230,
       "caption": "Metallica",
       "url": "Metallica_(album)",
@@ -10813,8 +10801,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 893,
-      "rank": 893,
+      "wtId": 892,
+      "rank": 892,
       "iconId": 230,
       "caption": "Nirvana",
       "url": "Nevermind",
@@ -10825,8 +10813,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 894,
-      "rank": 894,
+      "wtId": 893,
+      "rank": 893,
       "iconId": 230,
       "caption": "Jimi Hendrix",
       "url": "Jimi_Hendrix",
@@ -10837,8 +10825,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 895,
-      "rank": 895,
+      "wtId": 894,
+      "rank": 894,
       "iconId": 229,
       "caption": "Johnny Cash",
       "url": "Johnny_Cash",
@@ -10849,8 +10837,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 896,
-      "rank": 896,
+      "wtId": 895,
+      "rank": 895,
       "iconId": 229,
       "caption": "Talking Heads",
       "url": "Remain_in_Light",
@@ -10861,8 +10849,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 897,
-      "rank": 897,
+      "wtId": 896,
+      "rank": 896,
       "iconId": 229,
       "caption": "Tom Petty",
       "url": "Tom_Petty",
@@ -10873,8 +10861,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 898,
-      "rank": 898,
+      "wtId": 897,
+      "rank": 897,
       "iconId": 229,
       "caption": "Bruce Springsteen",
       "url": "Born_in_the_U.S.A.",
@@ -10885,8 +10873,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 899,
-      "rank": 899,
+      "wtId": 898,
+      "rank": 898,
       "iconId": 229,
       "caption": "Hank Williams",
       "url": "Hank_Williams",
@@ -10897,8 +10885,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 900,
-      "rank": 900,
+      "wtId": 899,
+      "rank": 899,
       "iconId": 229,
       "caption": "Morgan Wallen",
       "url": "Morgan_Wallen",
@@ -10909,8 +10897,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 901,
-      "rank": 901,
+      "wtId": 900,
+      "rank": 900,
       "iconId": 229,
       "caption": "Bob Dylan",
       "url": "Bringing_It_All_Back_Home",
@@ -10921,8 +10909,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 902,
-      "rank": 902,
+      "wtId": 901,
+      "rank": 901,
       "iconId": 229,
       "caption": "Olivia Rodrigo",
       "url": "Sour_(album)",
@@ -10933,8 +10921,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 903,
-      "rank": 903,
+      "wtId": 902,
+      "rank": 902,
       "iconId": 229,
       "caption": "Prince",
       "url": "Purple_Rain_(album)",
@@ -10945,8 +10933,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 904,
-      "rank": 904,
+      "wtId": 903,
+      "rank": 903,
       "iconId": 229,
       "caption": "Green Day",
       "url": "Dookie",
@@ -10957,8 +10945,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 905,
-      "rank": 905,
+      "wtId": 904,
+      "rank": 904,
       "iconId": 229,
       "caption": "Elvis Presley debut single",
       "url": "Elvis_Presley",
@@ -10969,8 +10957,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 906,
-      "rank": 906,
+      "wtId": 905,
+      "rank": 905,
       "iconId": 229,
       "caption": "Chuck Berry",
       "url": "Chuck_Berry",
@@ -10981,8 +10969,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 907,
-      "rank": 907,
+      "wtId": 906,
+      "rank": 906,
       "iconId": 229,
       "caption": "Taylor Swift",
       "url": "Folklore_(Taylor_Swift_album)",
@@ -10993,8 +10981,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 908,
-      "rank": 908,
+      "wtId": 907,
+      "rank": 907,
       "iconId": 229,
       "caption": "Jimi Hendrix",
       "url": "Jimi_Hendrix_at_Woodstock",
@@ -11005,8 +10993,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 909,
-      "rank": 909,
+      "wtId": 908,
+      "rank": 908,
       "iconId": 229,
       "caption": "Bruce Springsteen",
       "url": "Born_to_Run",
@@ -11017,8 +11005,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 910,
-      "rank": 910,
+      "wtId": 909,
+      "rank": 909,
       "iconId": 229,
       "caption": "Elvis Presley debut album",
       "url": "Elvis_Presley_(album)",
@@ -11029,8 +11017,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 911,
-      "rank": 911,
+      "wtId": 910,
+      "rank": 910,
       "iconId": 229,
       "caption": "Pearl Jam",
       "url": "Vs._(Pearl_Jam_album)",
@@ -11041,8 +11029,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 912,
-      "rank": 912,
+      "wtId": 911,
+      "rank": 911,
       "iconId": 229,
       "caption": "Garth Brooks",
       "url": "Garth_Brooks",
@@ -11053,8 +11041,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 913,
-      "rank": 913,
+      "wtId": 912,
+      "rank": 912,
       "iconId": 257,
       "caption": "Benny Goodman",
       "url": "Benny_Goodman",
@@ -11065,8 +11053,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 914,
-      "rank": 914,
+      "wtId": 913,
+      "rank": 913,
       "iconId": 257,
       "caption": "Stevie Wonder",
       "url": "Stevie_Wonder",
@@ -11077,8 +11065,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 915,
-      "rank": 915,
+      "wtId": 914,
+      "rank": 914,
       "iconId": 257,
       "caption": "Alicia Keys",
       "url": "Songs_in_A_Minor",
@@ -11089,8 +11077,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 916,
-      "rank": 916,
+      "wtId": 915,
+      "rank": 915,
       "iconId": 257,
       "caption": "Carole King",
       "url": "Tapestry_(Carole_King_album)",
@@ -11101,8 +11089,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 917,
-      "rank": 917,
+      "wtId": 916,
+      "rank": 916,
       "iconId": 257,
       "caption": "Stevie Wonder",
       "url": "Innervisions",
@@ -11113,8 +11101,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 918,
-      "rank": 918,
+      "wtId": 917,
+      "rank": 917,
       "iconId": 256,
       "caption": "Live Aid",
       "url": "Live_Aid",
@@ -11125,8 +11113,8 @@
       "countries": "USA, United Kingdom"
     },
     {
-      "wtId": 919,
-      "rank": 919,
+      "wtId": 918,
+      "rank": 918,
       "iconId": 238,
       "caption": "Camus Nobel Prize",
       "url": "Albert_Camus",
@@ -11137,8 +11125,8 @@
       "countries": "Algeria, France"
     },
     {
-      "wtId": 920,
-      "rank": 920,
+      "wtId": 919,
+      "rank": 919,
       "iconId": 238,
       "caption": "Camus' absurdism",
       "url": "The_Myth_of_Sisyphus",
@@ -11149,8 +11137,8 @@
       "countries": "Algeria, France"
     },
     {
-      "wtId": 921,
-      "rank": 921,
+      "wtId": 920,
+      "rank": 920,
       "iconId": 238,
       "caption": "Derrida Grammatology",
       "url": "Of_Grammatology",
@@ -11161,8 +11149,8 @@
       "countries": "Algeria, France"
     },
     {
-      "wtId": 922,
-      "rank": 922,
+      "wtId": 921,
+      "rank": 921,
       "iconId": 238,
       "caption": "Practical Ethics",
       "url": "Practical_Ethics",
@@ -11173,8 +11161,8 @@
       "countries": "Australia, USA"
     },
     {
-      "wtId": 923,
-      "rank": 923,
+      "wtId": 922,
+      "rank": 922,
       "iconId": 238,
       "caption": "Animal Liberation",
       "url": "Animal_Liberation_(book)",
@@ -11185,8 +11173,8 @@
       "countries": "Australia, USA"
     },
     {
-      "wtId": 924,
-      "rank": 924,
+      "wtId": 923,
+      "rank": 923,
       "iconId": 238,
       "caption": "Freud psychoanalysis",
       "url": "Sigmund_Freud",
@@ -11197,8 +11185,8 @@
       "countries": "Austria"
     },
     {
-      "wtId": 925,
-      "rank": 925,
+      "wtId": 924,
+      "rank": 924,
       "iconId": 238,
       "caption": "Popper's Open Society",
       "url": "The_Open_Society_and_Its_Enemies",
@@ -11209,8 +11197,8 @@
       "countries": "Austria, United Kingdom"
     },
     {
-      "wtId": 926,
-      "rank": 926,
+      "wtId": 925,
+      "rank": 925,
       "iconId": 238,
       "caption": "Wittgenstein",
       "url": "Tractatus_Logico-Philosophicus",
@@ -11221,8 +11209,8 @@
       "countries": "Austria, United Kingdom"
     },
     {
-      "wtId": 927,
-      "rank": 927,
+      "wtId": 926,
+      "rank": 926,
       "iconId": 238,
       "caption": "Sources of the Self",
       "url": "Charles_Taylor_(philosopher)",
@@ -11233,8 +11221,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 928,
-      "rank": 928,
+      "wtId": 927,
+      "rank": 927,
       "iconId": 238,
       "caption": "Analects / Chinese ethics",
       "url": "Confucius",
@@ -11245,8 +11233,8 @@
       "countries": "China"
     },
     {
-      "wtId": 929,
-      "rank": 929,
+      "wtId": 928,
+      "rank": 928,
       "iconId": 238,
       "caption": "Stoic philosophy",
       "url": "Zeno_of_Citium",
@@ -11257,8 +11245,8 @@
       "countries": "Cyprus, Greece"
     },
     {
-      "wtId": 930,
-      "rank": 930,
+      "wtId": 929,
+      "rank": 929,
       "iconId": 238,
       "caption": "On Liberty",
       "url": "On_Liberty",
@@ -11269,8 +11257,8 @@
       "countries": "England"
     },
     {
-      "wtId": 931,
-      "rank": 931,
+      "wtId": 930,
+      "rank": 930,
       "iconId": 238,
       "caption": "Russell's On Denoting",
       "url": "On_Denoting",
@@ -11281,8 +11269,8 @@
       "countries": "England"
     },
     {
-      "wtId": 932,
-      "rank": 932,
+      "wtId": 931,
+      "rank": 931,
       "iconId": 238,
       "caption": "Turing's philosophy of mind",
       "url": "Alan_Turing",
@@ -11293,8 +11281,8 @@
       "countries": "England"
     },
     {
-      "wtId": 933,
-      "rank": 933,
+      "wtId": 932,
+      "rank": 932,
       "iconId": 238,
       "caption": "Bacon Novum Organum",
       "url": "Francis_Bacon",
@@ -11305,8 +11293,8 @@
       "countries": "England"
     },
     {
-      "wtId": 934,
-      "rank": 934,
+      "wtId": 933,
+      "rank": 933,
       "iconId": 238,
       "caption": "Principles of Morals",
       "url": "An_Introduction_to_the_Principles_of_Morals_and_Legislation",
@@ -11317,8 +11305,8 @@
       "countries": "England"
     },
     {
-      "wtId": 935,
-      "rank": 935,
+      "wtId": 934,
+      "rank": 934,
       "iconId": 238,
       "caption": "Bentham's Utilitarianism",
       "url": "Jeremy_Bentham",
@@ -11329,8 +11317,8 @@
       "countries": "England"
     },
     {
-      "wtId": 936,
-      "rank": 936,
+      "wtId": 935,
+      "rank": 935,
       "iconId": 238,
       "caption": "Hobbes' Leviathan",
       "url": "Leviathan_(Hobbes_book)",
@@ -11341,8 +11329,8 @@
       "countries": "England"
     },
     {
-      "wtId": 937,
-      "rank": 937,
+      "wtId": 936,
+      "rank": 936,
       "iconId": 238,
       "caption": "John Locke",
       "url": "Two_Treatises_of_Government",
@@ -11353,8 +11341,8 @@
       "countries": "England"
     },
     {
-      "wtId": 938,
-      "rank": 938,
+      "wtId": 937,
+      "rank": 937,
       "iconId": 238,
       "caption": "Sartre refuses Nobel",
       "url": "Jean-Paul_Sartre",
@@ -11365,8 +11353,8 @@
       "countries": "France"
     },
     {
-      "wtId": 939,
-      "rank": 939,
+      "wtId": 938,
+      "rank": 938,
       "iconId": 238,
       "caption": "Tocqueville's Democracy",
       "url": "Democracy_in_America",
@@ -11377,8 +11365,8 @@
       "countries": "France"
     },
     {
-      "wtId": 940,
-      "rank": 940,
+      "wtId": 939,
+      "rank": 939,
       "iconId": 238,
       "caption": "The Second Sex",
       "url": "The_Second_Sex",
@@ -11389,8 +11377,8 @@
       "countries": "France"
     },
     {
-      "wtId": 941,
-      "rank": 941,
+      "wtId": 940,
+      "rank": 940,
       "iconId": 238,
       "caption": "The Care of the Self",
       "url": "The_History_of_Sexuality",
@@ -11401,8 +11389,8 @@
       "countries": "France"
     },
     {
-      "wtId": 942,
-      "rank": 942,
+      "wtId": 941,
+      "rank": 941,
       "iconId": 238,
       "caption": "Discipline and Punish",
       "url": "Discipline_and_Punish",
@@ -11413,8 +11401,8 @@
       "countries": "France"
     },
     {
-      "wtId": 943,
-      "rank": 943,
+      "wtId": 942,
+      "rank": 942,
       "iconId": 238,
       "caption": "Comte's Positivism",
       "url": "Auguste_Comte",
@@ -11425,8 +11413,8 @@
       "countries": "France"
     },
     {
-      "wtId": 944,
-      "rank": 944,
+      "wtId": 943,
+      "rank": 943,
       "iconId": 238,
       "caption": "Sartre Existentialism",
       "url": "Being_and_Nothingness",
@@ -11437,8 +11425,8 @@
       "countries": "France"
     },
     {
-      "wtId": 945,
-      "rank": 945,
+      "wtId": 944,
+      "rank": 944,
       "iconId": 238,
       "caption": "Montaigne Essays",
       "url": "Michel_de_Montaigne",
@@ -11449,8 +11437,8 @@
       "countries": "France"
     },
     {
-      "wtId": 946,
-      "rank": 946,
+      "wtId": 945,
+      "rank": 945,
       "iconId": 238,
       "caption": "Descartes' Meditations",
       "url": "Ren%C3%A9_Descartes",
@@ -11461,8 +11449,8 @@
       "countries": "France"
     },
     {
-      "wtId": 947,
-      "rank": 947,
+      "wtId": 946,
+      "rank": 946,
       "iconId": 238,
       "caption": "Pascal's Pensées",
       "url": "Pens%C3%A9es",
@@ -11473,8 +11461,8 @@
       "countries": "France"
     },
     {
-      "wtId": 948,
-      "rank": 948,
+      "wtId": 947,
+      "rank": 947,
       "iconId": 238,
       "caption": "Voltaire's Candide",
       "url": "Voltaire",
@@ -11485,8 +11473,8 @@
       "countries": "France"
     },
     {
-      "wtId": 949,
-      "rank": 949,
+      "wtId": 948,
+      "rank": 948,
       "iconId": 238,
       "caption": "Rousseau's Social Contract",
       "url": "The_Social_Contract",
@@ -11497,8 +11485,8 @@
       "countries": "France, Switzerland"
     },
     {
-      "wtId": 950,
-      "rank": 950,
+      "wtId": 949,
+      "rank": 949,
       "iconId": 238,
       "caption": "Calvin",
       "url": "John_Calvin",
@@ -11509,8 +11497,8 @@
       "countries": "France, Switzerland"
     },
     {
-      "wtId": 951,
-      "rank": 951,
+      "wtId": 950,
+      "rank": 950,
       "iconId": 238,
       "caption": "Beyond Good and Evil",
       "url": "Beyond_Good_and_Evil",
@@ -11521,8 +11509,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 952,
-      "rank": 952,
+      "wtId": 951,
+      "rank": 951,
       "iconId": 238,
       "caption": "Future of Human Nature",
       "url": "J%C3%BCrgen_Habermas",
@@ -11533,8 +11521,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 953,
-      "rank": 953,
+      "wtId": 952,
+      "rank": 952,
       "iconId": 238,
       "caption": "Marx' Communist Manifesto",
       "url": "Karl_Marx",
@@ -11545,8 +11533,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 954,
-      "rank": 954,
+      "wtId": 953,
+      "rank": 953,
       "iconId": 238,
       "caption": "Truth and Method",
       "url": "Hans-Georg_Gadamer",
@@ -11557,8 +11545,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 955,
-      "rank": 955,
+      "wtId": 954,
+      "rank": 954,
       "iconId": 238,
       "caption": "Communicative Action Theory",
       "url": "The_Theory_of_Communicative_Action",
@@ -11569,8 +11557,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 956,
-      "rank": 956,
+      "wtId": 955,
+      "rank": 955,
       "iconId": 238,
       "caption": "Leibniz Monadology",
       "url": "Gottfried_Wilhelm_Leibniz",
@@ -11581,8 +11569,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 957,
-      "rank": 957,
+      "wtId": 956,
+      "rank": 956,
       "iconId": 238,
       "caption": "Hegel's Phenomenology",
       "url": "Phenomenology_of_Spirit",
@@ -11593,8 +11581,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 958,
-      "rank": 958,
+      "wtId": 957,
+      "rank": 957,
       "iconId": 238,
       "caption": "Heidegger's Being and Time",
       "url": "Being_and_Time",
@@ -11605,8 +11593,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 959,
-      "rank": 959,
+      "wtId": 958,
+      "rank": 958,
       "iconId": 238,
       "caption": "Arthur Schopenhauer",
       "url": "The_World_as_Will_and_Representation",
@@ -11617,8 +11605,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 960,
-      "rank": 960,
+      "wtId": 959,
+      "rank": 959,
       "iconId": 238,
       "caption": "Nietzsche Zarathustra",
       "url": "Friedrich_Nietzsche",
@@ -11629,8 +11617,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 961,
-      "rank": 961,
+      "wtId": 960,
+      "rank": 960,
       "iconId": 238,
       "caption": "Luther's Protestant Reformation",
       "url": "Martin_Luther",
@@ -11641,8 +11629,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 962,
-      "rank": 962,
+      "wtId": 961,
+      "rank": 961,
       "iconId": 238,
       "caption": "One-Dimensional Man",
       "url": "One-Dimensional_Man",
@@ -11653,8 +11641,8 @@
       "countries": "Germany, USA"
     },
     {
-      "wtId": 963,
-      "rank": 963,
+      "wtId": 962,
+      "rank": 962,
       "iconId": 238,
       "caption": "Arendt's Totalitarianism",
       "url": "The_Origins_of_Totalitarianism",
@@ -11665,8 +11653,8 @@
       "countries": "Germany, USA"
     },
     {
-      "wtId": 964,
-      "rank": 964,
+      "wtId": 963,
+      "rank": 963,
       "iconId": 238,
       "caption": "Cosmopolitanism",
       "url": "Kwame_Anthony_Appiah",
@@ -11677,8 +11665,8 @@
       "countries": "Ghana, United Kingdom, USA"
     },
     {
-      "wtId": 965,
-      "rank": 965,
+      "wtId": 964,
+      "rank": 964,
       "iconId": 238,
       "caption": "Socratic method",
       "url": "Socrates",
@@ -11689,8 +11677,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 966,
-      "rank": 966,
+      "wtId": 965,
+      "rank": 965,
       "iconId": 89,
       "caption": "Plato's Cave Allegory",
       "url": "Plato",
@@ -11701,8 +11689,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 967,
-      "rank": 967,
+      "wtId": 966,
+      "rank": 966,
       "iconId": 238,
       "caption": "Aristotle Ethics",
       "url": "Aristotle",
@@ -11713,8 +11701,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 968,
-      "rank": 968,
+      "wtId": 967,
+      "rank": 967,
       "iconId": 238,
       "caption": "Epicurus pleasure ethics",
       "url": "Epicurus",
@@ -11725,8 +11713,8 @@
       "countries": "Greece"
     },
     {
-      "wtId": 969,
-      "rank": 969,
+      "wtId": 968,
+      "rank": 968,
       "iconId": 238,
       "caption": "History and Class Consciousness",
       "url": "Georg_Luk%C3%A1cs",
@@ -11737,8 +11725,8 @@
       "countries": "Hungary"
     },
     {
-      "wtId": 970,
-      "rank": 970,
+      "wtId": 969,
+      "rank": 969,
       "iconId": 238,
       "caption": "Summa Theologica",
       "url": "Thomas_Aquinas",
@@ -11749,8 +11737,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 971,
-      "rank": 971,
+      "wtId": 970,
+      "rank": 970,
       "iconId": 238,
       "caption": "Machiavelli's Prince",
       "url": "Niccol%C3%B2_Machiavelli",
@@ -11761,8 +11749,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 972,
-      "rank": 972,
+      "wtId": 971,
+      "rank": 971,
       "iconId": 238,
       "caption": "Prison Notebooks",
       "url": "Prison_Notebooks",
@@ -11773,8 +11761,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 973,
-      "rank": 973,
+      "wtId": 972,
+      "rank": 972,
       "iconId": 238,
       "caption": "Two Concepts of Liberty",
       "url": "Two_Concepts_of_Liberty",
@@ -11785,8 +11773,8 @@
       "countries": "Latvia, United Kingdom"
     },
     {
-      "wtId": 974,
-      "rank": 974,
+      "wtId": 973,
+      "rank": 973,
       "iconId": 238,
       "caption": "Césaire \"Colonialism\"",
       "url": "Discourse_on_Colonialism",
@@ -11797,8 +11785,8 @@
       "countries": "Martinique, France"
     },
     {
-      "wtId": 975,
-      "rank": 975,
+      "wtId": 974,
+      "rank": 974,
       "iconId": 238,
       "caption": "Black Skin, White Masks",
       "url": "Black_Skin,_White_Masks",
@@ -11809,8 +11797,8 @@
       "countries": "Martinique, France"
     },
     {
-      "wtId": 976,
-      "rank": 976,
+      "wtId": 975,
+      "rank": 975,
       "iconId": 238,
       "caption": "Spinoza Ethics",
       "url": "Baruch_Spinoza",
@@ -11821,8 +11809,8 @@
       "countries": "Netherlands"
     },
     {
-      "wtId": 977,
-      "rank": 977,
+      "wtId": 976,
+      "rank": 976,
       "iconId": 158,
       "caption": "Canon of Medicine",
       "url": "Avicenna",
@@ -11833,8 +11821,8 @@
       "countries": "Iran"
     },
     {
-      "wtId": 978,
-      "rank": 978,
+      "wtId": 977,
+      "rank": 977,
       "iconId": 238,
       "caption": "Critique of Pure Reason",
       "url": "Critique_of_Pure_Reason",
@@ -11845,8 +11833,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 979,
-      "rank": 979,
+      "wtId": 978,
+      "rank": 978,
       "iconId": 238,
       "caption": "Stoicism",
       "url": "Cicero",
@@ -11857,8 +11845,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 980,
-      "rank": 980,
+      "wtId": 979,
+      "rank": 979,
       "iconId": 43,
       "caption": "Marcus Aurelius Meditations",
       "url": "Meditations",
@@ -11869,8 +11857,8 @@
       "countries": "Italy, Italy"
     },
     {
-      "wtId": 981,
-      "rank": 981,
+      "wtId": 980,
+      "rank": 980,
       "iconId": 238,
       "caption": "Lenin's Imperialism",
       "url": "Vladimir_Lenin",
@@ -11881,8 +11869,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 982,
-      "rank": 982,
+      "wtId": 981,
+      "rank": 981,
       "iconId": 238,
       "caption": "Treatise of Human Nature",
       "url": "A_Treatise_of_Human_Nature",
@@ -11893,8 +11881,8 @@
       "countries": "Scotland"
     },
     {
-      "wtId": 983,
-      "rank": 983,
+      "wtId": 982,
+      "rank": 982,
       "iconId": 238,
       "caption": "Smith's Wealth of Nations",
       "url": "Adam_Smith",
@@ -11905,8 +11893,8 @@
       "countries": "Scotland"
     },
     {
-      "wtId": 984,
-      "rank": 984,
+      "wtId": 983,
+      "rank": 983,
       "iconId": 238,
       "caption": "Sublime Object of Ideology",
       "url": "Slavoj_%C5%BDi%C5%BEek",
@@ -11917,8 +11905,8 @@
       "countries": "Slovenia"
     },
     {
-      "wtId": 985,
-      "rank": 985,
+      "wtId": 984,
+      "rank": 984,
       "iconId": 238,
       "caption": "Aristotle commentaries",
       "url": "Averroes",
@@ -11929,8 +11917,8 @@
       "countries": "Spain, Morocco"
     },
     {
-      "wtId": 986,
-      "rank": 986,
+      "wtId": 985,
+      "rank": 985,
       "iconId": 238,
       "caption": "A Theory of Justice",
       "url": "A_Theory_of_Justice",
@@ -11941,8 +11929,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 987,
-      "rank": 987,
+      "wtId": 986,
+      "rank": 986,
       "iconId": 238,
       "caption": "Anarchy State and Utopia",
       "url": "Anarchy,_State,_and_Utopia",
@@ -11953,8 +11941,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 988,
-      "rank": 988,
+      "wtId": 987,
+      "rank": 987,
       "iconId": 238,
       "caption": "The End of Faith",
       "url": "Sam_Harris",
@@ -11965,8 +11953,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 989,
-      "rank": 989,
+      "wtId": 988,
+      "rank": 988,
       "iconId": 238,
       "caption": "Goodman's nominalism",
       "url": "Nelson_Goodman",
@@ -11977,8 +11965,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 990,
-      "rank": 990,
+      "wtId": 989,
+      "rank": 989,
       "iconId": 238,
       "caption": "Structure of Scientific Revolutions",
       "url": "The_Structure_of_Scientific_Revolutions",
@@ -11989,8 +11977,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 991,
-      "rank": 991,
+      "wtId": 990,
+      "rank": 990,
       "iconId": 238,
       "caption": "Mind Self and Society",
       "url": "George_Herbert_Mead",
@@ -12001,8 +11989,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 992,
-      "rank": 992,
+      "wtId": 991,
+      "rank": 991,
       "iconId": 238,
       "caption": "Race Matters",
       "url": "Cornel_West",
@@ -12013,8 +12001,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 993,
-      "rank": 993,
+      "wtId": 992,
+      "rank": 992,
       "iconId": 238,
       "caption": "Consciousness Explained",
       "url": "Consciousness_Explained",
@@ -12025,8 +12013,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 994,
-      "rank": 994,
+      "wtId": 993,
+      "rank": 993,
       "iconId": 238,
       "caption": "Pragmatism",
       "url": "Charles_Sanders_Peirce",
@@ -12037,8 +12025,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 995,
-      "rank": 995,
+      "wtId": 994,
+      "rank": 994,
       "iconId": 238,
       "caption": "Fragility of Goodness",
       "url": "Martha_Nussbaum",
@@ -12049,8 +12037,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 996,
-      "rank": 996,
+      "wtId": 995,
+      "rank": 995,
       "iconId": 238,
       "caption": "Gender Trouble",
       "url": "Gender_Trouble",
@@ -12061,8 +12049,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 997,
-      "rank": 997,
+      "wtId": 996,
+      "rank": 996,
       "iconId": 238,
       "caption": "Sandel's Justice",
       "url": "Justice:_What%27s_the_Right_Thing_to_Do%3F",
@@ -12073,8 +12061,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 998,
-      "rank": 998,
+      "wtId": 997,
+      "rank": 997,
       "iconId": 238,
       "caption": "Dorty's Mirror of Nature",
       "url": "Philosophy_and_the_Mirror_of_Nature",
@@ -12085,8 +12073,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 999,
-      "rank": 999,
+      "wtId": 998,
+      "rank": 998,
       "iconId": 238,
       "caption": "James' Psychology",
       "url": "William_James",
@@ -12097,8 +12085,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1000,
-      "rank": 1000,
+      "wtId": 999,
+      "rank": 999,
       "iconId": 238,
       "caption": "Dewey's pragmatism",
       "url": "John_Dewey",
@@ -12109,8 +12097,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1001,
-      "rank": 1001,
+      "wtId": 1000,
+      "rank": 1000,
       "iconId": 238,
       "caption": "Chomsky Syntax",
       "url": "Noam_Chomsky",
@@ -12121,8 +12109,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1002,
-      "rank": 1002,
+      "wtId": 1001,
+      "rank": 1001,
       "iconId": 190,
       "caption": "Aging reversal research",
       "url": "David_Sinclair_(biologist)",
@@ -12133,8 +12121,8 @@
       "countries": "Australia, USA"
     },
     {
-      "wtId": 1003,
-      "rank": 1003,
+      "wtId": 1002,
+      "rank": 1002,
       "iconId": 226,
       "caption": "Schrodinger equation",
       "url": "Erwin_Schr%C3%B6dinger",
@@ -12145,8 +12133,8 @@
       "countries": "Austria"
     },
     {
-      "wtId": 1004,
-      "rank": 1004,
+      "wtId": 1003,
+      "rank": 1003,
       "iconId": 190,
       "caption": "DNA",
       "url": "Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment",
@@ -12157,8 +12145,8 @@
       "countries": "Canada, USA"
     },
     {
-      "wtId": 1005,
-      "rank": 1005,
+      "wtId": 1004,
+      "rank": 1004,
       "iconId": 226,
       "caption": "Bohr model of hydrogen atom",
       "url": "Bohr_model",
@@ -12169,8 +12157,8 @@
       "countries": "Denmark"
     },
     {
-      "wtId": 1006,
-      "rank": 1006,
+      "wtId": 1005,
+      "rank": 1005,
       "iconId": 190,
       "caption": "DNA sequencing method",
       "url": "Frederick_Sanger",
@@ -12181,8 +12169,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1007,
-      "rank": 1007,
+      "wtId": 1006,
+      "rank": 1006,
       "iconId": 282,
       "caption": "Conservation of energy",
       "url": "James_Prescott_Joule",
@@ -12193,8 +12181,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1008,
-      "rank": 1008,
+      "wtId": 1007,
+      "rank": 1007,
       "iconId": 215,
       "caption": "Epidemiology",
       "url": "John_Snow",
@@ -12205,8 +12193,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1009,
-      "rank": 1009,
+      "wtId": 1008,
+      "rank": 1008,
       "iconId": 226,
       "caption": "Hydrogen discovery",
       "url": "Henry_Cavendish",
@@ -12217,8 +12205,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1010,
-      "rank": 1010,
+      "wtId": 1009,
+      "rank": 1009,
       "iconId": 226,
       "caption": "Discovery of the electron",
       "url": "J._J._Thomson",
@@ -12229,8 +12217,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1011,
-      "rank": 1011,
+      "wtId": 1010,
+      "rank": 1010,
       "iconId": 235,
       "caption": "Computing Machinery",
       "url": "Alan_Turing",
@@ -12241,8 +12229,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1012,
-      "rank": 1012,
+      "wtId": 1011,
+      "rank": 1011,
       "iconId": 268,
       "caption": "De Motu Cordis",
       "url": "De_Motu_Cordis",
@@ -12253,8 +12241,8 @@
       "countries": "England"
     },
     {
-      "wtId": 1013,
-      "rank": 1013,
+      "wtId": 1012,
+      "rank": 1012,
       "iconId": 193,
       "caption": "Radioactivity",
       "url": "Henri_Becquerel",
@@ -12265,8 +12253,8 @@
       "countries": "France"
     },
     {
-      "wtId": 1014,
-      "rank": 1014,
+      "wtId": 1013,
+      "rank": 1013,
       "iconId": 226,
       "caption": "Lavoisier combustion theory",
       "url": "Antoine_Lavoisier",
@@ -12277,8 +12265,8 @@
       "countries": "France"
     },
     {
-      "wtId": 1015,
-      "rank": 1015,
+      "wtId": 1014,
+      "rank": 1014,
       "iconId": 252,
       "caption": "Germ theory of fermentation",
       "url": "Louis_Pasteur",
@@ -12289,8 +12277,8 @@
       "countries": "France"
     },
     {
-      "wtId": 1016,
-      "rank": 1016,
+      "wtId": 1015,
+      "rank": 1015,
       "iconId": 99,
       "caption": "Laws of Planetary Motion",
       "url": "Johannes_Kepler",
@@ -12301,8 +12289,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 1017,
-      "rank": 1017,
+      "wtId": 1016,
+      "rank": 1016,
       "iconId": 226,
       "caption": "Quantum mechanics",
       "url": "Werner_Heisenberg",
@@ -12313,8 +12301,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 1018,
-      "rank": 1018,
+      "wtId": 1017,
+      "rank": 1017,
       "iconId": 226,
       "caption": "Uncertainty principle",
       "url": "Uncertainty_principle",
@@ -12325,8 +12313,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 1019,
-      "rank": 1019,
+      "wtId": 1018,
+      "rank": 1018,
       "iconId": 268,
       "caption": "Preventing puerperal fever",
       "url": "Ignaz_Semmelweis",
@@ -12337,8 +12325,8 @@
       "countries": "Hungary, Austria"
     },
     {
-      "wtId": 1020,
-      "rank": 1020,
+      "wtId": 1019,
+      "rank": 1019,
       "iconId": 99,
       "caption": "Telescope astronomy",
       "url": "Galileo_Galilei",
@@ -12349,8 +12337,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 1021,
-      "rank": 1021,
+      "wtId": 1020,
+      "rank": 1020,
       "iconId": 190,
       "caption": "Induced stem cells",
       "url": "Shinya_Yamanaka",
@@ -12361,8 +12349,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1022,
-      "rank": 1022,
+      "wtId": 1021,
+      "rank": 1021,
       "iconId": 226,
       "caption": "Carbon nanotubes",
       "url": "Carbon_nanotube",
@@ -12373,8 +12361,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1023,
-      "rank": 1023,
+      "wtId": 1022,
+      "rank": 1022,
       "iconId": 226,
       "caption": "Nuclear model of the atom",
       "url": "Ernest_Rutherford",
@@ -12385,8 +12373,8 @@
       "countries": "New Zealand, United Kingdom"
     },
     {
-      "wtId": 1024,
-      "rank": 1024,
+      "wtId": 1023,
+      "rank": 1023,
       "iconId": 99,
       "caption": "Copernicus Heliocentrism",
       "url": "Nicolaus_Copernicus",
@@ -12397,8 +12385,8 @@
       "countries": "Poland"
     },
     {
-      "wtId": 1025,
-      "rank": 1025,
+      "wtId": 1024,
+      "rank": 1024,
       "iconId": 226,
       "caption": "Discovery of polonium and radium",
       "url": "Marie_Curie",
@@ -12409,8 +12397,8 @@
       "countries": "Poland, France"
     },
     {
-      "wtId": 1026,
-      "rank": 1026,
+      "wtId": 1025,
+      "rank": 1025,
       "iconId": 226,
       "caption": "Graphene discovery",
       "url": "Graphene",
@@ -12421,8 +12409,8 @@
       "countries": "Russia, United Kingdom"
     },
     {
-      "wtId": 1027,
-      "rank": 1027,
+      "wtId": 1026,
+      "rank": 1026,
       "iconId": 282,
       "caption": "Electricity and Magnetism",
       "url": "James_Clerk_Maxwell",
@@ -12433,8 +12421,8 @@
       "countries": "Scotland"
     },
     {
-      "wtId": 1028,
-      "rank": 1028,
+      "wtId": 1027,
+      "rank": 1027,
       "iconId": 226,
       "caption": "Superconductivity",
       "url": "High-temperature_superconductivity",
@@ -12445,8 +12433,8 @@
       "countries": "Switzerland"
     },
     {
-      "wtId": 1029,
-      "rank": 1029,
+      "wtId": 1028,
+      "rank": 1028,
       "iconId": 99,
       "caption": "Hawking radiation theory",
       "url": "Hawking_radiation",
@@ -12457,8 +12445,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1030,
-      "rank": 1030,
+      "wtId": 1029,
+      "rank": 1029,
       "iconId": 222,
       "caption": "AlphaFold protein prediction",
       "url": "Demis_Hassabis",
@@ -12469,8 +12457,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1031,
-      "rank": 1031,
+      "wtId": 1030,
+      "rank": 1030,
       "iconId": 226,
       "caption": "Higgs mechanism theory",
       "url": "Higgs_mechanism",
@@ -12481,8 +12469,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1032,
-      "rank": 1032,
+      "wtId": 1031,
+      "rank": 1031,
       "iconId": 222,
       "caption": "Deep learning AI",
       "url": "Geoffrey_Hinton",
@@ -12493,8 +12481,8 @@
       "countries": "United Kingdom, Canada, France"
     },
     {
-      "wtId": 1033,
-      "rank": 1033,
+      "wtId": 1032,
+      "rank": 1032,
       "iconId": 99,
       "caption": "Pulsar discovery",
       "url": "Jocelyn_Bell_Burnell",
@@ -12505,8 +12493,8 @@
       "countries": "United Kingdom, Ireland"
     },
     {
-      "wtId": 1034,
-      "rank": 1034,
+      "wtId": 1033,
+      "rank": 1033,
       "iconId": 251,
       "caption": "Fermat's Last Theorem",
       "url": "Fermat%27s_Last_Theorem",
@@ -12517,8 +12505,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 1035,
-      "rank": 1035,
+      "wtId": 1034,
+      "rank": 1034,
       "iconId": 190,
       "caption": "PCR technique",
       "url": "Kary_Mullis",
@@ -12529,8 +12517,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1036,
-      "rank": 1036,
+      "wtId": 1035,
+      "rank": 1035,
       "iconId": 190,
       "caption": "Reverse transcriptase",
       "url": "David_Baltimore",
@@ -12541,8 +12529,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1037,
-      "rank": 1037,
+      "wtId": 1036,
+      "rank": 1036,
       "iconId": 190,
       "caption": "Silent Spring",
       "url": "Rachel_Carson",
@@ -12553,8 +12541,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1038,
-      "rank": 1038,
+      "wtId": 1037,
+      "rank": 1037,
       "iconId": 190,
       "caption": "Jumping genes",
       "url": "Barbara_McClintock",
@@ -12565,8 +12553,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1039,
-      "rank": 1039,
+      "wtId": 1038,
+      "rank": 1038,
       "iconId": 190,
       "caption": "First synthetic genome",
       "url": "J._Craig_Venter",
@@ -12577,8 +12565,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1040,
-      "rank": 1040,
+      "wtId": 1039,
+      "rank": 1039,
       "iconId": 282,
       "caption": "Electrical nature of lightning",
       "url": "Benjamin_Franklin",
@@ -12589,8 +12577,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1041,
-      "rank": 1041,
+      "wtId": 1040,
+      "rank": 1040,
       "iconId": 282,
       "caption": "BCS theory (superconductivity)",
       "url": "BCS_theory",
@@ -12601,8 +12589,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1042,
-      "rank": 1042,
+      "wtId": 1041,
+      "rank": 1041,
       "iconId": 99,
       "caption": "Galaxies beyond Milky Way",
       "url": "Edwin_Hubble",
@@ -12613,8 +12601,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1043,
-      "rank": 1043,
+      "wtId": 1042,
+      "rank": 1042,
       "iconId": 99,
       "caption": "Dark matter evidence",
       "url": "Vera_Rubin",
@@ -12625,8 +12613,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1044,
-      "rank": 1044,
+      "wtId": 1043,
+      "rank": 1043,
       "iconId": 99,
       "caption": "Hubble's expanding universe",
       "url": "Hubble%27s_law",
@@ -12637,8 +12625,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1045,
-      "rank": 1045,
+      "wtId": 1044,
+      "rank": 1044,
       "iconId": 99,
       "caption": "JWST first images released",
       "url": "James_Webb_Space_Telescope",
@@ -12649,8 +12637,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1046,
-      "rank": 1046,
+      "wtId": 1045,
+      "rank": 1045,
       "iconId": 99,
       "caption": "Inflation theory",
       "url": "Inflationary_epoch",
@@ -12661,8 +12649,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1047,
-      "rank": 1047,
+      "wtId": 1046,
+      "rank": 1046,
       "iconId": 59,
       "caption": "Generative grammar",
       "url": "Noam_Chomsky",
@@ -12673,8 +12661,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1048,
-      "rank": 1048,
+      "wtId": 1047,
+      "rank": 1047,
       "iconId": 2,
       "caption": "Silicon solar cell",
       "url": "Solar_cell",
@@ -12685,8 +12673,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1049,
-      "rank": 1049,
+      "wtId": 1048,
+      "rank": 1048,
       "iconId": 226,
       "caption": "Arnold directed evolution",
       "url": "Frances_Arnold",
@@ -12697,8 +12685,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1050,
-      "rank": 1050,
+      "wtId": 1049,
+      "rank": 1049,
       "iconId": 226,
       "caption": "Discovery of antimatter",
       "url": "Carl_David_Anderson",
@@ -12709,8 +12697,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1051,
-      "rank": 1051,
+      "wtId": 1050,
+      "rank": 1050,
       "iconId": 226,
       "caption": "Quantum electrodynamics",
       "url": "Richard_Feynman",
@@ -12721,8 +12709,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1052,
-      "rank": 1052,
+      "wtId": 1051,
+      "rank": 1051,
       "iconId": 226,
       "caption": "Quark model",
       "url": "Murray_Gell-Mann",
@@ -12733,8 +12721,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1053,
-      "rank": 1053,
+      "wtId": 1052,
+      "rank": 1052,
       "iconId": 235,
       "caption": "First general purpose computer",
       "url": "ENIAC",
@@ -12745,8 +12733,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1054,
-      "rank": 1054,
+      "wtId": 1053,
+      "rank": 1053,
       "iconId": 268,
       "caption": "Prion protein",
       "url": "Stanley_Prusiner",
@@ -12757,8 +12745,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1055,
-      "rank": 1055,
+      "wtId": 1054,
+      "rank": 1054,
       "iconId": 99,
       "caption": "Accelerating universe expansion",
       "url": "Accelerating_expansion_of_the_universe",
@@ -12769,8 +12757,8 @@
       "countries": "USA, Australia"
     },
     {
-      "wtId": 1056,
-      "rank": 1056,
+      "wtId": 1055,
+      "rank": 1055,
       "iconId": 190,
       "caption": "CRISPR-Cas9",
       "url": "Jennifer_Doudna",
@@ -12781,8 +12769,8 @@
       "countries": "USA, France"
     },
     {
-      "wtId": 1057,
-      "rank": 1057,
+      "wtId": 1056,
+      "rank": 1056,
       "iconId": 268,
       "caption": "Hepatitis C discovery",
       "url": "Harvey_J._Alter",
@@ -12793,8 +12781,8 @@
       "countries": "USA, United Kingdom, Canada"
     },
     {
-      "wtId": 1058,
-      "rank": 1058,
+      "wtId": 1057,
+      "rank": 1057,
       "iconId": 249,
       "caption": "Baldur's Gate 3",
       "url": "Baldur%27s_Gate_3",
@@ -12805,8 +12793,8 @@
       "countries": "Belgium"
     },
     {
-      "wtId": 1059,
-      "rank": 1059,
+      "wtId": 1058,
+      "rank": 1058,
       "iconId": 166,
       "caption": "PlayStation 2 launch",
       "url": "PlayStation_2",
@@ -12817,8 +12805,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1060,
-      "rank": 1060,
+      "wtId": 1059,
+      "rank": 1059,
       "iconId": 166,
       "caption": "Sonic the Hedgehog",
       "url": "Sonic_the_Hedgehog_(1991_video_game)",
@@ -12829,8 +12817,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1061,
-      "rank": 1061,
+      "wtId": 1060,
+      "rank": 1060,
       "iconId": 166,
       "caption": "Super Mario 64",
       "url": "Super_Mario_64",
@@ -12841,8 +12829,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1062,
-      "rank": 1062,
+      "wtId": 1061,
+      "rank": 1061,
       "iconId": 166,
       "caption": "Super Mario Bros.",
       "url": "Super_Mario_Bros.",
@@ -12853,8 +12841,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1063,
-      "rank": 1063,
+      "wtId": 1062,
+      "rank": 1062,
       "iconId": 166,
       "caption": "GameCube launch",
       "url": "GameCube",
@@ -12865,8 +12853,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1064,
-      "rank": 1064,
+      "wtId": 1063,
+      "rank": 1063,
       "iconId": 166,
       "caption": "PlayStation 5 launch",
       "url": "PlayStation_5",
@@ -12877,8 +12865,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1065,
-      "rank": 1065,
+      "wtId": 1064,
+      "rank": 1064,
       "iconId": 166,
       "caption": "Nintendo Wii launch",
       "url": "Wii",
@@ -12889,8 +12877,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1066,
-      "rank": 1066,
+      "wtId": 1065,
+      "rank": 1065,
       "iconId": 166,
       "caption": "Super Mario World",
       "url": "Super_Mario_World",
@@ -12901,8 +12889,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1067,
-      "rank": 1067,
+      "wtId": 1066,
+      "rank": 1066,
       "iconId": 166,
       "caption": "Pokemon Red and Blue",
       "url": "Pok%C3%A9mon_Red_and_Blue",
@@ -12913,8 +12901,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1068,
-      "rank": 1068,
+      "wtId": 1067,
+      "rank": 1067,
       "iconId": 166,
       "caption": "Space Invaders",
       "url": "Space_Invaders",
@@ -12925,8 +12913,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1069,
-      "rank": 1069,
+      "wtId": 1068,
+      "rank": 1068,
       "iconId": 166,
       "caption": "Animal Crossing: New Horizons",
       "url": "Animal_Crossing:_New_Horizons",
@@ -12937,8 +12925,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1070,
-      "rank": 1070,
+      "wtId": 1069,
+      "rank": 1069,
       "iconId": 224,
       "caption": "Pac-Man",
       "url": "Pac-Man",
@@ -12949,8 +12937,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1071,
-      "rank": 1071,
+      "wtId": 1070,
+      "rank": 1070,
       "iconId": 224,
       "caption": "Donkey Kong",
       "url": "Donkey_Kong_(video_game)",
@@ -12961,8 +12949,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1072,
-      "rank": 1072,
+      "wtId": 1071,
+      "rank": 1071,
       "iconId": 249,
       "caption": "The Legend of Zelda",
       "url": "The_Legend_of_Zelda_(video_game)",
@@ -12973,8 +12961,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1073,
-      "rank": 1073,
+      "wtId": 1072,
+      "rank": 1072,
       "iconId": 249,
       "caption": "Zelda: Breath of the Wild",
       "url": "The_Legend_of_Zelda:_Breath_of_the_Wild",
@@ -12985,8 +12973,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1074,
-      "rank": 1074,
+      "wtId": 1073,
+      "rank": 1073,
       "iconId": 249,
       "caption": "Zelda: Tears of the Kingdom",
       "url": "The_Legend_of_Zelda:_Tears_of_the_Kingdom",
@@ -12997,8 +12985,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1075,
-      "rank": 1075,
+      "wtId": 1074,
+      "rank": 1074,
       "iconId": 249,
       "caption": "Zelda: Ocarina of Time",
       "url": "The_Legend_of_Zelda:_Ocarina_of_Time",
@@ -13009,8 +12997,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1076,
-      "rank": 1076,
+      "wtId": 1075,
+      "rank": 1075,
       "iconId": 249,
       "caption": "Elden Ring",
       "url": "Elden_Ring",
@@ -13021,8 +13009,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1077,
-      "rank": 1077,
+      "wtId": 1076,
+      "rank": 1076,
       "iconId": 249,
       "caption": "Final Fantasy VII Rebirth",
       "url": "Final_Fantasy_VII_Rebirth",
@@ -13033,8 +13021,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1078,
-      "rank": 1078,
+      "wtId": 1077,
+      "rank": 1077,
       "iconId": 249,
       "caption": "Final Fantasy VII",
       "url": "Final_Fantasy_VII",
@@ -13045,8 +13033,8 @@
       "countries": "Japan"
     },
     {
-      "wtId": 1079,
-      "rank": 1079,
+      "wtId": 1078,
+      "rank": 1078,
       "iconId": 249,
       "caption": "The Witcher 3",
       "url": "The_Witcher_3:_Wild_Hunt",
@@ -13057,8 +13045,8 @@
       "countries": "Poland"
     },
     {
-      "wtId": 1080,
-      "rank": 1080,
+      "wtId": 1079,
+      "rank": 1079,
       "iconId": 259,
       "caption": "Cyberpunk 2077: Phantom Liberty",
       "url": "Cyberpunk_2077",
@@ -13069,8 +13057,8 @@
       "countries": "Poland"
     },
     {
-      "wtId": 1081,
-      "rank": 1081,
+      "wtId": 1080,
+      "rank": 1080,
       "iconId": 166,
       "caption": "Tetris",
       "url": "Tetris",
@@ -13081,8 +13069,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 1082,
-      "rank": 1082,
+      "wtId": 1081,
+      "rank": 1081,
       "iconId": 166,
       "caption": "Minecraft passes 100M users",
       "url": "Minecraft",
@@ -13093,8 +13081,8 @@
       "countries": "Sweden"
     },
     {
-      "wtId": 1083,
-      "rank": 1083,
+      "wtId": 1082,
+      "rank": 1082,
       "iconId": 166,
       "caption": "Minecraft (official release)",
       "url": "Minecraft",
@@ -13105,8 +13093,8 @@
       "countries": "Sweden"
     },
     {
-      "wtId": 1084,
-      "rank": 1084,
+      "wtId": 1083,
+      "rank": 1083,
       "iconId": 259,
       "caption": "GTA IV",
       "url": "Grand_Theft_Auto_IV",
@@ -13117,8 +13105,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 1085,
-      "rank": 1085,
+      "wtId": 1084,
+      "rank": 1084,
       "iconId": 259,
       "caption": "GTA V",
       "url": "Grand_Theft_Auto_V",
@@ -13129,8 +13117,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 1086,
-      "rank": 1086,
+      "wtId": 1085,
+      "rank": 1085,
       "iconId": 259,
       "caption": "GTA III San Andreas",
       "url": "Grand_Theft_Auto:_San_Andreas",
@@ -13141,8 +13129,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 1087,
-      "rank": 1087,
+      "wtId": 1086,
+      "rank": 1086,
       "iconId": 203,
       "caption": "Fortnite Battle Royale",
       "url": "Fortnite_Battle_Royale",
@@ -13153,8 +13141,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1088,
-      "rank": 1088,
+      "wtId": 1087,
+      "rank": 1087,
       "iconId": 203,
       "caption": "Overwatch",
       "url": "Overwatch_(video_game)",
@@ -13165,8 +13153,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1089,
-      "rank": 1089,
+      "wtId": 1088,
+      "rank": 1088,
       "iconId": 203,
       "caption": "Halo 3",
       "url": "Halo_3",
@@ -13177,8 +13165,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1090,
-      "rank": 1090,
+      "wtId": 1089,
+      "rank": 1089,
       "iconId": 203,
       "caption": "Quake (development begins)",
       "url": "Quake_(video_game)",
@@ -13189,8 +13177,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1091,
-      "rank": 1091,
+      "wtId": 1090,
+      "rank": 1090,
       "iconId": 203,
       "caption": "Call of Duty: Modern Warfare 3",
       "url": "Call_of_Duty:_Modern_Warfare_3",
@@ -13201,8 +13189,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1092,
-      "rank": 1092,
+      "wtId": 1091,
+      "rank": 1091,
       "iconId": 203,
       "caption": "Call of Duty: Modern Warfare 2",
       "url": "Call_of_Duty:_Modern_Warfare_2",
@@ -13213,8 +13201,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1093,
-      "rank": 1093,
+      "wtId": 1092,
+      "rank": 1092,
       "iconId": 203,
       "caption": "Halo: Combat Evolved",
       "url": "Halo:_Combat_Evolved",
@@ -13225,8 +13213,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1094,
-      "rank": 1094,
+      "wtId": 1093,
+      "rank": 1093,
       "iconId": 203,
       "caption": "Doom",
       "url": "Doom_(1993_video_game)",
@@ -13237,8 +13225,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1095,
-      "rank": 1095,
+      "wtId": 1094,
+      "rank": 1094,
       "iconId": 140,
       "caption": "Rock Band",
       "url": "Rock_Band_(video_game)",
@@ -13249,8 +13237,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1096,
-      "rank": 1096,
+      "wtId": 1095,
+      "rank": 1095,
       "iconId": 166,
       "caption": "Pokemon Go",
       "url": "Pok%C3%A9mon_Go",
@@ -13261,8 +13249,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1097,
-      "rank": 1097,
+      "wtId": 1096,
+      "rank": 1096,
       "iconId": 166,
       "caption": "Control",
       "url": "Control_(video_game)",
@@ -13273,8 +13261,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1098,
-      "rank": 1098,
+      "wtId": 1097,
+      "rank": 1097,
       "iconId": 242,
       "caption": "Mortal Kombat",
       "url": "Mortal_Kombat_(1992_video_game)",
@@ -13285,8 +13273,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1099,
-      "rank": 1099,
+      "wtId": 1098,
+      "rank": 1098,
       "iconId": 249,
       "caption": "Red Dead Redemption 2",
       "url": "Red_Dead_Redemption_2",
@@ -13297,8 +13285,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1100,
-      "rank": 1100,
+      "wtId": 1099,
+      "rank": 1099,
       "iconId": 249,
       "caption": "Diablo",
       "url": "Diablo_(1997_video_game)",
@@ -13309,8 +13297,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1101,
-      "rank": 1101,
+      "wtId": 1100,
+      "rank": 1100,
       "iconId": 249,
       "caption": "The Elder Scrolls V: Skyrim",
       "url": "The_Elder_Scrolls_V:_Skyrim",
@@ -13321,8 +13309,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1102,
-      "rank": 1102,
+      "wtId": 1101,
+      "rank": 1101,
       "iconId": 263,
       "caption": "Starcraft",
       "url": "StarCraft",
@@ -13333,8 +13321,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1103,
-      "rank": 1103,
+      "wtId": 1102,
+      "rank": 1102,
       "iconId": 263,
       "caption": "Warcraft III",
       "url": "Warcraft_III:_Reign_of_Chaos",
@@ -13345,8 +13333,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1104,
-      "rank": 1104,
+      "wtId": 1103,
+      "rank": 1103,
       "iconId": 273,
       "caption": "World of Warcraft",
       "url": "World_of_Warcraft",
@@ -13357,8 +13345,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1105,
-      "rank": 1105,
+      "wtId": 1104,
+      "rank": 1104,
       "iconId": 273,
       "caption": "Warcraft: Orcs & Humans",
       "url": "Warcraft:_Orcs_%26_Humans",
@@ -13369,8 +13357,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1106,
-      "rank": 1106,
+      "wtId": 1105,
+      "rank": 1105,
       "iconId": 276,
       "caption": "Pong",
       "url": "Pong",
@@ -13381,8 +13369,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1107,
-      "rank": 1107,
+      "wtId": 1106,
+      "rank": 1106,
       "iconId": 114,
       "caption": "A Thousand Splendid Suns",
       "url": "Khaled_Hosseini",
@@ -13393,8 +13381,8 @@
       "countries": "Afghanistan, USA"
     },
     {
-      "wtId": 1108,
-      "rank": 1108,
+      "wtId": 1107,
+      "rank": 1107,
       "iconId": 114,
       "caption": "The Kite Runner",
       "url": "The_Kite_Runner",
@@ -13405,8 +13393,8 @@
       "countries": "Afghanistan, USA"
     },
     {
-      "wtId": 1109,
-      "rank": 1109,
+      "wtId": 1108,
+      "rank": 1108,
       "iconId": 114,
       "caption": "Humboldt's Gift",
       "url": "Saul_Bellow",
@@ -13417,8 +13405,8 @@
       "countries": "Canada, USA"
     },
     {
-      "wtId": 1110,
-      "rank": 1110,
+      "wtId": 1109,
+      "rank": 1109,
       "iconId": 114,
       "caption": "One Hundred Years of Solitude",
       "url": "Gabriel_Garc%C3%ADa_M%C3%A1rquez",
@@ -13429,8 +13417,8 @@
       "countries": "Colombia"
     },
     {
-      "wtId": 1111,
-      "rank": 1111,
+      "wtId": 1110,
+      "rank": 1110,
       "iconId": 114,
       "caption": "Waiting for Godot",
       "url": "Samuel_Beckett",
@@ -13441,8 +13429,8 @@
       "countries": "Ireland, France"
     },
     {
-      "wtId": 1112,
-      "rank": 1112,
+      "wtId": 1111,
+      "rank": 1111,
       "iconId": 114,
       "caption": "Angela's Ashes",
       "url": "Frank_McCourt",
@@ -13453,8 +13441,8 @@
       "countries": "Ireland, USA"
     },
     {
-      "wtId": 1113,
-      "rank": 1113,
+      "wtId": 1112,
+      "rank": 1112,
       "iconId": 114,
       "caption": "The Buried Giant",
       "url": "Kazuo_Ishiguro",
@@ -13465,8 +13453,8 @@
       "countries": "Japan, United Kingdom"
     },
     {
-      "wtId": 1114,
-      "rank": 1114,
+      "wtId": 1113,
+      "rank": 1113,
       "iconId": 114,
       "caption": "The Diary of a Young Girl",
       "url": "The_Diary_of_a_Young_Girl",
@@ -13477,8 +13465,8 @@
       "countries": "Netherlands"
     },
     {
-      "wtId": 1115,
-      "rank": 1115,
+      "wtId": 1114,
+      "rank": 1114,
       "iconId": 114,
       "caption": "Nineteen Eighty-Four",
       "url": "George_Orwell",
@@ -13489,8 +13477,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1116,
-      "rank": 1116,
+      "wtId": 1115,
+      "rank": 1115,
       "iconId": 114,
       "caption": "Animal Farm",
       "url": "Animal_Farm",
@@ -13501,8 +13489,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1117,
-      "rank": 1117,
+      "wtId": 1116,
+      "rank": 1116,
       "iconId": 114,
       "caption": "Harry Potter 7",
       "url": "J._K._Rowling",
@@ -13513,8 +13501,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1118,
-      "rank": 1118,
+      "wtId": 1117,
+      "rank": 1117,
       "iconId": 262,
       "caption": "The Fellowship of the Ring",
       "url": "J._R._R._Tolkien",
@@ -13525,8 +13513,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1119,
-      "rank": 1119,
+      "wtId": 1118,
+      "rank": 1118,
       "iconId": 114,
       "caption": "Brave New World",
       "url": "Aldous_Huxley",
@@ -13537,8 +13525,8 @@
       "countries": "United Kingdom, USA"
     },
     {
-      "wtId": 1120,
-      "rank": 1120,
+      "wtId": 1119,
+      "rank": 1119,
       "iconId": 114,
       "caption": "Dylan Nobel Prize",
       "url": "Bob_Dylan",
@@ -13549,8 +13537,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1121,
-      "rank": 1121,
+      "wtId": 1120,
+      "rank": 1120,
       "iconId": 114,
       "caption": "Charlotte's Web",
       "url": "E._B._White",
@@ -13561,8 +13549,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1122,
-      "rank": 1122,
+      "wtId": 1121,
+      "rank": 1121,
       "iconId": 114,
       "caption": "Are You There God?...",
       "url": "Judy_Blume",
@@ -13573,8 +13561,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1123,
-      "rank": 1123,
+      "wtId": 1122,
+      "rank": 1122,
       "iconId": 114,
       "caption": "The Catcher in the Rye",
       "url": "J._D._Salinger",
@@ -13585,8 +13573,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1124,
-      "rank": 1124,
+      "wtId": 1123,
+      "rank": 1123,
       "iconId": 114,
       "caption": "White Noise",
       "url": "Don_DeLillo",
@@ -13597,8 +13585,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1125,
-      "rank": 1125,
+      "wtId": 1124,
+      "rank": 1124,
       "iconId": 114,
       "caption": "The World According to Garp",
       "url": "John_Irving",
@@ -13609,8 +13597,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1126,
-      "rank": 1126,
+      "wtId": 1125,
+      "rank": 1125,
       "iconId": 114,
       "caption": "The Corrections",
       "url": "Jonathan_Franzen",
@@ -13621,8 +13609,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1127,
-      "rank": 1127,
+      "wtId": 1126,
+      "rank": 1126,
       "iconId": 114,
       "caption": "Everything I Never Told You",
       "url": "Celeste_Ng",
@@ -13633,8 +13621,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1128,
-      "rank": 1128,
+      "wtId": 1127,
+      "rank": 1127,
       "iconId": 114,
       "caption": "Freedom",
       "url": "Freedom_(Franzen_novel)",
@@ -13645,8 +13633,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1129,
-      "rank": 1129,
+      "wtId": 1128,
+      "rank": 1128,
       "iconId": 114,
       "caption": "The Sound and the Fury",
       "url": "William_Faulkner",
@@ -13657,8 +13645,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1130,
-      "rank": 1130,
+      "wtId": 1129,
+      "rank": 1129,
       "iconId": 114,
       "caption": "The Joy Luck Club",
       "url": "Amy_Tan",
@@ -13669,8 +13657,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1131,
-      "rank": 1131,
+      "wtId": 1130,
+      "rank": 1130,
       "iconId": 114,
       "caption": "Lincoln in the Bardo",
       "url": "George_Saunders",
@@ -13681,8 +13669,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1132,
-      "rank": 1132,
+      "wtId": 1131,
+      "rank": 1131,
       "iconId": 114,
       "caption": "Ragtime",
       "url": "E._L._Doctorow",
@@ -13693,8 +13681,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1133,
-      "rank": 1133,
+      "wtId": 1132,
+      "rank": 1132,
       "iconId": 114,
       "caption": "Carrie",
       "url": "Stephen_King",
@@ -13705,8 +13693,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1134,
-      "rank": 1134,
+      "wtId": 1133,
+      "rank": 1133,
       "iconId": 114,
       "caption": "Twilight",
       "url": "Stephenie_Meyer",
@@ -13717,8 +13705,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1135,
-      "rank": 1135,
+      "wtId": 1134,
+      "rank": 1134,
       "iconId": 114,
       "caption": "The Raven",
       "url": "Edgar_Allan_Poe",
@@ -13729,8 +13717,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1136,
-      "rank": 1136,
+      "wtId": 1135,
+      "rank": 1135,
       "iconId": 114,
       "caption": "The Namesake",
       "url": "Jhumpa_Lahiri",
@@ -13741,8 +13729,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1137,
-      "rank": 1137,
+      "wtId": 1136,
+      "rank": 1136,
       "iconId": 114,
       "caption": "To Kill a Mockingbird",
       "url": "Harper_Lee",
@@ -13753,8 +13741,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1138,
-      "rank": 1138,
+      "wtId": 1137,
+      "rank": 1137,
       "iconId": 114,
       "caption": "The Street Lawyer",
       "url": "John_Grisham",
@@ -13765,8 +13753,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1139,
-      "rank": 1139,
+      "wtId": 1138,
+      "rank": 1138,
       "iconId": 114,
       "caption": "Breakfast at Tiffany's",
       "url": "Truman_Capote",
@@ -13777,8 +13765,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1140,
-      "rank": 1140,
+      "wtId": 1139,
+      "rank": 1139,
       "iconId": 114,
       "caption": "The Wonderful Wizard of Oz",
       "url": "L._Frank_Baum",
@@ -13789,8 +13777,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1141,
-      "rank": 1141,
+      "wtId": 1140,
+      "rank": 1140,
       "iconId": 114,
       "caption": "An American Marriage",
       "url": "Tayari_Jones",
@@ -13801,8 +13789,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1142,
-      "rank": 1142,
+      "wtId": 1141,
+      "rank": 1141,
       "iconId": 114,
       "caption": "Gone Girl",
       "url": "Gone_Girl_(novel)",
@@ -13813,8 +13801,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1143,
-      "rank": 1143,
+      "wtId": 1142,
+      "rank": 1142,
       "iconId": 114,
       "caption": "The Bell Jar",
       "url": "Sylvia_Plath",
@@ -13825,8 +13813,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1144,
-      "rank": 1144,
+      "wtId": 1143,
+      "rank": 1143,
       "iconId": 114,
       "caption": "The Bonfire of the Vanities",
       "url": "Tom_Wolfe",
@@ -13837,8 +13825,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1145,
-      "rank": 1145,
+      "wtId": 1144,
+      "rank": 1144,
       "iconId": 114,
       "caption": "The Great Gatsby",
       "url": "The_Great_Gatsby",
@@ -13849,8 +13837,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1146,
-      "rank": 1146,
+      "wtId": 1145,
+      "rank": 1145,
       "iconId": 114,
       "caption": "Wild",
       "url": "Wild_(Strayed_memoir)",
@@ -13861,8 +13849,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1147,
-      "rank": 1147,
+      "wtId": 1146,
+      "rank": 1146,
       "iconId": 114,
       "caption": "The Last American Man",
       "url": "Elizabeth_Gilbert",
@@ -13873,8 +13861,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1148,
-      "rank": 1148,
+      "wtId": 1147,
+      "rank": 1147,
       "iconId": 114,
       "caption": "The Overstory",
       "url": "Richard_Powers",
@@ -13885,8 +13873,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1149,
-      "rank": 1149,
+      "wtId": 1148,
+      "rank": 1148,
       "iconId": 114,
       "caption": "Adventures of Huckleberry Finn",
       "url": "Mark_Twain",
@@ -13897,8 +13885,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1150,
-      "rank": 1150,
+      "wtId": 1149,
+      "rank": 1149,
       "iconId": 114,
       "caption": "The Jungle",
       "url": "Upton_Sinclair",
@@ -13909,8 +13897,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1151,
-      "rank": 1151,
+      "wtId": 1150,
+      "rank": 1150,
       "iconId": 114,
       "caption": "The Grapes of Wrath",
       "url": "The_Grapes_of_Wrath",
@@ -13921,8 +13909,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1152,
-      "rank": 1152,
+      "wtId": 1151,
+      "rank": 1151,
       "iconId": 114,
       "caption": "Of Mice and Men",
       "url": "John_Steinbeck",
@@ -13933,8 +13921,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1153,
-      "rank": 1153,
+      "wtId": 1152,
+      "rank": 1152,
       "iconId": 114,
       "caption": "The Executioner's Song",
       "url": "Norman_Mailer",
@@ -13945,8 +13933,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1154,
-      "rank": 1154,
+      "wtId": 1153,
+      "rank": 1153,
       "iconId": 114,
       "caption": "Cuckoo's Nest",
       "url": "Ken_Kesey",
@@ -13957,8 +13945,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1155,
-      "rank": 1155,
+      "wtId": 1154,
+      "rank": 1154,
       "iconId": 114,
       "caption": "The Bluest Eye",
       "url": "Toni_Morrison",
@@ -13969,8 +13957,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1156,
-      "rank": 1156,
+      "wtId": 1155,
+      "rank": 1155,
       "iconId": 114,
       "caption": "The Color Purple",
       "url": "Alice_Walker",
@@ -13981,8 +13969,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1157,
-      "rank": 1157,
+      "wtId": 1156,
+      "rank": 1156,
       "iconId": 114,
       "caption": "Native Son",
       "url": "Richard_Wright_(author)",
@@ -13993,8 +13981,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1158,
-      "rank": 1158,
+      "wtId": 1157,
+      "rank": 1157,
       "iconId": 114,
       "caption": "Caste",
       "url": "Isabel_Wilkerson",
@@ -14005,8 +13993,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1159,
-      "rank": 1159,
+      "wtId": 1158,
+      "rank": 1158,
       "iconId": 114,
       "caption": "James",
       "url": "Percival_Everett",
@@ -14017,8 +14005,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1160,
-      "rank": 1160,
+      "wtId": 1159,
+      "rank": 1159,
       "iconId": 114,
       "caption": "Invisible Man",
       "url": "Ralph_Ellison",
@@ -14029,8 +14017,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1161,
-      "rank": 1161,
+      "wtId": 1160,
+      "rank": 1160,
       "iconId": 114,
       "caption": "Hell of a Book",
       "url": "Jason_Mott",
@@ -14041,8 +14029,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1162,
-      "rank": 1162,
+      "wtId": 1161,
+      "rank": 1161,
       "iconId": 114,
       "caption": "Beloved",
       "url": "Beloved_(novel)",
@@ -14053,8 +14041,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1163,
-      "rank": 1163,
+      "wtId": 1162,
+      "rank": 1162,
       "iconId": 114,
       "caption": "The Help",
       "url": "Kathryn_Stockett",
@@ -14065,8 +14053,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1164,
-      "rank": 1164,
+      "wtId": 1163,
+      "rank": 1163,
       "iconId": 114,
       "caption": "Between the World and Me",
       "url": "Ta-Nehisi_Coates",
@@ -14077,8 +14065,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1165,
-      "rank": 1165,
+      "wtId": 1164,
+      "rank": 1164,
       "iconId": 114,
       "caption": "The Road",
       "url": "The_Road",
@@ -14089,8 +14077,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1166,
-      "rank": 1166,
+      "wtId": 1165,
+      "rank": 1165,
       "iconId": 114,
       "caption": "On the Road",
       "url": "Jack_Kerouac",
@@ -14101,8 +14089,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1167,
-      "rank": 1167,
+      "wtId": 1166,
+      "rank": 1166,
       "iconId": 114,
       "caption": "All the Pretty Horses",
       "url": "Cormac_McCarthy",
@@ -14113,8 +14101,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1168,
-      "rank": 1168,
+      "wtId": 1167,
+      "rank": 1167,
       "iconId": 114,
       "caption": "Portnoy's Complaint",
       "url": "Philip_Roth",
@@ -14125,8 +14113,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1169,
-      "rank": 1169,
+      "wtId": 1168,
+      "rank": 1168,
       "iconId": 114,
       "caption": "Uncle Tom's Cabin",
       "url": "Harriet_Beecher_Stowe",
@@ -14137,8 +14125,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1170,
-      "rank": 1170,
+      "wtId": 1169,
+      "rank": 1169,
       "iconId": 114,
       "caption": "Roots",
       "url": "Alex_Haley",
@@ -14149,8 +14137,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1171,
-      "rank": 1171,
+      "wtId": 1170,
+      "rank": 1170,
       "iconId": 114,
       "caption": "Underground Railroad",
       "url": "Colson_Whitehead",
@@ -14161,8 +14149,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1172,
-      "rank": 1172,
+      "wtId": 1171,
+      "rank": 1171,
       "iconId": 114,
       "caption": "The Nickel Boys",
       "url": "The_Nickel_Boys",
@@ -14173,8 +14161,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1173,
-      "rank": 1173,
+      "wtId": 1172,
+      "rank": 1172,
       "iconId": 114,
       "caption": "Infinite Jest",
       "url": "David_Foster_Wallace",
@@ -14185,8 +14173,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1174,
-      "rank": 1174,
+      "wtId": 1173,
+      "rank": 1173,
       "iconId": 114,
       "caption": "The Sun Also Rises",
       "url": "Ernest_Hemingway",
@@ -14197,8 +14185,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1175,
-      "rank": 1175,
+      "wtId": 1174,
+      "rank": 1174,
       "iconId": 114,
       "caption": "Winesburg Ohio",
       "url": "Sherwood_Anderson",
@@ -14209,8 +14197,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1176,
-      "rank": 1176,
+      "wtId": 1175,
+      "rank": 1175,
       "iconId": 114,
       "caption": "Our Town",
       "url": "Thornton_Wilder",
@@ -14221,8 +14209,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1177,
-      "rank": 1177,
+      "wtId": 1176,
+      "rank": 1176,
       "iconId": 114,
       "caption": "Main Street",
       "url": "Sinclair_Lewis",
@@ -14233,8 +14221,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1178,
-      "rank": 1178,
+      "wtId": 1177,
+      "rank": 1177,
       "iconId": 114,
       "caption": "Breakfast of Champions",
       "url": "Kurt_Vonnegut",
@@ -14245,8 +14233,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1179,
-      "rank": 1179,
+      "wtId": 1178,
+      "rank": 1178,
       "iconId": 114,
       "caption": "Catch-22",
       "url": "Joseph_Heller",
@@ -14257,8 +14245,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1180,
-      "rank": 1180,
+      "wtId": 1179,
+      "rank": 1179,
       "iconId": 114,
       "caption": "In the Garden of Beasts",
       "url": "Erik_Larson",
@@ -14269,8 +14257,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1181,
-      "rank": 1181,
+      "wtId": 1180,
+      "rank": 1180,
       "iconId": 114,
       "caption": "All the Light...",
       "url": "Anthony_Doerr",
@@ -14281,8 +14269,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1182,
-      "rank": 1182,
+      "wtId": 1181,
+      "rank": 1181,
       "iconId": 114,
       "caption": "Gravity's Rainbow",
       "url": "Thomas_Pynchon",
@@ -14293,8 +14281,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1183,
-      "rank": 1183,
+      "wtId": 1182,
+      "rank": 1182,
       "iconId": 114,
       "caption": "Rainbow Six",
       "url": "Tom_Clancy",
@@ -14305,8 +14293,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1184,
-      "rank": 1184,
+      "wtId": 1183,
+      "rank": 1183,
       "iconId": 114,
       "caption": "Fahrenheit 451",
       "url": "Ray_Bradbury",
@@ -14317,8 +14305,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1185,
-      "rank": 1185,
+      "wtId": 1184,
+      "rank": 1184,
       "iconId": 114,
       "caption": "Moby-Dick",
       "url": "Herman_Melville",
@@ -14329,8 +14317,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1186,
-      "rank": 1186,
+      "wtId": 1185,
+      "rank": 1185,
       "iconId": 22,
       "caption": "Tarzan of the Apes",
       "url": "Edgar_Rice_Burroughs",
@@ -14341,8 +14329,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1187,
-      "rank": 1187,
+      "wtId": 1186,
+      "rank": 1186,
       "iconId": 203,
       "caption": "Deacon King Kong",
       "url": "James_McBride_(author)",
@@ -14353,8 +14341,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1188,
-      "rank": 1188,
+      "wtId": 1187,
+      "rank": 1187,
       "iconId": 203,
       "caption": "The Godfather",
       "url": "Mario_Puzo",
@@ -14365,8 +14353,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1189,
-      "rank": 1189,
+      "wtId": 1188,
+      "rank": 1188,
       "iconId": 68,
       "caption": "The Goldfinch",
       "url": "Donna_Tartt",
@@ -14377,8 +14365,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1190,
-      "rank": 1190,
+      "wtId": 1189,
+      "rank": 1189,
       "iconId": 68,
       "caption": "Kavalier & Clay",
       "url": "Michael_Chabon",
@@ -14389,8 +14377,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1191,
-      "rank": 1191,
+      "wtId": 1190,
+      "rank": 1190,
       "iconId": 68,
       "caption": "The Da Vinci Code",
       "url": "Dan_Brown",
@@ -14401,8 +14389,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1192,
-      "rank": 1192,
+      "wtId": 1191,
+      "rank": 1191,
       "iconId": 238,
       "caption": "Gilead",
       "url": "Marilynne_Robinson",
@@ -14413,8 +14401,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1193,
-      "rank": 1193,
+      "wtId": 1192,
+      "rank": 1192,
       "iconId": 238,
       "caption": "Everything That Rises…",
       "url": "Flannery_O%27Connor",
@@ -14425,8 +14413,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1194,
-      "rank": 1194,
+      "wtId": 1193,
+      "rank": 1193,
       "iconId": 269,
       "caption": "The Call of the Wild",
       "url": "Jack_London",
@@ -14437,8 +14425,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1195,
-      "rank": 1195,
+      "wtId": 1194,
+      "rank": 1194,
       "iconId": 114,
       "caption": "Neuromancer",
       "url": "William_Gibson",
@@ -14449,8 +14437,8 @@
       "countries": "USA, Canada"
     },
     {
-      "wtId": 1196,
-      "rank": 1196,
+      "wtId": 1195,
+      "rank": 1195,
       "iconId": 114,
       "caption": "The Waste Land",
       "url": "T._S._Eliot",
@@ -14461,8 +14449,8 @@
       "countries": "USA, United Kingdom"
     },
     {
-      "wtId": 1197,
-      "rank": 1197,
+      "wtId": 1196,
+      "rank": 1196,
       "iconId": 273,
       "caption": "Bronze Age Collapse",
       "url": "Late_Bronze_Age_collapse",
@@ -14475,8 +14463,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1198,
-      "rank": 1198,
+      "wtId": 1197,
+      "rank": 1197,
       "iconId": 112,
       "caption": "Phoenician alphabet",
       "url": "Phoenician_alphabet",
@@ -14489,8 +14477,8 @@
       "countries": "Middle East"
     },
     {
-      "wtId": 1199,
-      "rank": 1199,
+      "wtId": 1198,
+      "rank": 1198,
       "iconId": 804,
       "caption": "Zhou Dynasty China founded",
       "url": "Zhou_dynasty",
@@ -14503,8 +14491,8 @@
       "countries": "China"
     },
     {
-      "wtId": 1200,
-      "rank": 1200,
+      "wtId": 1199,
+      "rank": 1199,
       "iconId": 819,
       "caption": "King David unites Israel",
       "url": "David",
@@ -14517,8 +14505,8 @@
       "countries": "Middle East"
     },
     {
-      "wtId": 1201,
-      "rank": 1201,
+      "wtId": 1200,
+      "rank": 1200,
       "iconId": 824,
       "caption": "Olmec civilization peak",
       "url": "Olmec",
@@ -14531,8 +14519,8 @@
       "countries": "South America"
     },
     {
-      "wtId": 1202,
-      "rank": 1202,
+      "wtId": 1201,
+      "rank": 1201,
       "iconId": 811,
       "caption": "Great Famine of Europe",
       "url": "Great_Famine_of_1315%E2%80%931322",
@@ -14543,8 +14531,8 @@
       "countries": "Europe"
     },
     {
-      "wtId": 1203,
-      "rank": 1203,
+      "wtId": 1202,
+      "rank": 1202,
       "iconId": 820,
       "caption": "Dante's Divine Comedy",
       "url": "Divine_Comedy",
@@ -14557,8 +14545,8 @@
       "countries": "Italy"
     },
     {
-      "wtId": 1204,
-      "rank": 1204,
+      "wtId": 1203,
+      "rank": 1203,
       "caption": "Mansa Musa hajj to Mecca",
       "url": "Mansa_Musa",
       "startDay": 1,
@@ -14568,8 +14556,8 @@
       "countries": "Middle East"
     },
     {
-      "wtId": 1205,
-      "rank": 1205,
+      "wtId": 1204,
+      "rank": 1204,
       "iconId": 812,
       "caption": "Fronde civil wars France",
       "url": "The_Fronde",
@@ -14580,8 +14568,8 @@
       "countries": "France"
     },
     {
-      "wtId": 1206,
-      "rank": 1206,
+      "wtId": 1205,
+      "rank": 1205,
       "iconId": 810,
       "caption": "Execution of Charles I",
       "url": "Charles_I_of_England",
@@ -14592,8 +14580,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1207,
-      "rank": 1207,
+      "wtId": 1206,
+      "rank": 1206,
       "iconId": 810,
       "caption": "Hobbes Leviathan",
       "url": "Leviathan_(Hobbes_book)",
@@ -14604,8 +14592,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1208,
-      "rank": 1208,
+      "wtId": 1207,
+      "rank": 1207,
       "iconId": 810,
       "caption": "Oliver Cromwell Lord Protector",
       "url": "Oliver_Cromwell",
@@ -14616,8 +14604,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1209,
-      "rank": 1209,
+      "wtId": 1208,
+      "rank": 1208,
       "iconId": 816,
       "caption": "Taj Mahal completed",
       "url": "Taj_Mahal",
@@ -14628,8 +14616,8 @@
       "countries": "India"
     },
     {
-      "wtId": 1210,
-      "rank": 1210,
+      "wtId": 1209,
+      "rank": 1209,
       "iconId": 815,
       "caption": "Greek independence",
       "url": "Battle_of_Navarino",
@@ -14640,8 +14628,8 @@
       "countries": "Greece, Ottoman Empire"
     },
     {
-      "wtId": 1211,
-      "rank": 1211,
+      "wtId": 1210,
+      "rank": 1210,
       "iconId": 813,
       "caption": "Beethoven's death",
       "url": "Ludwig_van_Beethoven",
@@ -14652,8 +14640,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 1212,
-      "rank": 1212,
+      "wtId": 1211,
+      "rank": 1211,
       "iconId": 838,
       "caption": "Webster's Dictionary published",
       "url": "Webster%27s_Dictionary",
@@ -14664,8 +14652,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1213,
-      "rank": 1213,
+      "wtId": 1212,
+      "rank": 1212,
       "iconId": 277,
       "caption": "Stephenson's Rocket steam rail",
       "url": "Stephenson%27s_Rocket",
@@ -14676,8 +14664,8 @@
       "countries": "United Kingdom"
     },
     {
-      "wtId": 1214,
-      "rank": 1214,
+      "wtId": 1213,
+      "rank": 1213,
       "iconId": 838,
       "caption": "Andrew Jackson US President",
       "url": "Andrew_Jackson",
@@ -14688,8 +14676,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1215,
-      "rank": 1215,
+      "wtId": 1214,
+      "rank": 1214,
       "iconId": 812,
       "caption": "July Revolution in France",
       "url": "July_Revolution",
@@ -14700,8 +14688,8 @@
       "countries": "France"
     },
     {
-      "wtId": 1216,
-      "rank": 1216,
+      "wtId": 1215,
+      "rank": 1215,
       "iconId": 228,
       "caption": "Basketball",
       "url": "Basketball",
@@ -14712,8 +14700,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1217,
-      "rank": 1217,
+      "wtId": 1216,
+      "rank": 1216,
       "iconId": 140,
       "caption": "Tchaikovsky's Nutcracker",
       "url": "The_Nutcracker",
@@ -14724,8 +14712,8 @@
       "countries": "Russia"
     },
     {
-      "wtId": 1218,
-      "rank": 1218,
+      "wtId": 1217,
+      "rank": 1217,
       "iconId": 113,
       "caption": "Diesel engine",
       "url": "Diesel_engine",
@@ -14736,8 +14724,8 @@
       "countries": "Germany"
     },
     {
-      "wtId": 1219,
-      "rank": 1219,
+      "wtId": 1218,
+      "rank": 1218,
       "iconId": 282,
       "caption": "World's Columbian Exposition",
       "url": "World%27s_Columbian_Exposition",
@@ -14748,8 +14736,8 @@
       "countries": "Colombia"
     },
     {
-      "wtId": 1220,
-      "rank": 1220,
+      "wtId": 1219,
+      "rank": 1219,
       "iconId": 72,
       "caption": "Panic of 1893",
       "url": "Panic_of_1893",
@@ -14760,8 +14748,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1221,
-      "rank": 1221,
+      "wtId": 1220,
+      "rank": 1220,
       "iconId": 140,
       "caption": "Jackson's Thriller music video",
       "url": "Thriller_(music_video)",
@@ -14772,8 +14760,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1222,
-      "rank": 1222,
+      "wtId": 1221,
+      "rank": 1221,
       "iconId": 263,
       "caption": "Pioneer 10 leaves solar system",
       "url": "Pioneer_10",
@@ -14784,8 +14772,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1223,
-      "rank": 1223,
+      "wtId": 1222,
+      "rank": 1222,
       "iconId": 263,
       "caption": "first US woman in space",
       "url": "Sally_Ride",
@@ -14796,8 +14784,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1224,
-      "rank": 1224,
+      "wtId": 1223,
+      "rank": 1223,
       "iconId": 263,
       "caption": "Reagan's SDI 'Star Wars'",
       "url": "Strategic_Defense_Initiative",
@@ -14808,8 +14796,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1225,
-      "rank": 1225,
+      "wtId": 1224,
+      "rank": 1224,
       "iconId": 6,
       "caption": "Return of the Jedi",
       "url": "Return_of_the_Jedi",
@@ -14820,8 +14808,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1226,
-      "rank": 1226,
+      "wtId": 1225,
+      "rank": 1225,
       "iconId": 140,
       "caption": "Compact Disc launched in US",
       "url": "Compact_disc",
@@ -14832,8 +14820,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1227,
-      "rank": 1227,
+      "wtId": 1226,
+      "rank": 1226,
       "iconId": 127,
       "caption": "Microsoft Windows",
       "url": "Microsoft_Windows",
@@ -14844,8 +14832,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1228,
-      "rank": 1228,
+      "wtId": 1227,
+      "rank": 1227,
       "iconId": 128,
       "caption": "Mammoth",
       "url": "Mammoth",
@@ -14854,8 +14842,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1229,
-      "rank": 1229,
+      "wtId": 1228,
+      "rank": 1228,
       "iconId": 128,
       "caption": "Mammoth extinct",
       "url": "Mammoth",
@@ -14864,8 +14852,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1230,
-      "rank": 1230,
+      "wtId": 1229,
+      "rank": 1229,
       "iconId": 120,
       "caption": "Saber-tooth",
       "url": "Saber-toothed_predator",
@@ -14874,8 +14862,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1231,
-      "rank": 1231,
+      "wtId": 1230,
+      "rank": 1230,
       "iconId": 120,
       "caption": "Saber-tooth extinct",
       "url": "Saber-toothed_predator",
@@ -14884,8 +14872,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1232,
-      "rank": 1232,
+      "wtId": 1231,
+      "rank": 1231,
       "iconId": 71,
       "caption": "FIFA World Cup Italy",
       "url": "1934_FIFA_World_Cup",
@@ -14899,8 +14887,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1233,
-      "rank": 1233,
+      "wtId": 1232,
+      "rank": 1232,
       "iconId": 71,
       "caption": "FIFA World Cup France",
       "url": "1938_FIFA_World_Cup",
@@ -14914,8 +14902,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1234,
-      "rank": 1234,
+      "wtId": 1233,
+      "rank": 1233,
       "iconId": 71,
       "caption": "FIFA World Cup Brazil",
       "url": "1950_FIFA_World_Cup",
@@ -14929,8 +14917,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1235,
-      "rank": 1235,
+      "wtId": 1234,
+      "rank": 1234,
       "iconId": 71,
       "caption": "FIFA World Cup Switzerland",
       "url": "1954_FIFA_World_Cup",
@@ -14944,8 +14932,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1236,
-      "rank": 1236,
+      "wtId": 1235,
+      "rank": 1235,
       "iconId": 71,
       "caption": "FIFA World Cup Sweden",
       "url": "1958_FIFA_World_Cup",
@@ -14959,8 +14947,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1237,
-      "rank": 1237,
+      "wtId": 1236,
+      "rank": 1236,
       "iconId": 71,
       "caption": "FIFA World Cup Chile",
       "url": "1962_FIFA_World_Cup",
@@ -14974,8 +14962,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1238,
-      "rank": 1238,
+      "wtId": 1237,
+      "rank": 1237,
       "iconId": 71,
       "caption": "FIFA World Cup England",
       "url": "1966_FIFA_World_Cup",
@@ -14989,8 +14977,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1239,
-      "rank": 1239,
+      "wtId": 1238,
+      "rank": 1238,
       "iconId": 71,
       "caption": "FIFA World Cup Mexico",
       "url": "1970_FIFA_World_Cup",
@@ -15004,8 +14992,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1240,
-      "rank": 1240,
+      "wtId": 1239,
+      "rank": 1239,
       "iconId": 71,
       "caption": "FIFA World Cup West Germany",
       "url": "1974_FIFA_World_Cup",
@@ -15019,8 +15007,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1241,
-      "rank": 1241,
+      "wtId": 1240,
+      "rank": 1240,
       "iconId": 71,
       "caption": "FIFA World Cup Argentina",
       "url": "1978_FIFA_World_Cup",
@@ -15034,8 +15022,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1242,
-      "rank": 1242,
+      "wtId": 1241,
+      "rank": 1241,
       "iconId": 71,
       "caption": "FIFA World Cup Spain",
       "url": "1982_FIFA_World_Cup",
@@ -15049,8 +15037,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1243,
-      "rank": 1243,
+      "wtId": 1242,
+      "rank": 1242,
       "iconId": 71,
       "caption": "FIFA World Cup Mexico",
       "url": "1986_FIFA_World_Cup",
@@ -15064,8 +15052,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1244,
-      "rank": 1244,
+      "wtId": 1243,
+      "rank": 1243,
       "iconId": 71,
       "caption": "FIFA World Cup Italy",
       "url": "1990_FIFA_World_Cup",
@@ -15079,8 +15067,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1245,
-      "rank": 1245,
+      "wtId": 1244,
+      "rank": 1244,
       "iconId": 71,
       "caption": "FIFA World Cup United States",
       "url": "1994_FIFA_World_Cup",
@@ -15094,8 +15082,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1246,
-      "rank": 1246,
+      "wtId": 1245,
+      "rank": 1245,
       "iconId": 71,
       "caption": "FIFA World Cup France",
       "url": "1998_FIFA_World_Cup",
@@ -15109,8 +15097,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1247,
-      "rank": 1247,
+      "wtId": 1246,
+      "rank": 1246,
       "iconId": 71,
       "caption": "FIFA World Cup Korea/Japan",
       "url": "2002_FIFA_World_Cup",
@@ -15124,8 +15112,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1248,
-      "rank": 1248,
+      "wtId": 1247,
+      "rank": 1247,
       "iconId": 71,
       "caption": "FIFA World Cup Germany",
       "url": "2006_FIFA_World_Cup",
@@ -15139,8 +15127,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1249,
-      "rank": 1249,
+      "wtId": 1248,
+      "rank": 1248,
       "iconId": 71,
       "caption": "FIFA World Cup South Africa",
       "url": "2010_FIFA_World_Cup",
@@ -15154,8 +15142,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1250,
-      "rank": 1250,
+      "wtId": 1249,
+      "rank": 1249,
       "iconId": 71,
       "caption": "FIFA World Cup Brazil",
       "url": "2014_FIFA_World_Cup",
@@ -15169,8 +15157,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1251,
-      "rank": 1251,
+      "wtId": 1250,
+      "rank": 1250,
       "iconId": 71,
       "caption": "FIFA World Cup Russia",
       "url": "2018_FIFA_World_Cup",
@@ -15184,8 +15172,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1252,
-      "rank": 1252,
+      "wtId": 1251,
+      "rank": 1251,
       "iconId": 71,
       "caption": "FIFA World Cup Qatar",
       "url": "2022_FIFA_World_Cup",
@@ -15199,8 +15187,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1253,
-      "rank": 1253,
+      "wtId": 1252,
+      "rank": 1252,
       "iconId": 71,
       "caption": "FIFA World Cup Can/Mex/Usa",
       "url": "2026_FIFA_World_Cup",
@@ -15214,8 +15202,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1254,
-      "rank": 1254,
+      "wtId": 1253,
+      "rank": 1253,
       "iconId": 83,
       "caption": "Sydney 2000",
       "url": "2000_Summer_Olympics",
@@ -15229,8 +15217,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1255,
-      "rank": 1255,
+      "wtId": 1254,
+      "rank": 1254,
       "iconId": 83,
       "caption": "Salt Lake City 2002",
       "url": "2002_Winter_Olympics",
@@ -15244,8 +15232,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1256,
-      "rank": 1256,
+      "wtId": 1255,
+      "rank": 1255,
       "iconId": 83,
       "caption": "Athens 2004",
       "url": "2004_Summer_Olympics",
@@ -15259,8 +15247,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1257,
-      "rank": 1257,
+      "wtId": 1256,
+      "rank": 1256,
       "iconId": 83,
       "caption": "Turin 2006",
       "url": "2006_Winter_Olympics",
@@ -15274,8 +15262,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1258,
-      "rank": 1258,
+      "wtId": 1257,
+      "rank": 1257,
       "iconId": 83,
       "caption": "Beijing 2008",
       "url": "2008_Summer_Olympics",
@@ -15289,8 +15277,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1259,
-      "rank": 1259,
+      "wtId": 1258,
+      "rank": 1258,
       "iconId": 83,
       "caption": "Sarajevo 1984",
       "url": "1984_Winter_Olympics",
@@ -15304,8 +15292,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1260,
-      "rank": 1260,
+      "wtId": 1259,
+      "rank": 1259,
       "iconId": 83,
       "caption": "Los Angeles 1984",
       "url": "1984_Summer_Olympics",
@@ -15319,8 +15307,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1261,
-      "rank": 1261,
+      "wtId": 1260,
+      "rank": 1260,
       "iconId": 83,
       "caption": "Athens 1896",
       "url": "1896_Summer_Olympics",
@@ -15334,8 +15322,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1262,
-      "rank": 1262,
+      "wtId": 1261,
+      "rank": 1261,
       "iconId": 83,
       "caption": "Paris 1900",
       "url": "1900_Summer_Olympics",
@@ -15349,8 +15337,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1263,
-      "rank": 1263,
+      "wtId": 1262,
+      "rank": 1262,
       "iconId": 83,
       "caption": "St. Louis 1904",
       "url": "1904_Summer_Olympics",
@@ -15364,8 +15352,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1264,
-      "rank": 1264,
+      "wtId": 1263,
+      "rank": 1263,
       "iconId": 83,
       "caption": "Stockholm 1912",
       "url": "1912_Summer_Olympics",
@@ -15379,8 +15367,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1265,
-      "rank": 1265,
+      "wtId": 1264,
+      "rank": 1264,
       "iconId": 83,
       "caption": "Antwerp 1920",
       "url": "1920_Summer_Olympics",
@@ -15394,8 +15382,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1266,
-      "rank": 1266,
+      "wtId": 1265,
+      "rank": 1265,
       "iconId": 83,
       "caption": "Chamonix 1924",
       "url": "1924_Winter_Olympics",
@@ -15409,8 +15397,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1267,
-      "rank": 1267,
+      "wtId": 1266,
+      "rank": 1266,
       "iconId": 83,
       "caption": "Paris 1924",
       "url": "1924_Summer_Olympics",
@@ -15424,8 +15412,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1268,
-      "rank": 1268,
+      "wtId": 1267,
+      "rank": 1267,
       "iconId": 83,
       "caption": "St. Moritz 1928",
       "url": "1928_Winter_Olympics",
@@ -15439,8 +15427,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1269,
-      "rank": 1269,
+      "wtId": 1268,
+      "rank": 1268,
       "iconId": 83,
       "caption": "Amsterdam 1928",
       "url": "1928_Summer_Olympics",
@@ -15454,8 +15442,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1270,
-      "rank": 1270,
+      "wtId": 1269,
+      "rank": 1269,
       "iconId": 83,
       "caption": "Lake Placid 1932",
       "url": "1932_Winter_Olympics",
@@ -15469,8 +15457,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1271,
-      "rank": 1271,
+      "wtId": 1270,
+      "rank": 1270,
       "iconId": 83,
       "caption": "Los Angeles 1932",
       "url": "1932_Summer_Olympics",
@@ -15484,8 +15472,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1272,
-      "rank": 1272,
+      "wtId": 1271,
+      "rank": 1271,
       "iconId": 83,
       "caption": "Brisbane 2032",
       "url": "2032_Summer_Olympics",
@@ -15499,8 +15487,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1273,
-      "rank": 1273,
+      "wtId": 1272,
+      "rank": 1272,
       "iconId": 83,
       "caption": "Salt Lake City 2034",
       "url": "2034_Winter_Olympics",
@@ -15514,8 +15502,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1274,
-      "rank": 1274,
+      "wtId": 1273,
+      "rank": 1273,
       "iconId": 83,
       "caption": "1936 Garmisch Partenkirchen",
       "url": "1936_Winter_Olympics",
@@ -15529,8 +15517,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1275,
-      "rank": 1275,
+      "wtId": 1274,
+      "rank": 1274,
       "iconId": 83,
       "caption": "Berlin 1936",
       "url": "1936_Summer_Olympics",
@@ -15544,8 +15532,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1276,
-      "rank": 1276,
+      "wtId": 1275,
+      "rank": 1275,
       "iconId": 83,
       "caption": "Vancouver 2010",
       "url": "2010_Winter_Olympics",
@@ -15559,8 +15547,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1277,
-      "rank": 1277,
+      "wtId": 1276,
+      "rank": 1276,
       "iconId": 83,
       "caption": "London 2012",
       "url": "2012_Summer_Olympics",
@@ -15574,8 +15562,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1278,
-      "rank": 1278,
+      "wtId": 1277,
+      "rank": 1277,
       "iconId": 83,
       "caption": "Sochi 2014",
       "url": "2014_Winter_Olympics",
@@ -15589,8 +15577,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1279,
-      "rank": 1279,
+      "wtId": 1278,
+      "rank": 1278,
       "iconId": 83,
       "caption": "Lillehammer 1994",
       "url": "1994_Winter_Olympics",
@@ -15604,8 +15592,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1280,
-      "rank": 1280,
+      "wtId": 1279,
+      "rank": 1279,
       "iconId": 83,
       "caption": "London 1908",
       "url": "1908_Summer_Olympics",
@@ -15619,8 +15607,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1281,
-      "rank": 1281,
+      "wtId": 1280,
+      "rank": 1280,
       "iconId": 83,
       "caption": "St. Moritz 1948",
       "url": "1948_Winter_Olympics",
@@ -15634,8 +15622,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1282,
-      "rank": 1282,
+      "wtId": 1281,
+      "rank": 1281,
       "iconId": 83,
       "caption": "London 1948",
       "url": "1948_Summer_Olympics",
@@ -15649,8 +15637,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1283,
-      "rank": 1283,
+      "wtId": 1282,
+      "rank": 1282,
       "iconId": 83,
       "caption": "Oslo 1952",
       "url": "1952_Winter_Olympics",
@@ -15664,8 +15652,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1284,
-      "rank": 1284,
+      "wtId": 1283,
+      "rank": 1283,
       "iconId": 83,
       "caption": "Helsinki 1952",
       "url": "1952_Summer_Olympics",
@@ -15679,8 +15667,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1285,
-      "rank": 1285,
+      "wtId": 1284,
+      "rank": 1284,
       "iconId": 83,
       "caption": "Calgary 1988",
       "url": "1988_Winter_Olympics",
@@ -15694,8 +15682,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1286,
-      "rank": 1286,
+      "wtId": 1285,
+      "rank": 1285,
       "iconId": 83,
       "caption": "Lake Placid 1980",
       "url": "1980_Winter_Olympics",
@@ -15709,8 +15697,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1287,
-      "rank": 1287,
+      "wtId": 1286,
+      "rank": 1286,
       "iconId": 83,
       "caption": "Moscow 1980",
       "url": "1980_Summer_Olympics",
@@ -15724,8 +15712,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1288,
-      "rank": 1288,
+      "wtId": 1287,
+      "rank": 1287,
       "iconId": 83,
       "caption": "Seoul 1988",
       "url": "1988_Summer_Olympics",
@@ -15739,8 +15727,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1289,
-      "rank": 1289,
+      "wtId": 1288,
+      "rank": 1288,
       "iconId": 83,
       "caption": "Albertville 1992",
       "url": "1992_Winter_Olympics",
@@ -15754,8 +15742,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1290,
-      "rank": 1290,
+      "wtId": 1289,
+      "rank": 1289,
       "iconId": 83,
       "caption": "Cortina d'Ampezzo 1956",
       "url": "1956_Winter_Olympics",
@@ -15769,8 +15757,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1291,
-      "rank": 1291,
+      "wtId": 1290,
+      "rank": 1290,
       "iconId": 83,
       "caption": "Melbourne 1956",
       "url": "1956_Summer_Olympics",
@@ -15784,8 +15772,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1292,
-      "rank": 1292,
+      "wtId": 1291,
+      "rank": 1291,
       "iconId": 83,
       "caption": "Squaw Valley 1960",
       "url": "1960_Winter_Olympics",
@@ -15799,8 +15787,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1293,
-      "rank": 1293,
+      "wtId": 1292,
+      "rank": 1292,
       "iconId": 83,
       "caption": "Rome 1960",
       "url": "1960_Summer_Olympics",
@@ -15814,8 +15802,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1294,
-      "rank": 1294,
+      "wtId": 1293,
+      "rank": 1293,
       "iconId": 83,
       "caption": "Innsbruck 1964",
       "url": "1964_Winter_Olympics",
@@ -15829,8 +15817,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1295,
-      "rank": 1295,
+      "wtId": 1294,
+      "rank": 1294,
       "iconId": 83,
       "caption": "Tokyo 1964",
       "url": "1964_Summer_Olympics",
@@ -15844,8 +15832,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1296,
-      "rank": 1296,
+      "wtId": 1295,
+      "rank": 1295,
       "iconId": 83,
       "caption": "Grenoble 1968",
       "url": "1968_Winter_Olympics",
@@ -15859,8 +15847,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1297,
-      "rank": 1297,
+      "wtId": 1296,
+      "rank": 1296,
       "iconId": 83,
       "caption": "Mexico City 1968",
       "url": "1968_Summer_Olympics",
@@ -15874,8 +15862,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1298,
-      "rank": 1298,
+      "wtId": 1297,
+      "rank": 1297,
       "iconId": 83,
       "caption": "Innsbruck 1976",
       "url": "1976_Winter_Olympics",
@@ -15889,8 +15877,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1299,
-      "rank": 1299,
+      "wtId": 1298,
+      "rank": 1298,
       "iconId": 83,
       "caption": "Montreal 1976",
       "url": "1976_Summer_Olympics",
@@ -15904,8 +15892,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1300,
-      "rank": 1300,
+      "wtId": 1299,
+      "rank": 1299,
       "iconId": 83,
       "caption": "Sapporo 1972",
       "url": "1972_Winter_Olympics",
@@ -15919,8 +15907,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1301,
-      "rank": 1301,
+      "wtId": 1300,
+      "rank": 1300,
       "iconId": 83,
       "caption": "Munich 1972",
       "url": "1972_Summer_Olympics",
@@ -15934,8 +15922,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1302,
-      "rank": 1302,
+      "wtId": 1301,
+      "rank": 1301,
       "iconId": 83,
       "caption": "Barcelona 1992",
       "url": "1992_Summer_Olympics",
@@ -15949,8 +15937,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1303,
-      "rank": 1303,
+      "wtId": 1302,
+      "rank": 1302,
       "iconId": 83,
       "caption": "Nagano 1998",
       "url": "1998_Winter_Olympics",
@@ -15964,8 +15952,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1304,
-      "rank": 1304,
+      "wtId": 1303,
+      "rank": 1303,
       "iconId": 83,
       "caption": "Atlanta 1996",
       "url": "1996_Summer_Olympics",
@@ -15979,8 +15967,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1305,
-      "rank": 1305,
+      "wtId": 1304,
+      "rank": 1304,
       "iconId": 83,
       "caption": "Rio de Janeiro 2016",
       "url": "2016_Summer_Olympics",
@@ -15994,8 +15982,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1306,
-      "rank": 1306,
+      "wtId": 1305,
+      "rank": 1305,
       "iconId": 83,
       "caption": "PyeongChang 2018",
       "url": "2018_Winter_Olympics",
@@ -16009,8 +15997,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1307,
-      "rank": 1307,
+      "wtId": 1306,
+      "rank": 1306,
       "iconId": 83,
       "caption": "Tokyo 2020 (held in 2021)",
       "url": "2020_Summer_Olympics",
@@ -16024,8 +16012,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1308,
-      "rank": 1308,
+      "wtId": 1307,
+      "rank": 1307,
       "iconId": 83,
       "caption": "Beijing 2022",
       "url": "2022_Winter_Olympics",
@@ -16039,8 +16027,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1309,
-      "rank": 1309,
+      "wtId": 1308,
+      "rank": 1308,
       "iconId": 83,
       "caption": "Paris 2024",
       "url": "2024_Summer_Olympics",
@@ -16054,8 +16042,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1310,
-      "rank": 1310,
+      "wtId": 1309,
+      "rank": 1309,
       "iconId": 83,
       "caption": "Milano Cortina 2026",
       "url": "2026_Winter_Olympics",
@@ -16069,8 +16057,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1311,
-      "rank": 1311,
+      "wtId": 1310,
+      "rank": 1310,
       "iconId": 83,
       "caption": "Los Angeles 2028",
       "url": "2028_Summer_Olympics",
@@ -16084,8 +16072,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1312,
-      "rank": 1312,
+      "wtId": 1311,
+      "rank": 1311,
       "iconId": 83,
       "caption": "French Alps 2030",
       "url": "2030_Winter_Olympics",
@@ -16099,8 +16087,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1313,
-      "rank": 1313,
+      "wtId": 1312,
+      "rank": 1312,
       "iconId": 248,
       "caption": "Canada Gold",
       "url": "Ice_hockey_at_the_2010_Winter_Olympics",
@@ -16111,8 +16099,8 @@
       "countries": "Canada"
     },
     {
-      "wtId": 1314,
-      "rank": 1314,
+      "wtId": 1313,
+      "rank": 1313,
       "iconId": 272,
       "caption": "Leon Marchand 4 gold",
       "url": "L%C3%A9on_Marchand",
@@ -16123,8 +16111,8 @@
       "countries": "France"
     },
     {
-      "wtId": 1315,
-      "rank": 1315,
+      "wtId": 1314,
+      "rank": 1314,
       "iconId": 275,
       "caption": "Usain Bolt's Triple Triple",
       "url": "Usain_Bolt_at_the_2016_Summer_Olympics",
@@ -16135,8 +16123,8 @@
       "countries": "Jamaica"
     },
     {
-      "wtId": 1316,
-      "rank": 1316,
+      "wtId": 1315,
+      "rank": 1315,
       "iconId": 244,
       "caption": "Comaneci Perfect 10",
       "url": "Nadia_Com%C4%83neci",
@@ -16147,8 +16135,8 @@
       "countries": "Romania"
     },
     {
-      "wtId": 1317,
-      "rank": 1317,
+      "wtId": 1316,
+      "rank": 1316,
       "iconId": 244,
       "caption": "Simone Biles comeback",
       "url": "Simone_Biles",
@@ -16159,8 +16147,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1318,
-      "rank": 1318,
+      "wtId": 1317,
+      "rank": 1317,
       "iconId": 244,
       "caption": "Fierce Five Olympics",
       "url": "Fierce_Five",
@@ -16171,8 +16159,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1319,
-      "rank": 1319,
+      "wtId": 1318,
+      "rank": 1318,
       "iconId": 244,
       "caption": "Simone Biles 4 Gold",
       "url": "Simone_Biles_at_the_2016_Summer_Olympics",
@@ -16183,8 +16171,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1320,
-      "rank": 1320,
+      "wtId": 1319,
+      "rank": 1319,
       "iconId": 248,
       "caption": "Miracle on Ice",
       "url": "Miracle_on_Ice",
@@ -16195,8 +16183,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1321,
-      "rank": 1321,
+      "wtId": 1320,
+      "rank": 1320,
       "iconId": 272,
       "caption": "Mark Spitz 7 Gold",
       "url": "Mark_Spitz",
@@ -16207,8 +16195,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1322,
-      "rank": 1322,
+      "wtId": 1321,
+      "rank": 1321,
       "iconId": 272,
       "caption": "Michael Phelps 8 Gold",
       "url": "Michael_Phelps_at_the_2008_Summer_Olympics",
@@ -16219,8 +16207,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1323,
-      "rank": 1323,
+      "wtId": 1322,
+      "rank": 1322,
       "iconId": 272,
       "caption": "Michael Phelps 8 medals",
       "url": "Michael_Phelps_at_the_2004_Summer_Olympics",
@@ -16231,8 +16219,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1324,
-      "rank": 1324,
+      "wtId": 1323,
+      "rank": 1323,
       "iconId": 275,
       "caption": "Jesse Owens 4 Gold",
       "url": "Jesse_Owens",
@@ -16243,8 +16231,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1325,
-      "rank": 1325,
+      "wtId": 1324,
+      "rank": 1324,
       "iconId": 275,
       "caption": "Carl Lewis 4 Gold",
       "url": "Carl_Lewis",
@@ -16255,8 +16243,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1326,
-      "rank": 1326,
+      "wtId": 1325,
+      "rank": 1325,
       "iconId": 275,
       "caption": "Carl Lewis 9.86s",
       "url": "Carl_Lewis",
@@ -16267,8 +16255,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1327,
-      "rank": 1327,
+      "wtId": 1326,
+      "rank": 1326,
       "iconId": 275,
       "caption": "Wilma Rudolph: 3 Gold",
       "url": "Wilma_Rudolph",
@@ -16279,8 +16267,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1328,
-      "rank": 1328,
+      "wtId": 1327,
+      "rank": 1327,
       "iconId": 275,
       "caption": "Marion Jones: 5 medals",
       "url": "Marion_Jones",
@@ -16291,8 +16279,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1329,
-      "rank": 1329,
+      "wtId": 1328,
+      "rank": 1328,
       "iconId": 275,
       "caption": "Bob Beamon: 8.90m",
       "url": "Bob_Beamon",
@@ -16303,8 +16291,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1330,
-      "rank": 1330,
+      "wtId": 1329,
+      "rank": 1329,
       "iconId": 228,
       "caption": "Dream Team",
       "url": "1992_United_States_men%27s_Olympic_basketball_team",
@@ -16315,8 +16303,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1331,
-      "rank": 1331,
+      "wtId": 1330,
+      "rank": 1330,
       "iconId": 233,
       "caption": "Cassius Clay Gold Medal",
       "url": "Muhammad_Ali",
@@ -16327,8 +16315,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1332,
-      "rank": 1332,
+      "wtId": 1331,
+      "rank": 1331,
       "iconId": 244,
       "caption": "Kerri Strug on injured ankle",
       "url": "Kerri_Strug",
@@ -16339,8 +16327,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1333,
-      "rank": 1333,
+      "wtId": 1332,
+      "rank": 1332,
       "iconId": 244,
       "caption": "Simone Biles withdrawal",
       "url": "Simone_Biles",
@@ -16351,8 +16339,8 @@
       "countries": "USA"
     },
     {
-      "wtId": 1334,
-      "rank": 1334,
+      "wtId": 1333,
+      "rank": 1333,
       "iconId": 265,
       "caption": "Shellfish Use",
       "url": "Pinnacle_Point",
@@ -16361,8 +16349,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1335,
-      "rank": 1335,
+      "wtId": 1334,
+      "rank": 1334,
       "iconId": 161,
       "caption": "Eemian Interglacial",
       "url": "Eemian",
@@ -16371,8 +16359,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1336,
-      "rank": 1336,
+      "wtId": 1335,
+      "rank": 1335,
       "iconId": 207,
       "caption": "sea 6-9m higher than today",
       "url": "Last_Interglacial",
@@ -16381,8 +16369,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1337,
-      "rank": 1337,
+      "wtId": 1336,
+      "rank": 1336,
       "iconId": 843,
       "caption": "Green Sahara",
       "url": "African_humid_period",
@@ -16392,8 +16380,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1338,
-      "rank": 1338,
+      "wtId": 1337,
+      "rank": 1337,
       "iconId": 269,
       "caption": "Last Ice age",
       "url": "Last_Glacial_Period",
@@ -16402,8 +16390,8 @@
       "countries": "World"
     },
     {
-      "wtId": 1339,
-      "rank": 1339,
+      "wtId": 1338,
+      "rank": 1338,
       "iconId": 204,
       "caption": "Earliest building",
       "url": "Wadi_Halfa",
@@ -16412,8 +16400,8 @@
       "countries": "Egypt"
     },
     {
-      "wtId": 1340,
-      "rank": 1340,
+      "wtId": 1339,
+      "rank": 1339,
       "iconId": 125,
       "caption": "Earliest composite tool",
       "url": "Sibudu_Cave",
@@ -16422,8 +16410,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1341,
-      "rank": 1341,
+      "wtId": 1340,
+      "rank": 1340,
       "iconId": 265,
       "caption": "Earliest jewels",
       "url": "Taforalt",
@@ -16432,8 +16420,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1342,
-      "rank": 1342,
+      "wtId": 1341,
+      "rank": 1341,
       "iconId": 843,
       "caption": "Out of Africa migration",
       "url": "Recent_African_origin_of_modern_humans",
@@ -16444,8 +16432,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1343,
-      "rank": 1343,
+      "wtId": 1342,
+      "rank": 1342,
       "iconId": 279,
       "caption": "Toba Supervolcano",
       "url": "Toba_catastrophe_theory",
@@ -16454,8 +16442,8 @@
       "countries": "Indonesia"
     },
     {
-      "wtId": 1344,
-      "rank": 1344,
+      "wtId": 1343,
+      "rank": 1343,
       "iconId": 1,
       "caption": "Earliest Abstract Art",
       "url": "Blombos_Cave",
@@ -16464,8 +16452,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1345,
-      "rank": 1345,
+      "wtId": 1344,
+      "rank": 1344,
       "iconId": 32,
       "caption": "Neanderthal Interbreeding",
       "url": "Neanderthal_admixture_in_modern_humans",
@@ -16474,8 +16462,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1346,
-      "rank": 1346,
+      "wtId": 1345,
+      "rank": 1345,
       "iconId": 28,
       "caption": "Human in Australia",
       "url": "Settlement_of_Australia",
@@ -16484,8 +16472,8 @@
       "countries": "Australia"
     },
     {
-      "wtId": 1347,
-      "rank": 1347,
+      "wtId": 1346,
+      "rank": 1346,
       "iconId": 225,
       "caption": "Bow",
       "url": "Bow_and_arrow",
@@ -16494,8 +16482,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1348,
-      "rank": 1348,
+      "wtId": 1347,
+      "rank": 1347,
       "iconId": 142,
       "caption": "Sewing Needle",
       "url": "Denisovan",
@@ -16504,8 +16492,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1349,
-      "rank": 1349,
+      "wtId": 1348,
+      "rank": 1348,
       "iconId": 843,
       "caption": "Sahara green again",
       "url": "Mousterian",
@@ -16514,8 +16502,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1350,
-      "rank": 1350,
+      "wtId": 1349,
+      "rank": 1349,
       "iconId": 28,
       "caption": "Cro-Magnon in Europe",
       "url": "European_early_modern_humans",
@@ -16524,8 +16512,8 @@
       "countries": "Europe"
     },
     {
-      "wtId": 1351,
-      "rank": 1351,
+      "wtId": 1350,
+      "rank": 1350,
       "iconId": 140,
       "caption": "Musical Instrument",
       "url": "Paleolithic_flutes",
@@ -16534,8 +16522,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1352,
-      "rank": 1352,
+      "wtId": 1351,
+      "rank": 1351,
       "iconId": 189,
       "caption": "Ochre Pigment use",
       "url": "Ochre",
@@ -16545,8 +16533,8 @@
       "countries": "Africa"
     },
     {
-      "wtId": 1353,
-      "rank": 1353,
+      "wtId": 1352,
+      "rank": 1352,
       "iconId": 144,
       "caption": "Stonehenge",
       "url": "Stonehenge",
