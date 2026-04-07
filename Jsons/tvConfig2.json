@@ -606,7 +606,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "58B19F",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 10,
         "url": "Ordovician",
         "fragment": ""
@@ -662,7 +662,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "1B9CFC",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 7,
         "url": "Permian",
         "fragment": ""
@@ -746,7 +746,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "70A1FF",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 10,
         "url": "Quaternary",
         "fragment": ""
@@ -876,7 +876,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "E74C3C",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 7,
         "url": "Biomass_(energy)",
         "fragment": ""
@@ -918,7 +918,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "3498DB",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 11,
         "url": "Electricity",
         "fragment": "History"
@@ -932,7 +932,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "9B59B6",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 7,
         "url": "Nuclear_power",
         "fragment": "History"
@@ -1104,7 +1104,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "1ABC9C",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 15,
         "url": "Hunter-gatherer",
         "fragment": ""
@@ -1160,7 +1160,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "5DADE2",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 10,
         "url": "Industrial_capitalism",
         "fragment": ""
@@ -1174,7 +1174,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "BB8FCE",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 13,
         "url": "Welfare_state",
         "fragment": ""
@@ -1246,7 +1246,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "EE5253",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 9,
         "url": "Chiefdom",
         "fragment": ""
@@ -1260,7 +1260,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "5F9EA0",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 11,
         "url": "City-state",
         "fragment": ""
@@ -1388,7 +1388,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "7986CB",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 9,
         "url": "Broadcasting",
         "fragment": ""
@@ -1558,7 +1558,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "81C784",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 8,
         "url": "Analytic_philosophy",
         "fragment": ""
@@ -1588,7 +1588,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "F25C54",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 8,
         "url": "Medieval_music",
         "fragment": ""
@@ -1644,7 +1644,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "AF7AC5",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 8,
         "url": "Romantic_music",
         "fragment": ""
@@ -1672,7 +1672,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "45B7D1",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 6,
         "url": "Modernism_(music)",
         "fragment": ""
@@ -1744,7 +1744,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "EF5350",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 6,
         "url": "Gothic_art",
         "fragment": ""
@@ -1758,7 +1758,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "BA68C8",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 11,
         "url": "Renaissance_art",
         "fragment": ""
@@ -1772,7 +1772,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "9575CD",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 7,
         "url": "Baroque",
         "fragment": ""
@@ -1814,7 +1814,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "26A69A",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 13,
         "url": "Impressionism",
         "fragment": ""
@@ -1824,7 +1824,7 @@
         "startYear": 1800,
         "startMonth": 1,
         "startDay": 1,
-        "endYear": 1850,
+        "endYear": 1859,
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "FFEE58",
@@ -1856,7 +1856,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "E91E63",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 12,
         "url": "Contemporary_art",
         "fragment": ""
@@ -1888,7 +1888,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "00BFA5",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 18,
         "url": "Jahiliyyah",
         "fragment": ""
@@ -1930,7 +1930,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "B388FF",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 15,
         "url": "Umayyad_Caliphate",
         "fragment": ""
@@ -2114,7 +2114,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "448AFF",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 10,
         "url": "Sui_dynasty",
         "fragment": ""
@@ -2270,7 +2270,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "4FC3F7",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 16,
         "url": "Achaemenid_Empire",
         "fragment": ""
@@ -2354,7 +2354,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "FF7043",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 16,
         "url": "Seljuk_Empire",
         "fragment": ""
@@ -2524,7 +2524,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "4CAF50",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 12,
         "url": "Majapahit",
         "fragment": ""
@@ -2552,7 +2552,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "EF5350",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 15,
         "url": "Klungkung_Kingdom",
         "fragment": ""
@@ -2566,7 +2566,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "EC407A",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 12,
         "url": "Dutch_East_Indies",
         "fragment": "Bali"
@@ -2580,7 +2580,7 @@
         "endMonth": 8,
         "endDay": 16,
         "bgColor": "AB47BC",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 18,
         "url": "Japanese_occupation_of_the_Dutch_East_Indies",
         "fragment": ""
@@ -2594,7 +2594,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "42A5F5",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 21,
         "url": "Bali",
         "fragment": "History"
@@ -2680,7 +2680,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "039BE5",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 14,
         "url": "Kingdom_of_Judah",
         "fragment": ""
@@ -2694,7 +2694,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "7E57C2",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 15,
         "url": "Babylonian_captivity",
         "fragment": ""
@@ -2766,7 +2766,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "00C853",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 10,
         "url": "D%27mt",
         "fragment": ""
@@ -2878,7 +2878,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "FF1744",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 16,
         "url": "Italian_East_Africa",
         "fragment": ""
@@ -2906,7 +2906,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "536DFE",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 10,
         "url": "Derg",
         "fragment": ""
@@ -3020,7 +3020,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "EF9A9A",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 16,
         "url": "Book_of_Joshua",
         "fragment": ""
@@ -3104,7 +3104,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "CE93D8",
-        "textColor": "000000",
+        "textColor": "FFFFFF",
         "width": 9,
         "url": "Christianity",
         "fragment": ""
