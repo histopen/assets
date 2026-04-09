@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(tail:*)",
-      "Bash(cd \"/c/code/assets/Tools\" && node \"svg scripts/recenteresizeformat/transform.mjs\" 2>&1)"
+      "Bash(cd \"/c/code/assets/Tools\" && node \"svg scripts/recenteresizeformat/transform.mjs\" 2>&1)",
+      "WebFetch(domain:en.wikipedia.org)"
     ]
   }
 }
