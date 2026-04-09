@@ -1,18 +1,18 @@
 [
-  [0, {"timeDataCaption": "Eugène Dumas", "timeDataUrl": "", "timeDataDate": {
-      "startDay": 15, "startMonth":  5, "startYear": 1910, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 20, "endMonth":  8, "endYear": 1985, "endCirca": 0, "endCircaUnit": "Y"
+  [0, {"caption": "Eugène", "url": "", "span": {
+      "sD": 15, "sM":  5, "sY": 1910, "sC": 0, "sCu": "Y",
+      "eD": 20, "eM":  8, "eY": 1985, "eC": 0, "eCu": "Y"
     }}],
-  [1, {"timeDataCaption": "Mélanie Dumas", "timeDataUrl": "", "timeDataDate": {
-      "startDay":  2, "startMonth":  3, "startYear": 1915, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 10, "endMonth": 12, "endYear": 1990, "endCirca": 0, "endCircaUnit": "Y"
+  [1, {"caption": "Mélanie", "url": "", "span": {
+      "sD":  2, "sM":  3, "sY": 1915, "sC": 0, "sCu": "Y",
+      "eD": 10, "eM": 12, "eY": 1990, "eC": 0, "eCu": "Y"
     }}],
-  [2, {"timeDataCaption": "Ella d'Athis", "timeDataUrl": "", "timeDataDate": {
-      "startDay":  8, "startMonth":  7, "startYear": 1912, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay":  5, "endMonth":  4, "endYear": 1980, "endCirca": 0, "endCircaUnit": "Y"
+  [2, {"caption": "Ella", "url": "", "span": {
+      "sD":  8, "sM":  7, "sY": 1912, "sC": 0, "sCu": "Y",
+      "eD":  5, "eM":  4, "eY": 1980, "eC": 0, "eCu": "Y"
     }}],
-  [3, {"timeDataCaption": "Roland d'Athis", "timeDataUrl": "", "timeDataDate": {
-      "startDay": 30, "startMonth":  9, "startYear": 1908, "startCirca": 0, "startCircaUnit": "Y",
-      "endDay": 18, "endMonth":  2, "endYear": 1978, "endCirca": 0, "endCircaUnit": "Y"
+  [3, {"caption": "Roland", "url": "", "span": {
+      "sD": 30, "sM":  9, "sY": 1908, "sC": 0, "sCu": "Y",
+      "eD": 18, "eM":  2, "eY": 1978, "eC": 0, "eCu": "Y"
     }}]
 ]
