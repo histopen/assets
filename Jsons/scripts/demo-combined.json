@@ -8,29 +8,13 @@
     {"command": "comment", "params": {"text": "can i remove circa?"}},
     {"command": "comment", "params": {"text": "is shoudn't be able to change dbAcademy, only dbUserAccount"}},
     {"command": "comment", "params": {"text": "what if i set only year, no month/day?"}},
-    {"command": "setTimeShadow", "params": {
-      "timeObject": {
-        "Database": "dbAcademy",
-        "DatabaseKey": 1,
-        "TOType": "timeData",
-        "timeDataCaption": "French Revolution",
-        "timeDataUrl": "https://en.wikipedia.org/wiki/French_Revolution",
-        "timeDataDate": {
-          "startYear": 1789,
-          "startMonth": 7,
-          "startDay": 14,
-          "startCirca": 0,
-          "startCircaUnit": "Y",
-          "endYear": 1799,
-          "endMonth": 11,
-          "endDay": 9,
-          "endCirca": 0,
-          "endCircaUnit": "Y"
-        }
-      }
+    {"command": "addFromSource", "params": {
+      "caption": "French Revolution",
+      "url": "French_Revolution",
+      "wdStart": "+1789-07-14T00:00:00Z",
+      "wdEnd": "+1799-11-09T00:00:00Z"
     }},                                                                                              {"command": "delay", "params": {"ms": 1500}},
 
-    {"command": "addPanelLine", "params": {}},                                                       {"command": "delay", "params": {"ms": 1500}},
     {"command": "jumpToEra", "params": {"start": "1939/9/1", "end": "1945/9/2"}},                    {"command": "delay", "params": {"ms": 1000}},
     {"command": "zoom", "params": {"direction": "in", "centerX": 500}},                              {"command": "delay", "params": {"ms": 800}},
     {"command": "zoom", "params": {"direction": "in", "centerX": 500}},                              {"command": "delay", "params": {"ms": 1000}},

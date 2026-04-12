@@ -41,6 +41,24 @@ function shuffle(array) {
 }
 
 /**
+ * Zero-pad a number to 2 digits
+ */
+function pad(n) {
+  return String(n).padStart(2, '0');
+}
+
+/**
+ * Convert timeDataDate fields to ISO 8601 wikidata string
+ */
+function toWdStart(date) {
+  return `+${date.startYear}-${pad(date.startMonth || 1)}-${pad(date.startDay || 1)}T00:00:00Z`;
+}
+
+function toWdEnd(date) {
+  return `+${date.endYear}-${pad(date.endMonth || 12)}-${pad(date.endDay || 28)}T00:00:00Z`;
+}
+
+/**
  * Main function
  */
 function main() {
@@ -70,25 +88,19 @@ function main() {
     params: { text: "=== Add 8 Random Panel Lines ===" }
   });
 
-  selected.forEach((item, index) => {
+  selected.forEach((item) => {
     const data = item[1];
 
     commands.push({
-      command: "setTimeShadow",
+      command: "addFromSource",
       params: {
-        timeObject: {
-          Database: "dbUserAccount",
-          DatabaseKey: index,
-          TOType: "timeData",
-          timeDataCaption: data.timeDataCaption,
-          timeDataUrl: data.timeDataUrl,
-          timeDataDate: data.timeDataDate
-        }
+        caption: data.timeDataCaption,
+        url: data.timeDataUrl || "",
+        wdStart: toWdStart(data.timeDataDate),
+        wdEnd: toWdEnd(data.timeDataDate)
       }
     });
 
-    commands.push({ command: "delay", params: { ms: 300 } });
-    commands.push({ command: "addPanelLine", params: {} });
     commands.push({ command: "delay", params: { ms: 500 } });
   });
 

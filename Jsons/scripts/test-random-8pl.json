@@ -9,38 +9,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 0,
-          "TOType": "timeData",
-          "timeDataCaption": "Camus",
-          "timeDataUrl": "Albert_Camus",
-          "timeDataDate": {
-            "startDay": 7,
-            "startMonth": 11,
-            "startYear": 1913,
-            "startCirca": 0,
-            "startCircaUnit": "Y",
-            "endDay": 4,
-            "endMonth": 1,
-            "endYear": 1960,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Camus",
+        "url": "Albert_Camus",
+        "wdStart": "+1913-11-07T00:00:00Z",
+        "wdEnd": "+1960-01-04T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -49,38 +24,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 1,
-          "TOType": "timeData",
-          "timeDataCaption": "Roland d'Athis",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startDay": 30,
-            "startMonth": 9,
-            "startYear": 1908,
-            "startCirca": 0,
-            "startCircaUnit": "Y",
-            "endDay": 18,
-            "endMonth": 2,
-            "endYear": 1978,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Roland d'Athis",
+        "url": "",
+        "wdStart": "+1908-09-30T00:00:00Z",
+        "wdEnd": "+1978-02-18T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -89,38 +39,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 2,
-          "TOType": "timeData",
-          "timeDataCaption": "Al-Rashid",
-          "timeDataUrl": "Al-Rashid_of_Morocco",
-          "timeDataDate": {
-            "startDay": 1,
-            "startMonth": 1,
-            "startYear": 1631,
-            "startCirca": 1,
-            "startCircaUnit": "Y",
-            "endDay": 9,
-            "endMonth": 4,
-            "endYear": 1672,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Al-Rashid",
+        "url": "Al-Rashid_of_Morocco",
+        "wdStart": "+1631-01-01T00:00:00Z",
+        "wdEnd": "+1672-04-09T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -129,38 +54,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 3,
-          "TOType": "timeData",
-          "timeDataCaption": "Mélanie Dumas",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startDay": 2,
-            "startMonth": 3,
-            "startYear": 1915,
-            "startCirca": 0,
-            "startCircaUnit": "Y",
-            "endDay": 10,
-            "endMonth": 12,
-            "endYear": 1990,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Mélanie Dumas",
+        "url": "",
+        "wdStart": "+1915-03-02T00:00:00Z",
+        "wdEnd": "+1990-12-10T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -169,38 +69,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 4,
-          "TOType": "timeData",
-          "timeDataCaption": "Einstein",
-          "timeDataUrl": "Albert_Einstein",
-          "timeDataDate": {
-            "startDay": 14,
-            "startMonth": 3,
-            "startYear": 1879,
-            "startCirca": 0,
-            "startCircaUnit": "Y",
-            "endDay": 18,
-            "endMonth": 4,
-            "endYear": 1955,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Einstein",
+        "url": "Albert_Einstein",
+        "wdStart": "+1879-03-14T00:00:00Z",
+        "wdEnd": "+1955-04-18T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -209,38 +84,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 5,
-          "TOType": "timeData",
-          "timeDataCaption": "Eugène Dumas",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startDay": 15,
-            "startMonth": 5,
-            "startYear": 1910,
-            "startCirca": 0,
-            "startCircaUnit": "Y",
-            "endDay": 20,
-            "endMonth": 8,
-            "endYear": 1985,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Eugène Dumas",
+        "url": "",
+        "wdStart": "+1910-05-15T00:00:00Z",
+        "wdEnd": "+1985-08-20T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -249,38 +99,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 6,
-          "TOType": "timeData",
-          "timeDataCaption": "Roosevelt",
-          "timeDataUrl": "Franklin_D._Roosevelt",
-          "timeDataDate": {
-            "startDay": 30,
-            "startMonth": 1,
-            "startYear": 1882,
-            "startCirca": 0,
-            "startCircaUnit": "Y",
-            "endDay": 12,
-            "endMonth": 4,
-            "endYear": 1945,
-            "endCirca": 0,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Roosevelt",
+        "url": "Franklin_D._Roosevelt",
+        "wdStart": "+1882-01-30T00:00:00Z",
+        "wdEnd": "+1945-04-12T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -289,38 +114,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 7,
-          "TOType": "timeData",
-          "timeDataCaption": "Genghis Khan",
-          "timeDataUrl": "Genghis_Khan",
-          "timeDataDate": {
-            "startDay": 1,
-            "startMonth": 1,
-            "startYear": 1206,
-            "startCirca": 1,
-            "startCircaUnit": "Y",
-            "endDay": 31,
-            "endMonth": 12,
-            "endYear": 1227,
-            "endCirca": 7,
-            "endCircaUnit": "Y"
-          }
-        }
+        "caption": "Genghis Khan",
+        "url": "Genghis_Khan",
+        "wdStart": "+1206-01-01T00:00:00Z",
+        "wdEnd": "+1227-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "delay",
-      "params": {
-        "ms": 300
-      }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",

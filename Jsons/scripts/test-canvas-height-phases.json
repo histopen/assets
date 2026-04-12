@@ -33,24 +33,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 0,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 1",
-          "timeDataUrl": "Albert_Camus",
-          "timeDataDate": {
-            "startYear": 1900,
-            "endYear": 1950
-          }
-        }
+        "caption": "Panel Line 1",
+        "url": "Albert_Camus",
+        "wdStart": "+1900-01-01T00:00:00Z",
+        "wdEnd": "+1950-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -59,24 +48,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 1,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 2",
-          "timeDataUrl": "Albert_Einstein",
-          "timeDataDate": {
-            "startYear": 1879,
-            "endYear": 1955
-          }
-        }
+        "caption": "Panel Line 2",
+        "url": "Albert_Einstein",
+        "wdStart": "+1879-01-01T00:00:00Z",
+        "wdEnd": "+1955-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -85,24 +63,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 2,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 3",
-          "timeDataUrl": "Franklin_D._Roosevelt",
-          "timeDataDate": {
-            "startYear": 1882,
-            "endYear": 1945
-          }
-        }
+        "caption": "Panel Line 3",
+        "url": "Franklin_D._Roosevelt",
+        "wdStart": "+1882-01-01T00:00:00Z",
+        "wdEnd": "+1945-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -129,24 +96,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 3,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 4",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1920,
-            "endYear": 1980
-          }
-        }
+        "caption": "Panel Line 4",
+        "url": "",
+        "wdStart": "+1920-01-01T00:00:00Z",
+        "wdEnd": "+1980-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -155,24 +111,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 4,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 5",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1930,
-            "endYear": 1990
-          }
-        }
+        "caption": "Panel Line 5",
+        "url": "",
+        "wdStart": "+1930-01-01T00:00:00Z",
+        "wdEnd": "+1990-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -181,24 +126,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 5,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 6",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1940,
-            "endYear": 2000
-          }
-        }
+        "caption": "Panel Line 6",
+        "url": "",
+        "wdStart": "+1940-01-01T00:00:00Z",
+        "wdEnd": "+2000-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -207,24 +141,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 6,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 7",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1950,
-            "endYear": 2010
-          }
-        }
+        "caption": "Panel Line 7",
+        "url": "",
+        "wdStart": "+1950-01-01T00:00:00Z",
+        "wdEnd": "+2010-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -251,24 +174,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 7,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 8",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1960,
-            "endYear": 2015
-          }
-        }
+        "caption": "Panel Line 8",
+        "url": "",
+        "wdStart": "+1960-01-01T00:00:00Z",
+        "wdEnd": "+2015-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -277,24 +189,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 8,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 9",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1970,
-            "endYear": 2020
-          }
-        }
+        "caption": "Panel Line 9",
+        "url": "",
+        "wdStart": "+1970-01-01T00:00:00Z",
+        "wdEnd": "+2020-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -303,24 +204,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 9,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 10",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1980,
-            "endYear": 2025
-          }
-        }
+        "caption": "Panel Line 10",
+        "url": "",
+        "wdStart": "+1980-01-01T00:00:00Z",
+        "wdEnd": "+2025-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -353,24 +243,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 10,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 11",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1985,
-            "endYear": 2030
-          }
-        }
+        "caption": "Panel Line 11",
+        "url": "",
+        "wdStart": "+1985-01-01T00:00:00Z",
+        "wdEnd": "+2030-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -379,24 +258,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 11,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 12",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1990,
-            "endYear": 2035
-          }
-        }
+        "caption": "Panel Line 12",
+        "url": "",
+        "wdStart": "+1990-01-01T00:00:00Z",
+        "wdEnd": "+2035-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -405,24 +273,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 12,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 13",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 1995,
-            "endYear": 2040
-          }
-        }
+        "caption": "Panel Line 13",
+        "url": "",
+        "wdStart": "+1995-01-01T00:00:00Z",
+        "wdEnd": "+2040-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -431,24 +288,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 13,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 14",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 2000,
-            "endYear": 2045
-          }
-        }
+        "caption": "Panel Line 14",
+        "url": "",
+        "wdStart": "+2000-01-01T00:00:00Z",
+        "wdEnd": "+2045-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
@@ -457,24 +303,13 @@
       }
     },
     {
-      "command": "setTimeShadow",
+      "command": "addFromSource",
       "params": {
-        "timeObject": {
-          "Database": "dbUserAccount",
-          "DatabaseKey": 14,
-          "TOType": "timeData",
-          "timeDataCaption": "Panel Line 15",
-          "timeDataUrl": "",
-          "timeDataDate": {
-            "startYear": 2005,
-            "endYear": 2050
-          }
-        }
+        "caption": "Panel Line 15",
+        "url": "",
+        "wdStart": "+2005-01-01T00:00:00Z",
+        "wdEnd": "+2050-12-31T00:00:00Z"
       }
-    },
-    {
-      "command": "addPanelLine",
-      "params": {}
     },
     {
       "command": "delay",
