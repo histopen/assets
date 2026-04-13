@@ -31,7 +31,7 @@
       },
       {
         "caption": "Mésozoïque",
-        "startYear": -230000000,
+        "startYear": -233000000,
         "startMonth": 1,
         "startDay": 1,
         "endYear": -20000000,
@@ -175,7 +175,7 @@
       },
       {
         "caption": "Dinosaurs",
-        "startYear": -230000000,
+        "startYear": -233000000,
         "startMonth": 1,
         "startDay": 1,
         "endYear": -20000000,
@@ -1578,7 +1578,7 @@
         "fragment": ""
       }
     ],
-    "Musical Eras": [
+    "Music": [
       {
         "caption": "Medieval",
         "startYear": 500,
