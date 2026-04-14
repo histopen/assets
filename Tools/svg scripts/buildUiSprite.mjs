@@ -25,28 +25,7 @@ async function buildSprite() {
   console.log('Building UI sprite...\n');
 
   let symbols = '';
-  let globalDefs = '';
   let count = 0;
-
-  // Prefix all id="X" definitions and their references (url(#X), href="#X")
-  // with the icon name to guarantee uniqueness across all icons in the sprite.
-  function prefixIds(content, prefix) {
-    const ids = new Set();
-    const idPattern = /\bid="([^"]+)"/g;
-    let m;
-    while ((m = idPattern.exec(content)) !== null) ids.add(m[1]);
-    let result = content;
-    for (const localId of ids) {
-      const newId = `${prefix}-${localId}`;
-      const esc = localId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      result = result
-        .replace(new RegExp(`\\bid="${esc}"`, 'g'), `id="${newId}"`)
-        .replace(new RegExp(`url\\(#${esc}\\)`, 'g'), `url(#${newId})`)
-        .replace(new RegExp(`href="#${esc}"`, 'g'), `href="#${newId}"`)
-        .replace(new RegExp(`xlink:href="#${esc}"`, 'g'), `xlink:href="#${newId}"`);
-    }
-    return result;
-  }
 
   for (const folder of UI_FOLDERS) {
     const folderPath = join(ICONS_DIR, folder);
@@ -81,35 +60,15 @@ async function buildSprite() {
         const PADDING = 4;
         const paddedViewBox = `0 0 ${w + PADDING} ${h + PADDING}`;
         // Extract inner content (remove <svg> wrapper and XML declaration)
-        let inner = content
+        const inner = content
           .replace(/<\?xml[^>]*\?>/g, '')
           .replace(/<!DOCTYPE[^>]*>/gi, '')
           .replace(/<svg[^>]*>/, '')
           .replace(/<\/svg>\s*$/, '')
           .trim();
 
-        // Auto-prefix all IDs with the icon name so each icon's ids are unique
-        // in the sprite — no need to manually namespace ids in source SVGs.
-        inner = prefixIds(inner, id);
-
-        // Hoist gradient/pattern defs to top-level sprite <defs> so they are in
-        // the light DOM and reliably resolved when referenced via <use> shadow DOM.
-        // ClipPaths are NOT hoisted — they use absolute userSpaceOnUse coordinates
-        // from the design tool export and would clip incorrectly in symbol space.
-        // Instead, clip-path attributes are stripped: the SVG viewBox already clips
-        // the icon to its bounds, making these design-tool clips redundant.
-        const defsMatches = [...inner.matchAll(/<defs[^>]*>([\s\S]*?)<\/defs>/g)];
-        for (const m of defsMatches) {
-          const gradients = [...m[1].matchAll(/<(?:linearGradient|radialGradient|pattern)[\s\S]*?<\/(?:linearGradient|radialGradient|pattern)>/g)];
-          globalDefs += gradients.map(g => g[0]).join('');
-        }
-        const innerWithoutDefs = inner
-          .replace(/<defs[^>]*>[\s\S]*?<\/defs>/g, '')
-          .replace(/\s*clip-path="[^"]*"/g, '')
-          .trim();
-
-        // Wrap inner content (without defs) in a <g> and translate by PADDING/2
-        symbols += `  <symbol id="${id}" viewBox="${paddedViewBox}"><g transform="translate(${PADDING/2},${PADDING/2})">${innerWithoutDefs}</g></symbol>\n`;
+        // Wrap inner content in a <g> and translate by PADDING/2
+        symbols += `  <symbol id="${id}" viewBox="${paddedViewBox}"><g transform="translate(${PADDING/2},${PADDING/2})">${inner}</g></symbol>\n`;
         count++;
       }
 
@@ -119,8 +78,7 @@ async function buildSprite() {
     }
   }
 
-  const defsBlock = globalDefs ? `<defs>${globalDefs}</defs>\n` : '';
-  const sprite = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">\n${defsBlock}${symbols}</svg>`;
+  const sprite = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">\n${symbols}</svg>`;
 
   // Write unoptimized first to verify content
   await fs.writeFile(OUTPUT_FILE, sprite);

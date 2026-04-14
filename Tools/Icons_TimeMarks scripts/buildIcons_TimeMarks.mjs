@@ -2,13 +2,10 @@
  * Timeline Atlas Builder
  *
  * Converts SVG icons to texture atlases for PIXI.js
- * Default: Generates 128x64 atlas
- * With -all flag: Generates 4 atlas sizes: 128x64, 96x48, 64x32, 32x16 (2:1 aspect ratio)
+ * Generates 4 atlas sizes: 128x64, 96x48, 64x32, 32x16 (2:1 aspect ratio)
  * Output: timeline-atlas-{size}.png + timeline-atlas-{size}.json (PIXI spritesheet format)
  *
- * Usage:
- *   node "Tools/Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs"        (128x64 only)
- *   node "Tools/Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs" -all  (all sizes)
+ * Usage: node "Tools/Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs"
  */
 
 import { Resvg } from '@resvg/resvg-js';
@@ -19,9 +16,6 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-
-// Check for -all flag in command line arguments
-const generateAllSizes = process.argv.includes('-all') || process.argv.includes('--all');
 
 /**
  * Get next power of 2 >= n
@@ -51,8 +45,7 @@ function calculateAtlasDimensions(iconCount, cellWidth, cellHeight) {
 }
 
 // Atlas sizes to generate (width, height = width/2)
-// Default: only 128x64, with -all flag: all sizes
-const ATLAS_SIZES = generateAllSizes ? [128, 96, 64, 32] : [128];
+const ATLAS_SIZES = [128, 96, 64, 32];
 
 // 1px transparent border around each icon to prevent OutlineFilter artifacts
 const ICON_PADDING = 1;

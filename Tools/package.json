@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+
   "scripts": {
     "loc": "(node jsontools/toolloc.js && git -C .. add -f Jsons/language && git -C .. commit -m \"update loc\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "loc-n": "node jsontools/toolloc.js",
@@ -14,13 +15,8 @@
     "cosmos-n": "node jsontools/toolcosmos.js",
     "tmconvert": "(node \"svg scripts/recenteresizeformat/transform.mjs\" && echo \"success\") || echo \"failure\"",
     "uisprites": "(node \"svg scripts/buildUiSprite.mjs\" && echo \"success\") || echo \"failure\"",
-    "ui": "(node \"svg scripts/buildUiSprite.mjs\" && git -C .. add -f Icons_UI/UI_Toolbar && git -C .. commit -m \"update ui sprite\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "ui-n": "node \"svg scripts/buildUiSprite.mjs\"",
     "atlas": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\"",
-    "atlas:all": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "atlas:all-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" -all",
-    "tl": "node jsontools/tooltl.mjs"
+    "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\""
   },
   "devDependencies": {
     "svg-path-commander": "^2.1.11",
@@ -29,7 +25,6 @@
   "dependencies": {
     "@resvg/resvg-js": "^2.6.0",
     "cheerio": "^1.0.0-rc.12",
-    "potrace": "^2.1.8",
     "sharp": "^0.33.0",
     "svg-path-bounds": "^1.0.2",
     "svgpath": "^2.6.0",

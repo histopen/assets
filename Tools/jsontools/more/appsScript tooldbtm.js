@@ -6,12 +6,11 @@ function doGet() {
   var headers = vals[0];
   var objects = [];
   var namedRangesToExport = [
-    'wtId', 'rank', 'iconId',
-    'caption', //'tooltip', 
-    'url', 'fragment',
-    'startCirca', 'startCircaUnit', 'startDay', 'startMonth', 'startYear', 'endCirca', 'endCircaUnit', 'endDay', 'endMonth', 'endYear',
-    'categories',
-    'countries'
+    'zoomscale', 'endZoomscale', 'iconId',
+    'caption', 'tooltip', 'url', 'fragment',
+    'startCirca', 'startCircaUnit', 'startDay', 'startMonth', 'startYear',
+    'endCirca', 'endCircaUnit', 'endDay', 'endMonth', 'endYear',
+    'categories', 'countries'
   ];
 
   for (var i = 1; i < vals.length; i++) {
@@ -20,7 +19,7 @@ function doGet() {
       rowObj[headers[j]] = vals[i][j];
     }
     // Only export rows where zoomscale is not empty
-    if (rowObj['rank'] !== undefined && rowObj['rank'] !== '') {
+    if (rowObj['zoomscale'] !== undefined && rowObj['zoomscale'] !== '') {
       // Only include named ranges in the export
       var filteredRowObj = {};
       namedRangesToExport.forEach(function(key) {
