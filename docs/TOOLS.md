@@ -2,7 +2,7 @@
 
 ## Scripts Summary
 
-`npm run` : atlas - sprite - tmconvert - loc - loc en - btn - tv - cosmos - dbtm
+`npm run` : atlas - sprite - tmconvert - loc - loc en - btn - tv - cosmos - dbtm - tl
 
 | Category | npm run command | Google Sheet | Type | Description | File Output |
 |----------|-----------------|--------------|------|-------------|-------------|
@@ -14,6 +14,7 @@
 |||||||
 | tmconvert | `npm run tmconvert` | N/A | svg | timeMarks SVG tool | Icons_TimeMarks/target/*.svg |
 | atlas | `npm run atlas` | N/A | svg | timeline icons atlas | Icons_TimeMarks/Atlas/ *.json<br>Icons_TimeMarks/Atlas/ *.png |
+| tl | `npm run tl` | N/A | bundle | timeline bundle: runs<br>tmconvert + atlas + dbtm<br>in one combined commit | Icons_TimeMarks/target/<br>Icons_TimeMarks/Atlas/<br>Jsons/dbtm.json |
 |||||||
 | sprite | `npm run sprite` | N/A | svg | UI icons sprite | Icons_UI/sprites-ui.svg |
 

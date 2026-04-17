@@ -7,7 +7,7 @@
     "dbtm": "npm --prefix Tools run dbtm",
     "cosmos": "npm --prefix Tools run cosmos",
     "tm": "npm --prefix Tools run tm",
-    "ui": "npm --prefix Tools run ui",
+    "uisprites": "npm --prefix Tools run uisprites",
     "atlas": "npm --prefix Tools run atlas",
     "atlas:all": "npm --prefix Tools run atlas:all"
   }
