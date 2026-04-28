@@ -18,8 +18,8 @@
     "uisprites-n": "node \"svg scripts/buildUiSprite.mjs\"",
     "atlas": "(node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && git -C .. add -f Icons_TimeMarks/Atlas && git -C .. commit -m \"update atlas\" && git -C .. push && echo \"success\") || echo \"failure\"",
     "atlas-n": "node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\"",
-    "tl": "(node \"svg scripts/recenteresizeformat/transform.mjs\" && node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && node jsontools/tooldbtm.js && git -C .. add -f Icons_TimeMarks/target Icons_TimeMarks/Atlas Jsons/dbtm.json && git -C .. commit -m \"update tl (tmconvert + atlas + dbtm)\" && git -C .. push && echo \"success\") || echo \"failure\"",
-    "tl-n": "node \"svg scripts/recenteresizeformat/transform.mjs\" && node \"Icons_TimeMarks scripts/buildIcons_TimeMarks.mjs\" && node jsontools/tooldbtm.js"
+    "tl": "node jsontools/tooltl.mjs",
+    "tl-n": "node jsontools/tooltl.mjs"
   },
   "devDependencies": {
     "svg-path-commander": "^2.1.11",
