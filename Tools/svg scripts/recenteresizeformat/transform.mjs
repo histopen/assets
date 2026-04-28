@@ -24,6 +24,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SOURCE_DIR = join(__dirname, '../../../Icons_TimeMarks/source');
 const TARGET_DIR = join(__dirname, '../../../Icons_TimeMarks/target');
+const TM_ICONS_DIR = join(__dirname, '../../../Icons_TimeMarks/TM_Icons');
 
 // Target box dimensions (2:1 aspect ratio)
 const TARGET_WIDTH = 400;
@@ -778,6 +779,7 @@ async function main() {
   console.log('└───────────────────────────────────────────────────────────┘\n');
 
   let allPassed = true;
+  const passedFiles = [];
   const FILL_MIN = 0.96; // STRICT: 96-99%
   const FILL_MAX = 0.99;
 
@@ -822,6 +824,7 @@ async function main() {
 
     if (passed) {
       console.log(`  ✅ ${file} (${(maxFill*100).toFixed(1)}% fill)`);
+      passedFiles.push(file);
     } else {
       console.log(`  ❌ ${file}`);
       failedChecks.forEach(c => console.log(`      ❌ ${c.msg}`));
@@ -831,6 +834,40 @@ async function main() {
 
   if (!allPassed) {
     console.log('\n⚠️  Some files failed validation. Review output above.');
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // CONFLICT CLEANUP: delete TM_Icons entries that share the same XXXX prefix
+  // as a successfully-converted icon (the new one will replace the old one
+  // when the pipeline promotes target/ → TM_Icons/).
+  // ═══════════════════════════════════════════════════════════════════════════
+  const RED = '\x1b[31m';
+  const RESET = '\x1b[0m';
+  let tmIconFiles;
+  try {
+    tmIconFiles = (await fs.readdir(TM_ICONS_DIR)).filter(f => /\.svg$/i.test(f));
+  } catch {
+    tmIconFiles = [];
+  }
+  const conflicts = [];
+  for (const file of passedFiles) {
+    const m = file.match(/^(\d{4})-/);
+    if (!m) continue;
+    const num = m[1];
+    for (const existing of tmIconFiles) {
+      if (existing.startsWith(`${num}-`) && existing !== file) {
+        conflicts.push({ existing, replacement: file });
+      }
+    }
+  }
+  if (conflicts.length > 0) {
+    console.log(`\n${RED}┌───────────────────────────────────────────────────────────┐${RESET}`);
+    console.log(`${RED}│  ⚠  CONFLICT: deleting ${conflicts.length} icon(s) from TM_Icons          │${RESET}`);
+    console.log(`${RED}└───────────────────────────────────────────────────────────┘${RESET}`);
+    for (const { existing, replacement } of conflicts) {
+      await fs.unlink(join(TM_ICONS_DIR, existing));
+      console.log(`${RED}  🗑 deleted: ${existing}  (replaced by ${replacement})${RESET}`);
+    }
   }
 
   console.log('\n╔═══════════════════════════════════════════════════════════╗');
