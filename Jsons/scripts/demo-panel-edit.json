@@ -1,0 +1,33 @@
+{
+  "name": "Panel Editing Demo",
+  "description": "Demonstrates panel line manipulation commands",
+  "commands": [
+    {"command": "comment", "params": {"text": "=== Panel Editing Commands Demo ==="}},
+
+    {"command": "comment", "params": {"text": "1. Select a panel line"}},
+    {"command": "selectPanelLine", "params": {"id": 2}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "2. Edit the panel line caption"}},
+    {"command": "editPanelLine", "params": {"id": 2, "updates": {"caption": "Modified Caption"}}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "3. Undo the edit"}},
+    {"command": "undo", "params": {}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "4. Redo the edit"}},
+    {"command": "redo", "params": {}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "5. Move panel line to root"}},
+    {"command": "movePanelLine", "params": {"id": 2, "newParentId": -1}},
+    {"command": "delay", "params": {"ms": 1500}},
+
+    {"command": "comment", "params": {"text": "6. Undo the move"}},
+    {"command": "undo", "params": {}},
+    {"command": "delay", "params": {"ms": 1000}},
+
+    {"command": "comment", "params": {"text": "Demo complete! All changes undone."}}
+  ]
+}

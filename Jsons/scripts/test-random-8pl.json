@@ -1,0 +1,138 @@
+{
+  "name": "8 Random Panel Lines",
+  "description": "Adds 8 randomly selected panel lines from academy and user account data",
+  "commands": [
+    {
+      "command": "comment",
+      "params": {
+        "text": "=== Add 8 Random Panel Lines ==="
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Camus",
+        "url": "Albert_Camus",
+        "wdStart": "+1913-11-07T00:00:00Z",
+        "wdEnd": "+1960-01-04T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Roland d'Athis",
+        "url": "",
+        "wdStart": "+1908-09-30T00:00:00Z",
+        "wdEnd": "+1978-02-18T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Al-Rashid",
+        "url": "Al-Rashid_of_Morocco",
+        "wdStart": "+1631-01-01T00:00:00Z",
+        "wdEnd": "+1672-04-09T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Mélanie Dumas",
+        "url": "",
+        "wdStart": "+1915-03-02T00:00:00Z",
+        "wdEnd": "+1990-12-10T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Einstein",
+        "url": "Albert_Einstein",
+        "wdStart": "+1879-03-14T00:00:00Z",
+        "wdEnd": "+1955-04-18T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Eugène Dumas",
+        "url": "",
+        "wdStart": "+1910-05-15T00:00:00Z",
+        "wdEnd": "+1985-08-20T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Roosevelt",
+        "url": "Franklin_D._Roosevelt",
+        "wdStart": "+1882-01-30T00:00:00Z",
+        "wdEnd": "+1945-04-12T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "addFromSource",
+      "params": {
+        "caption": "Genghis Khan",
+        "url": "Genghis_Khan",
+        "wdStart": "+1206-01-01T00:00:00Z",
+        "wdEnd": "+1227-12-31T00:00:00Z"
+      }
+    },
+    {
+      "command": "delay",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "command": "comment",
+      "params": {
+        "text": "All 8 random panel lines added!"
+      }
+    }
+  ]
+}

@@ -28,8 +28,8 @@ async function toolloc() {
   const argLang = process.argv[2];
   const languages = argLang ? [argLang] : allLanguages;
 
-  const clientPath = "C:/code/wikit/client/src/locales";
-  const assetsPath = "C:/code/wikit/assets/Jsons/language";
+  const clientPath = "C:/code/wikitime/client/src/locales";
+  const assetsPath = "../../../Jsons/language";
 
   let hasErrors = false;
 
