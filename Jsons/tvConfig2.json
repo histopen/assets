@@ -24,7 +24,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "A2B9E2",
-        "textColor": "254379",
+        "textColor": "000000",
         "width": 7,
         "url": "Precambrian",
         "fragment": ""
@@ -38,7 +38,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "FFABAB",
-        "textColor": "7A0000",
+        "textColor": "000000",
         "width": 7,
         "url": "Mesozoic",
         "fragment": ""
@@ -52,7 +52,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "9CCA7C",
-        "textColor": "3C5C26",
+        "textColor": "000000",
         "width": 7,
         "url": "Hominidae",
         "fragment": ""
@@ -66,7 +66,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "FFD966",
-        "textColor": "765A00",
+        "textColor": "000000",
         "width": 7,
         "url": "Homo",
         "fragment": ""
@@ -168,7 +168,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "A2B9E2",
-        "textColor": "254379",
+        "textColor": "000000",
         "width": 7,
         "url": "Precambrian",
         "fragment": ""
@@ -182,7 +182,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "FFABAB",
-        "textColor": "7A0000",
+        "textColor": "000000",
         "width": 7,
         "url": "Mesozoic",
         "fragment": ""
@@ -196,7 +196,7 @@
         "endMonth": 12,
         "endDay": 31,
         "bgColor": "9CCA7C",
-        "textColor": "3C5C26",
+        "textColor": "000000",
         "width": 7,
         "url": "Hominidae",
         "fragment": ""
@@ -210,7 +210,7 @@
         "endMonth": 4,
         "endDay": 2,
         "bgColor": "F25C54",
-        "textColor": "765A00",
+        "textColor": "000000",
         "width": 7,
         "url": "Homo",
         "fragment": ""
