@@ -6,7 +6,7 @@ This project is built on the shoulders of giants. We are deeply grateful to the 
 Wikitime's purpose is to visualize time from any source. But it was developed using the most complete source of them all: Wikimedia, Wikipedia, Wikidata. I am deeply grateful to the Wikipedia and Wikidata communities, and to the Wikimedia Foundation that hosts both. I was profoundly inspired by this great idea of free information for everyone.
 <table><tr>
 <td><img src="source\Wikimedia.png" alt="Wikimedia" width="150" height="150" style="background-color: transparent; padding: 5px" /></td>
-<td><img src="source\wikipedia.png" alt="Wikipedia" height="130" style="background-color: transparent; padding: 5px" /></td>
+<td><img src="source\wikipedia.png" alt="Wikipedia" width="130" height="130" style="background-color: transparent; padding: 5px" /></td>
 <td><img src="source\wikidata.png" alt="Wikidata" height="130" style="background-color: transparent; padding: 5px" /></td>
 </tr></table>
 
