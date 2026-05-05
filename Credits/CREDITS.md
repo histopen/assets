@@ -157,6 +157,7 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed) - Apache-2.0 License. Designed by Christian Robertson for Google. Primary UI font used throughout the application.
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) - Open Font License. Designed by Braille Institute of America. Greater legibility and readability for low vision readers.
 - [Squircle Button System](https://codepen.io/Andrew-Fisher-the-decoder/pen/raMZQNe) by Andrew Fisher. The layered SVG depth illusion button.
+- [3D Lightspeed Warp Drive Effect](https://codepen.io/Andrew-Fisher-the-decoder/pen/bNpPMNM) by Andrew Fisher. Yes, him again, I'm a big fan. I wish I could talk to him.
 - [CodePen](https://codepen.io/) Online code editor and community that served as a major source of UI inspiration throughout the project. Yes, I know, I'm a boomer and many of you think the UI sucks... Fair enough, come and help me make it better.
 <table><tr>
 <td><img src="source\flaticon.png" alt="Flaticon" /></td>
