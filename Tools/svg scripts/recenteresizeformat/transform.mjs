@@ -17,6 +17,7 @@
 import * as cheerio from 'cheerio';
 import { promises as fs } from 'fs';
 import { dirname, join } from 'path';
+import sharp from 'sharp';
 import { getPathBBox } from 'svg-path-commander';
 import { optimize } from 'svgo';
 import { fileURLToPath } from 'url';
@@ -32,6 +33,11 @@ const TARGET_HEIGHT = 200;
 
 // Target color for normalization (white for dark mode file explorer visibility)
 const TARGET_COLOR = '#ffffff';
+
+// PNG branch knobs — flip these if you want PNGs to keep their original colors
+// or to be more/less aggressive about trimming anti-aliased fringe.
+const RECOLOR_PNG = true;          // true: monochrome white silhouette (matches SVG output); false: keep colors
+const PNG_TRIM_THRESHOLD = 10;     // 0 = trim only fully-transparent edges; higher = trim near-transparent fringe
 
 // Common named colors to hex mapping
 const NAMED_COLORS = {
@@ -587,6 +593,62 @@ async function processSvg(filename, transformFn, description) {
 }
 
 /**
+ * Process a single PNG file:
+ *   1. trim transparent borders (find content bbox)
+ *   2. (optional) recolor RGB to white, preserving alpha as the silhouette mask
+ *   3. fit-contain into a 400×200 transparent canvas (perfectly centered)
+ *   4. encode as base64 PNG, wrap in an SVG shell with an <image> element
+ *
+ * Output: SVG content suitable for `target/<basename>.svg`, atlas-builder-compatible.
+ */
+async function processPng(filename) {
+  const sourcePath = join(SOURCE_DIR, filename);
+  let img = sharp(sourcePath).ensureAlpha();
+
+  // 1. Strip transparent borders so the content's bbox drives the fit.
+  //    sharp.trim no-ops gracefully if there's nothing to trim.
+  try {
+    img = img.trim({ background: { r: 0, g: 0, b: 0, alpha: 0 }, threshold: PNG_TRIM_THRESHOLD });
+  } catch {
+    // Image is fully transparent or sharp couldn't determine a bbox — fall through.
+  }
+
+  // 2. Recolor RGB to white, leaving alpha as the silhouette mask. Skipped when
+  //    RECOLOR_PNG is false (e.g. for sprites that should stay colored).
+  if (RECOLOR_PNG) {
+    const { data, info } = await img.raw().toBuffer({ resolveWithObject: true });
+    for (let i = 0; i < data.length; i += 4) {
+      data[i]     = 255; // R
+      data[i + 1] = 255; // G
+      data[i + 2] = 255; // B
+      // data[i + 3] (alpha) stays
+    }
+    img = sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } });
+  }
+
+  // 3. Fit into 400×200 transparent canvas, centered. `fit: 'contain'` preserves
+  //    aspect ratio and pads the other axis with the transparent background —
+  //    raster equivalent of T1 (resize) + T3 (center) combined.
+  const pngBuffer = await img
+    .resize(TARGET_WIDTH, TARGET_HEIGHT, {
+      fit: 'contain',
+      position: 'center',
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    })
+    .png()
+    .toBuffer();
+
+  // 4. Wrap in an SVG shell. The atlas builder reads target/*.svg and rasterizes
+  //    each entry; an <image> element is just a passthrough — no atlas-builder
+  //    change needed.
+  const base64 = pngBuffer.toString('base64');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${TARGET_WIDTH} ${TARGET_HEIGHT}" width="${TARGET_WIDTH}" height="${TARGET_HEIGHT}">
+  <image href="data:image/png;base64,${base64}" width="${TARGET_WIDTH}" height="${TARGET_HEIGHT}"/>
+</svg>
+`;
+}
+
+/**
  * Main entry point
  */
 async function main() {
@@ -597,17 +659,25 @@ async function main() {
   // Ensure target directory exists
   await fs.mkdir(TARGET_DIR, { recursive: true });
 
-  // Get list of SVG files from source
-  const files = (await fs.readdir(SOURCE_DIR)).filter(f => f.endsWith('.svg'));
-  
-  if (files.length === 0) {
-    console.log('No SVG files found in source/');
+  // Get lists of SVG + PNG files from source. SVGs run through the full
+  // resize/center/minify pipeline; PNGs go through the parallel sharp branch
+  // (trim → recolor → fit-contain → SVG wrap).
+  const allSourceFiles = await fs.readdir(SOURCE_DIR);
+  const files = allSourceFiles.filter(f => f.endsWith('.svg'));
+  const pngFiles = allSourceFiles.filter(f => /\.png$/i.test(f));
+
+  if (files.length === 0 && pngFiles.length === 0) {
+    console.log('No SVG or PNG files found in source/');
     return;
   }
 
-  console.log(`Found ${files.length} SVG file(s) in source/:\n`);
-  for (const f of files) {
-    console.log(`  • ${f}`);
+  if (files.length > 0) {
+    console.log(`Found ${files.length} SVG file(s) in source/:\n`);
+    for (const f of files) console.log(`  • ${f}`);
+  }
+  if (pngFiles.length > 0) {
+    console.log(`\nFound ${pngFiles.length} PNG file(s) in source/:\n`);
+    for (const f of pngFiles) console.log(`  • ${f}`);
   }
 
   // Copy files to target first (normalize namespaces during copy)
@@ -772,7 +842,38 @@ async function main() {
   console.log('\n✅ Transform 3 complete. Icons are now centered in 400×200.');
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // VALIDATION: Check if all requirements are met
+  // PNG BRANCH: trim → recolor → fit-contain 400×200 → SVG-wrap with embedded image
+  // ═══════════════════════════════════════════════════════════════════════════
+  const pngOutputs = [];
+  if (pngFiles.length > 0) {
+    console.log('\n┌───────────────────────────────────────────────────────────┐');
+    console.log('│  PNG BRANCH: trim → recolor → fit 400×200 → SVG-wrap      │');
+    console.log('└───────────────────────────────────────────────────────────┘\n');
+
+    for (const file of pngFiles) {
+      const outName = file.replace(/\.png$/i, '.svg');
+
+      // Collision guard: same basename produced by both pipelines.
+      if (files.includes(outName)) {
+        console.log(`  ⚠ ${file} → ${outName} clashes with SVG-pipeline output; skipping`);
+        continue;
+      }
+
+      try {
+        const svg = await processPng(file);
+        await fs.writeFile(join(TARGET_DIR, outName), svg);
+        pngOutputs.push(outName);
+        console.log(`  ✓ ${file} → ${outName}`);
+      } catch (e) {
+        console.log(`  ❌ ${file}: ${e.message ?? e}`);
+      }
+    }
+
+    console.log('\n✅ PNG branch complete. Image-wrapper SVGs written to target/.');
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // VALIDATION: Check if all requirements are met (SVG outputs + PNG outputs)
   // ═══════════════════════════════════════════════════════════════════════════
   console.log('\n┌───────────────────────────────────────────────────────────┐');
   console.log('│  VALIDATION: Requirements Checklist                       │');
@@ -783,7 +884,7 @@ async function main() {
   const FILL_MIN = 0.96; // STRICT: 96-99%
   const FILL_MAX = 0.99;
 
-  for (const file of files) {
+  for (const file of [...files, ...pngOutputs]) {
     const targetPath = join(TARGET_DIR, file);
     const content = await fs.readFile(targetPath, 'utf-8');
     const $ = cheerio.load(content, { xmlMode: true });
@@ -794,6 +895,30 @@ async function main() {
     const vb = $svg.attr('viewBox');
     const [vbX, vbY, vbW, vbH] = vb.split(' ').map(Number);
     const aspect = vbW / vbH;
+
+    // Image-wrapper SVGs (PNG branch output): no <path> to bbox; geometry is
+    // guaranteed by sharp({ fit: 'contain' }). Skip the path-based checks and
+    // verify only that the wrapper has the expected shape + an embedded PNG.
+    const $images = $svg.find('image');
+    const $paths = $svg.find('path');
+    if ($images.length > 0 && $paths.length === 0) {
+      const href = $images.attr('href') ?? $images.attr('xlink:href') ?? '';
+      const checks = [
+        { pass: width === '400' && height === '200', msg: 'Display 400×200' },
+        { pass: Math.abs(aspect - 2.0) < 0.01, msg: 'ViewBox 2:1 aspect' },
+        { pass: href.startsWith('data:image/png;base64,'), msg: 'Embedded PNG present' },
+      ];
+      const failedChecks = checks.filter(c => !c.pass);
+      if (failedChecks.length === 0) {
+        console.log(`  ✅ ${file} (PNG-wrapper)`);
+        passedFiles.push(file);
+      } else {
+        console.log(`  ❌ ${file}`);
+        failedChecks.forEach(c => console.log(`      ❌ ${c.msg}`));
+        allPassed = false;
+      }
+      continue;
+    }
 
     // Get content bounds
     const contentBounds = getContentBounds($, $svg);

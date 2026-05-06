@@ -184,3 +184,4 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - add the email in "For Wikimedia-community questions, concerns, or compliance requests: **<your-contact-email>**"
 - Libraries with no logo: html-react-parser, use-gesture, tsx, jose, ioredis, cors, cookie-parser, dotenv
 - need to credit the pexels authors of videos that were kept
+- icons that don't come from flaticon (for instance wikimedia, will need to look closely)
