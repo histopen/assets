@@ -108,9 +108,6 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [helmet](https://helmetjs.github.io/) - MIT License. Express middleware to set security-related HTTP headers.
 - [cors](https://github.com/expressjs/cors) - MIT License. CORS handling for cross-origin requests.
 - [cookie-parser](https://github.com/expressjs/cookie-parser) - MIT License. Cookie parser middleware.
-<table><tr>
-<td><img src="source\Helmet.png" alt="Helmet" /></td>
-</tr></table>
 
 ## Build, Bundling & Package Management
 - [Vite](https://vitejs.dev/) - MIT License. Build tool and dev server.
