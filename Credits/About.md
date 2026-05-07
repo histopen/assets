@@ -21,7 +21,6 @@
 <br><br>
 
 [[Donate]](https://ko-fi.com/wikitime)
-
 <div>
   with your support I'll create more features,<br>
   <span class="muted">
@@ -34,7 +33,7 @@
   * access to games<br>
   * more to come...<br>
 </div>
-<br>
+<br><br>
 <div>
   You can also support me with buying my novel<br>
   <span class="muted">
