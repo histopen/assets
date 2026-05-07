@@ -19,7 +19,9 @@
   </span>
 </div>
 <br><br>
+
 [[Donate]](https://ko-fi.com/wikitime)
+
 <div>
   with your support I'll create more features,<br>
   <span class="muted">
