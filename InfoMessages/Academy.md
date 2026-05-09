@@ -4,7 +4,7 @@
 <div>
   * Timeline<br>
   <span class="muted">
-    a list (events, characters, things) with icons that are displayed on the timeline
+    Events, characters, things with icons displayed on the timeline.
   </span>
 </div>
 <div>
@@ -24,4 +24,4 @@
 <div>
 Anyone can create its Academy.
 </div>
-[[Create an Academy]]
+[[Create an Academy]](https://ko-fi.com/wikitime)
