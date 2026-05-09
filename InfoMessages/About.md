@@ -49,6 +49,8 @@
 <div>
   <br>
   Last, it helps incredibly when you share the app<br>
-  insert here links to social networks + email
+  <span class="muted">
+  TODO insert here links to social networks + email TODO
+  <span>
 </div>
 
