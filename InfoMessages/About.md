@@ -33,19 +33,21 @@
   * access to games<br>
   * more to come...<br>
 </div>
+
 [[Donate]](https://ko-fi.com/wikitime)
-<br>
 
 <div>
+  <br>
   You can also support me, buying my novel<br>
   <span class="muted">
     it's a fun adventure (cherry on the cake: it helps understand who you are).
   </span>
 </div>
+
 [[Read the novel]](https://www.amazon.com/dp/B0C5ZLZ9ZP?ref_=pe_3052080_276849220)
-<br>
 
 <div>
+  <br>
   Last, it helps incredibly when you share the app<br>
   insert here links to social networks + email
 </div>
