@@ -24,4 +24,5 @@
 <div>
 Anyone can create its Academy.
 </div>
+
 [[Create an Academy]](https://ko-fi.com/wikitime)
