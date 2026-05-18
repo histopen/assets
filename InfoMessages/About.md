@@ -44,7 +44,7 @@
   </span>
 </div>
 
-[[Read the novel]](https://www.amazon.com/dp/B0C5ZLZ9ZP?ref_=pe_3052080_276849220)
+[[Read the novel]](https://www.amazon.com/stores/author/B0H26S48PT)
 
 <div>
   <br>
