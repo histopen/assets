@@ -1,22 +1,16 @@
 <div>
-  Know your History.<br>
-  <span class="muted">
-    (it's key to understand who you are).
-  </span>
+  Know your History. 
+  <span class="muted">(it's key to understand who you are).</span>
 </div>
 
 <div>
-  Own your History.<br>
-  <span class="muted">
-    (it can be told in many ways... check your sources).
-  </span>
+  Own your History. 
+  <span class="muted">(chose your sources... History can be told in many ways).</span>
 </div>
 
 <div>
-  Don't let History own you.<br>
-  <span class="muted">
-    (when stories own you, people with other stories threaten your identity, then the world becomes polarized and violent).
-  </span>
+  Don't let History own you. 
+  <span class="muted">(when stories own you, people with other stories threaten your identity, then your world becomes polarized and violent).</span>
 </div>
 <br><br>
 
