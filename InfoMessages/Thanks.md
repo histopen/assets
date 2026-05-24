@@ -1,4 +1,14 @@
-This project is built on the shoulders of giants. We are deeply grateful to the following projects, libraries, and resources that make this application possible.
+This project is built on the shoulders of giants. I am deeply grateful to the following projects, libraries, and resources that make this application possible.
+
+# SPECIAL THANKS
+- **Wikipedia contributors** - For maintaining the vast repository of historical knowledge that powers Wikit's content.
+- **Open source community** - For creating and maintaining the incredible ecosystem of tools and libraries.
+- All third-party libraries and resources listed above are governed by their respective licenses.
+- This project is distributed under its own license. Please refer to the LICENSE file in the repository for details.
+- **Caroline** - my darling wifey who worked hard so that her salary financed this project. Without her, nothing possible.
+<table><tr>
+<td><img src="source\caro.png" alt="Caroline" style="max-width: 256px; max-height: 387px" /></td>
+</tr></table>
 
 # CONTENT
 
@@ -164,19 +174,9 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 <td><img src="source\codepen.png" alt="CodePen" /></td>
 </tr></table>
 
-# SPECIAL THANKS
-- **Wikipedia contributors** - For maintaining the vast repository of historical knowledge that powers Wikit's content.
-- **Open source community** - For creating and maintaining the incredible ecosystem of tools and libraries.
-- This project itself is distributed under its own license. Please refer to the LICENSE file in the repository for details.
-- All third-party libraries and resources listed above are governed by their respective licenses.
-- **Caroline** - my darling wifey who worked hard so that her salary financed this project. Without her, nothing possible.
-<table><tr>
-<td><img src="source\caro.png" alt="Caroline" style="max-width: 256px; max-height: 387px" /></td>
-</tr></table>
-
-
 # TODO
 - **Last revised**: 2026-05-04
+- licensing in special thanks to DO ***important****
 - I removed **Three.js** ... do i bring it back?
 - add the email in "For Wikimedia-community questions, concerns, or compliance requests: **<your-contact-email>**"
 - Libraries with no logo: html-react-parser, use-gesture, tsx, jose, ioredis, cors, cookie-parser, dotenv
