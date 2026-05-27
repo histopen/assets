@@ -5,7 +5,7 @@ This project is built on the shoulders of giants. I am deeply grateful to the fo
 - **Open source community** - For creating and maintaining the incredible ecosystem of tools and libraries.
 - All third-party libraries and resources listed above are governed by their respective licenses.
 - This project is distributed under its own license. Please refer to the LICENSE file in the repository for details.
-- **Caroline** - my darling wifey who worked hard so that her salary financed this project. Without her, nothing possible.
+- **Caroline** - my darling wifey who supported me unconditionnally. Without her, litterally nothing possible.
 <table><tr>
 <td><img src="source\caro.png" alt="Caroline" style="max-width: 256px; max-height: 387px" /></td>
 </tr></table>
