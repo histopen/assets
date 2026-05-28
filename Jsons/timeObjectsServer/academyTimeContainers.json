@@ -1,5 +1,5 @@
 [
-  [0, {"timeContainerCaption": "potus", "timeObjectRefServerList": [
+  [0, {"timeContainerCaption": "POTUS", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 11},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 12},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 13},
@@ -46,7 +46,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 54},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 55}
     ]}],
-  [1, {"timeContainerCaption": "last10potus", "timeObjectRefServerList": [
+  [1, {"timeContainerCaption": "Last10POTUS", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 100},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 101},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 102},
@@ -154,7 +154,7 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 11},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 12}
     ]}],
-  [9, {"timeContainerCaption": "Ancients (600 BCE–400 CE)", "timeObjectRefServerList": [
+  [9, {"timeContainerCaption": "Ancients (-600 to 400)", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 300},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 301},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 302},
@@ -232,7 +232,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 368},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 369}
     ]}],
-  [13, {"timeContainerCaption": "dinosaurs", "timeObjectRefServerList": [
+  [13, {"timeContainerCaption": "Dinosaurs", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 400},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 401},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 402},
