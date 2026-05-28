@@ -225,5 +225,11 @@
 [402, {"caption": "Parasaurolophus",          "url": "Parasaurolophus",               "span": {"sY": -76000000,  "eY": -73000000}}],
 [403, {"caption": "Plesiosaurus",             "url": "Plesiosaurus",                  "span": {"sY": -203000000, "eY": -175000000}}],
 [404, {"caption": "Saltasaurus",              "url": "Saltasaurus",                   "span": {"sY": -70000000,  "eY": -66000000}}],
-[405, {"caption": "Stegosaurus",              "url": "Stegosaurus",                   "span": {"sY": -155000000, "eY": -150000000}}]
+[405, {"caption": "Stegosaurus",              "url": "Stegosaurus",                   "span": {"sY": -155000000, "eY": -150000000}}],
+[406, {"caption": "T. rex",              "url": "Tyrannosaurus",            "span": {"sY": -68000000,  "eY": -66000000}}],
+[407, {"caption": "Triceratops",         "url": "Triceratops",              "span": {"sY": -68000000,  "eY": -66000000}}],
+[408, {"caption": "Velociraptor",        "url": "Velociraptor",             "span": {"sY": -75000000,  "eY": -71000000}}],
+[409, {"caption": "Brachiosaurus",       "url": "Brachiosaurus",            "span": {"sY": -154000000, "eY": -150000000}}],
+[410, {"caption": "Spinosaurus",         "url": "Spinosaurus",              "span": {"sY": -99000000,  "eY": -93000000}}],
+[411, {"caption": "Diplodocus",          "url": "Diplodocus",               "span": {"sY": -154000000, "eY": -152000000}}]
 ]

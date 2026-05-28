@@ -182,3 +182,5 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - Libraries with no logo: html-react-parser, use-gesture, tsx, jose, ioredis, cors, cookie-parser, dotenv
 - need to credit the pexels authors of videos that were kept
 - icons that don't come from flaticon (for instance wikimedia, will need to look closely)
+- remove squircle codepen
+- add https://uiverse.io/FColombati/spotty-snake-82
