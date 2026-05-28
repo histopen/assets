@@ -218,6 +218,12 @@
 [366, {"caption": "Rawls",                  "url": "John_Rawls",                    "span": {"sY": 1921, "eY": 2002}}],
 [367, {"caption": "Foucault",               "url": "Michel_Foucault",               "span": {"sY": 1926, "eY": 1984}}],
 [368, {"caption": "Habermas",               "url": "Jürgen_Habermas",               "span": {"sY": 1929, "eY": 2024}}],
-[369, {"caption": "Derrida",                "url": "Jacques_Derrida",               "span": {"sY": 1930, "eY": 2004}}]
+[369, {"caption": "Derrida",                "url": "Jacques_Derrida",               "span": {"sY": 1930, "eY": 2004}}],
 
+[400, {"caption": "Ankylosaurus",             "url": "Ankylosaurus",                  "span": {"sY": -68000000,  "eY": -66000000}}],
+[401, {"caption": "Ichthyosaurus",            "url": "Ichthyosaurus",                 "span": {"sY": -203000000, "eY": -175000000}}],
+[402, {"caption": "Parasaurolophus",          "url": "Parasaurolophus",               "span": {"sY": -76000000,  "eY": -73000000}}],
+[403, {"caption": "Plesiosaurus",             "url": "Plesiosaurus",                  "span": {"sY": -203000000, "eY": -175000000}}],
+[404, {"caption": "Saltasaurus",              "url": "Saltasaurus",                   "span": {"sY": -70000000,  "eY": -66000000}}],
+[405, {"caption": "Stegosaurus",              "url": "Stegosaurus",                   "span": {"sY": -155000000, "eY": -150000000}}]
 ]

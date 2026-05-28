@@ -158,8 +158,7 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 </tr></table>
 
 # VISUAL
-- [Flaticon](https://www.flaticon.com) icons
-- **Custom icon sprites** some icons generated from Wikipedia, public domain sources and some designed by author
+- Mostly [Flaticon](https://www.flaticon.com) icons, some icons generated from Wikipedia, public domain sources and some designed by author.
 - [Pexels](https://www.pexels.com) background videos
 - [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed) - Apache-2.0 License. Designed by Christian Robertson for Google. Primary UI font used throughout the application.
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) - Open Font License. Designed by Braille Institute of America. Greater legibility and readability for low vision readers.
@@ -176,6 +175,7 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 
 # TODO
 - **Last revised**: 2026-05-04
+- pexels videos: find the authors
 - licensing in special thanks to DO ***important****
 - I removed **Three.js** ... do i bring it back?
 - add the email in "For Wikimedia-community questions, concerns, or compliance requests: **<your-contact-email>**"
