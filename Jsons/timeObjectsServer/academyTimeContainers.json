@@ -897,7 +897,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1395},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1396}
     ]}],
-  [7, {"timeContainerCaption": "Merovingians", "timeObjectRefServerList": [
+  [7, {"timeContainerCaption": "Merovingians", "color": 0, "colorDerivation": "forced", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 200},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 201},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 202},
@@ -922,7 +922,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 221},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 222}
     ]}],
-  [8, {"timeContainerCaption": "Carolingians", "timeObjectRefServerList": [
+  [8, {"timeContainerCaption": "Carolingians", "color": 2, "colorDerivation": "forced", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 223},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 224},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 225},
@@ -939,7 +939,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 236},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 237}
     ]}],
-  [9, {"timeContainerCaption": "Capetians", "timeObjectRefServerList": [
+  [9, {"timeContainerCaption": "Capetians", "color": 4, "colorDerivation": "forced", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 238},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 239},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 240},
@@ -956,7 +956,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 251},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 252}
     ]}],
-  [10, {"timeContainerCaption": "Valois", "timeObjectRefServerList": [
+  [10, {"timeContainerCaption": "Valois", "color": 7, "colorDerivation": "forced", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 253},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 254},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 255},
@@ -971,7 +971,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 264},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 265}
     ]}],
-  [11, {"timeContainerCaption": "Bourbons & Bonapartes", "timeObjectRefServerList": [
+  [11, {"timeContainerCaption": "Bourbons & Bonapartes", "color": 9, "colorDerivation": "forced", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 266},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 267},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 268},
