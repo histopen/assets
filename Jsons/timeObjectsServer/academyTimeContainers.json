@@ -58,7 +58,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 54},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 55}
     ]}],
-  [2, {"timeContainerCaption": "French kings", "timeObjectRefServerList": [
+  [2, {"timeContainerCaption": "French kings", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 7},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 8},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 9},
@@ -971,7 +971,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 264},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 265}
     ]}],
-  [11, {"timeContainerCaption": "Bourbons & Bonapartes", "color": 9, "colorDerivation": "forced", "timeObjectRefServerList": [
+  [11, {"timeContainerCaption": "Bourbons & ...", "color": 9, "colorDerivation": "forced", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 266},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 267},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 268},
