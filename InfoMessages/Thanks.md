@@ -184,3 +184,4 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - icons that don't come from flaticon (for instance wikimedia, will need to look closely)
 - remove squircle codepen
 - add https://uiverse.io/FColombati/spotty-snake-82
+- add fireworks by Vanessa Victorino https://codepen.io/Pierre-Dumas/pen/azZdedB

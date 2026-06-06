@@ -945,7 +945,7 @@
 [1184, {"caption": "Falcon 9 reusable",                         "url": "Falcon_9",                                            "span": {"sY": 2015}}],
 [1185, {"caption": "James Webb Telescope",                      "url": "James_Webb_Space_Telescope",                          "span": {"sY": 2021}}],
 [1186, {"caption": "Artemis I",                                 "url": "Artemis_1",                                           "span": {"sY": 2022}}],
-[1187, {"caption": "Hadean Eon",                                "url": "Hadean",                                              "span": {"sY": -4500000000, "eY": -4000000000}}],
+[1187, {"caption": "Hadean",                                    "url": "Hadean",                                              "span": {"sY": -4500000000, "eY": -4000000000}}],
 [1188, {"caption": "Eoarchean",                                 "url": "Eoarchean",                                           "span": {"sY": -4000000000, "eY": -3600000000}}],
 [1189, {"caption": "Paleoarchean",                              "url": "Paleoarchean",                                        "span": {"sY": -3600000000, "eY": -3200000000}}],
 [1190, {"caption": "Mesoarchean",                               "url": "Mesoarchean",                                         "span": {"sY": -3200000000, "eY": -2800000000}}],
