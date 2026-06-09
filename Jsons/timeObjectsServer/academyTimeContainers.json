@@ -1601,7 +1601,6 @@
   [72, {"comment": "Nightingale", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 669},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 936},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 937},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 938},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 939},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 940},
@@ -1613,6 +1612,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 946},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 947},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 948},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 937},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 949}
     ]}]
 ]
