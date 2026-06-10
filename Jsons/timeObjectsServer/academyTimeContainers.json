@@ -223,7 +223,7 @@
 
 
 
-  [94, {"timeContainerCaption": "Early English kings", "timeObjectRefServerList": [
+  [94, {"timeContainerCaption": "Early English kings", "color": 1, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 950},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 951},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 952},
@@ -246,7 +246,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 969},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 970}
     ]}],
-  [95, {"timeContainerCaption": "Norman & Plantagenet", "timeObjectRefServerList": [
+  [95, {"timeContainerCaption": "Norman & Plantagenet", "color": 3, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 971},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 972},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 973},
@@ -260,7 +260,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 981},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 982}
     ]}],
-  [96, {"timeContainerCaption": "Lancaster & York", "timeObjectRefServerList": [
+  [96, {"timeContainerCaption": "Lancaster & York", "color": 6, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 983},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 984},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 985},
@@ -268,14 +268,14 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 987},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 988}
     ]}],
-  [97, {"timeContainerCaption": "Tudor", "timeObjectRefServerList": [
+  [97, {"timeContainerCaption": "Tudor", "color": 8, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 989},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 990},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 991},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 992},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 993}
     ]}],
-  [98, {"timeContainerCaption": "Stuart & Interregnum", "timeObjectRefServerList": [
+  [98, {"timeContainerCaption": "Stuart & Interregnum", "color": 10, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 994},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 995},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 996},
@@ -283,7 +283,7 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 998},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 999}
     ]}],
-  [99, {"timeContainerCaption": "Hanover & Windsor", "timeObjectRefServerList": [
+  [99, {"timeContainerCaption": "Hanover & Windsor", "color": 12, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1000},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1001},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1002},
