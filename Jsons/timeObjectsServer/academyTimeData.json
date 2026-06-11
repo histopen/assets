@@ -326,7 +326,6 @@
 [590, {"caption": "Julian calendar reform",        "url": "Julian_calendar",           "span": {"sY": -46}}],
 [591, {"caption": "Dictator perpetuo",             "url": "Dictator_perpetuo",         "span": {"sY": -44}}],
 [592, {"caption": "Assassination — Ides of March", "url": "Assassination_of_Julius_Caesar","span": {"sD": 15, "sM":  3, "sY": -44}}],
-[593, {"caption": "Deified by Roman Senate",       "url": "Divus_Julius",              "span": {"sY": -42}}],
 
 [594, {"caption": "Born in Pella, Macedonia",      "url": "Pella",                     "span": {"sD": 20, "sM":  7, "sY": -356}}],
 [595, {"caption": "Tutored by Aristotle",          "url": "Aristotle",                 "span": {"sY": -343}}],
@@ -1280,5 +1279,24 @@
 [1518, {"caption": "Chirac",                  "url": "Jacques_Chirac",                "span": {"sD": 29, "sM": 11, "sY": 1932,"eD": 26, "eM":  9, "eY": 2019}, "tenure": [{"sD": 17, "sM": 5, "sY": 1995, "eD": 17, "eM": 5, "eY": 2002}, {"sD": 17, "sM": 5, "sY": 2002, "eD": 16, "eM": 5, "eY": 2007}]}],
 [1519, {"caption": "Sarkozy",                 "url": "Nicolas_Sarkozy",               "span": {"sD": 28, "sM":  1, "sY": 1955,"eD":  2, "eM":  4, "eY": 4242}, "tenure": [{"sD": 16, "sM": 5, "sY": 2007, "eD": 15, "eM": 5, "eY": 2012}]}],
 [1520, {"caption": "Hollande",               "url": "François_Hollande",             "span": {"sD": 12, "sM":  8, "sY": 1954,"eD":  2, "eM":  4, "eY": 4242}, "tenure": [{"sD": 15, "sM": 5, "sY": 2012, "eD": 14, "eM": 5, "eY": 2017}]}],
-[1521, {"caption": "Macron",                  "url": "Emmanuel_Macron",               "span": {"sD": 21, "sM": 12, "sY": 1977,"eD":  2, "eM":  4, "eY": 4242}, "tenure": [{"sD": 14, "sM": 5, "sY": 2017, "eD": 14, "eM": 5, "eY": 2022}, {"sD": 14, "sM": 5, "sY": 2022, "eD": 14, "eM": 5, "eY": 2027}]}]
+[1521, {"caption": "Macron",                  "url": "Emmanuel_Macron",               "span": {"sD": 21, "sM": 12, "sY": 1977,"eD":  2, "eM":  4, "eY": 4242}, "tenure": [{"sD": 14, "sM": 5, "sY": 2017, "eD": 14, "eM": 5, "eY": 2022}, {"sD": 14, "sM": 5, "sY": 2022, "eD": 14, "eM": 5, "eY": 2027}]}],
+
+[1530, {"caption": "Narmer",            "url": "Narmer",              "span": {"sY": -3150, "eY": -3100}}],
+[1531, {"caption": "Djoser",            "url": "Djoser",              "span": {"sY": -2686, "eY": -2649}}],
+[1532, {"caption": "Khufu",             "url": "Khufu",               "span": {"sY": -2589, "eY": -2566}}],
+[1533, {"caption": "Khafre",            "url": "Khafre",              "span": {"sY": -2558, "eY": -2532}}],
+[1534, {"caption": "Pepi II",          "url": "Pepi_II_Neferkare",   "span": {"sY": -2278, "eY": -2184}}],
+[1535, {"caption": "Mentuhotep II",    "url": "Mentuhotep_II",       "span": {"sY": -2061, "eY": -2010}}],
+[1536, {"caption": "Senusret III",     "url": "Senusret_III",        "span": {"sY": -1878, "eY": -1839}}],
+[1537, {"caption": "Amenemhat III",    "url": "Amenemhat_III",       "span": {"sY": -1860, "eY": -1814}}],
+[1538, {"caption": "Ahmose I",         "url": "Ahmose_I",            "span": {"sY": -1549, "eY": -1524}}],
+[1539, {"caption": "Hatshepsut",       "url": "Hatshepsut",          "span": {"sY": -1479, "eY": -1458}}],
+[1540, {"caption": "Thutmose III",     "url": "Thutmose_III",        "span": {"sY": -1479, "eY": -1425}}],
+[1541, {"caption": "Amenhotep III",    "url": "Amenhotep_III",       "span": {"sY": -1388, "eY": -1351}}],
+[1542, {"caption": "Akhenaten",        "url": "Akhenaten",           "span": {"sY": -1353, "eY": -1336}}],
+[1543, {"caption": "Tutankhamun",      "url": "Tutankhamun",         "span": {"sY": -1332, "eY": -1323}}],
+[1544, {"caption": "Seti I",           "url": "Seti_I",              "span": {"sY": -1290, "eY": -1279}}],
+[1545, {"caption": "Ramesses II",      "url": "Ramesses_II",         "span": {"sY": -1279, "eY": -1213}}],
+[1546, {"caption": "Ramesses III",     "url": "Ramesses_III",        "span": {"sY": -1186, "eY": -1155}}],
+[1547, {"caption": "Ptolemy I Soter",  "url": "Ptolemy_I_Soter",     "span": {"sY": -305,  "eY": -283}}]
 ]
