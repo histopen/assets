@@ -16,3 +16,4 @@ pids
 
 # Build outputs
 dist/
+bash.exe.stackdump
