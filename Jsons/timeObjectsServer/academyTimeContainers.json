@@ -143,6 +143,12 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 33}
     ]}],
 
+  [250, {"timeContainerCaption": "Ancient Egypt pharaohs", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 251},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 252},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 253},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 254}
+    ]}],
   [93, {"timeContainerCaption": "British Crown", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 94},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 95},
@@ -1653,12 +1659,6 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 949}
     ]}],
 
-  [250, {"timeContainerCaption": "Ancient Egypt pharaohs", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 251},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 252},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 253},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 254}
-    ]}],
   [251, {"timeContainerCaption": "Old Kingdom", "color": 3, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1530},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1531},
