@@ -183,5 +183,5 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - need to credit the pexels authors of videos that were kept
 - icons that don't come from flaticon (for instance wikimedia, will need to look closely)
 - remove squircle codepen
-- add https://uiverse.io/FColombati/spotty-snake-82
-- add fireworks by Vanessa Victorino https://codepen.io/Pierre-Dumas/pen/azZdedB
+- add buttons by F Colombati https://uiverse.io/FColombati/spotty-snake-82
+- add fireworks by Programking https://codepen.io/programking/pen/AJgeEd

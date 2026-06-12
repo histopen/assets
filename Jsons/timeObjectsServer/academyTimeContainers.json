@@ -1794,5 +1794,68 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1649},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1650},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1651}
+    ]}],
+
+  [300, {"timeContainerCaption": "World War II", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 301},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 302},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 303},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 304},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 305},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 306}
+    ]}],
+  [301, {"timeContainerCaption": "Western Front", "color": 2, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1700},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1701},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1702},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1703},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1704},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1705},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1706},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1707},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1708},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1709}
+    ]}],
+  [302, {"timeContainerCaption": "Eastern Front", "color": 0, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1710},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1711},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1712},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1713},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1714},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1715},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1716}
+    ]}],
+  [303, {"timeContainerCaption": "Mediterranean & North Africa", "color": 8, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1717},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1718},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1719},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1720},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1721},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1722},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1723}
+    ]}],
+  [304, {"timeContainerCaption": "Pacific & East Asia", "color": 7, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1724},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1725},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1726},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1727},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1728},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1729},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1730},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1731}
+    ]}],
+  [305, {"timeContainerCaption": "Battle of the Atlantic", "color": 5, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1732},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1733}
+    ]}],
+  [306, {"timeContainerCaption": "Diplomacy, Holocaust & Surrender", "color": 11, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1734},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1735},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1736},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1737},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1738},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1739},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1740},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1741}
     ]}]
 ]
