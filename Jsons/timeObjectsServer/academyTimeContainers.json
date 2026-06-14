@@ -58,6 +58,14 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 54},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 55}
     ]}],
+  [300, {"timeContainerCaption": "World War II", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 301},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 302},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 303},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 304},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 305},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 306}
+    ]}],
   [2, {"timeContainerCaption": "French kings", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 7},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 8},
@@ -1794,16 +1802,9 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1649},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1650},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1651}
-    ]}],
+    ]}]
+,
 
-  [300, {"timeContainerCaption": "World War II", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 301},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 302},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 303},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 304},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 305},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 306}
-    ]}],
   [301, {"timeContainerCaption": "Western Front", "color": 2, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1700},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1701},
