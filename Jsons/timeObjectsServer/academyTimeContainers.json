@@ -1941,5 +1941,35 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2083},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2084},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2085}
+    ]}],
+
+  [410, {"timeContainerCaption": "El Alamein (detailed)", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 411},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 412},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 413}
+    ]}],
+  [411, {"timeContainerCaption": "Road to El Alamein (mid-1942)", "color": 8, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2100},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2101},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2102},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2103}
+    ]}],
+  [412, {"timeContainerCaption": "Second Battle of El Alamein - phase by phase", "color": 8, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2110},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2111},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2112},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2113},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2114},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2115},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2116},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2117},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2118}
+    ]}],
+  [413, {"timeContainerCaption": "Aftermath & pursuit", "color": 8, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2120},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1718},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1719},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2121},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2122}
     ]}]
 ]

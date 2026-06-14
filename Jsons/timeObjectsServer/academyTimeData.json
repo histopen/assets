@@ -1512,5 +1512,24 @@
 [2084, {"caption": "Fall of the Ministry",    "url": "Ministry_of_Magic",                                  "color": 3, "span": {"sD": 1, "sM": 8, "sY": 1997}}],
 [2085, {"caption": "Battle of Hogwarts",      "url": "Harry_Potter_and_the_Deathly_Hallows",               "color": 3, "span": {"sD": 2, "sM": 5, "sY": 1998}}],
 [2086, {"caption": "19 Years Later (epilogue)","url": "Harry_Potter_and_the_Deathly_Hallows",              "color": 7, "span": {"sD": 1, "sM": 9, "sY": 2017}}],
-[2087, {"caption": "The Cursed Child",        "url": "Harry_Potter_and_the_Cursed_Child",                  "color": 5, "span": {"sY": 2020, "sC": 1, "sCu": "Y"}}]
+[2087, {"caption": "The Cursed Child",        "url": "Harry_Potter_and_the_Cursed_Child",                  "color": 5, "span": {"sY": 2020, "sC": 1, "sCu": "Y"}}],
+
+[2100, {"caption": "First Battle of El Alamein","url": "First_Battle_of_El_Alamein",                                                              "span": {"sD": 1, "sM": 7, "sY": 1942, "eD": 27, "eM": 7, "eY": 1942}}],
+[2101, {"caption": "Montgomery takes Eighth Army","url": "Bernard_Montgomery", "fragment": "North_Africa_and_Italy",                              "span": {"sD": 13, "sM": 8, "sY": 1942}}],
+[2102, {"caption": "Battle of Alam el Halfa", "url": "Battle_of_Alam_el_Halfa",                                                                  "span": {"sD": 30, "sM": 8, "sY": 1942, "eD": 5, "eM": 9, "eY": 1942}}],
+[2103, {"caption": "Operation Bertram (deception)","url": "Second_Battle_of_El_Alamein", "fragment": "Operation_Bertram",                         "span": {"sD": 1, "sM": 10, "sY": 1942, "eD": 23, "eM": 10, "eY": 1942}}],
+
+[2110, {"caption": "Lightfoot: the break-in", "url": "Second_Battle_of_El_Alamein", "fragment": "Phase_one:_The_Break-In",                       "span": {"sD": 23, "sM": 10, "sY": 1942, "eD": 24, "eM": 10, "eY": 1942}}],
+[2111, {"caption": "Death of Gen. Stumme",    "url": "Georg_Stumme",                                                                             "span": {"sD": 24, "sM": 10, "sY": 1942}}],
+[2112, {"caption": "The crumbling",           "url": "Second_Battle_of_El_Alamein", "fragment": "Phase_two:_The_Crumbling",                      "span": {"sD": 24, "sM": 10, "sY": 1942, "eD": 25, "eM": 10, "eY": 1942}}],
+[2113, {"caption": "Rommel resumes command",  "url": "Erwin_Rommel", "fragment": "El_Alamein",                                                   "span": {"sD": 25, "sM": 10, "sY": 1942}}],
+[2114, {"caption": "Defence of Outpost Snipe","url": "Defence_of_Outpost_Snipe",                                                                 "span": {"sD": 26, "sM": 10, "sY": 1942, "eD": 27, "eM": 10, "eY": 1942}}],
+[2115, {"caption": "The counter",             "url": "Second_Battle_of_El_Alamein", "fragment": "Phase_three:_the_counter",                      "span": {"sD": 26, "sM": 10, "sY": 1942, "eD": 1, "eM": 11, "eY": 1942}}],
+[2116, {"caption": "Supercharge: break-out",  "url": "Second_Battle_of_El_Alamein", "fragment": "Phase_four:_Operation_Supercharge",            "span": {"sD": 2, "sM": 11, "sY": 1942, "eD": 3, "eM": 11, "eY": 1942}}],
+[2117, {"caption": "Hitler's no-retreat order","url": "Second_Battle_of_El_Alamein", "fragment": "Phase_four:_Operation_Supercharge",           "span": {"sD": 3, "sM": 11, "sY": 1942}}],
+[2118, {"caption": "Axis retreat / break-out","url": "Second_Battle_of_El_Alamein", "fragment": "Phase_five:_the_break-out",                    "span": {"sD": 4, "sM": 11, "sY": 1942, "eD": 11, "eM": 11, "eY": 1942}}],
+
+[2120, {"caption": "Allied victory at Alamein","url": "Second_Battle_of_El_Alamein", "fragment": "Aftermath",                                    "span": {"sD": 11, "sM": 11, "sY": 1942}}],
+[2121, {"caption": "Battle of El Agheila",    "url": "Battle_of_El_Agheila",                                                                     "span": {"sD": 11, "sM": 12, "sY": 1942, "eD": 18, "eM": 12, "eY": 1942}}],
+[2122, {"caption": "Fall of Tripoli",         "url": "Second_Battle_of_El_Alamein", "fragment": "Tripoli",                                       "span": {"sD": 23, "sM": 1, "sY": 1943}}]
 ]
