@@ -38,7 +38,13 @@
   </span>
 </div>
 
-[[Read the novel]](https://www.amazon.com/stores/author/B0H26S48PT)
+[[Read the novel (English version)]](https://www.amazon.com/last-sprite-three-secrets/dp/B0H23LPC34)
+[[Lire le roman (version française)]](https://www.amazon.com/dernier-Lutin-French-Pierre-Dumas-ebook/dp/B0H2471PJ6)
+
+<div style="text-align: center">
+  <a href="https://www.amazon.com/last-sprite-three-secrets/dp/B0H23LPC34" target="_blank" rel="noopener noreferrer"><img src="source\novel-en.jpg" alt="The Last Sprite (English)" style="max-height: 200px; margin: 6px 8px; border-radius: 4px" /></a>
+  <a href="https://www.amazon.com/dernier-Lutin-French-Pierre-Dumas-ebook/dp/B0H2471PJ6" target="_blank" rel="noopener noreferrer"><img src="source\novel-fr.jpg" alt="Le dernier Lutin (Français)" style="max-height: 200px; margin: 6px 8px; border-radius: 4px" /></a>
+</div>
 
 <div>
   <br>
