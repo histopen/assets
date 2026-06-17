@@ -34,15 +34,11 @@
   <span class="muted">it's a fun adventure (cherry on the cake: it helps understand who you are).</span>
 </div>
 
-<div style="display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; margin-top: 8px">
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
-    <a href="https://www.amazon.com/last-sprite-three-secrets/dp/B0H23LPC34" target="_blank" rel="noopener noreferrer"><img src="source\book\theLastSprite.jpg" alt="The Last Sprite (English)" style="height: 190px; border-radius: 4px; display: block" /></a>
-    <a href="https://www.amazon.com/last-sprite-three-secrets/dp/B0H23LPC34" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 7px 16px; border-radius: 8px; background: #ededed; border: 1px solid #c8c8c8; box-shadow: 0 1px 2px rgba(0,0,0,0.35); color: #1a1a1a; font-weight: 600; text-decoration: none">English version</a>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
-    <a href="https://www.amazon.com/dernier-Lutin-French-Pierre-Dumas-ebook/dp/B0H2471PJ6" target="_blank" rel="noopener noreferrer"><img src="source\book\leDernierLutin.jpg" alt="Le dernier Lutin (Français)" style="height: 190px; border-radius: 4px; display: block" /></a>
-    <a href="https://www.amazon.com/dernier-Lutin-French-Pierre-Dumas-ebook/dp/B0H2471PJ6" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 7px 16px; border-radius: 8px; background: #ededed; border: 1px solid #c8c8c8; box-shadow: 0 1px 2px rgba(0,0,0,0.35); color: #1a1a1a; font-weight: 600; text-decoration: none">Version française</a>
-  </div>
+<div style="display: grid; grid-template-columns: auto auto; gap: 10px 28px; justify-content: center; align-items: end; margin-top: 8px">
+  <a href="https://www.amazon.com/last-sprite-three-secrets/dp/B0H23LPC34" target="_blank" rel="noopener noreferrer"><img src="source\book\theLastSprite.jpg" alt="The Last Sprite (English)" style="height: 190px; border-radius: 4px; display: block" /></a>
+  <a href="https://www.amazon.com/dernier-Lutin-French-Pierre-Dumas-ebook/dp/B0H2471PJ6" target="_blank" rel="noopener noreferrer"><img src="source\book\leDernierLutin.jpg" alt="Le dernier Lutin (Français)" style="height: 190px; border-radius: 4px; display: block" /></a>
+  <a href="https://www.amazon.com/last-sprite-three-secrets/dp/B0H23LPC34" target="_blank" rel="noopener noreferrer" style="text-align: center; padding: 7px 16px; border-radius: 8px; background: #ededed; border: 1px solid #c8c8c8; box-shadow: 0 1px 2px rgba(0,0,0,0.35); color: #1a1a1a; font-weight: 600; text-decoration: none">English version</a>
+  <a href="https://www.amazon.com/dernier-Lutin-French-Pierre-Dumas-ebook/dp/B0H2471PJ6" target="_blank" rel="noopener noreferrer" style="text-align: center; padding: 7px 16px; border-radius: 8px; background: #ededed; border: 1px solid #c8c8c8; box-shadow: 0 1px 2px rgba(0,0,0,0.35); color: #1a1a1a; font-weight: 600; text-decoration: none">Version française</a>
 </div>
 
 <div>
