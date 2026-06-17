@@ -16,4 +16,6 @@ pids
 
 # Build outputs
 dist/
-bash.exe.stackdump
+
+# Cygwin/MSYS crash dumps
+*.stackdump
