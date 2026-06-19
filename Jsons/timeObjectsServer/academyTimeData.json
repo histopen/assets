@@ -1634,5 +1634,21 @@
 [2311, {"caption": "France 2 - 1 England => 0 goals", "url": "2022_FIFA_World_Cup_knockout_stage", "span": {"sD": 10, "sM": 12, "sY": 2022}, "color": 12}],
 [2312, {"caption": "France 2 - 0 Morocco => 0 goals", "url": "2022_FIFA_World_Cup_knockout_stage", "span": {"sD": 14, "sM": 12, "sY": 2022}, "color": 12}],
 [2313, {"caption": "France 3 - 3 Argentina => 3 goals", "url": "2022_FIFA_World_Cup_final", "span": {"sD": 18, "sM": 12, "sY": 2022}, "color": 0}],
-[2314, {"caption": "France 3 - 1 Senegal => 2 goals", "url": "2026_FIFA_World_Cup_Group_I", "span": {"sD": 16, "sM": 6, "sY": 2026}, "color": 4}]
+[2314, {"caption": "France 3 - 1 Senegal => 2 goals", "url": "2026_FIFA_World_Cup_Group_I", "span": {"sD": 16, "sM": 6, "sY": 2026}, "color": 4}],
+[2400,{"caption":"Yalta Conference","url":"Yalta_Conference","span":{"sY":1945,"sM":2,"sD":4,"eY":1945,"eM":2,"eD":11}}],
+[2401,{"caption":"Potsdam Conference","url":"Potsdam_Conference","span":{"sY":1945,"sM":7,"sD":17,"eY":1945,"eM":8,"eD":2}}],
+[2402,{"caption":"Truman Doctrine","url":"Truman_Doctrine","span":{"sY":1947,"sM":3,"sD":12,"eY":1947,"eM":3,"eD":12}}],
+[2403,{"caption":"Marshall Plan","url":"Marshall_Plan","span":{"sY":1948,"sM":4,"eY":1952}}],
+[2404,{"caption":"Berlin Blockade","url":"Berlin_Blockade","span":{"sY":1948,"sM":6,"sD":24,"eY":1949,"eM":5,"eD":12}}],
+[2405,{"caption":"NATO founded","url":"NATO","span":{"sY":1949,"sM":4,"sD":4,"eY":1949,"eM":4,"eD":4}}],
+[2406,{"caption":"Korean War","url":"Korean_War","span":{"sY":1950,"sM":6,"sD":25,"eY":1953,"eM":7,"eD":27}}],
+[2407,{"caption":"Warsaw Pact founded","url":"Warsaw_Pact","span":{"sY":1955,"sM":5,"sD":14,"eY":1955,"eM":5,"eD":14}}],
+[2408,{"caption":"Hungarian Revolution of 1956","url":"Hungarian_Revolution_of_1956","span":{"sY":1956,"sM":10,"sD":23,"eY":1956,"eM":11,"eD":10}}],
+[2409,{"caption":"Berlin Wall","url":"Berlin_Wall","span":{"sY":1961,"sM":8,"sD":13,"eY":1989,"eM":11,"eD":9}}],
+[2410,{"caption":"Cuban Missile Crisis","url":"Cuban_Missile_Crisis","span":{"sY":1962,"sM":10,"sD":16,"eY":1962,"eM":10,"eD":28}}],
+[2411,{"caption":"Vietnam War","url":"Vietnam_War","span":{"sY":1955,"sM":11,"sD":1,"eY":1975,"eM":4,"eD":30}}],
+[2412,{"caption":"Prague Spring","url":"Prague_Spring","span":{"sY":1968,"sM":1,"sD":5,"eY":1968,"eM":8,"eD":21}}],
+[2413,{"caption":"Soviet–Afghan War","url":"Soviet–Afghan_War","span":{"sY":1979,"sM":12,"sD":24,"eY":1989,"eM":2,"eD":15}}],
+[2414,{"caption":"Revolutions of 1989","url":"Revolutions_of_1989","span":{"sY":1989,"eY":1989}}],
+[2415,{"caption":"Dissolution of the USSR","url":"Dissolution_of_the_Soviet_Union","span":{"sY":1991,"eY":1991}}]
 ]
