@@ -2092,6 +2092,5 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2312},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2313},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2314}
-    ]}],
-[430,{"timeContainerCaption":"The Cold War (1945–1991)","color":9,"colorDerivation":"forced","colorGradient":true,"timeObjectRefServerList":[{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2400},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2401},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2402},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2403},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2404},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2405},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2406},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2407},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2408},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2409},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2410},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2411},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2412},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2413},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2414},{"TOType":"timeData","Database":"dbAcademy","DatabaseKey":2415}]}]
+    ]}]
 ]
