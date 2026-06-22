@@ -264,7 +264,7 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 165},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 166}
     ]}],
-  [167, {"timeContainerCaption": "World religions", "timeObjectRefServerList": [
+  [167, {"timeContainerCaption": "Religions", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1364},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1357},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1358},
