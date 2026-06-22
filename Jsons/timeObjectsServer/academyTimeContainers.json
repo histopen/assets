@@ -1,4 +1,27 @@
 [
+  [2600, {"timeContainerCaption": "Authoritarian leaders (20th c.)", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2601},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2603},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2602},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2604},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2605},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2607},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2606},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2608}
+    ]}],
+  [300, {"timeContainerCaption": "World War II", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 301},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 305},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 306},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 302},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 304},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 303}
+    ]}],
+  [410, {"timeContainerCaption": "El Alamein (detailed)", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 411},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 412},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 413}
+    ]}],
   [0, {"timeContainerCaption": "POTUS", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 600},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 601},
@@ -58,13 +81,74 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 643},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 644}
     ]}],
-  [300, {"timeContainerCaption": "World War II", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 301},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 305},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 306},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 302},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 304},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 303}
+  [167, {"timeContainerCaption": "Religions", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1364},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1357},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1358},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1363},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1359},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1360},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1361},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1362},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1365},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1366},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1367},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1368},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1369}
+    ]}],
+  [206, {"timeContainerCaption": "Geological eras", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1187},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1188},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1189},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1190},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1191},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1192},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1193},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1194},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1196},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1197},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1198},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1199},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1200},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1201},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1202},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1203},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1204},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1205},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1206},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1207},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1208},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1209},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1210},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1211}
+    ]}],
+  [106, {"timeContainerCaption": "Ancient empires", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1039},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1040},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1041},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1044},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1043},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1042}
+    ]}],
+  [124, {"timeContainerCaption": "Astronomy & physics", "timeObjectRefServerList": [
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1132},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1133},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1134},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1135},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1136},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1137},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1138},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1139},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1140},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1141}
+    ]}],
+  [250, {"timeContainerCaption": "Ancient Egypt pharaohs", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 251},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 252},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 253},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 254},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 255},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 256}
     ]}],
   [420, {"timeContainerCaption": "best worldcup scorers", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 423},
@@ -72,6 +156,56 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 422},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 421},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 425}
+    ]}],
+  [400, {"timeContainerCaption": "Harry Potter's World", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 401},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 402},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 403},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 404},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 406},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 405},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 407}
+    ]}],
+  [145, {"timeContainerCaption": "Art movements", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 146},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 147},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 148}
+    ]}],
+  [149, {"timeContainerCaption": "Music movements", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 150},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 151},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 152}
+    ]}],
+  [157, {"timeContainerCaption": "Literary movements", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 158},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 159},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 160},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 161}
+    ]}],
+  [93, {"timeContainerCaption": "British Crown", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 94},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 95},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 96},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 97},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 98},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 99}
+    ]}],
+  [100, {"timeContainerCaption": "Major wars", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 101},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 102},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 103},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 104}
+    ]}],
+  [105, {"timeContainerCaption": "Empires", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 106},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 107},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 108}
+    ]}],
+  [123, {"timeContainerCaption": "Scientific discoveries", "timeObjectRefServerList": [
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 127},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 124},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 125},
+      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 126}
     ]}],
   [2, {"timeContainerCaption": "French kings", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 7},
@@ -114,47 +248,12 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2323},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2324}
     ]}],
-  [400, {"timeContainerCaption": "Harry Potter's World", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 401},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 402},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 403},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 404},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 406},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 405},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 407}
-    ]}],
   [3, {"timeContainerCaption": "Philosophers", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 19},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 20},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 13},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 14},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 15}
-    ]}],
-  [206, {"timeContainerCaption": "Geological eras", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1187},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1188},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1189},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1190},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1191},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1192},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1193},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1194},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1196},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1197},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1198},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1199},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1200},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1201},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1202},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1203},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1204},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1205},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1206},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1207},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1208},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1209},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1210},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1211}
     ]}],
   [208, {"timeContainerCaption": "Dinosaurs", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 16},
@@ -173,33 +272,6 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 35},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 33}
     ]}],
-  [250, {"timeContainerCaption": "Ancient Egypt pharaohs", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 251},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 252},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 253},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 254},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 255},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 256}
-    ]}],
-  [93, {"timeContainerCaption": "British Crown", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 94},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 95},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 96},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 97},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 98},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 99}
-    ]}],
-  [100, {"timeContainerCaption": "Major wars", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 101},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 102},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 103},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 104}
-    ]}],
-  [105, {"timeContainerCaption": "Empires", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 106},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 107},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 108}
-    ]}],
   [109, {"timeContainerCaption": "Country founding events", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 111},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 110},
@@ -217,12 +289,6 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 121},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 122}
     ]}],
-  [123, {"timeContainerCaption": "Scientific discoveries", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 127},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 124},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 125},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 126}
-    ]}],
   [128, {"timeContainerCaption": "Space exploration", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 129},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 130},
@@ -237,47 +303,16 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 143},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 144}
     ]}],
-  [145, {"timeContainerCaption": "Art movements", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 146},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 147},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 148}
-    ]}],
-  [149, {"timeContainerCaption": "Music movements", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 150},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 151},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 152}
-    ]}],
   [153, {"timeContainerCaption": "Renaissance masterworks", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 154},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 156},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 155}
-    ]}],
-  [157, {"timeContainerCaption": "Literary movements", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 158},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 159},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 160},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 161}
     ]}],
   [162, {"timeContainerCaption": "Great writers", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 163},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 164},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 165},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 166}
-    ]}],
-  [167, {"timeContainerCaption": "Religions", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1364},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1357},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1358},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1363},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1359},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1360},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1361},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1362},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1365},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1366},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1367},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1368},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1369}
     ]}],
   [170, {"timeContainerCaption": "Founding documents", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 171},
@@ -404,14 +439,6 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1036},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1037}
     ]}],
-  [106, {"timeContainerCaption": "Ancient empires", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1039},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1040},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1041},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1044},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1043},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1042}
-    ]}],
   [107, {"timeContainerCaption": "Medieval empires", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1045},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1046},
@@ -524,18 +551,6 @@
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1129},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1130},
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1131}
-    ]}],
-  [124, {"timeContainerCaption": "Astronomy & physics", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1132},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1133},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1134},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1135},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1136},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1137},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1138},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1139},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1140},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1141}
     ]}],
   [125, {"timeContainerCaption": "Biology & medicine", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1142},
@@ -1899,11 +1914,6 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2084},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2076},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2085}
-    ]}],
-  [410, {"timeContainerCaption": "El Alamein (detailed)", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 411},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 412},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 413}
     ]}],
   [411, {"timeContainerCaption": "Road to El Alamein (mid-1942)", "color": 8, "colorDerivation": "forced", "colorGradient": true, "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 2100},
@@ -5138,5 +5148,76 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 6354},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 6355},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 6356}
+    ]}],
+  [2601, {"comment": "Lenin", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9100},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9108},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9109},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9112},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9110},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9111},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9113}
+    ]}],
+  [2602, {"comment": "Stalin", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9101},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9114},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9115},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9116},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9117},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9118},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9119}
+    ]}],
+  [2603, {"comment": "Mussolini", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9102},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9120},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9121},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9122},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9123},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9124},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9125},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9126}
+    ]}],
+  [2604, {"comment": "Hitler", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9103},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9127},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9128},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9129},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9130},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9131},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9132}
+    ]}],
+  [2605, {"comment": "Franco", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9104},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9133},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9134},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9135},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9136},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9137}
+    ]}],
+  [2606, {"comment": "Mao", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9105},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9138},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9139},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9140},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9141},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9142}
+    ]}],
+  [2607, {"comment": "Perón", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9106},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9143},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9144},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9145},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9146},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9147},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9148}
+    ]}],
+  [2608, {"comment": "Castro", "timeObjectRefServerList": [
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9107},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9149},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9150},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9151},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9152},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9153},
+      {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 9154}
     ]}]
 ]
