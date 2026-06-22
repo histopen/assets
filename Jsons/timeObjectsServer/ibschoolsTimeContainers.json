@@ -132,27 +132,25 @@
   [113,{"timeContainerCaption":"Olympic Games","color":9,"colorDerivation":"forced","colorGradient":true,"timeObjectRefServerList":[{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":757},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":758},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":759},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":760},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":761},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":762}]}],
   [114,{"timeContainerCaption":"Climate Science","color":10,"colorDerivation":"forced","colorGradient":true,"timeObjectRefServerList":[{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":763},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":764},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":765},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":766},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":767},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":768}]}],
   [115,{"timeContainerCaption":"Pioneers of Social Science","color":11,"colorDerivation":"forced","colorGradient":true,"timeObjectRefServerList":[{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":769},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":770},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":771},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":772},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":773},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":774},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":775},{"TOType":"timeData","Database":"dbIbSchools","DatabaseKey":776}]}],
-  [200, {"timeObjectRefServerList": [
+  [200, {"comment": "Lenin", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 16},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1000},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1001},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1004},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1002},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1003},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1005},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1006}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1005}
     ]}],
-  [201, {"timeObjectRefServerList": [
+  [201, {"comment": "Stalin", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 17},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1007},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1008},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1009},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1010},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1011},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1012},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1013}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1012}
     ]}],
-  [202, {"timeObjectRefServerList": [
+  [202, {"comment": "Mussolini", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 18},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1014},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1015},
@@ -162,109 +160,98 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1019},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1020}
     ]}],
-  [203, {"timeObjectRefServerList": [
+  [203, {"comment": "Hitler", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 19},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1021},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1022},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1023},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1024},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1025},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1026},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1027}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1026}
     ]}],
-  [204, {"timeObjectRefServerList": [
+  [204, {"comment": "Franco", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 20},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1028},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1029},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1030},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1031},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1032},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1033}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1032}
     ]}],
-  [205, {"timeObjectRefServerList": [
+  [205, {"comment": "Mao", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 21},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1034},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1035},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1036},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1037},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1038},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1039}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1038}
     ]}],
-  [206, {"timeObjectRefServerList": [
+  [206, {"comment": "Perón", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 22},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1040},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1041},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1042},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1043},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1044},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1045},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1046}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1045}
     ]}],
-  [207, {"timeObjectRefServerList": [
+  [207, {"comment": "Castro", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 23},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1047},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1048},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1049},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1050},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1051},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1052},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1053}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1052}
     ]}],
-  [208, {"timeObjectRefServerList": [
+  [208, {"comment": "Socrates", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 326},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1100},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1101},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1102},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1103}
     ]}],
-  [209, {"timeObjectRefServerList": [
+  [209, {"comment": "Plato", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 327},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1104},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1105},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1106},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1107},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1108}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1107}
     ]}],
-  [210, {"timeObjectRefServerList": [
+  [210, {"comment": "Aristotle", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 328},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1109},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1110},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1111},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1112},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1113}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1112}
     ]}],
-  [211, {"timeObjectRefServerList": [
+  [211, {"comment": "Aquinas", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 329},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1114},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1115},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1116},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1117},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1118}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1117}
     ]}],
-  [212, {"timeObjectRefServerList": [
+  [212, {"comment": "Descartes", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 330},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1119},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1120},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1121},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1122},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1123}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1122}
     ]}],
-  [213, {"timeObjectRefServerList": [
+  [213, {"comment": "Kant", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 331},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1124},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1125},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1126},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1127},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1128},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1129}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1128}
     ]}],
-  [214, {"timeObjectRefServerList": [
+  [214, {"comment": "Nietzsche", "timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 332},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1130},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1131},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1132},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1133},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1134},
-      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1135}
+      {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1134}
     ]}]
 ]
