@@ -265,8 +265,19 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 166}
     ]}],
   [167, {"timeContainerCaption": "World religions", "timeObjectRefServerList": [
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 168},
-      {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 169}
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1364},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1357},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1363},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1358},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1359},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1360},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1361},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1362},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1365},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1366},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1367},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1368},
+      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1369}
     ]}],
   [170, {"timeContainerCaption": "Founding documents", "timeObjectRefServerList": [
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 171},
@@ -806,23 +817,6 @@
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2226},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2227},
       {"TOType": "timeContainer", "Database": "dbAcademy", "DatabaseKey": 2228}
-    ]}],
-  [168, {"timeContainerCaption": "Eastern religions", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1357},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1358},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1359},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1360},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1361},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1362},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1363}
-    ]}],
-  [169, {"timeContainerCaption": "Abrahamic religions", "timeObjectRefServerList": [
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1364},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1365},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1366},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1367},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1368},
-      {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1369}
     ]}],
   [171, {"timeContainerCaption": "Medieval & early modern documents", "timeObjectRefServerList": [
       {"TOType": "timeData",      "Database": "dbAcademy", "DatabaseKey": 1370},
