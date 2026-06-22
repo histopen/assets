@@ -210,14 +210,14 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1052},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1053}
     ]}],
-  [208, {"timeContainerCaption": "Socrates (c.470–399 BCE)", "timeObjectRefServerList": [
+  [208, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 326},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1100},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1101},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1102},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1103}
     ]}],
-  [209, {"timeContainerCaption": "Plato (c.428–348 BCE)", "timeObjectRefServerList": [
+  [209, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 327},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1104},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1105},
@@ -225,7 +225,7 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1107},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1108}
     ]}],
-  [210, {"timeContainerCaption": "Aristotle (384–322 BCE)", "timeObjectRefServerList": [
+  [210, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 328},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1109},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1110},
@@ -233,7 +233,7 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1112},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1113}
     ]}],
-  [211, {"timeContainerCaption": "Thomas Aquinas (1225–1274)", "timeObjectRefServerList": [
+  [211, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 329},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1114},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1115},
@@ -241,7 +241,7 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1117},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1118}
     ]}],
-  [212, {"timeContainerCaption": "René Descartes (1596–1650)", "timeObjectRefServerList": [
+  [212, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 330},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1119},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1120},
@@ -249,7 +249,7 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1122},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1123}
     ]}],
-  [213, {"timeContainerCaption": "Immanuel Kant (1724–1804)", "timeObjectRefServerList": [
+  [213, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 331},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1124},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1125},
@@ -258,7 +258,7 @@
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1128},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1129}
     ]}],
-  [214, {"timeContainerCaption": "Friedrich Nietzsche (1844–1900)", "timeObjectRefServerList": [
+  [214, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 332},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1130},
       {"TOType": "timeData", "Database": "dbIbSchools", "DatabaseKey": 1131},

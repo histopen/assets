@@ -3269,7 +3269,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4330},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4331}
     ]}],
-  [2039, {"timeContainerCaption": "Henry VII", "timeObjectRefServerList": [
+  [2039, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 989},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4350},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4351},
@@ -3279,7 +3279,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4355},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4356}
     ]}],
-  [2040, {"timeContainerCaption": "Henry VIII", "timeObjectRefServerList": [
+  [2040, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 990},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4357},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4358},
@@ -3294,7 +3294,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4367},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4368}
     ]}],
-  [2041, {"timeContainerCaption": "Edward VI", "timeObjectRefServerList": [
+  [2041, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 991},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4369},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4370},
@@ -3303,7 +3303,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4373},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4374}
     ]}],
-  [2042, {"timeContainerCaption": "Mary I", "timeObjectRefServerList": [
+  [2042, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 992},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4375},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4376},
@@ -3313,7 +3313,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4380},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4381}
     ]}],
-  [2043, {"timeContainerCaption": "Elizabeth I", "timeObjectRefServerList": [
+  [2043, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 993},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4382},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4383},
@@ -3325,13 +3325,13 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4389},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4390}
     ]}],
-  [2044, {"timeContainerCaption": "James I", "timeObjectRefServerList": [
+  [2044, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 994},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4400},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4401},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4402}
     ]}],
-  [2045, {"timeContainerCaption": "Charles I", "timeObjectRefServerList": [
+  [2045, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 995},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4403},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4404},
@@ -3340,20 +3340,20 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4407},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4408}
     ]}],
-  [2046, {"timeContainerCaption": "Charles II", "timeObjectRefServerList": [
+  [2046, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 996},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4409},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4410},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4411},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4412}
     ]}],
-  [2047, {"timeContainerCaption": "James II", "timeObjectRefServerList": [
+  [2047, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 997},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4413},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4414},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4415}
     ]}],
-  [2048, {"timeContainerCaption": "William III & Mary II", "timeObjectRefServerList": [
+  [2048, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 998},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4416},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4417},
@@ -3361,7 +3361,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4419},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4420}
     ]}],
-  [2049, {"timeContainerCaption": "Anne", "timeObjectRefServerList": [
+  [2049, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 999},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4421},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4422},
@@ -3369,14 +3369,14 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4424},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4425}
     ]}],
-  [2050, {"timeContainerCaption": "George I", "timeObjectRefServerList": [
+  [2050, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1000},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4450},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4451},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4452},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4453}
     ]}],
-  [2051, {"timeContainerCaption": "George II", "timeObjectRefServerList": [
+  [2051, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1001},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4454},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4455},
@@ -3384,7 +3384,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4457},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4458}
     ]}],
-  [2052, {"timeContainerCaption": "George III", "timeObjectRefServerList": [
+  [2052, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1002},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4459},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4460},
@@ -3394,7 +3394,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4464},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4465}
     ]}],
-  [2053, {"timeContainerCaption": "George IV", "timeObjectRefServerList": [
+  [2053, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1003},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4466},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4467},
@@ -3402,14 +3402,14 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4501},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4502}
     ]}],
-  [2054, {"timeContainerCaption": "William IV", "timeObjectRefServerList": [
+  [2054, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1004},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4503},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4469},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4470},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4504}
     ]}],
-  [2055, {"timeContainerCaption": "Victoria", "timeObjectRefServerList": [
+  [2055, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1005},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4471},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4472},
@@ -3419,14 +3419,14 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4476},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4477}
     ]}],
-  [2056, {"timeContainerCaption": "Edward VII", "timeObjectRefServerList": [
+  [2056, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1006},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4478},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4479},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4505},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4506}
     ]}],
-  [2057, {"timeContainerCaption": "George V", "timeObjectRefServerList": [
+  [2057, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1007},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4480},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4481},
@@ -3435,14 +3435,14 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4484},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4485}
     ]}],
-  [2058, {"timeContainerCaption": "Edward VIII", "timeObjectRefServerList": [
+  [2058, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1008},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4507},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4508},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4509},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4486}
     ]}],
-  [2059, {"timeContainerCaption": "George VI", "timeObjectRefServerList": [
+  [2059, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1009},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4487},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4488},
@@ -3450,7 +3450,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4490},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4491}
     ]}],
-  [2060, {"timeContainerCaption": "Elizabeth II", "timeObjectRefServerList": [
+  [2060, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1010},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4492},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4493},
@@ -3460,7 +3460,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4497},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4498}
     ]}],
-  [2061, {"timeContainerCaption": "Charles III", "timeObjectRefServerList": [
+  [2061, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1011},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4499},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 4500},
@@ -3958,7 +3958,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8650},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8651}
     ]}],
-  [2490, {"timeContainerCaption": "Psamtik I", "timeObjectRefServerList": [
+  [2490, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1620},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8800},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8801},
@@ -3966,26 +3966,26 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8803},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8804}
     ]}],
-  [2491, {"timeContainerCaption": "Necho II", "timeObjectRefServerList": [
+  [2491, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1621},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8805},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8806},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8807},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8808}
     ]}],
-  [2492, {"timeContainerCaption": "Psamtik II", "timeObjectRefServerList": [
+  [2492, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1622},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8809},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8810},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8811}
     ]}],
-  [2493, {"timeContainerCaption": "Apries", "timeObjectRefServerList": [
+  [2493, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1623},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8812},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8813},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8815}
     ]}],
-  [2494, {"timeContainerCaption": "Amasis II", "timeObjectRefServerList": [
+  [2494, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1624},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8814},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8816},
@@ -3993,11 +3993,11 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8818},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8819}
     ]}],
-  [2495, {"timeContainerCaption": "Psamtik III", "timeObjectRefServerList": [
+  [2495, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1625},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8822}
     ]}],
-  [2496, {"timeContainerCaption": "Cambyses II", "timeObjectRefServerList": [
+  [2496, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1626},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8820},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8821},
@@ -4005,7 +4005,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8824},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8825}
     ]}],
-  [2497, {"timeContainerCaption": "Darius I", "timeObjectRefServerList": [
+  [2497, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1627},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8826},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8827},
@@ -4014,55 +4014,55 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8830},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8831}
     ]}],
-  [2498, {"timeContainerCaption": "Xerxes I", "timeObjectRefServerList": [
+  [2498, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1628},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8832},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8833},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8834}
     ]}],
-  [2499, {"timeContainerCaption": "Artaxerxes I", "timeObjectRefServerList": [
+  [2499, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1629},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8835},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8836},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8837}
     ]}],
-  [2500, {"timeContainerCaption": "Darius II", "timeObjectRefServerList": [
+  [2500, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1630},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8838},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8839}
     ]}],
-  [2501, {"timeContainerCaption": "Amyrtaeus", "timeObjectRefServerList": [
+  [2501, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1631},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8840},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8841}
     ]}],
-  [2502, {"timeContainerCaption": "Nefaarud I", "timeObjectRefServerList": [
+  [2502, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1632},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8842}
     ]}],
-  [2503, {"timeContainerCaption": "Psammuthes", "timeObjectRefServerList": [
+  [2503, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1633},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8842}
     ]}],
-  [2504, {"timeContainerCaption": "Hakor", "timeObjectRefServerList": [
+  [2504, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1634},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8843},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8844}
     ]}],
-  [2505, {"timeContainerCaption": "Nefaarud II", "timeObjectRefServerList": [
+  [2505, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1635},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8845}
     ]}],
-  [2506, {"timeContainerCaption": "Nectanebo I", "timeObjectRefServerList": [
+  [2506, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1636},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8845},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8846}
     ]}],
-  [2507, {"timeContainerCaption": "Teos", "timeObjectRefServerList": [
+  [2507, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1637},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8847}
     ]}],
-  [2508, {"timeContainerCaption": "Nectanebo II", "timeObjectRefServerList": [
+  [2508, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 1638},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8848},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 8849},
@@ -4362,7 +4362,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5433},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5434}
     ]}],
-  [2148, {"timeContainerCaption": "Mill", "timeObjectRefServerList": [
+  [2148, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 348},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5500},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5501},
@@ -4373,7 +4373,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5506},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5507}
     ]}],
-  [2149, {"timeContainerCaption": "Kierkegaard", "timeObjectRefServerList": [
+  [2149, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 349},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5508},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5509},
@@ -4383,7 +4383,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5513},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5514}
     ]}],
-  [2150, {"timeContainerCaption": "Marx", "timeObjectRefServerList": [
+  [2150, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 350},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5515},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5516},
@@ -4395,7 +4395,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5522},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5523}
     ]}],
-  [2151, {"timeContainerCaption": "James", "timeObjectRefServerList": [
+  [2151, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 351},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5524},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5525},
@@ -4405,7 +4405,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5529},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5530}
     ]}],
-  [2152, {"timeContainerCaption": "Nietzsche", "timeObjectRefServerList": [
+  [2152, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 352},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5531},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5532},
@@ -4418,7 +4418,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5539},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5540}
     ]}],
-  [2153, {"timeContainerCaption": "Frege", "timeObjectRefServerList": [
+  [2153, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 353},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5541},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5542},
@@ -4427,7 +4427,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5545},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5546}
     ]}],
-  [2154, {"timeContainerCaption": "Husserl", "timeObjectRefServerList": [
+  [2154, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 354},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5547},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5548},
@@ -4436,7 +4436,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5551},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5552}
     ]}],
-  [2155, {"timeContainerCaption": "Bergson", "timeObjectRefServerList": [
+  [2155, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 355},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5553},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5554},
@@ -4445,7 +4445,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5557},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5558}
     ]}],
-  [2156, {"timeContainerCaption": "Dewey", "timeObjectRefServerList": [
+  [2156, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 356},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5559},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5560},
@@ -4454,7 +4454,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5563},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5564}
     ]}],
-  [2157, {"timeContainerCaption": "Russell", "timeObjectRefServerList": [
+  [2157, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 357},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5565},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5566},
@@ -4466,7 +4466,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5572},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5573}
     ]}],
-  [2158, {"timeContainerCaption": "Moore", "timeObjectRefServerList": [
+  [2158, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 358},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5574},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5575},
@@ -4476,7 +4476,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5579},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5580}
     ]}],
-  [2159, {"timeContainerCaption": "Heidegger", "timeObjectRefServerList": [
+  [2159, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 359},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5581},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5582},
@@ -4485,7 +4485,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5585},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5586}
     ]}],
-  [2160, {"timeContainerCaption": "Wittgenstein", "timeObjectRefServerList": [
+  [2160, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 360},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5587},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5588},
@@ -4496,7 +4496,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5593},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5594}
     ]}],
-  [2161, {"timeContainerCaption": "Benjamin", "timeObjectRefServerList": [
+  [2161, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 361},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5595},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5596},
@@ -4505,7 +4505,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5599},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5600}
     ]}],
-  [2162, {"timeContainerCaption": "Sartre", "timeObjectRefServerList": [
+  [2162, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 362},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5601},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5602},
@@ -4517,7 +4517,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5608},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5609}
     ]}],
-  [2163, {"timeContainerCaption": "Beauvoir", "timeObjectRefServerList": [
+  [2163, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 363},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5610},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5611},
@@ -4527,7 +4527,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5615},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5616}
     ]}],
-  [2164, {"timeContainerCaption": "Quine", "timeObjectRefServerList": [
+  [2164, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 364},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5617},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5618},
@@ -4536,7 +4536,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5621},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5622}
     ]}],
-  [2165, {"timeContainerCaption": "Camus", "timeObjectRefServerList": [
+  [2165, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 365},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5623},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5624},
@@ -4546,7 +4546,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5628},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5629}
     ]}],
-  [2166, {"timeContainerCaption": "Rawls", "timeObjectRefServerList": [
+  [2166, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 366},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5630},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5631},
@@ -4555,7 +4555,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5634},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5635}
     ]}],
-  [2167, {"timeContainerCaption": "Foucault", "timeObjectRefServerList": [
+  [2167, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 367},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5636},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5637},
@@ -4567,7 +4567,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5643},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5644}
     ]}],
-  [2168, {"timeContainerCaption": "Habermas", "timeObjectRefServerList": [
+  [2168, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 368},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5645},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5646},
@@ -4577,7 +4577,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5650},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5651}
     ]}],
-  [2169, {"timeContainerCaption": "Derrida", "timeObjectRefServerList": [
+  [2169, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 369},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5652},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5653},
@@ -4586,21 +4586,21 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5656},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5657}
     ]}],
-  [2100, {"timeContainerCaption": "Thales", "timeObjectRefServerList": [
+  [2100, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 300},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5000},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5002},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5001},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5003}
     ]}],
-  [2101, {"timeContainerCaption": "Pythagoras", "timeObjectRefServerList": [
+  [2101, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 301},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5004},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5005},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5006},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5007}
     ]}],
-  [2102, {"timeContainerCaption": "Confucius", "timeObjectRefServerList": [
+  [2102, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 302},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5008},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5009},
@@ -4609,35 +4609,35 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5012},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5013}
     ]}],
-  [2103, {"timeContainerCaption": "Heraclitus", "timeObjectRefServerList": [
+  [2103, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 303},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5014},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5015},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5016},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5017}
     ]}],
-  [2104, {"timeContainerCaption": "Parmenides", "timeObjectRefServerList": [
+  [2104, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 304},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5018},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5019},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5020},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5021}
     ]}],
-  [2105, {"timeContainerCaption": "Zeno of Elea", "timeObjectRefServerList": [
+  [2105, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 305},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5022},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5023},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5024},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5025}
     ]}],
-  [2106, {"timeContainerCaption": "Democritus", "timeObjectRefServerList": [
+  [2106, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 306},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5026},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5027},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5028},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5029}
     ]}],
-  [2107, {"timeContainerCaption": "Socrates", "timeObjectRefServerList": [
+  [2107, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 307},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5030},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5032},
@@ -4648,14 +4648,14 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5036},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5037}
     ]}],
-  [2108, {"timeContainerCaption": "Mozi", "timeObjectRefServerList": [
+  [2108, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 308},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5038},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5039},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5040},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5041}
     ]}],
-  [2109, {"timeContainerCaption": "Plato", "timeObjectRefServerList": [
+  [2109, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 309},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5042},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5043},
@@ -4667,7 +4667,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5049},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5050}
     ]}],
-  [2110, {"timeContainerCaption": "Diogenes", "timeObjectRefServerList": [
+  [2110, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 310},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5051},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5052},
@@ -4676,7 +4676,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5055},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5056}
     ]}],
-  [2111, {"timeContainerCaption": "Aristotle", "timeObjectRefServerList": [
+  [2111, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 311},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5057},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5058},
@@ -4688,7 +4688,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5064},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5065}
     ]}],
-  [2112, {"timeContainerCaption": "Zhuangzi", "timeObjectRefServerList": [
+  [2112, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 312},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5066},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5067},
@@ -4696,7 +4696,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5069},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5070}
     ]}],
-  [2113, {"timeContainerCaption": "Pyrrho", "timeObjectRefServerList": [
+  [2113, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 313},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5071},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5072},
@@ -4704,7 +4704,7 @@
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5074},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5075}
     ]}],
-  [2114, {"timeContainerCaption": "Epicurus", "timeObjectRefServerList": [
+  [2114, {"timeObjectRefServerList": [
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 314},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5076},
       {"TOType": "timeData", "Database": "dbAcademy", "DatabaseKey": 5077},
