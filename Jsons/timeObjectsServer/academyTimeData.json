@@ -594,7 +594,6 @@
 [7173,{"comment":"tcnc Tutankhamun","caption":"Restores the cult of Amun","url":"Restoration_Stele","span":{"sY":-1330,"sC":15,"sCu":"Y"},"categories":"b","countries":["Egypt"]}],
 [7174,{"comment":"tcnc Tutankhamun","caption":"Court moves back from Amarna to Thebes/Memphis","url":"Tutankhamun","fragment":"Reign","span":{"sY":-1329,"sC":15,"sCu":"Y"},"categories":"p","countries":["Egypt"]}],
 [7175,{"comment":"tcnc Tutankhamun","caption":"Death and burial in tomb KV62","url":"KV62","span":{"sY":-1323,"sC":1,"sCu":"Y"},"categories":"c","countries":["Egypt"]}],
-[7176,{"comment":"tcnc Tutankhamun","caption":"Discovery of the intact tomb","url":"Tutankhamun","fragment":"Discovery_of_the_tomb","span":{"sD":4,"sM":11,"sY":1922},"categories":"s","countries":["Egypt"]}],
 [7177,{"caption":"Ay","url":"Ay_(pharaoh)","fragment":"Reign","span":{"sY":-1348,"sC":15,"sCu":"Y","eY":-1319},"tenure":[{"sY":-1323,"eY":-1319}],"categories":"p","countries":["Egypt"]}],
 [7178,{"comment":"tcnc Ay","caption":"Performs burial rites for Tutankhamun","url":"Ay_(pharaoh)","fragment":"Reign","span":{"sY":-1322,"sC":15,"sCu":"Y"},"categories":"b","countries":["Egypt"]}],
 [7179,{"caption":"Horemheb","url":"Horemheb","fragment":"Reign","span":{"sY":-1344,"sC":15,"sCu":"Y","eY":-1292},"tenure":[{"sY":-1319,"eY":-1292}],"categories":"p","countries":["Egypt"]}],
