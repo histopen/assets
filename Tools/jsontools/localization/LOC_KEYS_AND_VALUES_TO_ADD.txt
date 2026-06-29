@@ -1,0 +1,1 @@
+controls_keyboard_toggle_infopanel	Show / hide infopanel
