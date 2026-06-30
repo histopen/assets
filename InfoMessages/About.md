@@ -12,10 +12,10 @@
 <div>
   Don't let History own you. 
   <span class="muted">(when stories own you, people with other stories threaten your identity, then your world becomes polarized and violent).</span>
-  <br>
-  3
-  <br>
 </div>
+
+  <br>
+  <br>
 
 <div>
   I need your support to keep the service running,<br>
