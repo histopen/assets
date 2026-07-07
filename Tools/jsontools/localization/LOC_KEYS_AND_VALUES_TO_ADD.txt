@@ -1,1 +1,4 @@
-controls_keyboard_toggle_infopanel	Show / hide infopanel
+toolbar_title	title
+title_prompt	Title:
+toolbar_color	color
+toolbar_color_clear	Clear
