@@ -1,10 +1,8 @@
-This project is built on the shoulders of giants. I am deeply grateful to the following projects, libraries, and resources that make this application possible.
+This project is built on the shoulders of giants. I am deeply grateful to the following projects, libraries, and resources that made this possible.
 
 # SPECIAL THANKS
-- **Wikipedia contributors** - For maintaining the vast repository of historical knowledge that powers Wikit's content.
+- **Wikipedia and its contributors** - For maintaining the vast knowledge repository, to me, they're evidence of human dignity.
 - **Open source community** - For creating and maintaining the incredible ecosystem of tools and libraries.
-- All third-party libraries and resources listed above are governed by their respective licenses.
-- This project is distributed under its own license. Please refer to the LICENSE file in the repository for details.
 - **Caroline** - my darling wifey who supported me unconditionnally. Without her, litterally nothing possible.
 <table><tr>
 <td><img src="source\caro.png" alt="Caroline" style="max-width: 256px; max-height: 387px" /></td>
@@ -172,9 +170,11 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 <td><img src="source\atkinson-hyperlegible.png" alt="Atkinson Hyperlegible" /></td>
 <td><img src="source\codepen.png" alt="CodePen" /></td>
 </tr></table>
+- All third-party libraries and resources listed above are governed by their respective licenses.
+- This project is distributed under its own license. Please refer to the LICENSE file in the repository for details.
 
 # TODO
-- **Last revised**: 2026-05-04
+- **Last revised**: 2026-07-12
 - pexels videos: find the authors
 - licensing in special thanks to DO ***important****
 - I removed **Three.js** ... do i bring it back?
