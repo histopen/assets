@@ -2,3 +2,29 @@ toolbar_title	title
 title_prompt	Title:
 toolbar_color	color
 toolbar_color_clear	Clear
+story_tab_library	library
+story_tab_load	load
+story_tab_save	save
+nav_stories	stories
+story_nav_title	Stories
+story_overwrite_confirm	A story named “{{caption}}” already exists. Overwrite it?
+story_save_failed	Could not save (error: {{code}}).
+story_save_title	Save selection
+story_save_section_title	Save
+story_save_caption_placeholder	Story name
+story_save_saving	saving...
+story_save_button	save
+story_less_options	less options
+story_more_options	more options
+story_copied_toast	Copied to clipboard
+story_action_rename	Rename
+story_delete_confirm	Delete “{{caption}}”? This cannot be undone.
+story_unknown_source	(unknown source)
+story_library_load_failed	Could not load your stories.
+story_library_empty	No saved stories yet.
+story_info_item_count	{{count}} items
+story_action_copy	Copy to clipboard
+story_copy_disabled_source	Switch to this source to copy
+story_action_delete	Delete
+story_edit_title	Edit
+story_edit_tab_hint	Press tab key to quit 'Edition Mode'
