@@ -77,3 +77,14 @@ time_region_week_starts_tt	Set the first day of week
 time_categories_tt	Expand or collapse category filter
 settings_category_toggle_tt	Show only this category
 time_categories_all_tt	Show all categories
+panelSide_left	Left
+panelSide_top	Top
+panelSide_right	Right
+panelSide_bottom	Bottom
+panelSide_auto	Left (exception: Bottom for small screens in portrait mode)
+home_title	Histotime
+settings	Settings
+search_title	Search
+library_title	Library
+load_title	Load
+save_title	Save
