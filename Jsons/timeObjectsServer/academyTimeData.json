@@ -1946,7 +1946,7 @@
 [19004,{"type":"person","caption":"Pythagoras","url":"Pythagoras","fragment":"Teachings","span":{"sY":-570,"eY":-495},"categories":"b,s","countries":["Greece"]}],
 [19006,{"comment":"tcnc Pythagoras","caption":"Emigrates to Croton","url":"Pythagoras","fragment":"In_Croton","span":{"sY":-530,"sC":2,"sCu":"Y"},"categories":"b","countries":["Italy"]}],
 [19007,{"comment":"tcnc Pythagoras","caption":"Founds the Pythagorean school","url":"Pythagoreanism","span":{"sY":-530,"sC":2,"sCu":"Y"},"categories":"b,s","countries":["Italy"]}],
-[19008,{"type":"person","caption":"Confucius (Confucianism)","url":"Confucius","fragment":"Philosophy","span":{"sY":-551,"eY":-479},"categories":"c,b","countries":["China"]}],
+[19008,{"type":"person","caption":"Confucius","url":"Confucius","fragment":"Philosophy","span":{"sY":-551,"eY":-479},"categories":"c,b","countries":["China"]}],
 [19010,{"comment":"tcnc Confucius","caption":"Minister of Crime in Lu","url":"Confucius","fragment":"Political_career","span":{"sY":-501,"sC":2,"sCu":"Y"},"categories":"p,b","countries":["China"]}],
 [19011,{"comment":"tcnc Confucius","caption":"Years of exile","url":"Confucius","fragment":"Exile","span":{"sY":-497,"sC":1,"sCu":"Y"},"categories":"b","countries":["China"]}],
 [19012,{"comment":"tcnc Confucius","caption":"Returns to Lu to teach","url":"Confucius","fragment":"Return_home","span":{"sY":-484},"categories":"b","countries":["China"]}],

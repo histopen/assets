@@ -28,3 +28,52 @@ story_copy_disabled_source	Switch to this source to copy
 story_action_delete	Delete
 story_edit_title	Edit
 story_edit_tab_hint	Press tab key to quit 'Edition Mode'
+meta_info_tt	View about and app information
+story_tab_library_tt	Browse your saved stories
+story_tab_load_tt	Open a saved story
+story_tab_save_tt	Save the current story
+source_lang_select_tt	Set the source language
+source_more_information_tt	Learn more about the academy
+source_dataissue_raw_data_tt	Unmodified date fields from the source
+source_dataissue_actions_tt	Ways to report or fix this issue
+auth_magic_link_resend_tt	Send the sign-in link again
+auth_magic_link_different_email_tt	Enter a different email address
+auth_email_input_tt	Enter the email to sign in with
+auth_continue_tt	Send a sign-in link to this email
+auth_change_email_new_tt	Enter the email address to switch to
+auth_change_email_action_tt	Send a confirmation link to change email
+auth_change_username_new_tt	Enter your new display name
+auth_change_username_action_tt	Save your new username
+account_delete_confirm_label_tt	Type DELETE to enable deletion
+account_delete_confirm_button_tt	Permanently delete your account
+account_logout_tt	Sign out of your account
+auth_change_username_title_tt	Change your display name
+auth_change_email_title_tt	Change your account email address
+account_export_action_tt	Download a copy of your data
+account_delete_action_tt	Permanently delete your account
+account_resend_verification_action_tt	Send the verification email again
+story_group_title_tt	Stories saved from this source
+story_sort_caption_tt	Sort stories by name
+story_sort_items_tt	Sort stories by item count
+story_sort_date_tt	Sort stories by date
+story_save_section_tt	Save the current selection as a story
+story_save_caption_tt	Name for the story you're saving
+story_save_button_tt	Save the selection as a story
+story_account_link_tt	Open your account settings
+story_options_toggle_tt	Show or hide story actions
+param_background_tt	Choose the workspace background
+param_font_ui_tt	Font used for the interface
+param_font_canvas_tt	Font used on the timeline
+param_language_tt	Choose the interface language
+param_timeview_toggle_tt	Show or hide this Timeview bar
+settings_timeview_create_tt	Create a custom Timeview bar
+settings_calendar_header_tt	Expand or collapse calendar settings
+cal_name_tt	Choose which calendar to use
+time_region_tt	Expand or collapse regional formats
+time_region_date_order_tt	Set the day, month, year order
+time_region_number_format_tt	Set the number grouping style
+time_region_year_suffixes_tt	Set large-number unit suffixes
+time_region_week_starts_tt	Set the first day of week
+time_categories_tt	Expand or collapse category filter
+settings_category_toggle_tt	Show only this category
+time_categories_all_tt	Show all categories
