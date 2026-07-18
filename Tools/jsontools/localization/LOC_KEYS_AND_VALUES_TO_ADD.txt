@@ -88,3 +88,5 @@ search_title	Search
 library_title	Library
 load_title	Load
 save_title	Save
+home_edit	edit
+home_quit	quit
