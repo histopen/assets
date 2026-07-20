@@ -4,9 +4,9 @@ This project is built on the shoulders of giants. I am deeply grateful to the fo
 - **Wikipedia and its contributors** - For maintaining the vast knowledge repository, to me, they're evidence of human dignity.
 - **Open source community** - For creating and maintaining the incredible ecosystem of tools and libraries.
 - **Caroline** - my darling wifey who supported me unconditionnally. Without her, litterally nothing possible.
-<table><tr>
-<td><img src="source\caro.png" alt="Caroline" style="max-width: 256px; max-height: 387px" /></td>
-</tr></table>
+<div>
+<img src="source/caro.png" alt="Caroline" class="portrait">
+</div>
 
 # CONTENT
 
@@ -15,11 +15,11 @@ Wikitime's purpose is to visualize time from any source. But it was developed us
 - [Wikipedia](https://www.wikipedia.org/) — article text and metadata under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Every article displayed inside Wikitime carries a visible "Source: Wikipedia" attribution and a direct link back to its source page. Article text is shown in the in-app reader panel; images are loaded from Wikimedia Commons via their original URL.
 - [Wikidata](https://www.wikidata.org/) — date, entity type, and biographical metadata under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Wikitime's entire timeline structure (dates of birth, death, point-in-time, occurrence) is built from Wikidata properties. CC0 imposes no attribution requirement, but we credit Wikidata explicitly because the project deserves it.
 - [Wikimedia Foundation](https://foundation.wikimedia.org/) — the non-profit that hosts and protects Wikipedia, Wikidata, Commons, and the rest of the Wikimedia ecosystem. Wikitime exists because the Foundation makes that infrastructure free to consume and reuse. If you find the underlying data valuable, please consider [Donating to wikipedia](https://donate.wikimedia.org)
-<table><tr>
-<td><img src="source\Wikimedia.png" alt="Wikimedia" /></td>
-<td><img src="source\wikipedia.png" alt="Wikipedia" /></td>
-<td><img src="source\wikidata.png" alt="Wikidata" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/Wikimedia.png" alt="Wikimedia">
+<img src="source/wikipedia.png" alt="Wikipedia">
+<img src="source/wikidata.png" alt="Wikidata">
+</div>
 
 - All text content shown from Wikipedia is attributed inline with a direct link to the source article.
 - No Wikipedia trademark or logo is reproduced inside the app interface beyond what the [Wikimedia Trademark Policy](https://foundation.wikimedia.org/wiki/Policy:Trademark_policy) permits for source-attribution use.
@@ -40,21 +40,21 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [React](https://react.dev/) - MIT License. A JavaScript library for building user interfaces.
 - [TypeScript](https://www.typescriptlang.org/) - Apache-2.0 License. Typed superset of JavaScript that compiles to plain JavaScript.
 - [Vite](https://vitejs.dev/) - MIT License. Next generation frontend tooling for blazing fast development.
-<table><tr>
-<td><img src="source\react.png" alt="React" /></td>
-<td><img src="source\typescript.png" alt="TypeScript" /></td>
-<td><img src="source\vite.png" alt="Vite" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/react.png" alt="React">
+<img src="source/typescript.png" alt="TypeScript">
+<img src="source/vite.png" alt="Vite">
+</div>
 
 ## State Management, Graphics & Rendering
 - [PixiJS](https://pixijs.com/) - MIT License. The HTML5 Creation Engine - fast, flexible 2D WebGL renderer.
 - [Zustand](https://zustand-demo.pmnd.rs/) - MIT License. A small, fast, and scalable bearbones state-management solution.
 - [GSAP (GreenSock Animation Platform)](https://gsap.com/) - Standard "No Charge" License. Professional-grade JavaScript animation for the modern web.
-<table><tr>
-<td><img src="source\pixijs.png" alt="PixiJS" /></td>
-<td><img src="source\zustand.png" alt="Zustand" /></td>
-<td><img src="source\gsap.png" alt="GSAP" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/pixijs.png" alt="PixiJS">
+<img src="source/zustand.png" alt="Zustand">
+<img src="source/gsap.png" alt="GSAP">
+</div>
 
 ## Utilities & Libraries
 - [Day.js](https://day.js.org/) - MIT License. Fast 2kB alternative to Moment.js with the same modern API.
@@ -62,55 +62,55 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [React Router](https://reactrouter.com/) - MIT License. Declarative routing for React applications.
 - [html-react-parser](https://github.com/remarkablemark/html-react-parser) - MIT License. HTML to React parser that works on both the server and the client.
 - [use-gesture](https://use-gesture.netlify.app/) - MIT License. React hook for handling mouse and touch gestures.
-<table><tr>
-<td><img src="source\dayjs.png" alt="Day.js" /></td>
-<td><img src="source\i18.png" alt="i18next" /></td>
-<td><img src="source\react router.png" alt="React Router" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/dayjs.png" alt="Day.js">
+<img src="source/i18.png" alt="i18next">
+<img src="source/react router.png" alt="React Router">
+</div>
 
 ## Runtime
 - [Node.js](https://nodejs.org/) - MIT License. JavaScript runtime built on Chrome's V8 engine.
 - [Express](https://expressjs.com/) - MIT License. Fast, unopinionated, minimalist web framework for Node.js.
 - [tsx](https://github.com/privatenumber/tsx) - MIT License. TypeScript Execute - run TypeScript directly without compilation.
-<table><tr>
-<td><img src="source\node-js.png" alt="Node.js" /></td>
-<td><img src="source\express.png" alt="Express" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/node-js.png" alt="Node.js">
+<img src="source/express.png" alt="Express">
+</div>
 
 ## Database
 - [PostgreSQL](https://www.postgresql.org/) - PostgreSQL License. The world's most advanced open source relational database.
 - [Drizzle ORM](https://orm.drizzle.team/) - Apache-2.0 License. TypeScript ORM for SQL databases. Schema-as-code with type-safe queries.
 - [Drizzle Kit](https://orm.drizzle.team/kit-docs/overview) - MIT License. Migration toolkit for Drizzle ORM.
 - [postgres](https://github.com/porsager/postgres) - The Unlicense. PostgreSQL client for Node.js, used by Drizzle ORM.
-<table><tr>
-<td><img src="source\postgresql.png" alt="PostgreSQL" /></td>
-<td><img src="source\drizzle-orm.png" alt="Drizzle" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/postgresql.png" alt="PostgreSQL">
+<img src="source/drizzle-orm.png" alt="Drizzle">
+</div>
 
 ## Authentication
 - [Better Auth](https://www.better-auth.com/) - MIT License. Modern, framework-agnostic authentication library. Provides email/password, social sign-in (Google, GitHub, Microsoft, Discord, LinkedIn, Facebook), TOTP two-factor, passkeys (WebAuthn), and account linking. Wraps cleanly behind Wikitime's `AuthAdapter` interface for provider portability.
 - [@better-auth/passkey](https://www.better-auth.com/docs/plugins/passkey) - MIT License. WebAuthn/passkey plugin for Better Auth.
 - [@better-auth/cli](https://www.better-auth.com/docs/concepts/cli) - MIT License. Schema generator and migration tools for Better Auth.
 - [jose](https://github.com/panva/jose) - MIT License. JSON Web Token / JOSE library used by Better Auth internally.
-<table><tr>
-<td><img src="source\better-auth.png" alt="Better Auth" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/better-auth.png" alt="Better Auth">
+</div>
 
 ## Caching & Rate Limiting
 - [ioredis](https://github.com/redis/ioredis) - MIT License. Redis client for Node.js. Used for distributed rate-limiting and session caching at scale.
 - [Redis](https://redis.io/) - RSALv2 / SSPLv1 (server) / BSD-3 (client compat). In-memory data store. Wikitime uses it for sliding-window rate limits and session cache; falls back to in-process maps when unavailable.
-<table><tr>
-<td><img src="source\redis.png" alt="Redis" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/redis.png" alt="Redis">
+</div>
 
 ## Validation, Schema, Email &  Observability
 - [Zod](https://zod.dev/) - MIT License. Used at every server boundary (HTTP routes, DB writes, env vars).
 - [Resend](https://resend.com/) - Commercial service. Transactional email delivery for verification, password reset, and email change notifications. Pluggable behind `EmailService` interface.
 - [dotenv](https://github.com/motdotla/dotenv) - BSD-2-Clause License. Loads environment variables from `.env` files.
-<table><tr>
-<td><img src="source\zod.png" alt="Zod" /></td>
-<td><img src="source\resend.png" alt="Resend" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/zod.png" alt="Zod">
+<img src="source/resend.png" alt="Resend">
+</div>
 
 ## Security
 - [helmet](https://helmetjs.github.io/) - MIT License. Express middleware to set security-related HTTP headers.
@@ -123,23 +123,23 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [vite-plugin-glsl](https://github.com/UstymUkhman/vite-plugin-glsl) - MIT License. Vite plugin for importing GLSL shaders.
 - [pnpm](https://pnpm.io/) - MIT License. Fast, disk space efficient package manager.
 - [npm workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) Monorepo package management.
-<table><tr>
-<td><img src="source\vite.png" alt="Vite" /></td>
-<td><img src="source\sass.png" alt="Sass" /></td>
-<td><img src="source\pnpm.png" alt="pnpm" /></td>
-<td><img src="source\npm.png" alt="npm" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/vite.png" alt="Vite">
+<img src="source/sass.png" alt="Sass">
+<img src="source/pnpm.png" alt="pnpm">
+<img src="source/npm.png" alt="npm">
+</div>
 
 ## Development Tools
 - [Claude Code](https://claude.ai/code) by Anthropic. AI-powered coding assistant used extensively in the development of this project. Helped with architecture design, code generation, refactoring, and documentation.
 - [ESLint](https://eslint.org/) - MIT License. Pluggable JavaScript linter for identifying and reporting on patterns.
 - [Prettier](https://prettier.io/) - MIT License. Opinionated code formatter.
 - [TypeScript ESLint](https://typescript-eslint.io/) - MIT License. Tooling which enables ESLint to support TypeScript.
-<table><tr>
-<td><img src="source\anthropic.png" alt="Anthropic" /></td>
-<td><img src="source\eslint.png" alt="ESLint" /></td>
-<td><img src="source\prettier.png" alt="Prettier" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/anthropic.png" alt="Anthropic">
+<img src="source/eslint.png" alt="ESLint">
+<img src="source/prettier.png" alt="Prettier">
+</div>
 
 ## Infrastructure & Services
 - [Fly.io](https://fly.io/) - Commercial service. Container hosting for the API server. Auto-HTTPS, global edge. *(Confirmed for production; see planMilestoneReorder Stage 2d.)*
@@ -148,12 +148,12 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [GitHub Pages](https://pages.github.com/) - Free hosting for static sites
 - [GitHub](https://github.com/) - Code hosting and version control
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - MIT License. Protocol for connecting AI assistants to external data sources and tools.
-<table><tr>
-<td><img src="source\fly-io.png" alt="Fly.io" /></td>
-<td><img src="source\upstash.png" alt="Upstash" /></td>
-<td><img src="source\github.png" alt="GitHub" /></td>
-<td><img src="source\mcp.png" alt="MCP" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/fly-io.png" alt="Fly.io">
+<img src="source/upstash.png" alt="Upstash">
+<img src="source/github.png" alt="GitHub">
+<img src="source/mcp.png" alt="MCP">
+</div>
 
 # VISUAL
 - Mostly [Flaticon](https://www.flaticon.com) icons, some icons generated from Wikipedia, public domain sources and some designed by author.
@@ -163,13 +163,13 @@ The app is designed to *reduce*, not increase, load on Wikimedia servers compare
 - [Squircle Button System](https://codepen.io/Andrew-Fisher-the-decoder/pen/raMZQNe) by Andrew Fisher. The layered SVG depth illusion button.
 - [3D Lightspeed Warp Drive Effect](https://codepen.io/Andrew-Fisher-the-decoder/pen/bNpPMNM) by Andrew Fisher. Yes, him again, I'm a big fan. I wish I could talk to him.
 - [CodePen](https://codepen.io/) Online code editor and community that served as a major source of UI inspiration throughout the project. Yes, I know, I'm a boomer and many of you think the UI sucks... Fair enough, come and help me make it better.
-<table><tr>
-<td><img src="source\flaticon.png" alt="Flaticon" /></td>
-<td><img src="source\pexels.png" alt="Pexels" /></td>
-<td><img src="source\google-fonts.png" alt="Google Fonts" /></td>
-<td><img src="source\atkinson-hyperlegible.png" alt="Atkinson Hyperlegible" /></td>
-<td><img src="source\codepen.png" alt="CodePen" /></td>
-</tr></table>
+<div class="logos">
+<img src="source/flaticon.png" alt="Flaticon">
+<img src="source/pexels.png" alt="Pexels">
+<img src="source/google-fonts.png" alt="Google Fonts">
+<img src="source/atkinson-hyperlegible.png" alt="Atkinson Hyperlegible">
+<img src="source/codepen.png" alt="CodePen">
+</div>
 - All third-party libraries and resources listed above are governed by their respective licenses.
 - This project is distributed under its own license. Please refer to the LICENSE file in the repository for details.
 
