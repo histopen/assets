@@ -25,3 +25,4 @@ container_copy_disabled_source
 container_action_delete
 files_edit_title
 files_edit_tab_hint
+settings_panelSide
