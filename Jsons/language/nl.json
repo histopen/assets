@@ -94,7 +94,7 @@
   "controls_keyboard_copy_cut_paste": "Kopiëren / Knippen / Plakken",
   "controls_keyboard_delete_selection": "Selectie verwijderen",
   "controls_keyboard_edit_mode": "Bewerkingsmodus",
-  "controls_keyboard_exit_fullscreen": "Verlaat de volledige schermmodus (browser)",
+  "controls_keyboard_exit_fullscreen": "Verlaat de volledige schermweergave (browser)",
   "controls_keyboard_global": "Wereldwijd",
   "controls_keyboard_group": "Groepsselectie",
   "controls_keyboard_invert": "Omkeren",
@@ -183,7 +183,7 @@
   "source_dataissue_not_in_wts": "Artikel nog niet beschikbaar op WTS.",
   "source_dataissue_rate_limited": "Te veel aanvragen. Probeer het later opnieuw.",
   "source_dataissue_raw_data": "Ruwe brongegevens",
-  "source_dataissue_report_bug": "Meld een Wikitime-bug",
+  "source_dataissue_report_bug": "Meld een bug in Wikitime",
   "source_dataissue_report_bug_tip": "Wikidata is correct, maar Wikitime heeft de datums verkeerd geïnterpreteerd of weergegeven — meld een bug.",
   "source_dataissue_server_unreachable": "De server kon niet worden bereikt.",
   "source_dataissue_signin": "Meld u aan om artikelen te markeren.",
@@ -339,8 +339,8 @@
   "settings_sourcetools_title": "Brontools",
   "settings_state_off": "uit",
   "settings_state_on": "op",
-  "settings_timeview_bar_description": "Navigeer door de tijd met een tijdweergavebalk.",
-  "settings_timeview_bar_title": "Tijdweergavebalk",
+  "settings_timeview_bar_description": "Navigeer door de tijd met een Timeview.",
+  "settings_timeview_bar_title": "Tijdsweergave",
   "settings_timeview_create": "Creëren",
   "settings_wall": "Muur",
   "shared_add": "Toevoegen",
@@ -372,5 +372,5 @@
   "toggle_theme": "Schakel tussen donker en licht thema",
   "whitelist_blocked_body": "Wikitime opent alleen externe URL's van domeinen die door onze redactie zijn gecontroleerd.",
   "whitelist_blocked_hint": "Vraag een directeur van uw instelling om een ​​whitelist-verzoek in te dienen voor dit domein.",
-  "whitelist_blocked_title": "Extern domein niet op de whitelist"
+  "whitelist_blocked_title": "Extern domein staat niet op de whitelist."
 }
